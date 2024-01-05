@@ -1,7 +1,7 @@
-import * as express from "express";
+import express from "express";
 import { Request, Response } from "express";
 import { myDataSource } from "./.database/db";
-import { User } from "./.entities/user";
+import User from "./.entities/user";
 import "reflect-metadata";
 
 // create and setup express app
@@ -11,20 +11,20 @@ app.use(express.json());
 myDataSource
   .initialize()
   .then(() => {
-    console.log("Data Source has been initialized!");
+    console.log("\n💫 DB Connected 💫\n");
   })
   .catch((err) => {
-    console.error("Error during Data Source initialization:", err);
+    console.error("\n❌Error during DB initialization:", err);
   });
 
 // register routes
-app.get("/", (_:Request, res: Response) => {
+app.get("/", (_: Request, res: Response) => {
   res.send("Hello from server!");
 });
 
 app.get("/users", async function (req: Request, res: Response) {
-    console.log('->',process.cwd())
-    console.log(myDataSource.options.entities)
+  console.log("->", process.cwd());
+  console.log(myDataSource.options.entities);
   try {
     const users = await myDataSource.getRepository(User).find();
     res.json(users);

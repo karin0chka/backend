@@ -18,9 +18,9 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon --watch src/**/*.ts --exec ts-node src/app.ts",
+    "dev": "nodemon --watch ./src/**/*.ts --exec ts-node ./src/app.ts",
     "build":"tsc",
-    "start": "node dist/app.js"
+    "start": "node ./dist/app.js"
   },
   "keywords": [],
   "author": "",
