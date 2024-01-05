@@ -1,14 +1,15 @@
 import { DataSource } from "typeorm";
-import OrmEntities from './orm-entities';
+import OrmEntities from "./orm-entities";
+import  config from "../utils/config";
 
 export const myDataSource = new DataSource({
   type: "postgres",
-  host: "localhost",
-  port: 5432,
-  username: "test_2_user",
-  password: "123123123",
-  database: "test_2",
+  host: config.DB.POSTGRES.HOST,
+  port: config.DB.POSTGRES.PORT,
+  username: config.DB.POSTGRES.USER,
+  password: config.DB.POSTGRES.PASSWORD,
+  database: config.DB.POSTGRES.DB_NAME,
   entities: OrmEntities,
-  logging: true,
+  logging: false,
   synchronize: true,
 });
