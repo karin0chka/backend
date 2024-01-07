@@ -1,7 +1,7 @@
 import express from "express";
 import { Request, Response } from "express";
-import { myDataSource } from "./.database/db";
-import User from "./.entities/user";
+import { myDataSource } from "./.database/pg/db";
+import User from "./.entities/user.entity";
 import "reflect-metadata";
 
 // create and setup express app

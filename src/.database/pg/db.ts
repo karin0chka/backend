@@ -1,6 +1,6 @@
 import { DataSource } from "typeorm";
 import OrmEntities from "./orm-entities";
-import  config from "../utils/config";
+import  config from "../../utils/config";
 
 export const myDataSource = new DataSource({
   type: "postgres",
@@ -11,5 +11,8 @@ export const myDataSource = new DataSource({
   database: config.DB.POSTGRES.DB_NAME,
   entities: OrmEntities,
   logging: false,
-  synchronize: true,
+  synchronize: false,
 });
+
+
+
