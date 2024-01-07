@@ -12,21 +12,26 @@ interface IConfig {
       USER: string;
       PASSWORD: string;
     };
+    MONGO: {
+      URI: string;
+    };
   };
 }
 
- const config: IConfig = {
-    SERVER: { PORT: Number(process.env.PORT) || 3000 },
+const config: IConfig = {
+  SERVER: { PORT: Number(process.env.PORT) || 3000 },
   DB: {
     POSTGRES: {
-      HOST:process.env.PG_HOST!,
-      PORT:Number(process.env.PG_PORT!),
-      DB_NAME:process.env.PG_DB_NAME!,
-      USER:process.env.PG_USER!,
-      PASSWORD:process.env.PG_PASSWORD!
-    }
-  }
+      HOST: process.env.PG_HOST!,
+      PORT: Number(process.env.PG_PORT!),
+      DB_NAME: process.env.PG_DB_NAME!,
+      USER: process.env.PG_USER!,
+      PASSWORD: process.env.PG_PASSWORD!,
+    },
+    MONGO: {
+      URI: process.env.MONGO_DB_URI!,
+    },
+  },
 };
 
-
-export default config
+export default config;

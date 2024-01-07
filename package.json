@@ -5,17 +5,23 @@
   "main": "index.js",
   "dependencies": {
     "express": "^4.18.2",
+    "express-list-endpoints": "^6.0.0",
+    "migrate-mongo": "^11.0.0",
+    "mongodb": "^5.9.2",
+    "mongoose": "^8.0.3",
     "pg": "^8.11.3",
     "reflect-metadata": "^0.2.1",
-    "typeorm": "^0.3.19",
     "tsconfig-paths": "^4.2.0",
+    "typeorm": "^0.3.19",
     "typescript": "^5.3.3"
   },
   "devDependencies": {
     "@types/express": "^4.17.21",
+    "@types/express-list-endpoints": "^6.0.3",
+    "@types/migrate-mongo": "^10.0.4",
     "@types/node": "^20.10.6",
-    "nodemon": "^3.0.2",
     "dotenv": "^16.3.1",
+    "nodemon": "^3.0.2",
     "ts-node": "^10.9.2"
   },
   "scripts": {
@@ -25,7 +31,11 @@
     "start": "node ./dist/app.js",
     "migration:generate": "ts-node --project ./tsconfig.json -r tsconfig-paths/register ./node_modules/typeorm/cli.js  migration:generate ./src/.database/pg/migration/ --dataSource ./src/.database/pg/migration_src.ts",
     "migration:run": "ts-node --project ./tsconfig.json -r tsconfig-paths/register ./node_modules/typeorm/cli.js  -d  ./src/.database/pg/migration_src.ts  migration:run",
-    "migration:revert": "ts-node --project ./tsconfig.json -r tsconfig-paths/register ./node_modules/typeorm/cli.js  -d  ./src/.database/pg/migration_src.ts  migration:revert"
+    "migration:revert": "ts-node --project ./tsconfig.json -r tsconfig-paths/register ./node_modules/typeorm/cli.js  -d  ./src/.database/pg/migration_src.ts  migration:revert",
+    "mongo-migration:generate": "npx migrate-mongo create --file ./migrate-mongo-config.js",
+    "mongo-migration:up": "npx migrate-mongo up --file ./migrate-mongo-config.js",
+    "mongo-migration:down": "npx migrate-mongo down --file ./migrate-mongo-config.js",
+    "mongo-migration:status": "npx migrate-mongo status --file ./migrate-mongo-config.js"
   },
   "keywords": [],
   "author": "",

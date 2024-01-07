@@ -1,9 +1,11 @@
 import express from "express";
 import { Request, Response } from "express";
 import { myDataSource } from "./.database/pg/db";
-import User from "./.entities/user.entity";
+import User from "./.database/pg/.entities/user.entity";
+import "./.database/mongo/mongo.config";
 import "reflect-metadata";
-
+import ReportSchema from "./.database/mongo/schemas/report.schema"
+import listEndpoints from "express-list-endpoints";
 // create and setup express app
 const app = express();
 app.use(express.json());
@@ -37,7 +39,9 @@ app.get("/users/:id", function (req: Request, res: Response) {
   // here we will have logic to return user by id
 });
 
-app.post("/users", function (req: Request, res: Response) {
+app.get("/reports",async function (req: Request, res: Response) {
+ const reports = await ReportSchema.find();
+ res.json(reports)
   // here we will have logic to save a user
 });
 
@@ -50,4 +54,7 @@ app.delete("/users/:id", function (req: Request, res: Response) {
 });
 
 // start express server
-app.listen(3000);
+app.listen(3000,()=>{
+  console.log("\n\nServer is up 🚀\n")
+  console.table(listEndpoints(app))
+});
