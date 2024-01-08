@@ -3,7 +3,7 @@
     "target": "es6",
     "module": "commonjs",
     "moduleResolution": "node",
-    "outDir": "./dist",
+    "outDir": ".vscode/dist",
     "strict": false,
     "esModuleInterop": true,
     "experimentalDecorators": true,

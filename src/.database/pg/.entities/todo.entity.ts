@@ -1,6 +1,7 @@
 import { Entity, Column, PrimaryGeneratedColumn, ManyToOne, JoinColumn } from "typeorm";
 import User from "./user.entity";
 
+//TODO implement interfaces for entities and create base entity wich will propagate other entities
 @Entity()
 class Todo {
   @PrimaryGeneratedColumn()
