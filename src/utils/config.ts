@@ -1,4 +1,4 @@
-import dotenv from "dotenv";
+import dotenv from 'dotenv';
 
 dotenv.config();
 
@@ -16,6 +16,8 @@ interface IConfig {
       URI: string;
     };
   };
+  JWT: { JWT_SECRET: string };
+  
 }
 
 const config: IConfig = {
@@ -32,6 +34,9 @@ const config: IConfig = {
       URI: process.env.MONGO_DB_URI!,
     },
   },
+  JWT: {
+    JWT_SECRET: process.env.JWT_SECRET!,
+  }
 };
 
 export default config;

@@ -1,11 +1,10 @@
-import { Entity, Column, PrimaryGeneratedColumn, ManyToOne, JoinColumn } from "typeorm";
+import { Column, Entity, JoinColumn, ManyToOne } from "typeorm";
+import Default from "./default.entity";
 import User from "./user.entity";
 
 //TODO implement interfaces for entities and create base entity wich will propagate other entities
 @Entity()
-class Todo {
-  @PrimaryGeneratedColumn()
-  id: number;
+class Todo extends Default {
 
   @Column()
   title: string;

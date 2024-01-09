@@ -1,9 +1,9 @@
-import { DataSource } from "typeorm";
-import OrmEntities from "./orm-entities";
-import  config from "../../utils/config";
+import { DataSource } from 'typeorm';
+import OrmEntities from './orm-entities';
+import config from '../../utils/config';
 
 export const myDataSource = new DataSource({
-  type: "postgres",
+  type: 'postgres',
   host: config.DB.POSTGRES.HOST,
   port: config.DB.POSTGRES.PORT,
   username: config.DB.POSTGRES.USER,
@@ -14,5 +14,10 @@ export const myDataSource = new DataSource({
   synchronize: false,
 });
 
-
-
+export const testDataSource = new DataSource({
+  type: 'sqlite',
+  database: ':memory:', // or specify a file path like "./test-db.sqlite"
+  entities: OrmEntities,
+  logging: false,
+  synchronize: true, // Set to true for testing to automatically create and drop the schema
+});

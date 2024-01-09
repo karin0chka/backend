@@ -3,7 +3,7 @@
     "target": "es6",
     "module": "commonjs",
     "moduleResolution": "node",
-    "outDir": ".vscode/dist",
+    "outDir": "./dist",
     "strict": false,
     "esModuleInterop": true,
     "experimentalDecorators": true,
@@ -23,6 +23,7 @@
     "typeRoots": ["node_modules/@types"],
     "strictPropertyInitialization": false,
     "strictFunctionTypes": true,
+    
   },
   "include": ["src/**/*.ts"],
   "exclude": ["node_modules"],

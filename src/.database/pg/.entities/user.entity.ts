@@ -1,10 +1,10 @@
-import { Entity, Column, PrimaryGeneratedColumn, OneToMany } from "typeorm";
+import { IUser } from "interfaces/entities.interface";
+import { Column, Entity, OneToMany } from "typeorm";
+import Default from "./default.entity";
 import Todo from "./todo.entity";
 
 @Entity()
-class User {
-  @PrimaryGeneratedColumn()
-  id: number;
+class User extends Default implements IUser{
 
   @Column()
   first_name: string;
