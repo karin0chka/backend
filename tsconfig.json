@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "es6",
+    "target": "es5",
     "module": "commonjs",
     "moduleResolution": "node",
     "outDir": "./dist",
@@ -10,7 +10,6 @@
     "emitDecoratorMetadata": true,
     "removeComments": true,
     "sourceMap": true,
-    "baseUrl": "./",
     "declaration": true,
     "allowJs": true,
     "incremental": true,

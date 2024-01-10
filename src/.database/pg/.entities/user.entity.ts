@@ -1,7 +1,7 @@
-import { IUser } from "interfaces/entities.interface";
 import { Column, Entity, OneToMany } from "typeorm";
 import Default from "./default.entity";
 import Todo from "./todo.entity";
+import { IUser } from "../../../../interfaces/entities.interface";
 
 @Entity()
 class User extends Default implements IUser{

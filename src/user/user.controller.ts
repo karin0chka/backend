@@ -1,10 +1,10 @@
-import express from 'express';
-import { Request, Response } from 'express';
+import express, { Request, Response } from 'express';
+import { jwtAuth } from '../.middleware/auth.middleware';
 const user_router = express.Router();
 
-user_router.get('/me', (req: Request, res: Response) => {
-    //implement getter
-
+user_router.get('/me', jwtAuth, (req: Request, res: Response) => {
+    //@ts-ignore
+  res.send(req.user);
 });
 
-export default user_router
+export default user_router;
