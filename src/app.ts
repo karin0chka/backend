@@ -5,8 +5,9 @@ import './.database/mongo/mongo.config';
 import { myDataSource } from './.database/pg/db';
 import user_router from './user/user.controller';
 import cookieParser from 'cookie-parser';
-import authRoute from './auth/auth.controler';
+import authRoute from './auth/auth.controller';
 import testingRoute from './testing/testing.controller';
+import todoRoute from './todo/todo.controllers';
 
 // import jwt from "jsonwebtoken"
 // create and setup express app
@@ -30,6 +31,7 @@ app.get('/', (_: Request, res: Response) => {
 app.use('/user', user_router);
 app.use('/auth', authRoute);
 app.use('/testing', testingRoute);
+app.use('/todo', todoRoute);
 
 
 // start express server

@@ -14,5 +14,12 @@ export type IUser = {
 
   password: string;
 
-//   todos: Todo[];
-}& IDefault
+  //   todos: Todo[];
+} & IDefault;
+
+export type ITodo = {
+  title: string;
+  description: string;
+  is_done: boolean;
+  user:IUser
+};

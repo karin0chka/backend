@@ -16,7 +16,12 @@ interface IConfig {
       URI: string;
     };
   };
-  JWT: { JWT_SECRET: string; JWT_EXPIRE_TIME: number; JWT_REFRESH_SECRET: string; JWT_REFRESH_EXPIRE_TIME: number };
+  JWT: {
+    JWT_SECRET: string;
+    JWT_EXPIRE_TIME: number;
+    JWT_REFRESH_SECRET: string;
+    JWT_REFRESH_EXPIRE_TIME: number;
+  };
 }
 
 const config: IConfig = {
@@ -40,5 +45,7 @@ const config: IConfig = {
     JWT_REFRESH_EXPIRE_TIME: Number(process.env.JWT_REFRESH_EXPIRE_TIME),
   },
 };
+
+
 
 export default config;
