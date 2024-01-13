@@ -57,13 +57,15 @@ namespace AuthService {
       const newUser = userRepository.create({
         first_name: userDto.first_name,
         last_name: userDto.last_name,
-        email: userDto.email,
+        email: userDto.email.toLowerCase(),
         password: hashedPassword,
       });
       const user = await userRepository.save(newUser);
-      const token = AuthService.generateJwtToken(user.id);
-      const cookies = generateAuthCookie(token);
-      res.setHeader('Set-Cookie', cookies);
+      const authToken = generateJwtToken(user.id);
+      const refreshToken = generateRefreshToken(user.id);
+      const authCookies = generateAuthCookie(authToken);
+      const refreshCookie = generateRefreshCookie(refreshToken);
+      res.setHeader('Set-Cookie', [authCookies,refreshCookie]);
       res.json(user);
     }
   }
@@ -88,14 +90,14 @@ namespace AuthService {
     }
   }
 
-  export async function refresh(req: Request) {
+  export function validateRefreshAndGenerateCookies(req: Request) {
     try {
       const newAccessToken = AuthService.generateJwtToken(req.body.userID);
       const newRefreshToken = AuthService.generateRefreshToken(req.body.userID);
 
-      AuthService.generateAuthCookie(newAccessToken);
-      AuthService.generateRefreshCookie(newRefreshToken);
-     
+      const authCookie = AuthService.generateAuthCookie(newAccessToken);
+      const refreshCookie = AuthService.generateRefreshCookie(newRefreshToken);
+      return [authCookie, refreshCookie]
     } catch (error) {
       console.error(error);
       throw new Error('Token refresh failed');

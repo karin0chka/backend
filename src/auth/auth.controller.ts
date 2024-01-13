@@ -31,7 +31,8 @@ authRoute.post('/refresh', jwtRefresh, (req: Request, res: Response) => {
   // create authJWT & refreshJWT
   // set both cookies
   try {
-    AuthService.refresh(req);
+    const cookies = AuthService.validateRefreshAndGenerateCookies(req);
+    res.setHeader('Set-Cookie', cookies);
     res.status(200).send('Refresh successful');
   } catch (error) {
     res.status(500);
@@ -39,7 +40,8 @@ authRoute.post('/refresh', jwtRefresh, (req: Request, res: Response) => {
 });
 
 authRoute.post('/log-out', (req: Request, res: Response) => {
-  res.setHeader('Set-Cookie', '');
+  res.setHeader('Set-Cookie', '').send();
+
 });
 
 export default authRoute;

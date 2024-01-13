@@ -1,20 +1,36 @@
 import express, { Request, Response } from 'express';
 import TodoService from './todo.service';
 import { jwtAuth } from '../.middleware/auth.middleware';
+import { isTodoEligible } from '../.middleware/todo.middleware';
 
 const todoRoute = express.Router();
 todoRoute.use(express.json());
 
-todoRoute.post('/create',jwtAuth, (req: Request, res: Response) => {
+todoRoute.post('/', jwtAuth, async (req: Request, res: Response) => {
   try {
-    TodoService.createTodo(req.body, res);
+    //@ts-ignore
+    const user = req.user;
+    res.json(await TodoService.createTodo(req.body, user));
   } catch {
     res.status(500).json({ error: 'Todo is not generated' });
   }
 });
 
-todoRoute.post('/delete', (req: Request, res: Response) => {});
+todoRoute.put('/:id', jwtAuth, isTodoEligible, async (req: Request, res: Response) => {
+  try {
+    await TodoService.updateTodo(req.body, +req.params.id);
+    res.send('OK');
+  } catch {
+    res.status(500).json({ error: 'Todo is not generated' });
+  }
+});
 
-todoRoute.post('/update', (req: Request, res: Response) => {});
-
+todoRoute.delete('/:id', jwtAuth, isTodoEligible, async (req: Request, res: Response) => {
+  try {
+    await TodoService.softDelete(+req.params.id);
+    res.send('OK');
+  } catch {
+    res.status(500).json({ error: 'Todo is not generated' });
+  }
+});
 export default todoRoute;

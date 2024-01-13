@@ -1,22 +1,26 @@
-import { Response } from 'express';
-import { ITodo } from '../../interfaces/entities.interface';
+import { ITodo, IUser } from '../../interfaces/entities.interface';
 import Todo from '../.database/pg/.entities/todo.entity';
 import { myDataSource } from '../.database/pg/db';
 
-
 namespace TodoService {
-  export async function createTodo(todoFill: ITodo, res: Response) {
-    // use middleware to check if user is auth
+  export async function createTodo(todoFill: ITodo, user: IUser) {
     const todoRepository = myDataSource.getRepository(Todo);
     const newTodo = todoRepository.create({
-      user:todoFill.user,
+      user: user,
       title: todoFill.title,
       description: todoFill.description,
-      is_done: todoFill.is_done,
     });
-    const todo = await todoRepository.save(newTodo);
-    res.json(todo);
+    return await todoRepository.save(newTodo);
   }
+
+  export async function updateTodo(dto: Partial<ITodo>, id: number) {
+    return myDataSource.getRepository(Todo).update(id, dto);
+  }
+  export async function softDelete(id: number) {
+    return myDataSource.getRepository(Todo).softDelete(id);
+  }
+
+  
 }
 
 export default TodoService;

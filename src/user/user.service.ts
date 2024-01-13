@@ -7,6 +7,9 @@ namespace UserService {
   export function findOne(criteria: FindOneOptions<IUser>) {
     return myDataSource.getRepository(User).findOne(criteria);
   }
+  export function findOneOrFail(criteria: FindOneOptions<IUser>) {
+    return myDataSource.getRepository(User).findOneOrFail(criteria);
+  }
 }
 
 export default UserService;
