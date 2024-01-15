@@ -11,7 +11,7 @@ import todoRoute from './todo/todo.controllers';
 import helmet from 'helmet';
 import cors from 'cors';
 import rateLimit from 'express-rate-limit';
-
+import{ logger } from './winston.createLogger'
 // import jwt from "jsonwebtoken"
 // create and setup express app
 const app = express();
@@ -31,10 +31,10 @@ app.use(limiter)
 myDataSource
   .initialize()
   .then(() => {
-    console.log('\n💫 DB Connected 💫\n');
+    logger.info('\n💫 DB Connected 💫\n');
   })
   .catch((err) => {
-    console.error('\n❌Error during DB initialization:', err);
+    logger.error('\n❌Error during DB initialization:', err);
   });
 
 app.get('/', (_: Request, res: Response) => {
@@ -48,6 +48,6 @@ app.use('/todo', todoRoute);
 
 // start express server
 app.listen(3000, () => {
-  console.log('\n\nServer is up 🚀\n');
+  logger.info('\n\nServer is up 🚀\n');
   console.table(listEndpoints(app));
 });

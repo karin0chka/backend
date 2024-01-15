@@ -17,6 +17,9 @@ class User extends Default implements IUser{
 
   @Column()
   password:string;
+  
+  @Column()
+  user_jwt:string;
 
   @OneToMany(()=>Todo,(todo)=>todo.user)
   todos:Todo[]

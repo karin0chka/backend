@@ -1,7 +1,7 @@
 import cookieParser from 'cookie-parser';
 import express, { Request, Response } from 'express';
 import AuthService from './auth.service';
-import { jwtRefresh } from '../.middleware/auth.middleware';
+import { jwtAuth, jwtRefresh } from '../.middleware/auth.middleware';
 
 // import { jwtRefresh } from '../.middleware/auth.middleware';
 
@@ -39,9 +39,18 @@ authRoute.post('/refresh', jwtRefresh, (req: Request, res: Response) => {
   }
 });
 
-authRoute.post('/log-out', (req: Request, res: Response) => {
+authRoute.post('/log-out', jwtAuth, async (req: Request, res: Response) => {
   res.setHeader('Set-Cookie', '').send();
-
+});
+authRoute.get('/change-password',jwtAuth, async (req: Request, res: Response) => {
+  try {
+    //@ts-ignore
+    const user = req.user;
+    await AuthService.changePassword(req, user);
+    res.status(200).send('Your password is successfully changed');
+  } catch(error) {
+    res.status(500).send('Your old password can not be changed');
+  }
 });
 
 export default authRoute;

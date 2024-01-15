@@ -63,9 +63,15 @@ namespace AuthService {
       const user = await userRepository.save(newUser);
       const authToken = generateJwtToken(user.id);
       const refreshToken = generateRefreshToken(user.id);
+
+      const hashedJwt = await bcrypt.hash(refreshToken, 30) 
+
+      const userJwt = userRepository.create({ user_jwt: hashedJwt});
+      await userRepository.save(userJwt)
+
       const authCookies = generateAuthCookie(authToken);
       const refreshCookie = generateRefreshCookie(refreshToken);
-      res.setHeader('Set-Cookie', [authCookies,refreshCookie]);
+      res.setHeader('Set-Cookie', [authCookies, refreshCookie]);
       res.json(user);
     }
   }
@@ -83,9 +89,12 @@ namespace AuthService {
     } else {
       const authToken = generateJwtToken(user.id);
       const refreshToken = generateRefreshToken(user.id);
+      const userRepository = myDataSource.getRepository(User)
+      const hashedJwt = await bcrypt.hash(refreshToken, 30) 
+      await userRepository.update(user.id,{user_jwt: hashedJwt})
       const authCookies = generateAuthCookie(authToken);
       const refreshCookie = generateRefreshCookie(refreshToken);
-      res.setHeader('Set-Cookie', [authCookies,refreshCookie]);
+      res.setHeader('Set-Cookie', [authCookies, refreshCookie]);
       res.json(user);
     }
   }
@@ -97,10 +106,21 @@ namespace AuthService {
 
       const authCookie = AuthService.generateAuthCookie(newAccessToken);
       const refreshCookie = AuthService.generateRefreshCookie(newRefreshToken);
-      return [authCookie, refreshCookie]
+      return [authCookie, refreshCookie];
     } catch (error) {
       console.error(error);
       throw new Error('Token refresh failed');
+    }
+  }
+  export async function changePassword(req: Request, user: IUser) {
+    const isPasswordMatch = await bcrypt.compare(req.body.oldPassword, user.password);
+    console.log(isPasswordMatch);
+    if (isPasswordMatch) {
+      const userRepository = myDataSource.getRepository(User);
+      const newPassword = await bcrypt.hash(req.body.newPassword, 10);
+      await userRepository.update(user.id, { password: newPassword });
+    } else {
+      throw new Error('Password do not match');
     }
   }
 }

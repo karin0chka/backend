@@ -1,0 +1,158 @@
+[2024-01-15 12:44:50.470 PM] [31merror[39m: 	[31munhandledRejection: data and salt arguments required[39m
+[31mError: data and salt arguments required[39m
+[31m    at Object.hash (D:\Code\backend\node_modules\bcrypt\bcrypt.js:137:17)[39m
+[31m    at D:\Code\backend\node_modules\bcrypt\promises.js:29:12[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at Object.module.exports.promise (D:\Code\backend\node_modules\bcrypt\promises.js:20:12)[39m
+[31m    at Object.hash (D:\Code\backend\node_modules\bcrypt\bcrypt.js:133:25)[39m
+[31m    at Object.changePassword (D:\Code\backend\src\auth\auth.service.ts:108:15)[39m
+[31m    at D:\Code\backend\src\auth\auth.controller.ts:48:21[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[2024-01-15 12:52:28.413 PM] [31merror[39m: 	[31munhandledRejection: Cannot read properties of undefined (reading 'password')[39m
+[31mTypeError: Cannot read properties of undefined (reading 'password')[39m
+[31m    at Object.<anonymous> (D:\Code\backend\src\auth\auth.service.ts:108:81)[39m
+[31m    at step (D:\Code\backend\src\auth\auth.service.ts:33:23)[39m
+[31m    at Object.next (D:\Code\backend\src\auth\auth.service.ts:14:53)[39m
+[31m    at D:\Code\backend\src\auth\auth.service.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\auth\auth.service.ts:4:12)[39m
+[31m    at Object.changePassword (D:\Code\backend\src\auth\auth.service.ts:170:16)[39m
+[31m    at D:\Code\backend\src\auth\auth.controller.ts:48:21[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[2024-01-15 12:54:40.736 PM] [31merror[39m: 	[31munhandledRejection: Cannot read properties of undefined (reading 'password')[39m
+[31mTypeError: Cannot read properties of undefined (reading 'password')[39m
+[31m    at Object.<anonymous> (D:\Code\backend\src\auth\auth.service.ts:108:81)[39m
+[31m    at step (D:\Code\backend\src\auth\auth.service.ts:33:23)[39m
+[31m    at Object.next (D:\Code\backend\src\auth\auth.service.ts:14:53)[39m
+[31m    at D:\Code\backend\src\auth\auth.service.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\auth\auth.service.ts:4:12)[39m
+[31m    at Object.changePassword (D:\Code\backend\src\auth\auth.service.ts:170:16)[39m
+[31m    at D:\Code\backend\src\auth\auth.controller.ts:48:21[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[2024-01-15 12:56:16.010 PM] [31merror[39m: 	[31munhandledRejection: Cannot read properties of undefined (reading 'password')[39m
+[31mTypeError: Cannot read properties of undefined (reading 'password')[39m
+[31m    at Object.<anonymous> (D:\Code\backend\src\auth\auth.service.ts:109:26)[39m
+[31m    at step (D:\Code\backend\src\auth\auth.service.ts:33:23)[39m
+[31m    at Object.next (D:\Code\backend\src\auth\auth.service.ts:14:53)[39m
+[31m    at D:\Code\backend\src\auth\auth.service.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\auth\auth.service.ts:4:12)[39m
+[31m    at Object.changePassword (D:\Code\backend\src\auth\auth.service.ts:170:16)[39m
+[31m    at D:\Code\backend\src\auth\auth.controller.ts:48:21[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[2024-01-15 12:56:47.818 PM] [31merror[39m: 	[31munhandledRejection: Cannot read properties of undefined (reading 'password')[39m
+[31mTypeError: Cannot read properties of undefined (reading 'password')[39m
+[31m    at Object.<anonymous> (D:\Code\backend\src\auth\auth.service.ts:111:81)[39m
+[31m    at step (D:\Code\backend\src\auth\auth.service.ts:33:23)[39m
+[31m    at Object.next (D:\Code\backend\src\auth\auth.service.ts:14:53)[39m
+[31m    at D:\Code\backend\src\auth\auth.service.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\auth\auth.service.ts:4:12)[39m
+[31m    at Object.changePassword (D:\Code\backend\src\auth\auth.service.ts:170:16)[39m
+[31m    at D:\Code\backend\src\auth\auth.controller.ts:48:21[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[2024-01-15 12:57:03.723 PM] [31merror[39m: 	[31munhandledRejection: Cannot read properties of undefined (reading 'password')[39m
+[31mTypeError: Cannot read properties of undefined (reading 'password')[39m
+[31m    at Object.<anonymous> (D:\Code\backend\src\auth\auth.service.ts:111:81)[39m
+[31m    at step (D:\Code\backend\src\auth\auth.service.ts:33:23)[39m
+[31m    at Object.next (D:\Code\backend\src\auth\auth.service.ts:14:53)[39m
+[31m    at D:\Code\backend\src\auth\auth.service.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\auth\auth.service.ts:4:12)[39m
+[31m    at Object.changePassword (D:\Code\backend\src\auth\auth.service.ts:170:16)[39m
+[31m    at D:\Code\backend\src\auth\auth.controller.ts:48:21[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[2024-01-15 01:01:27.617 PM] [31merror[39m: 	[31munhandledRejection: Cannot read properties of undefined (reading 'password')[39m
+[31mTypeError: Cannot read properties of undefined (reading 'password')[39m
+[31m    at Object.<anonymous> (D:\Code\backend\src\auth\auth.service.ts:109:26)[39m
+[31m    at step (D:\Code\backend\src\auth\auth.service.ts:33:23)[39m
+[31m    at Object.next (D:\Code\backend\src\auth\auth.service.ts:14:53)[39m
+[31m    at D:\Code\backend\src\auth\auth.service.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\auth\auth.service.ts:4:12)[39m
+[31m    at Object.changePassword (D:\Code\backend\src\auth\auth.service.ts:170:16)[39m
+[31m    at D:\Code\backend\src\auth\auth.controller.ts:48:21[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[2024-01-15 01:01:43.127 PM] [31merror[39m: 	[31munhandledRejection: Cannot read properties of undefined (reading 'password')[39m
+[31mTypeError: Cannot read properties of undefined (reading 'password')[39m
+[31m    at Object.<anonymous> (D:\Code\backend\src\auth\auth.service.ts:111:81)[39m
+[31m    at step (D:\Code\backend\src\auth\auth.service.ts:33:23)[39m
+[31m    at Object.next (D:\Code\backend\src\auth\auth.service.ts:14:53)[39m
+[31m    at D:\Code\backend\src\auth\auth.service.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\auth\auth.service.ts:4:12)[39m
+[31m    at Object.changePassword (D:\Code\backend\src\auth\auth.service.ts:170:16)[39m
+[31m    at D:\Code\backend\src\auth\auth.controller.ts:48:21[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[2024-01-15 01:03:26.350 PM] [31merror[39m: 	[31munhandledRejection: Cannot read properties of undefined (reading 'password')[39m
+[31mTypeError: Cannot read properties of undefined (reading 'password')[39m
+[31m    at Object.<anonymous> (D:\Code\backend\src\auth\auth.service.ts:109:37)[39m
+[31m    at step (D:\Code\backend\src\auth\auth.service.ts:33:23)[39m
+[31m    at Object.next (D:\Code\backend\src\auth\auth.service.ts:14:53)[39m
+[31m    at D:\Code\backend\src\auth\auth.service.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\auth\auth.service.ts:4:12)[39m
+[31m    at Object.changePassword (D:\Code\backend\src\auth\auth.service.ts:170:16)[39m
+[31m    at D:\Code\backend\src\auth\auth.controller.ts:48:21[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[2024-01-15 01:38:27.500 PM] [31merror[39m: 	[31munhandledRejection: Cannot read properties of undefined (reading 'password')[39m
+[31mTypeError: Cannot read properties of undefined (reading 'password')[39m
+[31m    at Object.<anonymous> (D:\Code\backend\src\auth\auth.service.ts:107:77)[39m
+[31m    at step (D:\Code\backend\src\auth\auth.service.ts:33:23)[39m
+[31m    at Object.next (D:\Code\backend\src\auth\auth.service.ts:14:53)[39m
+[31m    at D:\Code\backend\src\auth\auth.service.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\auth\auth.service.ts:4:12)[39m
+[31m    at Object.changePassword (D:\Code\backend\src\auth\auth.service.ts:170:16)[39m
+[31m    at D:\Code\backend\src\auth\auth.controller.ts:49:17[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[2024-01-15 01:40:05.725 PM] [31merror[39m: 	[31munhandledRejection: Cannot read properties of undefined (reading 'password')[39m
+[31mTypeError: Cannot read properties of undefined (reading 'password')[39m
+[31m    at Object.<anonymous> (D:\Code\backend\src\auth\auth.service.ts:107:77)[39m
+[31m    at step (D:\Code\backend\src\auth\auth.service.ts:33:23)[39m
+[31m    at Object.next (D:\Code\backend\src\auth\auth.service.ts:14:53)[39m
+[31m    at D:\Code\backend\src\auth\auth.service.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\auth\auth.service.ts:4:12)[39m
+[31m    at Object.changePassword (D:\Code\backend\src\auth\auth.service.ts:170:16)[39m
+[31m    at D:\Code\backend\src\auth\auth.controller.ts:50:17[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[2024-01-15 01:49:24.558 PM] [31merror[39m: 	[31munhandledRejection: Cannot set headers after they are sent to the client[39m
+[31mError [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client[39m
+[31m    at new NodeError (node:internal/errors:405:5)[39m
+[31m    at ServerResponse.setHeader (node:_http_outgoing:652:11)[39m
+[31m    at ServerResponse.header (D:\Code\backend\node_modules\express\lib\response.js:794:10)[39m
+[31m    at ServerResponse.send (D:\Code\backend\node_modules\express\lib\response.js:174:12)[39m
+[31m    at Object.<anonymous> (D:\Code\backend\src\auth\auth.service.ts:114:23)[39m
+[31m    at step (D:\Code\backend\src\auth\auth.service.ts:33:23)[39m
+[31m    at Object.next (D:\Code\backend\src\auth\auth.service.ts:14:53)[39m
+[31m    at fulfilled (D:\Code\backend\src\auth\auth.service.ts:5:58)[39m
+[2024-01-15 01:51:08.296 PM] [31merror[39m: 	[31munhandledRejection: Cannot set headers after they are sent to the client[39m
+[31mError [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client[39m
+[31m    at new NodeError (node:internal/errors:405:5)[39m
+[31m    at ServerResponse.setHeader (node:_http_outgoing:652:11)[39m
+[31m    at ServerResponse.header (D:\Code\backend\node_modules\express\lib\response.js:794:10)[39m
+[31m    at ServerResponse.send (D:\Code\backend\node_modules\express\lib\response.js:174:12)[39m
+[31m    at Object.<anonymous> (D:\Code\backend\src\auth\auth.service.ts:114:23)[39m
+[31m    at step (D:\Code\backend\src\auth\auth.service.ts:33:23)[39m
+[31m    at Object.next (D:\Code\backend\src\auth\auth.service.ts:14:53)[39m
+[31m    at fulfilled (D:\Code\backend\src\auth\auth.service.ts:5:58)[39m
+[2024-01-15 02:12:16.899 PM] [31merror[39m: 	[31munhandledRejection: Password do not match[39m
+[31mError: Password do not match[39m
+[31m    at Object.<anonymous> (D:\Code\backend\src\auth\auth.service.ts:114:13)[39m
+[31m    at step (D:\Code\backend\src\auth\auth.service.ts:33:23)[39m
+[31m    at Object.next (D:\Code\backend\src\auth\auth.service.ts:14:53)[39m
+[31m    at fulfilled (D:\Code\backend\src\auth\auth.service.ts:5:58)[39m
