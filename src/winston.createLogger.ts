@@ -12,7 +12,7 @@ const infoFilter = winston.format((info, opts) => {
 });
 
 export const logger = winston.createLogger({
-  level:'info',
+  level: 'info',
   format: combine(
     errors({ stack: true }),
     colorize({ all: true }),
@@ -23,6 +23,7 @@ export const logger = winston.createLogger({
     printf((info) => `[${info.timestamp}] ${info.level}: ${info.message}`),
   ),
   transports: [
+    new winston.transports.Console(),
     new winston.transports.File({
       filename: 'combined.log',
     }),

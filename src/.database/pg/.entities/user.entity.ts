@@ -18,11 +18,13 @@ class User extends Default implements IUser{
   @Column()
   password:string;
   
-  @Column()
-  user_jwt:string;
+  @Column({nullable: true})
+  refresh_token:string;
 
   @OneToMany(()=>Todo,(todo)=>todo.user)
   todos:Todo[]
 }
+
+
 
 export default User;

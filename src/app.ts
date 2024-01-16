@@ -1,4 +1,4 @@
-import express, { Request, Response } from 'express';
+import express, {Request, Response } from 'express';
 import listEndpoints from 'express-list-endpoints';
 import 'reflect-metadata';
 import './.database/mongo/mongo.config';
@@ -12,6 +12,7 @@ import helmet from 'helmet';
 import cors from 'cors';
 import rateLimit from 'express-rate-limit';
 import{ logger } from './winston.createLogger'
+import { errorHandler } from './errorHandler';
 // import jwt from "jsonwebtoken"
 // create and setup express app
 const app = express();
@@ -45,6 +46,9 @@ app.use('/user', user_router);
 app.use('/auth', authRoute);
 app.use('/testing', testingRoute);
 app.use('/todo', todoRoute);
+app.use(errorHandler)
+
+
 
 // start express server
 app.listen(3000, () => {

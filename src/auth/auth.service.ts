@@ -48,31 +48,37 @@ namespace AuthService {
   }
 
   export async function register(userDto: Omit<IUser, 'id' | 'created_at' | 'updated_at' | 'deleted_at'>, res: Response) {
-    const existingUser = await UserService.findOne({ where: { email: userDto.email.toLowerCase() } });
-    if (existingUser) {
-      res.status(400).json({ error: 'User already exists' });
-    } else {
-      const hashedPassword = await bcrypt.hash(userDto.password, 10);
-      const userRepository = myDataSource.getRepository(User);
-      const newUser = userRepository.create({
-        first_name: userDto.first_name,
-        last_name: userDto.last_name,
-        email: userDto.email.toLowerCase(),
-        password: hashedPassword,
-      });
-      const user = await userRepository.save(newUser);
-      const authToken = generateJwtToken(user.id);
-      const refreshToken = generateRefreshToken(user.id);
+    try {
+      const existingUser = await UserService.findOne({ where: { email: userDto.email.toLowerCase() } });
+      if (existingUser) {
+        res.status(400).json({ error: 'User already exists' });
+      } else {
+        const hashedPassword = await bcrypt.hash(userDto.password, 10);
+        const userRepository = myDataSource.getRepository(User);
+        const newUser = userRepository.create({
+          first_name: userDto.first_name,
+          last_name: userDto.last_name,
+          email: userDto.email.toLowerCase(),
+          password: hashedPassword,
+          refresh_token: '',
+        });
+        const user = await userRepository.save(newUser);
+        const authToken = generateJwtToken(user.id);
+        const refreshToken = generateRefreshToken(user.id);
 
-      const hashedJwt = await bcrypt.hash(refreshToken, 30) 
+        user.refresh_token = await bcrypt.hash(refreshToken, 10);
 
-      const userJwt = userRepository.create({ user_jwt: hashedJwt});
-      await userRepository.save(userJwt)
+        await userRepository.save(user);
 
-      const authCookies = generateAuthCookie(authToken);
-      const refreshCookie = generateRefreshCookie(refreshToken);
-      res.setHeader('Set-Cookie', [authCookies, refreshCookie]);
-      res.json(user);
+        const authCookies = generateAuthCookie(authToken);
+        const refreshCookie = generateRefreshCookie(refreshToken);
+        res.setHeader('Set-Cookie', [authCookies, refreshCookie]);
+
+        res.json(user);
+      }
+    } catch (error) {
+      console.error(error);
+      throw new Error('User is not created');
     }
   }
 
@@ -84,14 +90,16 @@ namespace AuthService {
     const loginData: loginData = { email: req.body.email, password: req.body.password };
     const user = await UserService.findOne({ where: { email: loginData.email } });
     const passwordMatch = await bcrypt.compare(loginData.password, user.password);
-    if (!user || !passwordMatch) {
+    const token = req.cookies['Refresh'];
+    const jwtRefreshMatch = await bcrypt.compare(token, user.refresh_token);
+    if (!user || !passwordMatch || !jwtRefreshMatch) {
       res.status(401).json({ error: 'Authentication failed' });
     } else {
       const authToken = generateJwtToken(user.id);
       const refreshToken = generateRefreshToken(user.id);
-      const userRepository = myDataSource.getRepository(User)
-      const hashedJwt = await bcrypt.hash(refreshToken, 30) 
-      await userRepository.update(user.id,{user_jwt: hashedJwt})
+      const userRepository = myDataSource.getRepository(User);
+      const hashedJwt = await bcrypt.hash(refreshToken, 10);
+      await userRepository.update(user.id, { refresh_token: hashedJwt });
       const authCookies = generateAuthCookie(authToken);
       const refreshCookie = generateRefreshCookie(refreshToken);
       res.setHeader('Set-Cookie', [authCookies, refreshCookie]);
@@ -99,14 +107,20 @@ namespace AuthService {
     }
   }
 
-  export function validateRefreshAndGenerateCookies(req: Request) {
+  export async function validateRefreshAndGenerateCookies(req: Request, user: IUser) {
     try {
-      const newAccessToken = AuthService.generateJwtToken(req.body.userID);
-      const newRefreshToken = AuthService.generateRefreshToken(req.body.userID);
+      const token = req.cookies['Refresh'];
+      const jwtRefreshMatch = await bcrypt.compare(token, user.refresh_token);
+      if (jwtRefreshMatch) {
+        const newAccessToken = AuthService.generateJwtToken(req.body.userID);
+        const newRefreshToken = AuthService.generateRefreshToken(req.body.userID);
 
-      const authCookie = AuthService.generateAuthCookie(newAccessToken);
-      const refreshCookie = AuthService.generateRefreshCookie(newRefreshToken);
-      return [authCookie, refreshCookie];
+        const authCookie = AuthService.generateAuthCookie(newAccessToken);
+        const refreshCookie = AuthService.generateRefreshCookie(newRefreshToken);
+        return [authCookie, refreshCookie];
+      } else {
+        throw new Error('Token refresh failed');
+      }
     } catch (error) {
       console.error(error);
       throw new Error('Token refresh failed');
@@ -114,7 +128,6 @@ namespace AuthService {
   }
   export async function changePassword(req: Request, user: IUser) {
     const isPasswordMatch = await bcrypt.compare(req.body.oldPassword, user.password);
-    console.log(isPasswordMatch);
     if (isPasswordMatch) {
       const userRepository = myDataSource.getRepository(User);
       const newPassword = await bcrypt.hash(req.body.newPassword, 10);

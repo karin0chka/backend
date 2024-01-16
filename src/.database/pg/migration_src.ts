@@ -1,9 +1,9 @@
-import { DataSource } from "typeorm";
-import OrmEntities from "./orm-entities";
-import config from "../../utils/config";
+import { DataSource } from 'typeorm';
+import OrmEntities from './orm-entities';
+import config from '../../utils/config';
 
 export const myMigrationSource = new DataSource({
-  type: "postgres",
+  type: 'postgres',
   host: config.DB.POSTGRES.HOST,
   port: config.DB.POSTGRES.PORT,
   username: config.DB.POSTGRES.USER,
@@ -13,5 +13,5 @@ export const myMigrationSource = new DataSource({
   logging: false,
   synchronize: false,
   migrations: ['src/.database/pg/migration/*{.ts,.js}'],
-  migrationsRun:true
+  migrationsRun: true,
 });

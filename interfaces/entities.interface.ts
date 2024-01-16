@@ -14,6 +14,8 @@ export type IUser = {
 
   password: string;
 
+  refresh_token:string;
+
   //   todos: Todo[];
 } & IDefault;
 
