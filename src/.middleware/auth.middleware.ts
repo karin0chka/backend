@@ -1,5 +1,6 @@
 import { NextFunction, Request, Response } from 'express';
 import AuthService from '../auth/auth.service';
+import { AppError } from '../errorHandler';
 import UserService from '../user/user.service';
 
 export async function jwtAuth(req: Request, res: Response, next: NextFunction) {
@@ -31,5 +32,15 @@ export async function jwtRefresh(req: Request, res: Response, next: NextFunction
     next();
   } catch {
     res.status(401).send();
+  }
+}
+
+export async function isUserAnAdmin(req: Request, res: Response, next: NextFunction) {
+  //@ts-ignore
+  const user = req.user;
+  if (user && user.user_type && user.user_type === 'admin') {
+    next();
+  } else {
+    new AppError('Access denied', 401);
   }
 }

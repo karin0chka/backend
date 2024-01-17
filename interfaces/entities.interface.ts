@@ -1,3 +1,5 @@
+import { UserType } from "./enums";
+
 export type IDefault = {
   id: number;
   created_at: Date;
@@ -14,14 +16,26 @@ export type IUser = {
 
   password: string;
 
-  refresh_token:string;
+  refresh_token: string;
 
-  //   todos: Todo[];
+  user_type:UserType;
+
+  todos: ITodo[];
 } & IDefault;
 
 export type ITodo = {
   title: string;
   description: string;
   is_done: boolean;
-  user:IUser
+  user: IUser;
 };
+
+export type IReport = {
+  user_id: number;
+  title: string;
+  description: string;
+  is_completed: boolean;
+  is_reviewed: boolean;
+  media_url: string;
+};
+

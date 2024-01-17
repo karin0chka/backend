@@ -6,6 +6,8 @@ import User from '../.database/pg/.entities/user.entity';
 import { myDataSource } from '../.database/pg/db';
 import UserService from '../user/user.service';
 import config from '../utils/config';
+import { AppError } from '../errorHandler';
+import { UserType } from '../../interfaces/enums';
 
 const jwtSecret = config.JWT.JWT_SECRET;
 const jwtRefreshSecret = config.JWT.JWT_REFRESH_SECRET;
@@ -48,41 +50,35 @@ namespace AuthService {
   }
 
   export async function register(userDto: Omit<IUser, 'id' | 'created_at' | 'updated_at' | 'deleted_at'>, res: Response) {
-    try {
-      const existingUser = await UserService.findOne({ where: { email: userDto.email.toLowerCase() } });
-      if (existingUser) {
-        res.status(400).json({ error: 'User already exists' });
-      } else {
-        const hashedPassword = await bcrypt.hash(userDto.password, 10);
-        const userRepository = myDataSource.getRepository(User);
-        const newUser = userRepository.create({
-          first_name: userDto.first_name,
-          last_name: userDto.last_name,
-          email: userDto.email.toLowerCase(),
-          password: hashedPassword,
-          refresh_token: '',
-        });
-        const user = await userRepository.save(newUser);
-        const authToken = generateJwtToken(user.id);
-        const refreshToken = generateRefreshToken(user.id);
+    const existingUser = await UserService.findOne({ where: { email: userDto.email.toLowerCase() } });
+    if (existingUser) {
+      throw new AppError('User alredy exist', 400);
+    } else {
+      const hashedPassword = await bcrypt.hash(userDto.password, 10);
+      const userRepository = myDataSource.getRepository(User);
+      const newUser = userRepository.create({
+        first_name: userDto.first_name,
+        last_name: userDto.last_name,
+        email: userDto.email.toLowerCase(),
+        password: hashedPassword,
+        refresh_token: '',
+        user_type: UserType.CLIENT,
+      });
+      const user = await userRepository.save(newUser);
+      const authToken = generateJwtToken(user.id);
+      const refreshToken = generateRefreshToken(user.id);
 
-        user.refresh_token = await bcrypt.hash(refreshToken, 10);
+      user.refresh_token = await bcrypt.hash(refreshToken, 10);
 
-        await userRepository.save(user);
+      await userRepository.save(user);
 
-        const authCookies = generateAuthCookie(authToken);
-        const refreshCookie = generateRefreshCookie(refreshToken);
-        res.setHeader('Set-Cookie', [authCookies, refreshCookie]);
-
-        res.json(user);
-      }
-    } catch (error) {
-      console.error(error);
-      throw new Error('User is not created');
+      const authCookies = generateAuthCookie(authToken);
+      const refreshCookie = generateRefreshCookie(refreshToken);
+      return { user, cookies: [authCookies, refreshCookie] };
     }
   }
 
-  export async function login(req: Request, res: Response) {
+  export async function login(req: Request) {
     type loginData = {
       email: string;
       password: string;
@@ -93,7 +89,7 @@ namespace AuthService {
     const token = req.cookies['Refresh'];
     const jwtRefreshMatch = await bcrypt.compare(token, user.refresh_token);
     if (!user || !passwordMatch || !jwtRefreshMatch) {
-      res.status(401).json({ error: 'Authentication failed' });
+      throw new AppError('Authentication failed', 401);
     } else {
       const authToken = generateJwtToken(user.id);
       const refreshToken = generateRefreshToken(user.id);
@@ -102,28 +98,22 @@ namespace AuthService {
       await userRepository.update(user.id, { refresh_token: hashedJwt });
       const authCookies = generateAuthCookie(authToken);
       const refreshCookie = generateRefreshCookie(refreshToken);
-      res.setHeader('Set-Cookie', [authCookies, refreshCookie]);
-      res.json(user);
+      return { user, cookies: [authCookies, refreshCookie] };
     }
   }
 
   export async function validateRefreshAndGenerateCookies(req: Request, user: IUser) {
-    try {
-      const token = req.cookies['Refresh'];
-      const jwtRefreshMatch = await bcrypt.compare(token, user.refresh_token);
-      if (jwtRefreshMatch) {
-        const newAccessToken = AuthService.generateJwtToken(req.body.userID);
-        const newRefreshToken = AuthService.generateRefreshToken(req.body.userID);
+    const token = req.cookies['Refresh'];
+    const jwtRefreshMatch = await bcrypt.compare(token, user.refresh_token);
+    if (jwtRefreshMatch) {
+      const newAccessToken = AuthService.generateJwtToken(req.body.userID);
+      const newRefreshToken = AuthService.generateRefreshToken(req.body.userID);
 
-        const authCookie = AuthService.generateAuthCookie(newAccessToken);
-        const refreshCookie = AuthService.generateRefreshCookie(newRefreshToken);
-        return [authCookie, refreshCookie];
-      } else {
-        throw new Error('Token refresh failed');
-      }
-    } catch (error) {
-      console.error(error);
-      throw new Error('Token refresh failed');
+      const authCookie = AuthService.generateAuthCookie(newAccessToken);
+      const refreshCookie = AuthService.generateRefreshCookie(newRefreshToken);
+      return [authCookie, refreshCookie];
+    } else {
+      throw new AppError('Token refresh failed', 400);
     }
   }
   export async function changePassword(req: Request, user: IUser) {
@@ -133,7 +123,7 @@ namespace AuthService {
       const newPassword = await bcrypt.hash(req.body.newPassword, 10);
       await userRepository.update(user.id, { password: newPassword });
     } else {
-      throw new Error('Password do not match');
+      throw new AppError('Password do not match', 401);
     }
   }
 }

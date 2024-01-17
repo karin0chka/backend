@@ -1,0 +1,1097 @@
+[2024-01-15 12:44:50.470 PM] [31merror[39m: 	[31munhandledRejection: data and salt arguments required[39m
+[31mError: data and salt arguments required[39m
+[31m    at Object.hash (D:\Code\backend\node_modules\bcrypt\bcrypt.js:137:17)[39m
+[31m    at D:\Code\backend\node_modules\bcrypt\promises.js:29:12[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at Object.module.exports.promise (D:\Code\backend\node_modules\bcrypt\promises.js:20:12)[39m
+[31m    at Object.hash (D:\Code\backend\node_modules\bcrypt\bcrypt.js:133:25)[39m
+[31m    at Object.changePassword (D:\Code\backend\src\auth\auth.service.ts:108:15)[39m
+[31m    at D:\Code\backend\src\auth\auth.controller.ts:48:21[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[2024-01-15 12:52:28.413 PM] [31merror[39m: 	[31munhandledRejection: Cannot read properties of undefined (reading 'password')[39m
+[31mTypeError: Cannot read properties of undefined (reading 'password')[39m
+[31m    at Object.<anonymous> (D:\Code\backend\src\auth\auth.service.ts:108:81)[39m
+[31m    at step (D:\Code\backend\src\auth\auth.service.ts:33:23)[39m
+[31m    at Object.next (D:\Code\backend\src\auth\auth.service.ts:14:53)[39m
+[31m    at D:\Code\backend\src\auth\auth.service.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\auth\auth.service.ts:4:12)[39m
+[31m    at Object.changePassword (D:\Code\backend\src\auth\auth.service.ts:170:16)[39m
+[31m    at D:\Code\backend\src\auth\auth.controller.ts:48:21[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[2024-01-15 12:54:40.736 PM] [31merror[39m: 	[31munhandledRejection: Cannot read properties of undefined (reading 'password')[39m
+[31mTypeError: Cannot read properties of undefined (reading 'password')[39m
+[31m    at Object.<anonymous> (D:\Code\backend\src\auth\auth.service.ts:108:81)[39m
+[31m    at step (D:\Code\backend\src\auth\auth.service.ts:33:23)[39m
+[31m    at Object.next (D:\Code\backend\src\auth\auth.service.ts:14:53)[39m
+[31m    at D:\Code\backend\src\auth\auth.service.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\auth\auth.service.ts:4:12)[39m
+[31m    at Object.changePassword (D:\Code\backend\src\auth\auth.service.ts:170:16)[39m
+[31m    at D:\Code\backend\src\auth\auth.controller.ts:48:21[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[2024-01-15 12:56:16.010 PM] [31merror[39m: 	[31munhandledRejection: Cannot read properties of undefined (reading 'password')[39m
+[31mTypeError: Cannot read properties of undefined (reading 'password')[39m
+[31m    at Object.<anonymous> (D:\Code\backend\src\auth\auth.service.ts:109:26)[39m
+[31m    at step (D:\Code\backend\src\auth\auth.service.ts:33:23)[39m
+[31m    at Object.next (D:\Code\backend\src\auth\auth.service.ts:14:53)[39m
+[31m    at D:\Code\backend\src\auth\auth.service.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\auth\auth.service.ts:4:12)[39m
+[31m    at Object.changePassword (D:\Code\backend\src\auth\auth.service.ts:170:16)[39m
+[31m    at D:\Code\backend\src\auth\auth.controller.ts:48:21[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[2024-01-15 12:56:47.818 PM] [31merror[39m: 	[31munhandledRejection: Cannot read properties of undefined (reading 'password')[39m
+[31mTypeError: Cannot read properties of undefined (reading 'password')[39m
+[31m    at Object.<anonymous> (D:\Code\backend\src\auth\auth.service.ts:111:81)[39m
+[31m    at step (D:\Code\backend\src\auth\auth.service.ts:33:23)[39m
+[31m    at Object.next (D:\Code\backend\src\auth\auth.service.ts:14:53)[39m
+[31m    at D:\Code\backend\src\auth\auth.service.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\auth\auth.service.ts:4:12)[39m
+[31m    at Object.changePassword (D:\Code\backend\src\auth\auth.service.ts:170:16)[39m
+[31m    at D:\Code\backend\src\auth\auth.controller.ts:48:21[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[2024-01-15 12:57:03.723 PM] [31merror[39m: 	[31munhandledRejection: Cannot read properties of undefined (reading 'password')[39m
+[31mTypeError: Cannot read properties of undefined (reading 'password')[39m
+[31m    at Object.<anonymous> (D:\Code\backend\src\auth\auth.service.ts:111:81)[39m
+[31m    at step (D:\Code\backend\src\auth\auth.service.ts:33:23)[39m
+[31m    at Object.next (D:\Code\backend\src\auth\auth.service.ts:14:53)[39m
+[31m    at D:\Code\backend\src\auth\auth.service.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\auth\auth.service.ts:4:12)[39m
+[31m    at Object.changePassword (D:\Code\backend\src\auth\auth.service.ts:170:16)[39m
+[31m    at D:\Code\backend\src\auth\auth.controller.ts:48:21[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[2024-01-15 01:01:27.617 PM] [31merror[39m: 	[31munhandledRejection: Cannot read properties of undefined (reading 'password')[39m
+[31mTypeError: Cannot read properties of undefined (reading 'password')[39m
+[31m    at Object.<anonymous> (D:\Code\backend\src\auth\auth.service.ts:109:26)[39m
+[31m    at step (D:\Code\backend\src\auth\auth.service.ts:33:23)[39m
+[31m    at Object.next (D:\Code\backend\src\auth\auth.service.ts:14:53)[39m
+[31m    at D:\Code\backend\src\auth\auth.service.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\auth\auth.service.ts:4:12)[39m
+[31m    at Object.changePassword (D:\Code\backend\src\auth\auth.service.ts:170:16)[39m
+[31m    at D:\Code\backend\src\auth\auth.controller.ts:48:21[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[2024-01-15 01:01:43.127 PM] [31merror[39m: 	[31munhandledRejection: Cannot read properties of undefined (reading 'password')[39m
+[31mTypeError: Cannot read properties of undefined (reading 'password')[39m
+[31m    at Object.<anonymous> (D:\Code\backend\src\auth\auth.service.ts:111:81)[39m
+[31m    at step (D:\Code\backend\src\auth\auth.service.ts:33:23)[39m
+[31m    at Object.next (D:\Code\backend\src\auth\auth.service.ts:14:53)[39m
+[31m    at D:\Code\backend\src\auth\auth.service.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\auth\auth.service.ts:4:12)[39m
+[31m    at Object.changePassword (D:\Code\backend\src\auth\auth.service.ts:170:16)[39m
+[31m    at D:\Code\backend\src\auth\auth.controller.ts:48:21[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[2024-01-15 01:03:26.350 PM] [31merror[39m: 	[31munhandledRejection: Cannot read properties of undefined (reading 'password')[39m
+[31mTypeError: Cannot read properties of undefined (reading 'password')[39m
+[31m    at Object.<anonymous> (D:\Code\backend\src\auth\auth.service.ts:109:37)[39m
+[31m    at step (D:\Code\backend\src\auth\auth.service.ts:33:23)[39m
+[31m    at Object.next (D:\Code\backend\src\auth\auth.service.ts:14:53)[39m
+[31m    at D:\Code\backend\src\auth\auth.service.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\auth\auth.service.ts:4:12)[39m
+[31m    at Object.changePassword (D:\Code\backend\src\auth\auth.service.ts:170:16)[39m
+[31m    at D:\Code\backend\src\auth\auth.controller.ts:48:21[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[2024-01-15 01:38:27.500 PM] [31merror[39m: 	[31munhandledRejection: Cannot read properties of undefined (reading 'password')[39m
+[31mTypeError: Cannot read properties of undefined (reading 'password')[39m
+[31m    at Object.<anonymous> (D:\Code\backend\src\auth\auth.service.ts:107:77)[39m
+[31m    at step (D:\Code\backend\src\auth\auth.service.ts:33:23)[39m
+[31m    at Object.next (D:\Code\backend\src\auth\auth.service.ts:14:53)[39m
+[31m    at D:\Code\backend\src\auth\auth.service.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\auth\auth.service.ts:4:12)[39m
+[31m    at Object.changePassword (D:\Code\backend\src\auth\auth.service.ts:170:16)[39m
+[31m    at D:\Code\backend\src\auth\auth.controller.ts:49:17[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[2024-01-15 01:40:05.725 PM] [31merror[39m: 	[31munhandledRejection: Cannot read properties of undefined (reading 'password')[39m
+[31mTypeError: Cannot read properties of undefined (reading 'password')[39m
+[31m    at Object.<anonymous> (D:\Code\backend\src\auth\auth.service.ts:107:77)[39m
+[31m    at step (D:\Code\backend\src\auth\auth.service.ts:33:23)[39m
+[31m    at Object.next (D:\Code\backend\src\auth\auth.service.ts:14:53)[39m
+[31m    at D:\Code\backend\src\auth\auth.service.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\auth\auth.service.ts:4:12)[39m
+[31m    at Object.changePassword (D:\Code\backend\src\auth\auth.service.ts:170:16)[39m
+[31m    at D:\Code\backend\src\auth\auth.controller.ts:50:17[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[2024-01-15 01:49:24.558 PM] [31merror[39m: 	[31munhandledRejection: Cannot set headers after they are sent to the client[39m
+[31mError [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client[39m
+[31m    at new NodeError (node:internal/errors:405:5)[39m
+[31m    at ServerResponse.setHeader (node:_http_outgoing:652:11)[39m
+[31m    at ServerResponse.header (D:\Code\backend\node_modules\express\lib\response.js:794:10)[39m
+[31m    at ServerResponse.send (D:\Code\backend\node_modules\express\lib\response.js:174:12)[39m
+[31m    at Object.<anonymous> (D:\Code\backend\src\auth\auth.service.ts:114:23)[39m
+[31m    at step (D:\Code\backend\src\auth\auth.service.ts:33:23)[39m
+[31m    at Object.next (D:\Code\backend\src\auth\auth.service.ts:14:53)[39m
+[31m    at fulfilled (D:\Code\backend\src\auth\auth.service.ts:5:58)[39m
+[2024-01-15 01:51:08.296 PM] [31merror[39m: 	[31munhandledRejection: Cannot set headers after they are sent to the client[39m
+[31mError [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client[39m
+[31m    at new NodeError (node:internal/errors:405:5)[39m
+[31m    at ServerResponse.setHeader (node:_http_outgoing:652:11)[39m
+[31m    at ServerResponse.header (D:\Code\backend\node_modules\express\lib\response.js:794:10)[39m
+[31m    at ServerResponse.send (D:\Code\backend\node_modules\express\lib\response.js:174:12)[39m
+[31m    at Object.<anonymous> (D:\Code\backend\src\auth\auth.service.ts:114:23)[39m
+[31m    at step (D:\Code\backend\src\auth\auth.service.ts:33:23)[39m
+[31m    at Object.next (D:\Code\backend\src\auth\auth.service.ts:14:53)[39m
+[31m    at fulfilled (D:\Code\backend\src\auth\auth.service.ts:5:58)[39m
+[2024-01-15 02:12:16.899 PM] [31merror[39m: 	[31munhandledRejection: Password do not match[39m
+[31mError: Password do not match[39m
+[31m    at Object.<anonymous> (D:\Code\backend\src\auth\auth.service.ts:114:13)[39m
+[31m    at step (D:\Code\backend\src\auth\auth.service.ts:33:23)[39m
+[31m    at Object.next (D:\Code\backend\src\auth\auth.service.ts:14:53)[39m
+[31m    at fulfilled (D:\Code\backend\src\auth\auth.service.ts:5:58)[39m
+[2024-01-16 12:56:02.782 PM] [31merror[39m: 	[31munhandledRejection: User is not created[39m
+[31mError: User is not created[39m
+[31m    at Object.<anonymous> (D:\Code\backend\src\auth\auth.service.ts:75:13)[39m
+[31m    at step (D:\Code\backend\src\auth\auth.service.ts:33:23)[39m
+[31m    at Object.next (D:\Code\backend\src\auth\auth.service.ts:14:53)[39m
+[31m    at fulfilled (D:\Code\backend\src\auth\auth.service.ts:5:58)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+[2024-01-16 01:06:41.429 PM] [31merror[39m: 	[31munhandledRejection: User is not created[39m
+[31mError: User is not created[39m
+[31m    at Object.<anonymous> (D:\Code\backend\src\auth\auth.service.ts:77:13)[39m
+[31m    at step (D:\Code\backend\src\auth\auth.service.ts:33:23)[39m
+[31m    at Object.next (D:\Code\backend\src\auth\auth.service.ts:14:53)[39m
+[31m    at fulfilled (D:\Code\backend\src\auth\auth.service.ts:5:58)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+[2024-01-16 01:57:01.989 PM] [31merror[39m: 	[31munhandledRejection: Failed to add JWT[39m
+[31mError: Failed to add JWT[39m
+[31m    at Object.<anonymous> (D:\Code\backend\src\auth\auth.service.ts:90:13)[39m
+[31m    at step (D:\Code\backend\src\auth\auth.service.ts:33:23)[39m
+[31m    at Object.next (D:\Code\backend\src\auth\auth.service.ts:14:53)[39m
+[31m    at D:\Code\backend\src\auth\auth.service.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\auth\auth.service.ts:4:12)[39m
+[31m    at Object.addUserJWT (D:\Code\backend\src\auth\auth.service.ts:133:16)[39m
+[31m    at D:\Code\backend\src\auth\auth.controller.ts:22:17[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[2024-01-16 03:38:48.290 PM] [31merror[39m: 	[31munhandledRejection: data and hash arguments required[39m
+[31mError: data and hash arguments required[39m
+[31m    at Object.compare (D:\Code\backend\node_modules\bcrypt\bcrypt.js:208:17)[39m
+[31m    at D:\Code\backend\node_modules\bcrypt\promises.js:29:12[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at Object.module.exports.promise (D:\Code\backend\node_modules\bcrypt\promises.js:20:12)[39m
+[31m    at Object.compare (D:\Code\backend\node_modules\bcrypt\bcrypt.js:204:25)[39m
+[31m    at Object.<anonymous> (D:\Code\backend\src\auth\auth.service.ts:94:42)[39m
+[31m    at step (D:\Code\backend\src\auth\auth.service.ts:33:23)[39m
+[31m    at Object.next (D:\Code\backend\src\auth\auth.service.ts:14:53)[39m
+[31m    at fulfilled (D:\Code\backend\src\auth\auth.service.ts:5:58)[39m
+[2024-01-16 03:39:26.119 PM] [31merror[39m: 	[31munhandledRejection: data and hash arguments required[39m
+[31mError: data and hash arguments required[39m
+[31m    at Object.compare (D:\Code\backend\node_modules\bcrypt\bcrypt.js:208:17)[39m
+[31m    at D:\Code\backend\node_modules\bcrypt\promises.js:29:12[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at Object.module.exports.promise (D:\Code\backend\node_modules\bcrypt\promises.js:20:12)[39m
+[31m    at Object.compare (D:\Code\backend\node_modules\bcrypt\bcrypt.js:204:25)[39m
+[31m    at Object.<anonymous> (D:\Code\backend\src\auth\auth.service.ts:94:42)[39m
+[31m    at step (D:\Code\backend\src\auth\auth.service.ts:33:23)[39m
+[31m    at Object.next (D:\Code\backend\src\auth\auth.service.ts:14:53)[39m
+[31m    at fulfilled (D:\Code\backend\src\auth\auth.service.ts:5:58)[39m
+[2024-01-17 12:24:35.362 PM] [31merror[39m: 	[31muncaughtException: app.use() requires a middleware function[39m
+[31mTypeError: app.use() requires a middleware function[39m
+[31m    at Function.use (D:\Code\backend\node_modules\express\lib\application.js:217:11)[39m
+[31m    at Object.<anonymous> (D:\Code\backend\src\app.ts:49:5)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1233:14)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1618:23)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)[39m
+[31m    at phase4 (D:\Code\backend\node_modules\ts-node\src\bin.ts:649:14)[39m
+[2024-01-17 12:35:10.205 PM] [31merror[39m: 	[31muncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m16[0m:[93m40[0m - [91merror[0m[90m TS2554: [0mExpected 2 arguments, but got 1.[39m
+
+[31m[7m16[0m     const report = await ReportService.createReport(req.body);[39m
+[31m[7m  [0m [91m                                       ~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+
+[31m  [96msrc/report/report.service.ts[0m:[93m5[0m:[93m105[0m[39m
+[31m    [7m5[0m   export async function createReport(report: Omit<IReport, 'user_id' | 'is_completed' | 'is_reviewed'>, userID:number) {[39m
+[31m    [7m [0m [96m                                                                                                        ~~~~~~~~~~~~~[0m[39m
+[31m    An argument for 'userID' was not provided.[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m16[0m:[93m40[0m - [91merror[0m[90m TS2554: [0mExpected 2 arguments, but got 1.[39m
+
+[31m[7m16[0m     const report = await ReportService.createReport(req.body);[39m
+[31m[7m  [0m [91m                                       ~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+
+[31m  [96msrc/report/report.service.ts[0m:[93m5[0m:[93m105[0m[39m
+[31m    [7m5[0m   export async function createReport(report: Omit<IReport, 'user_id' | 'is_completed' | 'is_reviewed'>, userID:number) {[39m
+[31m    [7m [0m [96m                                                                                                        ~~~~~~~~~~~~~[0m[39m
+[31m    An argument for 'userID' was not provided.[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[2024-01-17 12:35:27.483 PM] [31merror[39m: 	[31muncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m15[0m:[93m22[0m - [91merror[0m[90m TS2339: [0mProperty 'user' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.[39m
+
+[31m[7m15[0m     const user = req.user;[39m
+[31m[7m  [0m [91m                     ~~~~[0m[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m16[0m:[93m67[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.[39m
+
+[31m[7m16[0m     const report = await ReportService.createReport(req.body,user.);[39m
+[31m[7m  [0m [91m                                                                  ~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m15[0m:[93m22[0m - [91merror[0m[90m TS2339: [0mProperty 'user' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.[39m
+
+[31m[7m15[0m     const user = req.user;[39m
+[31m[7m  [0m [91m                     ~~~~[0m[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m16[0m:[93m67[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.[39m
+
+[31m[7m16[0m     const report = await ReportService.createReport(req.body,user.);[39m
+[31m[7m  [0m [91m                                                                  ~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-17 02:15:55.448 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m23[0m:[93m25[0m - [91merror[0m[90m TS2554: [0mExpected 2 arguments, but got 1.[39m
+
+[31m[7m23[0m     await ReportService.readReport(req.body, )[39m
+[31m[7m  [0m [91m                        ~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+
+[31m  [96msrc/report/report.service.ts[0m:[93m14[0m:[93m51[0m[39m
+[31m    [7m14[0m   export async function readReport(report:IReport,userID){[39m
+[31m    [7m  [0m [96m                                                  ~~~~~~[0m[39m
+[31m    An argument for 'userID' was not provided.[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m23[0m:[93m25[0m - [91merror[0m[90m TS2554: [0mExpected 2 arguments, but got 1.[39m
+
+[31m[7m23[0m     await ReportService.readReport(req.body, )[39m
+[31m[7m  [0m [91m                        ~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+
+[31m  [96msrc/report/report.service.ts[0m:[93m14[0m:[93m51[0m[39m
+[31m    [7m14[0m   export async function readReport(report:IReport,userID){[39m
+[31m    [7m  [0m [96m                                                  ~~~~~~[0m[39m
+[31m    An argument for 'userID' was not provided.[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-17 02:18:01.151 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m26[0m:[93m25[0m - [91merror[0m[90m TS2554: [0mExpected 3 arguments, but got 2.[39m
+
+[31m[7m26[0m     await ReportService.readReport(req.body, +req.params.id);[39m
+[31m[7m  [0m [91m                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+
+[31m  [96msrc/report/report.service.ts[0m:[93m14[0m:[93m68[0m[39m
+[31m    [7m14[0m   export async function readReport(report: IReport, userID: number,res:Response) {[39m
+[31m    [7m  [0m [96m                                                                   ~~~~~~~~~~~~[0m[39m
+[31m    An argument for 'res' was not provided.[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m26[0m:[93m25[0m - [91merror[0m[90m TS2554: [0mExpected 3 arguments, but got 2.[39m
+
+[31m[7m26[0m     await ReportService.readReport(req.body, +req.params.id);[39m
+[31m[7m  [0m [91m                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+
+[31m  [96msrc/report/report.service.ts[0m:[93m14[0m:[93m68[0m[39m
+[31m    [7m14[0m   export async function readReport(report: IReport, userID: number,res:Response) {[39m
+[31m    [7m  [0m [96m                                                                   ~~~~~~~~~~~~[0m[39m
+[31m    An argument for 'res' was not provided.[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-17 02:18:41.398 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m26[0m:[93m25[0m - [91merror[0m[90m TS2554: [0mExpected 3 arguments, but got 2.[39m
+
+[31m[7m26[0m     await ReportService.readReport(req.body, +req.params.id);[39m
+[31m[7m  [0m [91m                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+
+[31m  [96msrc/report/report.service.ts[0m:[93m15[0m:[93m68[0m[39m
+[31m    [7m15[0m   export async function readReport(report: IReport, userID: number,res:Response) {[39m
+[31m    [7m  [0m [96m                                                                   ~~~~~~~~~~~~[0m[39m
+[31m    An argument for 'res' was not provided.[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m26[0m:[93m25[0m - [91merror[0m[90m TS2554: [0mExpected 3 arguments, but got 2.[39m
+
+[31m[7m26[0m     await ReportService.readReport(req.body, +req.params.id);[39m
+[31m[7m  [0m [91m                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+
+[31m  [96msrc/report/report.service.ts[0m:[93m15[0m:[93m68[0m[39m
+[31m    [7m15[0m   export async function readReport(report: IReport, userID: number,res:Response) {[39m
+[31m    [7m  [0m [96m                                                                   ~~~~~~~~~~~~[0m[39m
+[31m    An argument for 'res' was not provided.[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-17 02:18:55.691 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/report/report.service.ts[0m:[93m16[0m:[93m21[0m - [91merror[0m[90m TS2551: [0mProperty 'userID' does not exist on type 'IReport'. Did you mean 'user_id'?[39m
+
+[31m[7m16[0m     res.send(report.userID)[39m
+[31m[7m  [0m [91m                    ~~~~~~[0m[39m
+
+[31m  [96minterfaces/entities.interface.ts[0m:[93m34[0m:[93m3[0m[39m
+[31m    [7m34[0m   user_id: number;[39m
+[31m    [7m  [0m [96m  ~~~~~~~[0m[39m
+[31m    'user_id' is declared here.[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/report/report.service.ts[0m:[93m16[0m:[93m21[0m - [91merror[0m[90m TS2551: [0mProperty 'userID' does not exist on type 'IReport'. Did you mean 'user_id'?[39m
+
+[31m[7m16[0m     res.send(report.userID)[39m
+[31m[7m  [0m [91m                    ~~~~~~[0m[39m
+
+[31m  [96minterfaces/entities.interface.ts[0m:[93m34[0m:[93m3[0m[39m
+[31m    [7m34[0m   user_id: number;[39m
+[31m    [7m  [0m [96m  ~~~~~~~[0m[39m
+[31m    'user_id' is declared here.[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-17 02:21:23.213 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m28[0m:[93m3[0m - [91merror[0m[90m TS1109: [0mExpression expected.[39m
+
+[31m[7m28[0m   }),[39m
+[31m[7m  [0m [91m  ~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m28[0m:[93m3[0m - [91merror[0m[90m TS1109: [0mExpression expected.[39m
+
+[31m[7m28[0m   }),[39m
+[31m[7m  [0m [91m  ~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-17 02:22:01.783 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m26[0m:[93m18[0m - [91merror[0m[90m TS2339: [0mProperty 'find' does not exist on type '{ new (): Report; prototype: Report; }'.[39m
+
+[31m[7m26[0m     await Report.find({})[39m
+[31m[7m  [0m [91m                 ~~~~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m26[0m:[93m18[0m - [91merror[0m[90m TS2339: [0mProperty 'find' does not exist on type '{ new (): Report; prototype: Report; }'.[39m
+
+[31m[7m26[0m     await Report.find({})[39m
+[31m[7m  [0m [91m                 ~~~~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-17 02:22:42.236 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m26[0m:[93m18[0m - [91merror[0m[90m TS2339: [0mProperty 'find' does not exist on type '{ new (): Report; prototype: Report; }'.[39m
+
+[31m[7m26[0m     await Report.find({user_id:+req.params.})[39m
+[31m[7m  [0m [91m                 ~~~~[0m[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m26[0m:[93m44[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.[39m
+
+[31m[7m26[0m     await Report.find({user_id:+req.params.})[39m
+[31m[7m  [0m [91m                                           ~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m26[0m:[93m18[0m - [91merror[0m[90m TS2339: [0mProperty 'find' does not exist on type '{ new (): Report; prototype: Report; }'.[39m
+
+[31m[7m26[0m     await Report.find({user_id:+req.params.})[39m
+[31m[7m  [0m [91m                 ~~~~[0m[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m26[0m:[93m44[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.[39m
+
+[31m[7m26[0m     await Report.find({user_id:+req.params.})[39m
+[31m[7m  [0m [91m                                           ~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-17 02:23:25.447 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m26[0m:[93m18[0m - [91merror[0m[90m TS2339: [0mProperty 'find' does not exist on type '{ new (): Report; prototype: Report; }'.[39m
+
+[31m[7m26[0m     await Report.find({ user_id: +req.params.id });[39m
+[31m[7m  [0m [91m                 ~~~~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m26[0m:[93m18[0m - [91merror[0m[90m TS2339: [0mProperty 'find' does not exist on type '{ new (): Report; prototype: Report; }'.[39m
+
+[31m[7m26[0m     await Report.find({ user_id: +req.params.id });[39m
+[31m[7m  [0m [91m                 ~~~~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-17 03:39:48.810 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m6[0m:[93m1[0m - [91merror[0m[90m TS6133: [0m'Report' is declared but its value is never read.[39m
+
+[31m[7m6[0m import Report from '../.database/mongo/schemas/report.schema';[39m
+[31m[7m [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m25[0m:[93m1[0m - [91merror[0m[90m TS1109: [0mExpression expected.[39m
+
+[31m[7m25[0m }));[39m
+[31m[7m  [0m [91m~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m6[0m:[93m1[0m - [91merror[0m[90m TS6133: [0m'Report' is declared but its value is never read.[39m
+
+[31m[7m6[0m import Report from '../.database/mongo/schemas/report.schema';[39m
+[31m[7m [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m25[0m:[93m1[0m - [91merror[0m[90m TS1109: [0mExpression expected.[39m
+
+[31m[7m25[0m }));[39m
+[31m[7m  [0m [91m~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-17 03:40:05.545 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m28[0m:[93m11[0m - [91merror[0m[90m TS6133: [0m'report' is declared but its value is never read.[39m
+
+[31m[7m28[0m     const report = await Report.find({ user_id: +req.params.id }).toArray();[39m
+[31m[7m  [0m [91m          ~~~~~~[0m[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m28[0m:[93m67[0m - [91merror[0m[90m TS2339: [0mProperty 'toArray' does not exist on type 'Query<(Document<unknown, {}, { title: string; description: string; user_id: number; is_completed: boolean; is_reviewed: boolean; media_url?: string; }> & { title: string; description: string; user_id: number; is_completed: boolean; is_reviewed: boolean; media_url?: string; } & { ...; })[], Document<...> & ... 1 more...'.[39m
+
+[31m[7m28[0m     const report = await Report.find({ user_id: +req.params.id }).toArray();[39m
+[31m[7m  [0m [91m                                                                  ~~~~~~~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m28[0m:[93m11[0m - [91merror[0m[90m TS6133: [0m'report' is declared but its value is never read.[39m
+
+[31m[7m28[0m     const report = await Report.find({ user_id: +req.params.id }).toArray();[39m
+[31m[7m  [0m [91m          ~~~~~~[0m[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m28[0m:[93m67[0m - [91merror[0m[90m TS2339: [0mProperty 'toArray' does not exist on type 'Query<(Document<unknown, {}, { title: string; description: string; user_id: number; is_completed: boolean; is_reviewed: boolean; media_url?: string; }> & { title: string; description: string; user_id: number; is_completed: boolean; is_reviewed: boolean; media_url?: string; } & { ...; })[], Document<...> & ... 1 more...'.[39m
+
+[31m[7m28[0m     const report = await Report.find({ user_id: +req.params.id }).toArray();[39m
+[31m[7m  [0m [91m                                                                  ~~~~~~~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-17 03:40:25.486 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m28[0m:[93m11[0m - [91merror[0m[90m TS6133: [0m'report' is declared but its value is never read.[39m
+
+[31m[7m28[0m     const report = await Report.find({ user_id: +req.params.id }).toArray();[39m
+[31m[7m  [0m [91m          ~~~~~~[0m[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m28[0m:[93m67[0m - [91merror[0m[90m TS2339: [0mProperty 'toArray' does not exist on type 'Query<(Document<unknown, {}, { title: string; description: string; user_id: number; is_completed: boolean; is_reviewed: boolean; media_url?: string; }> & { title: string; description: string; user_id: number; is_completed: boolean; is_reviewed: boolean; media_url?: string; } & { ...; })[], Document<...> & ... 1 more...'.[39m
+
+[31m[7m28[0m     const report = await Report.find({ user_id: +req.params.id }).toArray();[39m
+[31m[7m  [0m [91m                                                                  ~~~~~~~[0m[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m29[0m:[93m16[0m - [91merror[0m[90m TS2552: [0mCannot find name 'reports'. Did you mean 'report'?[39m
+
+[31m[7m29[0m     res.json({ reports });[39m
+[31m[7m  [0m [91m               ~~~~~~~[0m[39m
+
+[31m  [96msrc/report/report.controller.ts[0m:[93m28[0m:[93m11[0m[39m
+[31m    [7m28[0m     const report = await Report.find({ user_id: +req.params.id }).toArray();[39m
+[31m    [7m  [0m [96m          ~~~~~~[0m[39m
+[31m    'report' is declared here.[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m28[0m:[93m11[0m - [91merror[0m[90m TS6133: [0m'report' is declared but its value is never read.[39m
+
+[31m[7m28[0m     const report = await Report.find({ user_id: +req.params.id }).toArray();[39m
+[31m[7m  [0m [91m          ~~~~~~[0m[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m28[0m:[93m67[0m - [91merror[0m[90m TS2339: [0mProperty 'toArray' does not exist on type 'Query<(Document<unknown, {}, { title: string; description: string; user_id: number; is_completed: boolean; is_reviewed: boolean; media_url?: string; }> & { title: string; description: string; user_id: number; is_completed: boolean; is_reviewed: boolean; media_url?: string; } & { ...; })[], Document<...> & ... 1 more...'.[39m
+
+[31m[7m28[0m     const report = await Report.find({ user_id: +req.params.id }).toArray();[39m
+[31m[7m  [0m [91m                                                                  ~~~~~~~[0m[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m29[0m:[93m16[0m - [91merror[0m[90m TS2552: [0mCannot find name 'reports'. Did you mean 'report'?[39m
+
+[31m[7m29[0m     res.json({ reports });[39m
+[31m[7m  [0m [91m               ~~~~~~~[0m[39m
+
+[31m  [96msrc/report/report.controller.ts[0m:[93m28[0m:[93m11[0m[39m
+[31m    [7m28[0m     const report = await Report.find({ user_id: +req.params.id }).toArray();[39m
+[31m    [7m  [0m [96m          ~~~~~~[0m[39m
+[31m    'report' is declared here.[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-17 03:45:51.009 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m29[0m:[93m11[0m - [91merror[0m[90m TS6133: [0m'result' is declared but its value is never read.[39m
+
+[31m[7m29[0m     const result = await report.updateOne([39m
+[31m[7m  [0m [91m          ~~~~~~[0m[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m29[0m:[93m33[0m - [91merror[0m[90m TS2339: [0mProperty 'updateOne' does not exist on type '(Document<unknown, {}, { title: string; description: string; user_id: number; is_completed: boolean; is_reviewed: boolean; media_url?: string; }> & { title: string; description: string; user_id: number; is_completed: boolean; is_reviewed: boolean; media_url?: string; } & { ...; })[]'.[39m
+
+[31m[7m29[0m     const result = await report.updateOne([39m
+[31m[7m  [0m [91m                                ~~~~~~~~~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m29[0m:[93m11[0m - [91merror[0m[90m TS6133: [0m'result' is declared but its value is never read.[39m
+
+[31m[7m29[0m     const result = await report.updateOne([39m
+[31m[7m  [0m [91m          ~~~~~~[0m[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m29[0m:[93m33[0m - [91merror[0m[90m TS2339: [0mProperty 'updateOne' does not exist on type '(Document<unknown, {}, { title: string; description: string; user_id: number; is_completed: boolean; is_reviewed: boolean; media_url?: string; }> & { title: string; description: string; user_id: number; is_completed: boolean; is_reviewed: boolean; media_url?: string; } & { ...; })[]'.[39m
+
+[31m[7m29[0m     const result = await report.updateOne([39m
+[31m[7m  [0m [91m                                ~~~~~~~~~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-17 03:46:40.937 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m29[0m:[93m11[0m - [91merror[0m[90m TS6133: [0m'result' is declared but its value is never read.[39m
+
+[31m[7m29[0m     const result = await report.updateOne({ is_reviewed: false }, { is_reviewed: true });[39m
+[31m[7m  [0m [91m          ~~~~~~[0m[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m29[0m:[93m33[0m - [91merror[0m[90m TS2339: [0mProperty 'updateOne' does not exist on type '(Document<unknown, {}, { title: string; description: string; user_id: number; is_completed: boolean; is_reviewed: boolean; media_url?: string; }> & { title: string; description: string; user_id: number; is_completed: boolean; is_reviewed: boolean; media_url?: string; } & { ...; })[]'.[39m
+
+[31m[7m29[0m     const result = await report.updateOne({ is_reviewed: false }, { is_reviewed: true });[39m
+[31m[7m  [0m [91m                                ~~~~~~~~~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m29[0m:[93m11[0m - [91merror[0m[90m TS6133: [0m'result' is declared but its value is never read.[39m
+
+[31m[7m29[0m     const result = await report.updateOne({ is_reviewed: false }, { is_reviewed: true });[39m
+[31m[7m  [0m [91m          ~~~~~~[0m[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m29[0m:[93m33[0m - [91merror[0m[90m TS2339: [0mProperty 'updateOne' does not exist on type '(Document<unknown, {}, { title: string; description: string; user_id: number; is_completed: boolean; is_reviewed: boolean; media_url?: string; }> & { title: string; description: string; user_id: number; is_completed: boolean; is_reviewed: boolean; media_url?: string; } & { ...; })[]'.[39m
+
+[31m[7m29[0m     const result = await report.updateOne({ is_reviewed: false }, { is_reviewed: true });[39m
+[31m[7m  [0m [91m                                ~~~~~~~~~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-17 03:48:50.080 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m27[0m:[93m16[0m - [91merror[0m[90m TS2345: [0mArgument of type '(req: Request, res: Response) => Promise<express.Response<any, Record<string, any>>>' is not assignable to parameter of type '(req: Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>, res: Response<any, Record<string, any>, number>, next: NextFunction) => void | Promise<...>'.[39m
+[31m  Type 'Promise<Response<any, Record<string, any>>>' is not assignable to type 'void | Promise<void>'.[39m
+[31m    Type 'Promise<Response<any, Record<string, any>>>' is not assignable to type 'Promise<void>'.[39m
+[31m      Type 'Response<any, Record<string, any>>' is not assignable to type 'void'.[39m
+
+[31m[7m27[0m   asyncHandler(async (req: Request, res: Response) => {[39m
+[31m[7m  [0m [91m               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m27[0m:[93m16[0m - [91merror[0m[90m TS7030: [0mNot all code paths return a value.[39m
+
+[31m[7m27[0m   asyncHandler(async (req: Request, res: Response) => {[39m
+[31m[7m  [0m [91m               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m27[0m:[93m16[0m - [91merror[0m[90m TS2345: [0mArgument of type '(req: Request, res: Response) => Promise<express.Response<any, Record<string, any>>>' is not assignable to parameter of type '(req: Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>, res: Response<any, Record<string, any>, number>, next: NextFunction) => void | Promise<...>'.[39m
+[31m  Type 'Promise<Response<any, Record<string, any>>>' is not assignable to type 'void | Promise<void>'.[39m
+[31m    Type 'Promise<Response<any, Record<string, any>>>' is not assignable to type 'Promise<void>'.[39m
+[31m      Type 'Response<any, Record<string, any>>' is not assignable to type 'void'.[39m
+
+[31m[7m27[0m   asyncHandler(async (req: Request, res: Response) => {[39m
+[31m[7m  [0m [91m               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m27[0m:[93m16[0m - [91merror[0m[90m TS7030: [0mNot all code paths return a value.[39m
+
+[31m[7m27[0m   asyncHandler(async (req: Request, res: Response) => {[39m
+[31m[7m  [0m [91m               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-17 03:57:04.548 PM    [] 	unhandledRejection: Access denied[39m
+[31mAppError: Access denied[39m
+[31m    at new AppError (D:\Code\backend\src\errorHandler.ts:9:10)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:44:11[39m
+[31m    at step (D:\Code\backend\src\.middleware\auth.middleware.ts:33:23)[39m
+[31m    at Object.next (D:\Code\backend\src\.middleware\auth.middleware.ts:14:53)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at isUserAnAdmin (D:\Code\backend\src\.middleware\auth.middleware.ts:107:12)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31mERROR   2024-01-17 03:57:37.697 PM    [] 	unhandledRejection: Access denied[39m
+[31mAppError: Access denied[39m
+[31m    at new AppError (D:\Code\backend\src\errorHandler.ts:9:10)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:44:11[39m
+[31m    at step (D:\Code\backend\src\.middleware\auth.middleware.ts:33:23)[39m
+[31m    at Object.next (D:\Code\backend\src\.middleware\auth.middleware.ts:14:53)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at isUserAnAdmin (D:\Code\backend\src\.middleware\auth.middleware.ts:107:12)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31mERROR   2024-01-17 03:58:28.698 PM    [] 	unhandledRejection: Access denied[39m
+[31mAppError: Access denied[39m
+[31m    at new AppError (D:\Code\backend\src\errorHandler.ts:9:10)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:44:11[39m
+[31m    at step (D:\Code\backend\src\.middleware\auth.middleware.ts:33:23)[39m
+[31m    at Object.next (D:\Code\backend\src\.middleware\auth.middleware.ts:14:53)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at isUserAnAdmin (D:\Code\backend\src\.middleware\auth.middleware.ts:107:12)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31mERROR   2024-01-17 03:59:24.685 PM    [] 	unhandledRejection: Access denied[39m
+[31mAppError: Access denied[39m
+[31m    at new AppError (D:\Code\backend\src\errorHandler.ts:9:10)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:44:11[39m
+[31m    at step (D:\Code\backend\src\.middleware\auth.middleware.ts:33:23)[39m
+[31m    at Object.next (D:\Code\backend\src\.middleware\auth.middleware.ts:14:53)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at isUserAnAdmin (D:\Code\backend\src\.middleware\auth.middleware.ts:107:12)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31mERROR   2024-01-17 04:02:21.980 PM    [] 	unhandledRejection: Access denied[39m
+[31mAppError: Access denied[39m
+[31m    at new AppError (D:\Code\backend\src\errorHandler.ts:9:10)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:44:11[39m
+[31m    at step (D:\Code\backend\src\.middleware\auth.middleware.ts:33:23)[39m
+[31m    at Object.next (D:\Code\backend\src\.middleware\auth.middleware.ts:14:53)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at isUserAnAdmin (D:\Code\backend\src\.middleware\auth.middleware.ts:107:12)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31mERROR   2024-01-17 04:03:49.041 PM    [] 	unhandledRejection: Access denied[39m
+[31mAppError: Access denied[39m
+[31m    at new AppError (D:\Code\backend\src\errorHandler.ts:9:10)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:44:11[39m
+[31m    at step (D:\Code\backend\src\.middleware\auth.middleware.ts:33:23)[39m
+[31m    at Object.next (D:\Code\backend\src\.middleware\auth.middleware.ts:14:53)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at isUserAnAdmin (D:\Code\backend\src\.middleware\auth.middleware.ts:107:12)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31mERROR   2024-01-17 04:06:46.154 PM    [] 	unhandledRejection: Access denied[39m
+[31mAppError: Access denied[39m
+[31m    at new AppError (D:\Code\backend\src\errorHandler.ts:9:10)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:44:11[39m
+[31m    at step (D:\Code\backend\src\.middleware\auth.middleware.ts:33:23)[39m
+[31m    at Object.next (D:\Code\backend\src\.middleware\auth.middleware.ts:14:53)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at isUserAnAdmin (D:\Code\backend\src\.middleware\auth.middleware.ts:107:12)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31mERROR   2024-01-17 04:25:05.196 PM    [] 	unhandledRejection: Access denied[39m
+[31mAppError: Access denied[39m
+[31m    at new AppError (D:\Code\backend\src\errorHandler.ts:9:10)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:44:11[39m
+[31m    at step (D:\Code\backend\src\.middleware\auth.middleware.ts:33:23)[39m
+[31m    at Object.next (D:\Code\backend\src\.middleware\auth.middleware.ts:14:53)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at isUserAnAdmin (D:\Code\backend\src\.middleware\auth.middleware.ts:107:12)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31mERROR   2024-01-17 04:25:31.797 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m3[0m:[93m10[0m - [91merror[0m[90m TS6133: [0m'isUserAnAdmin' is declared but its value is never read.[39m
+
+[31m[7m3[0m import { isUserAnAdmin, jwtAuth } from '../.middleware/auth.middleware';[39m
+[31m[7m [0m [91m         ~~~~~~~~~~~~~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m3[0m:[93m10[0m - [91merror[0m[90m TS6133: [0m'isUserAnAdmin' is declared but its value is never read.[39m
+
+[31m[7m3[0m import { isUserAnAdmin, jwtAuth } from '../.middleware/auth.middleware';[39m
+[31m[7m [0m [91m         ~~~~~~~~~~~~~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-17 04:27:31.353 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m26[0m:[93m3[0m - [91merror[0m[90m TS2304: [0mCannot find name 'isUserAnAdmin'.[39m
+
+[31m[7m26[0m   isUserAnAdmin[39m
+[31m[7m  [0m [91m  ~~~~~~~~~~~~~[0m[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m27[0m:[93m3[0m - [91merror[0m[90m TS1005: [0m',' expected.[39m
+
+[31m[7m27[0m   asyncHandler(async (req: Request, res: Response) => {[39m
+[31m[7m  [0m [91m  ~~~~~~~~~~~~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m26[0m:[93m3[0m - [91merror[0m[90m TS2304: [0mCannot find name 'isUserAnAdmin'.[39m
+
+[31m[7m26[0m   isUserAnAdmin[39m
+[31m[7m  [0m [91m  ~~~~~~~~~~~~~[0m[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m27[0m:[93m3[0m - [91merror[0m[90m TS1005: [0m',' expected.[39m
+
+[31m[7m27[0m   asyncHandler(async (req: Request, res: Response) => {[39m
+[31m[7m  [0m [91m  ~~~~~~~~~~~~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-17 04:27:45.901 PM    [] 	unhandledRejection: Access denied[39m
+[31mAppError: Access denied[39m
+[31m    at new AppError (D:\Code\backend\src\errorHandler.ts:9:10)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:44:11[39m
+[31m    at step (D:\Code\backend\src\.middleware\auth.middleware.ts:33:23)[39m
+[31m    at Object.next (D:\Code\backend\src\.middleware\auth.middleware.ts:14:53)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at isUserAnAdmin (D:\Code\backend\src\.middleware\auth.middleware.ts:107:12)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31mERROR   2024-01-17 04:32:29.239 PM    [] 	unhandledRejection: Access denied[39m
+[31mAppError: Access denied[39m
+[31m    at new AppError (D:\Code\backend\src\errorHandler.ts:9:10)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:44:11[39m
+[31m    at step (D:\Code\backend\src\.middleware\auth.middleware.ts:33:23)[39m
+[31m    at Object.next (D:\Code\backend\src\.middleware\auth.middleware.ts:14:53)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at isUserAnAdmin (D:\Code\backend\src\.middleware\auth.middleware.ts:107:12)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31mERROR   2024-01-17 04:33:38.378 PM    [] 	unhandledRejection: Access denied[39m
+[31mAppError: Access denied[39m
+[31m    at new AppError (D:\Code\backend\src\errorHandler.ts:9:10)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:44:11[39m
+[31m    at step (D:\Code\backend\src\.middleware\auth.middleware.ts:33:23)[39m
+[31m    at Object.next (D:\Code\backend\src\.middleware\auth.middleware.ts:14:53)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at isUserAnAdmin (D:\Code\backend\src\.middleware\auth.middleware.ts:107:12)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31mERROR   2024-01-17 04:35:30.396 PM    [] 	unhandledRejection: Access denied[39m
+[31mAppError: Access denied[39m
+[31m    at new AppError (D:\Code\backend\src\errorHandler.ts:9:10)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:44:11[39m
+[31m    at step (D:\Code\backend\src\.middleware\auth.middleware.ts:33:23)[39m
+[31m    at Object.next (D:\Code\backend\src\.middleware\auth.middleware.ts:14:53)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at isUserAnAdmin (D:\Code\backend\src\.middleware\auth.middleware.ts:107:12)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31mERROR   2024-01-17 04:37:59.442 PM    [] 	unhandledRejection: Access denied[39m
+[31mAppError: Access denied[39m
+[31m    at new AppError (D:\Code\backend\src\errorHandler.ts:9:10)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:44:11[39m
+[31m    at step (D:\Code\backend\src\.middleware\auth.middleware.ts:33:23)[39m
+[31m    at Object.next (D:\Code\backend\src\.middleware\auth.middleware.ts:14:53)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at isUserAnAdmin (D:\Code\backend\src\.middleware\auth.middleware.ts:107:12)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31mERROR   2024-01-17 04:42:52.544 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m28[0m:[93m11[0m - [91merror[0m[90m TS6133: [0m'reportID' is declared but its value is never read.[39m
+
+[31m[7m28[0m     const reportID = +req.params.id;[39m
+[31m[7m  [0m [91m          ~~~~~~~~[0m[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m31[0m:[93m13[0m - [91merror[0m[90m TS2304: [0mCannot find name 'userId'.[39m
+
+[31m[7m31[0m       { id: userId, is_reviewed: false },[39m
+[31m[7m  [0m [91m            ~~~~~~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m28[0m:[93m11[0m - [91merror[0m[90m TS6133: [0m'reportID' is declared but its value is never read.[39m
+
+[31m[7m28[0m     const reportID = +req.params.id;[39m
+[31m[7m  [0m [91m          ~~~~~~~~[0m[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m31[0m:[93m13[0m - [91merror[0m[90m TS2304: [0mCannot find name 'userId'.[39m
+
+[31m[7m31[0m       { id: userId, is_reviewed: false },[39m
+[31m[7m  [0m [91m            ~~~~~~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-17 04:43:07.751 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m43[0m:[93m11[0m - [91merror[0m[90m TS6133: [0m'reportID' is declared but its value is never read.[39m
+
+[31m[7m43[0m     const reportID = +req.params.id;[39m
+[31m[7m  [0m [91m          ~~~~~~~~[0m[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m45[0m:[93m18[0m - [91merror[0m[90m TS2304: [0mCannot find name 'userId'.[39m
+
+[31m[7m45[0m       { user_id: userId, is_completed: false },[39m
+[31m[7m  [0m [91m                 ~~~~~~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m43[0m:[93m11[0m - [91merror[0m[90m TS6133: [0m'reportID' is declared but its value is never read.[39m
+
+[31m[7m43[0m     const reportID = +req.params.id;[39m
+[31m[7m  [0m [91m          ~~~~~~~~[0m[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m45[0m:[93m18[0m - [91merror[0m[90m TS2304: [0mCannot find name 'userId'.[39m
+
+[31m[7m45[0m       { user_id: userId, is_completed: false },[39m
+[31m[7m  [0m [91m                 ~~~~~~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-17 04:47:30.836 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m28[0m:[93m11[0m - [91merror[0m[90m TS6133: [0m'reportID' is declared but its value is never read.[39m
+
+[31m[7m28[0m     const reportID = +req.params.id;[39m
+[31m[7m  [0m [91m          ~~~~~~~~[0m[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m32[0m:[93m5[0m - [91merror[0m[90m TS2304: [0mCannot find name 'res'.[39m
+
+[31m[7m32[0m     res.json({ report });[39m
+[31m[7m  [0m [91m    ~~~[0m[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m32[0m:[93m16[0m - [91merror[0m[90m TS2552: [0mCannot find name 'report'. Did you mean 'Report'?[39m
+
+[31m[7m32[0m     res.json({ report });[39m
+[31m[7m  [0m [91m               ~~~~~~[0m[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m29[0m:[93m38[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.[39m
+
+[31m[7m29[0m       { $set: { is_reviewed: true } },[39m
+[31m[7m  [0m [91m                                     ~[0m[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m30[0m:[93m12[0m - [91merror[0m[90m TS1109: [0mExpression expected.[39m
+
+[31m[7m30[0m       { new: true }, // to return the updated document[39m
+[31m[7m  [0m [91m           ~[0m[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m30[0m:[93m20[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.[39m
+
+[31m[7m30[0m       { new: true }, // to return the updated document[39m
+[31m[7m  [0m [91m                   ~[0m[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m31[0m:[93m5[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.[39m
+
+[31m[7m31[0m     );[39m
+[31m[7m  [0m [91m    ~[0m[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m31[0m:[93m6[0m - [91merror[0m[90m TS1005: [0m')' expected.[39m
+
+[31m[7m31[0m     );[39m
+[31m[7m  [0m [91m     ~[0m[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m33[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.[39m
+
+[31m[7m33[0m   }),[39m
+[31m[7m  [0m [91m  ~[0m[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m33[0m:[93m4[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.[39m
+
+[31m[7m33[0m   }),[39m
+[31m[7m  [0m [91m   ~[0m[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m33[0m:[93m5[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.[39m
+
+[31m[7m33[0m   }),[39m
+[31m[7m  [0m [91m    ~[0m[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m34[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.[39m
+
+[31m[7m34[0m );[39m
+[31m[7m  [0m [91m~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m28[0m:[93m11[0m - [91merror[0m[90m TS6133: [0m'reportID' is declared but its value is never read.[39m
+
+[31m[7m28[0m     const reportID = +req.params.id;[39m
+[31m[7m  [0m [91m          ~~~~~~~~[0m[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m32[0m:[93m5[0m - [91merror[0m[90m TS2304: [0mCannot find name 'res'.[39m
+
+[31m[7m32[0m     res.json({ report });[39m
+[31m[7m  [0m [91m    ~~~[0m[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m32[0m:[93m16[0m - [91merror[0m[90m TS2552: [0mCannot find name 'report'. Did you mean 'Report'?[39m
+
+[31m[7m32[0m     res.json({ report });[39m
+[31m[7m  [0m [91m               ~~~~~~[0m[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m29[0m:[93m38[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.[39m
+
+[31m[7m29[0m       { $set: { is_reviewed: true } },[39m
+[31m[7m  [0m [91m                                     ~[0m[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m30[0m:[93m12[0m - [91merror[0m[90m TS1109: [0mExpression expected.[39m
+
+[31m[7m30[0m       { new: true }, // to return the updated document[39m
+[31m[7m  [0m [91m           ~[0m[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m30[0m:[93m20[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.[39m
+
+[31m[7m30[0m       { new: true }, // to return the updated document[39m
+[31m[7m  [0m [91m                   ~[0m[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m31[0m:[93m5[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.[39m
+
+[31m[7m31[0m     );[39m
+[31m[7m  [0m [91m    ~[0m[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m31[0m:[93m6[0m - [91merror[0m[90m TS1005: [0m')' expected.[39m
+
+[31m[7m31[0m     );[39m
+[31m[7m  [0m [91m     ~[0m[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m33[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.[39m
+
+[31m[7m33[0m   }),[39m
+[31m[7m  [0m [91m  ~[0m[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m33[0m:[93m4[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.[39m
+
+[31m[7m33[0m   }),[39m
+[31m[7m  [0m [91m   ~[0m[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m33[0m:[93m5[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.[39m
+
+[31m[7m33[0m   }),[39m
+[31m[7m  [0m [91m    ~[0m[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m34[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.[39m
+
+[31m[7m34[0m );[39m
+[31m[7m  [0m [91m~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-17 05:10:03.288 PM    [] 	unhandledRejection: data and hash arguments required[39m
+[31mError: data and hash arguments required[39m
+[31m    at Object.compare (D:\Code\backend\node_modules\bcrypt\bcrypt.js:208:17)[39m
+[31m    at D:\Code\backend\node_modules\bcrypt\promises.js:29:12[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at Object.module.exports.promise (D:\Code\backend\node_modules\bcrypt\promises.js:20:12)[39m
+[31m    at Object.compare (D:\Code\backend\node_modules\bcrypt\bcrypt.js:204:25)[39m
+[31m    at Object.<anonymous> (D:\Code\backend\src\auth\auth.service.ts:90:42)[39m
+[31m    at step (D:\Code\backend\src\auth\auth.service.ts:33:23)[39m
+[31m    at Object.next (D:\Code\backend\src\auth\auth.service.ts:14:53)[39m
+[31m    at fulfilled (D:\Code\backend\src\auth\auth.service.ts:5:58)[39m

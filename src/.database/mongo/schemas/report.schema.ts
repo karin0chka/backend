@@ -1,15 +1,15 @@
-import mongoose from "mongoose";
+import mongoose from 'mongoose';
 
 const reportSchema = new mongoose.Schema({
   user_id: {
     type: Number,
     required: true,
   },
-  description: {
+  title: {
     type: String,
     required: true,
   },
-  title: {
+  description: {
     type: String,
     required: true,
   },
@@ -28,4 +28,4 @@ const reportSchema = new mongoose.Schema({
 
 const Report = mongoose.model('Report', reportSchema);
 
-export default Report
+export default Report;
