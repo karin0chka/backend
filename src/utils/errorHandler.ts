@@ -19,13 +19,11 @@ export function errorHandler(err: Error | AppError, req: Request, res: Response,
       status: "error",
       message: err.message,
     })
-    next()
   } else {
     res.status(500).json({
       status: "error",
       message: "Something went wrong!",
     })
-    next()
   }
   logger.error(inspect(err))
 }

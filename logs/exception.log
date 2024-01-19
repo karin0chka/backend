@@ -1688,3 +1688,2461 @@
 [31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
 [31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
 [31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-19 11:38:39.487 AM    [] 	unhandledRejection: invalid input syntax for type integer: "$2b$10$sNU0jQTWYI1frcOzpni7aezCQpcEwx83zIjlBo8c3KoUr5YGvbsHK"[39m
+[31mQueryFailedError: invalid input syntax for type integer: "$2b$10$sNU0jQTWYI1frcOzpni7aezCQpcEwx83zIjlBo8c3KoUr5YGvbsHK"[39m
+[31m    at PostgresQueryRunner.query (D:\Code\backend\node_modules\typeorm\src\driver\postgres\PostgresQueryRunner.ts:331:19)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+[31m    at async UpdateQueryBuilder.execute (D:\Code\backend\node_modules\src\query-builder\UpdateQueryBuilder.ts:145:33)[39m
+[31mERROR   2024-01-19 11:40:32.512 AM    [] 	unhandledRejection: Cannot set headers after they are sent to the client[39m
+[31mError [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client[39m
+[31m    at new NodeError (node:internal/errors:405:5)[39m
+[31m    at ServerResponse.setHeader (node:_http_outgoing:652:11)[39m
+[31m    at ServerResponse.header (D:\Code\backend\node_modules\express\lib\response.js:794:10)[39m
+[31m    at ServerResponse.send (D:\Code\backend\node_modules\express\lib\response.js:174:12)[39m
+[31m    at ServerResponse.json (D:\Code\backend\node_modules\express\lib\response.js:278:15)[39m
+[31m    at errorHandler (D:\Code\backend\src\utils\errorHandler.ts:24:21)[39m
+[31m    at D:\Code\backend\src\utils\errorHandler.ts:37:5[39m
+[31m    at Generator.throw (<anonymous>)[39m
+[31m    at rejected (D:\Code\backend\src\utils\errorHandler.ts:6:65)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+[31mERROR   2024-01-19 12:00:21.989 PM    [] 	unhandledRejection: invalid input syntax for type integer: "$2b$10$dGEnqDf.Japdp76BBRR4p.f1A4Qj9kgT3yaoC4UC30fwdwu5wgy0C"[39m
+[31mQueryFailedError: invalid input syntax for type integer: "$2b$10$dGEnqDf.Japdp76BBRR4p.f1A4Qj9kgT3yaoC4UC30fwdwu5wgy0C"[39m
+[31m    at PostgresQueryRunner.query (D:\Code\backend\node_modules\typeorm\src\driver\postgres\PostgresQueryRunner.ts:331:19)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+[31m    at async UpdateQueryBuilder.execute (D:\Code\backend\node_modules\src\query-builder\UpdateQueryBuilder.ts:145:33)[39m
+[31mERROR   2024-01-19 12:01:56.054 PM    [] 	unhandledRejection: invalid input syntax for type integer: "$2b$10$djWiSqwfR0p2331ts4xFduU9KtXtJycH3Vm5g5rkUnKg4zSR2HWdG"[39m
+[31mQueryFailedError: invalid input syntax for type integer: "$2b$10$djWiSqwfR0p2331ts4xFduU9KtXtJycH3Vm5g5rkUnKg4zSR2HWdG"[39m
+[31m    at PostgresQueryRunner.query (D:\Code\backend\node_modules\typeorm\src\driver\postgres\PostgresQueryRunner.ts:331:19)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+[31m    at async UpdateQueryBuilder.execute (D:\Code\backend\node_modules\src\query-builder\UpdateQueryBuilder.ts:145:33)[39m
+[31mERROR   2024-01-19 12:04:28.317 PM    [] 	unhandledRejection: invalid input syntax for type integer: "$2b$10$djWiSqwfR0p2331ts4xFduU9KtXtJycH3Vm5g5rkUnKg4zSR2HWdG"[39m
+[31mQueryFailedError: invalid input syntax for type integer: "$2b$10$djWiSqwfR0p2331ts4xFduU9KtXtJycH3Vm5g5rkUnKg4zSR2HWdG"[39m
+[31m    at PostgresQueryRunner.query (D:\Code\backend\node_modules\typeorm\src\driver\postgres\PostgresQueryRunner.ts:331:19)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+[31m    at async UpdateQueryBuilder.execute (D:\Code\backend\node_modules\src\query-builder\UpdateQueryBuilder.ts:145:33)[39m
+[31mERROR   2024-01-19 12:10:16.328 PM    [] 	unhandledRejection: Access denied[39m
+[31mAppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:11:11[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:8:74)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31mERROR   2024-01-19 01:37:02.098 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m12[0m:[93m7[0m - [91merror[0m[90m TS6133: [0m'sendData' is declared but its value is never read.[39m
+
+[31m[7m12[0m const sendData = (data) => {[39m
+[31m[7m  [0m [91m      ~~~~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m13[0m:[93m3[0m - [91merror[0m[90m TS2304: [0mCannot find name 'res'.[39m
+
+[31m[7m13[0m   res.write(`data: ${JSON.stringify(data)}\n\n`)[39m
+[31m[7m  [0m [91m  ~~~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m12[0m:[93m7[0m - [91merror[0m[90m TS6133: [0m'sendData' is declared but its value is never read.[39m
+
+[31m[7m12[0m const sendData = (data) => {[39m
+[31m[7m  [0m [91m      ~~~~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m13[0m:[93m3[0m - [91merror[0m[90m TS2304: [0mCannot find name 'res'.[39m
+
+[31m[7m13[0m   res.write(`data: ${JSON.stringify(data)}\n\n`)[39m
+[31m[7m  [0m [91m  ~~~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-19 01:39:29.188 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m5[0m:[93m7[0m - [91merror[0m[90m TS6133: [0m'evtSource' is declared but its value is never read.[39m
+
+[31m[7m5[0m const evtSource = new EventSource("ssedemo.php");[39m
+[31m[7m [0m [91m      ~~~~~~~~~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m5[0m:[93m7[0m - [91merror[0m[90m TS6133: [0m'evtSource' is declared but its value is never read.[39m
+
+[31m[7m5[0m const evtSource = new EventSource("ssedemo.php");[39m
+[31m[7m [0m [91m      ~~~~~~~~~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-19 01:39:37.686 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m5[0m:[93m7[0m - [91merror[0m[90m TS6133: [0m'evtSource' is declared but its value is never read.[39m
+
+[31m[7m5[0m const evtSource = new EventSource("/no");[39m
+[31m[7m [0m [91m      ~~~~~~~~~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m5[0m:[93m7[0m - [91merror[0m[90m TS6133: [0m'evtSource' is declared but its value is never read.[39m
+
+[31m[7m5[0m const evtSource = new EventSource("/no");[39m
+[31m[7m [0m [91m      ~~~~~~~~~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-19 01:39:44.633 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m5[0m:[93m7[0m - [91merror[0m[90m TS6133: [0m'evtSource' is declared but its value is never read.[39m
+
+[31m[7m5[0m const evtSource = new EventSource("/notification")[39m
+[31m[7m [0m [91m      ~~~~~~~~~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m5[0m:[93m7[0m - [91merror[0m[90m TS6133: [0m'evtSource' is declared but its value is never read.[39m
+
+[31m[7m5[0m const evtSource = new EventSource("/notification")[39m
+[31m[7m [0m [91m      ~~~~~~~~~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-19 01:42:27.751 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m5[0m:[93m7[0m - [91merror[0m[90m TS6133: [0m'evtSource' is declared but its value is never read.[39m
+
+[31m[7m5[0m const evtSource = new EventSource("/notification",{[39m
+[31m[7m [0m [91m      ~~~~~~~~~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m5[0m:[93m7[0m - [91merror[0m[90m TS6133: [0m'evtSource' is declared but its value is never read.[39m
+
+[31m[7m5[0m const evtSource = new EventSource("/notification",{[39m
+[31m[7m [0m [91m      ~~~~~~~~~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-19 01:42:35.178 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m5[0m:[93m7[0m - [91merror[0m[90m TS6133: [0m'evtSource' is declared but its value is never read.[39m
+
+[31m[7m5[0m const evtSource = new EventSource("/notification", {[39m
+[31m[7m [0m [91m      ~~~~~~~~~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m5[0m:[93m7[0m - [91merror[0m[90m TS6133: [0m'evtSource' is declared but its value is never read.[39m
+
+[31m[7m5[0m const evtSource = new EventSource("/notification", {[39m
+[31m[7m [0m [91m      ~~~~~~~~~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-19 01:43:04.115 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m5[0m:[93m7[0m - [91merror[0m[90m TS6133: [0m'evtSource' is declared but its value is never read.[39m
+
+[31m[7m5[0m const evtSource = new EventSource()[39m
+[31m[7m [0m [91m      ~~~~~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m5[0m:[93m19[0m - [91merror[0m[90m TS2554: [0mExpected 1-2 arguments, but got 0.[39m
+
+[31m[7m5[0m const evtSource = new EventSource()[39m
+[31m[7m [0m [91m                  ~~~~~~~~~~~~~~~~~[0m[39m
+
+[31m  [96mnode_modules/typescript/lib/lib.dom.d.ts[0m:[93m8182[0m:[93m9[0m[39m
+[31m    [7m8182[0m     new(url: string | URL, eventSourceInitDict?: EventSourceInit): EventSource;[39m
+[31m    [7m    [0m [96m        ~~~~~~~~~~~~~~~~~[0m[39m
+[31m    An argument for 'url' was not provided.[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m5[0m:[93m7[0m - [91merror[0m[90m TS6133: [0m'evtSource' is declared but its value is never read.[39m
+
+[31m[7m5[0m const evtSource = new EventSource()[39m
+[31m[7m [0m [91m      ~~~~~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m5[0m:[93m19[0m - [91merror[0m[90m TS2554: [0mExpected 1-2 arguments, but got 0.[39m
+
+[31m[7m5[0m const evtSource = new EventSource()[39m
+[31m[7m [0m [91m                  ~~~~~~~~~~~~~~~~~[0m[39m
+
+[31m  [96mnode_modules/typescript/lib/lib.dom.d.ts[0m:[93m8182[0m:[93m9[0m[39m
+[31m    [7m8182[0m     new(url: string | URL, eventSourceInitDict?: EventSourceInit): EventSource;[39m
+[31m    [7m    [0m [96m        ~~~~~~~~~~~~~~~~~[0m[39m
+[31m    An argument for 'url' was not provided.[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-19 01:43:11.398 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m5[0m:[93m7[0m - [91merror[0m[90m TS6133: [0m'evtSource' is declared but its value is never read.[39m
+
+[31m[7m5[0m const evtSource = new EventEmitter()[39m
+[31m[7m [0m [91m      ~~~~~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m5[0m:[93m23[0m - [91merror[0m[90m TS2304: [0mCannot find name 'EventEmitter'.[39m
+
+[31m[7m5[0m const evtSource = new EventEmitter()[39m
+[31m[7m [0m [91m                      ~~~~~~~~~~~~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m5[0m:[93m7[0m - [91merror[0m[90m TS6133: [0m'evtSource' is declared but its value is never read.[39m
+
+[31m[7m5[0m const evtSource = new EventEmitter()[39m
+[31m[7m [0m [91m      ~~~~~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m5[0m:[93m23[0m - [91merror[0m[90m TS2304: [0mCannot find name 'EventEmitter'.[39m
+
+[31m[7m5[0m const evtSource = new EventEmitter()[39m
+[31m[7m [0m [91m                      ~~~~~~~~~~~~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-19 01:43:29.913 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m6[0m:[93m7[0m - [91merror[0m[90m TS6133: [0m'evtSource' is declared but its value is never read.[39m
+
+[31m[7m6[0m const evtSource = new EventEmitter()[39m
+[31m[7m [0m [91m      ~~~~~~~~~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m6[0m:[93m7[0m - [91merror[0m[90m TS6133: [0m'evtSource' is declared but its value is never read.[39m
+
+[31m[7m6[0m const evtSource = new EventEmitter()[39m
+[31m[7m [0m [91m      ~~~~~~~~~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-19 01:43:51.646 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m4[0m:[93m7[0m - [91merror[0m[90m TS2451: [0mCannot redeclare block-scoped variable 'notificationRoute'.[39m
+
+[31m[7m4[0m const notificationRoute = express.Router()[39m
+[31m[7m [0m [91m      ~~~~~~~~~~~~~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m6[0m:[93m7[0m - [91merror[0m[90m TS2451: [0mCannot redeclare block-scoped variable 'notificationRoute'.[39m
+
+[31m[7m6[0m const notificationRoute = new EventEmitter()[39m
+[31m[7m [0m [91m      ~~~~~~~~~~~~~~~~~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m4[0m:[93m7[0m - [91merror[0m[90m TS2451: [0mCannot redeclare block-scoped variable 'notificationRoute'.[39m
+
+[31m[7m4[0m const notificationRoute = express.Router()[39m
+[31m[7m [0m [91m      ~~~~~~~~~~~~~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m6[0m:[93m7[0m - [91merror[0m[90m TS2451: [0mCannot redeclare block-scoped variable 'notificationRoute'.[39m
+
+[31m[7m6[0m const notificationRoute = new EventEmitter()[39m
+[31m[7m [0m [91m      ~~~~~~~~~~~~~~~~~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-19 01:43:56.292 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m6[0m:[93m7[0m - [91merror[0m[90m TS6133: [0m'evtSource' is declared but its value is never read.[39m
+
+[31m[7m6[0m const evtSource = new EventEmitter()[39m
+[31m[7m [0m [91m      ~~~~~~~~~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m6[0m:[93m7[0m - [91merror[0m[90m TS6133: [0m'evtSource' is declared but its value is never read.[39m
+
+[31m[7m6[0m const evtSource = new EventEmitter()[39m
+[31m[7m [0m [91m      ~~~~~~~~~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-19 01:44:01.671 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m6[0m:[93m7[0m - [91merror[0m[90m TS6133: [0m'notification' is declared but its value is never read.[39m
+
+[31m[7m6[0m const notification = new EventEmitter()[39m
+[31m[7m [0m [91m      ~~~~~~~~~~~~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m6[0m:[93m7[0m - [91merror[0m[90m TS6133: [0m'notification' is declared but its value is never read.[39m
+
+[31m[7m6[0m const notification = new EventEmitter()[39m
+[31m[7m [0m [91m      ~~~~~~~~~~~~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-19 01:44:31.567 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m6[0m:[93m7[0m - [91merror[0m[90m TS6133: [0m'notification' is declared but its value is never read.[39m
+
+[31m[7m6[0m const notification = new EventEmitter()[39m
+[31m[7m [0m [91m      ~~~~~~~~~~~~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m6[0m:[93m7[0m - [91merror[0m[90m TS6133: [0m'notification' is declared but its value is never read.[39m
+
+[31m[7m6[0m const notification = new EventEmitter()[39m
+[31m[7m [0m [91m      ~~~~~~~~~~~~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-19 01:44:37.427 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m6[0m:[93m7[0m - [91merror[0m[90m TS6133: [0m'notification' is declared but its value is never read.[39m
+
+[31m[7m6[0m const notification = new EventEmitter()[39m
+[31m[7m [0m [91m      ~~~~~~~~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m14[0m:[93m3[0m - [91merror[0m[90m TS2304: [0mCannot find name 're'.[39m
+
+[31m[7m14[0m   re[39m
+[31m[7m  [0m [91m  ~~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m6[0m:[93m7[0m - [91merror[0m[90m TS6133: [0m'notification' is declared but its value is never read.[39m
+
+[31m[7m6[0m const notification = new EventEmitter()[39m
+[31m[7m [0m [91m      ~~~~~~~~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m14[0m:[93m3[0m - [91merror[0m[90m TS2304: [0mCannot find name 're'.[39m
+
+[31m[7m14[0m   re[39m
+[31m[7m  [0m [91m  ~~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-19 01:44:41.255 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m6[0m:[93m7[0m - [91merror[0m[90m TS6133: [0m'notification' is declared but its value is never read.[39m
+
+[31m[7m6[0m const notification = new EventEmitter()[39m
+[31m[7m [0m [91m      ~~~~~~~~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m14[0m:[93m7[0m - [91merror[0m[90m TS2554: [0mExpected 1-3 arguments, but got 0.[39m
+
+[31m[7m14[0m   res.write()[39m
+[31m[7m  [0m [91m      ~~~~~~~[0m[39m
+
+[31m  [96mnode_modules/@types/node/stream.d.ts[0m:[93m783[0m:[93m15[0m[39m
+[31m    [7m783[0m         write(chunk: any, callback?: (error: Error | null | undefined) => void): boolean;[39m
+[31m    [7m   [0m [96m              ~~~~~~~~~~[0m[39m
+[31m    An argument for 'chunk' was not provided.[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m6[0m:[93m7[0m - [91merror[0m[90m TS6133: [0m'notification' is declared but its value is never read.[39m
+
+[31m[7m6[0m const notification = new EventEmitter()[39m
+[31m[7m [0m [91m      ~~~~~~~~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m14[0m:[93m7[0m - [91merror[0m[90m TS2554: [0mExpected 1-3 arguments, but got 0.[39m
+
+[31m[7m14[0m   res.write()[39m
+[31m[7m  [0m [91m      ~~~~~~~[0m[39m
+
+[31m  [96mnode_modules/@types/node/stream.d.ts[0m:[93m783[0m:[93m15[0m[39m
+[31m    [7m783[0m         write(chunk: any, callback?: (error: Error | null | undefined) => void): boolean;[39m
+[31m    [7m   [0m [96m              ~~~~~~~~~~[0m[39m
+[31m    An argument for 'chunk' was not provided.[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-19 01:44:46.389 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m6[0m:[93m7[0m - [91merror[0m[90m TS6133: [0m'notification' is declared but its value is never read.[39m
+
+[31m[7m6[0m const notification = new EventEmitter()[39m
+[31m[7m [0m [91m      ~~~~~~~~~~~~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m6[0m:[93m7[0m - [91merror[0m[90m TS6133: [0m'notification' is declared but its value is never read.[39m
+
+[31m[7m6[0m const notification = new EventEmitter()[39m
+[31m[7m [0m [91m      ~~~~~~~~~~~~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-19 01:44:52.539 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m6[0m:[93m7[0m - [91merror[0m[90m TS6133: [0m'notification' is declared but its value is never read.[39m
+
+[31m[7m6[0m const notification = new EventEmitter()[39m
+[31m[7m [0m [91m      ~~~~~~~~~~~~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m6[0m:[93m7[0m - [91merror[0m[90m TS6133: [0m'notification' is declared but its value is never read.[39m
+
+[31m[7m6[0m const notification = new EventEmitter()[39m
+[31m[7m [0m [91m      ~~~~~~~~~~~~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-19 01:45:49.425 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m6[0m:[93m7[0m - [91merror[0m[90m TS6133: [0m'notification' is declared but its value is never read.[39m
+
+[31m[7m6[0m const notification = new EventEmitter()[39m
+[31m[7m [0m [91m      ~~~~~~~~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m17[0m:[93m8[0m - [91merror[0m[90m TS1123: [0mVariable declaration list cannot be empty.[39m
+
+[31m[7m17[0m   const[39m
+[31m[7m  [0m [91m       [0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m6[0m:[93m7[0m - [91merror[0m[90m TS6133: [0m'notification' is declared but its value is never read.[39m
+
+[31m[7m6[0m const notification = new EventEmitter()[39m
+[31m[7m [0m [91m      ~~~~~~~~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m17[0m:[93m8[0m - [91merror[0m[90m TS1123: [0mVariable declaration list cannot be empty.[39m
+
+[31m[7m17[0m   const[39m
+[31m[7m  [0m [91m       [0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-19 01:46:02.495 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m6[0m:[93m7[0m - [91merror[0m[90m TS6133: [0m'notification' is declared but its value is never read.[39m
+
+[31m[7m6[0m const notification = new EventEmitter()[39m
+[31m[7m [0m [91m      ~~~~~~~~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m18[0m:[93m1[0m - [91merror[0m[90m TS1109: [0mExpression expected.[39m
+
+[31m[7m18[0m })[39m
+[31m[7m  [0m [91m~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m6[0m:[93m7[0m - [91merror[0m[90m TS6133: [0m'notification' is declared but its value is never read.[39m
+
+[31m[7m6[0m const notification = new EventEmitter()[39m
+[31m[7m [0m [91m      ~~~~~~~~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m18[0m:[93m1[0m - [91merror[0m[90m TS1109: [0mExpression expected.[39m
+
+[31m[7m18[0m })[39m
+[31m[7m  [0m [91m~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-19 01:46:07.164 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m6[0m:[93m7[0m - [91merror[0m[90m TS6133: [0m'notification' is declared but its value is never read.[39m
+
+[31m[7m6[0m const notification = new EventEmitter()[39m
+[31m[7m [0m [91m      ~~~~~~~~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m17[0m:[93m9[0m - [91merror[0m[90m TS6133: [0m'eventListener' is declared but its value is never read.[39m
+
+[31m[7m17[0m   const eventListener = (messa)[39m
+[31m[7m  [0m [91m        ~~~~~~~~~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m17[0m:[93m26[0m - [91merror[0m[90m TS2304: [0mCannot find name 'messa'.[39m
+
+[31m[7m17[0m   const eventListener = (messa)[39m
+[31m[7m  [0m [91m                         ~~~~~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m6[0m:[93m7[0m - [91merror[0m[90m TS6133: [0m'notification' is declared but its value is never read.[39m
+
+[31m[7m6[0m const notification = new EventEmitter()[39m
+[31m[7m [0m [91m      ~~~~~~~~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m17[0m:[93m9[0m - [91merror[0m[90m TS6133: [0m'eventListener' is declared but its value is never read.[39m
+
+[31m[7m17[0m   const eventListener = (messa)[39m
+[31m[7m  [0m [91m        ~~~~~~~~~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m17[0m:[93m26[0m - [91merror[0m[90m TS2304: [0mCannot find name 'messa'.[39m
+
+[31m[7m17[0m   const eventListener = (messa)[39m
+[31m[7m  [0m [91m                         ~~~~~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-19 01:46:15.693 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m6[0m:[93m7[0m - [91merror[0m[90m TS6133: [0m'notification' is declared but its value is never read.[39m
+
+[31m[7m6[0m const notification = new EventEmitter()[39m
+[31m[7m [0m [91m      ~~~~~~~~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m17[0m:[93m9[0m - [91merror[0m[90m TS6133: [0m'eventListener' is declared but its value is never read.[39m
+
+[31m[7m17[0m   const eventListener = (message:string) =>{[39m
+[31m[7m  [0m [91m        ~~~~~~~~~~~~~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m6[0m:[93m7[0m - [91merror[0m[90m TS6133: [0m'notification' is declared but its value is never read.[39m
+
+[31m[7m6[0m const notification = new EventEmitter()[39m
+[31m[7m [0m [91m      ~~~~~~~~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m17[0m:[93m9[0m - [91merror[0m[90m TS6133: [0m'eventListener' is declared but its value is never read.[39m
+
+[31m[7m17[0m   const eventListener = (message:string) =>{[39m
+[31m[7m  [0m [91m        ~~~~~~~~~~~~~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-19 01:46:23.316 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m6[0m:[93m7[0m - [91merror[0m[90m TS6133: [0m'notification' is declared but its value is never read.[39m
+
+[31m[7m6[0m const notification = new EventEmitter()[39m
+[31m[7m [0m [91m      ~~~~~~~~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m17[0m:[93m9[0m - [91merror[0m[90m TS6133: [0m'eventListener' is declared but its value is never read.[39m
+
+[31m[7m17[0m   const eventListener = (message:string) =>{[39m
+[31m[7m  [0m [91m        ~~~~~~~~~~~~~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m6[0m:[93m7[0m - [91merror[0m[90m TS6133: [0m'notification' is declared but its value is never read.[39m
+
+[31m[7m6[0m const notification = new EventEmitter()[39m
+[31m[7m [0m [91m      ~~~~~~~~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m17[0m:[93m9[0m - [91merror[0m[90m TS6133: [0m'eventListener' is declared but its value is never read.[39m
+
+[31m[7m17[0m   const eventListener = (message:string) =>{[39m
+[31m[7m  [0m [91m        ~~~~~~~~~~~~~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-19 01:46:34.196 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m6[0m:[93m7[0m - [91merror[0m[90m TS6133: [0m'notification' is declared but its value is never read.[39m
+
+[31m[7m6[0m const notification = new EventEmitter()[39m
+[31m[7m [0m [91m      ~~~~~~~~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m17[0m:[93m9[0m - [91merror[0m[90m TS6133: [0m'eventListener' is declared but its value is never read.[39m
+
+[31m[7m17[0m   const eventListener = (message:string) =>{[39m
+[31m[7m  [0m [91m        ~~~~~~~~~~~~~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m6[0m:[93m7[0m - [91merror[0m[90m TS6133: [0m'notification' is declared but its value is never read.[39m
+
+[31m[7m6[0m const notification = new EventEmitter()[39m
+[31m[7m [0m [91m      ~~~~~~~~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m17[0m:[93m9[0m - [91merror[0m[90m TS6133: [0m'eventListener' is declared but its value is never read.[39m
+
+[31m[7m17[0m   const eventListener = (message:string) =>{[39m
+[31m[7m  [0m [91m        ~~~~~~~~~~~~~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-19 01:47:04.686 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m6[0m:[93m7[0m - [91merror[0m[90m TS6133: [0m'notification' is declared but its value is never read.[39m
+
+[31m[7m6[0m const notification = new EventEmitter()[39m
+[31m[7m [0m [91m      ~~~~~~~~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m17[0m:[93m9[0m - [91merror[0m[90m TS6133: [0m'eventListener' is declared but its value is never read.[39m
+
+[31m[7m17[0m   const eventListener = (message:string) =>{[39m
+[31m[7m  [0m [91m        ~~~~~~~~~~~~~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m6[0m:[93m7[0m - [91merror[0m[90m TS6133: [0m'notification' is declared but its value is never read.[39m
+
+[31m[7m6[0m const notification = new EventEmitter()[39m
+[31m[7m [0m [91m      ~~~~~~~~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m17[0m:[93m9[0m - [91merror[0m[90m TS6133: [0m'eventListener' is declared but its value is never read.[39m
+
+[31m[7m17[0m   const eventListener = (message:string) =>{[39m
+[31m[7m  [0m [91m        ~~~~~~~~~~~~~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-19 01:47:19.617 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m6[0m:[93m7[0m - [91merror[0m[90m TS6133: [0m'notification' is declared but its value is never read.[39m
+
+[31m[7m6[0m const notification = new EventEmitter()[39m
+[31m[7m [0m [91m      ~~~~~~~~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m17[0m:[93m9[0m - [91merror[0m[90m TS6133: [0m'eventListener' is declared but its value is never read.[39m
+
+[31m[7m17[0m   const eventListener = (message:string) =>{[39m
+[31m[7m  [0m [91m        ~~~~~~~~~~~~~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m6[0m:[93m7[0m - [91merror[0m[90m TS6133: [0m'notification' is declared but its value is never read.[39m
+
+[31m[7m6[0m const notification = new EventEmitter()[39m
+[31m[7m [0m [91m      ~~~~~~~~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m17[0m:[93m9[0m - [91merror[0m[90m TS6133: [0m'eventListener' is declared but its value is never read.[39m
+
+[31m[7m17[0m   const eventListener = (message:string) =>{[39m
+[31m[7m  [0m [91m        ~~~~~~~~~~~~~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-19 01:48:04.204 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m6[0m:[93m7[0m - [91merror[0m[90m TS6133: [0m'notification' is declared but its value is never read.[39m
+
+[31m[7m6[0m const notification = new EventEmitter()[39m
+[31m[7m [0m [91m      ~~~~~~~~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m17[0m:[93m9[0m - [91merror[0m[90m TS6133: [0m'eventListener' is declared but its value is never read.[39m
+
+[31m[7m17[0m   const eventListener = (message:string) =>{[39m
+[31m[7m  [0m [91m        ~~~~~~~~~~~~~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m6[0m:[93m7[0m - [91merror[0m[90m TS6133: [0m'notification' is declared but its value is never read.[39m
+
+[31m[7m6[0m const notification = new EventEmitter()[39m
+[31m[7m [0m [91m      ~~~~~~~~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m17[0m:[93m9[0m - [91merror[0m[90m TS6133: [0m'eventListener' is declared but its value is never read.[39m
+
+[31m[7m17[0m   const eventListener = (message:string) =>{[39m
+[31m[7m  [0m [91m        ~~~~~~~~~~~~~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-19 01:48:19.849 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m2[0m:[93m8[0m - [91merror[0m[90m TS6133: [0m'express' is declared but its value is never read.[39m
+
+[31m[7m2[0m import express, { Request, Response } from "express"[39m
+[31m[7m [0m [91m       ~~~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m7[0m:[93m34[0m - [91merror[0m[90m TS2339: [0mProperty 'get' does not exist on type 'EventEmitter'.[39m
+
+[31m[7m7[0m export default notificationRoute.get("/notification", (req: Request, res: Response) => {[39m
+[31m[7m [0m [91m                                 ~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m16[0m:[93m9[0m - [91merror[0m[90m TS6133: [0m'eventListener' is declared but its value is never read.[39m
+
+[31m[7m16[0m   const eventListener = (message:string) =>{[39m
+[31m[7m  [0m [91m        ~~~~~~~~~~~~~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m2[0m:[93m8[0m - [91merror[0m[90m TS6133: [0m'express' is declared but its value is never read.[39m
+
+[31m[7m2[0m import express, { Request, Response } from "express"[39m
+[31m[7m [0m [91m       ~~~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m7[0m:[93m34[0m - [91merror[0m[90m TS2339: [0mProperty 'get' does not exist on type 'EventEmitter'.[39m
+
+[31m[7m7[0m export default notificationRoute.get("/notification", (req: Request, res: Response) => {[39m
+[31m[7m [0m [91m                                 ~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m16[0m:[93m9[0m - [91merror[0m[90m TS6133: [0m'eventListener' is declared but its value is never read.[39m
+
+[31m[7m16[0m   const eventListener = (message:string) =>{[39m
+[31m[7m  [0m [91m        ~~~~~~~~~~~~~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-19 01:48:27.806 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m2[0m:[93m8[0m - [91merror[0m[90m TS6133: [0m'express' is declared but its value is never read.[39m
+
+[31m[7m2[0m import express, { Request, Response } from "express"[39m
+[31m[7m [0m [91m       ~~~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m7[0m:[93m34[0m - [91merror[0m[90m TS2339: [0mProperty 'get' does not exist on type 'EventEmitter'.[39m
+
+[31m[7m7[0m export default notificationRoute.get("/notification", (req: Request, res: Response) => {[39m
+[31m[7m [0m [91m                                 ~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m16[0m:[93m9[0m - [91merror[0m[90m TS6133: [0m'eventListener' is declared but its value is never read.[39m
+
+[31m[7m16[0m   const eventListener = (message:string) =>{[39m
+[31m[7m  [0m [91m        ~~~~~~~~~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m19[0m:[93m21[0m - [91merror[0m[90m TS2554: [0mExpected 2 arguments, but got 0.[39m
+
+[31m[7m19[0m   notificationRoute.on()[39m
+[31m[7m  [0m [91m                    ~~~~[0m[39m
+
+[31m  [96mnode_modules/@types/node/events.d.ts[0m:[93m577[0m:[93m20[0m[39m
+[31m    [7m577[0m                 on(eventName: string | symbol, listener: (...args: any[]) => void): this;[39m
+[31m    [7m   [0m [96m                   ~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+[31m    An argument for 'eventName' was not provided.[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m2[0m:[93m8[0m - [91merror[0m[90m TS6133: [0m'express' is declared but its value is never read.[39m
+
+[31m[7m2[0m import express, { Request, Response } from "express"[39m
+[31m[7m [0m [91m       ~~~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m7[0m:[93m34[0m - [91merror[0m[90m TS2339: [0mProperty 'get' does not exist on type 'EventEmitter'.[39m
+
+[31m[7m7[0m export default notificationRoute.get("/notification", (req: Request, res: Response) => {[39m
+[31m[7m [0m [91m                                 ~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m16[0m:[93m9[0m - [91merror[0m[90m TS6133: [0m'eventListener' is declared but its value is never read.[39m
+
+[31m[7m16[0m   const eventListener = (message:string) =>{[39m
+[31m[7m  [0m [91m        ~~~~~~~~~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m19[0m:[93m21[0m - [91merror[0m[90m TS2554: [0mExpected 2 arguments, but got 0.[39m
+
+[31m[7m19[0m   notificationRoute.on()[39m
+[31m[7m  [0m [91m                    ~~~~[0m[39m
+
+[31m  [96mnode_modules/@types/node/events.d.ts[0m:[93m577[0m:[93m20[0m[39m
+[31m    [7m577[0m                 on(eventName: string | symbol, listener: (...args: any[]) => void): this;[39m
+[31m    [7m   [0m [96m                   ~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+[31m    An argument for 'eventName' was not provided.[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-19 01:48:45.141 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m7[0m:[93m34[0m - [91merror[0m[90m TS2339: [0mProperty 'get' does not exist on type 'EventEmitter'.[39m
+
+[31m[7m7[0m export default notificationRoute.get("/notification", (req: Request, res: Response) => {[39m
+[31m[7m [0m [91m                                 ~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m16[0m:[93m9[0m - [91merror[0m[90m TS6133: [0m'eventListener' is declared but its value is never read.[39m
+
+[31m[7m16[0m   const eventListener = (message:string) =>{[39m
+[31m[7m  [0m [91m        ~~~~~~~~~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m19[0m:[93m21[0m - [91merror[0m[90m TS2554: [0mExpected 2 arguments, but got 0.[39m
+
+[31m[7m19[0m   notificationRoute.on()[39m
+[31m[7m  [0m [91m                    ~~~~[0m[39m
+
+[31m  [96mnode_modules/@types/node/events.d.ts[0m:[93m577[0m:[93m20[0m[39m
+[31m    [7m577[0m                 on(eventName: string | symbol, listener: (...args: any[]) => void): this;[39m
+[31m    [7m   [0m [96m                   ~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+[31m    An argument for 'eventName' was not provided.[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m7[0m:[93m34[0m - [91merror[0m[90m TS2339: [0mProperty 'get' does not exist on type 'EventEmitter'.[39m
+
+[31m[7m7[0m export default notificationRoute.get("/notification", (req: Request, res: Response) => {[39m
+[31m[7m [0m [91m                                 ~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m16[0m:[93m9[0m - [91merror[0m[90m TS6133: [0m'eventListener' is declared but its value is never read.[39m
+
+[31m[7m16[0m   const eventListener = (message:string) =>{[39m
+[31m[7m  [0m [91m        ~~~~~~~~~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m19[0m:[93m21[0m - [91merror[0m[90m TS2554: [0mExpected 2 arguments, but got 0.[39m
+
+[31m[7m19[0m   notificationRoute.on()[39m
+[31m[7m  [0m [91m                    ~~~~[0m[39m
+
+[31m  [96mnode_modules/@types/node/events.d.ts[0m:[93m577[0m:[93m20[0m[39m
+[31m    [7m577[0m                 on(eventName: string | symbol, listener: (...args: any[]) => void): this;[39m
+[31m    [7m   [0m [96m                   ~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+[31m    An argument for 'eventName' was not provided.[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-19 01:48:49.310 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m6[0m:[93m34[0m - [91merror[0m[90m TS2339: [0mProperty 'get' does not exist on type 'EventEmitter'.[39m
+
+[31m[7m6[0m export default notificationRoute.get("/notification", (req: Request, res: Response) => {[39m
+[31m[7m [0m [91m                                 ~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m14[0m:[93m9[0m - [91merror[0m[90m TS6133: [0m'eventListener' is declared but its value is never read.[39m
+
+[31m[7m14[0m   const eventListener = (message: string) => {[39m
+[31m[7m  [0m [91m        ~~~~~~~~~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m17[0m:[93m21[0m - [91merror[0m[90m TS2554: [0mExpected 2 arguments, but got 0.[39m
+
+[31m[7m17[0m   notificationRoute.on()[39m
+[31m[7m  [0m [91m                    ~~~~[0m[39m
+
+[31m  [96mnode_modules/@types/node/events.d.ts[0m:[93m577[0m:[93m20[0m[39m
+[31m    [7m577[0m                 on(eventName: string | symbol, listener: (...args: any[]) => void): this;[39m
+[31m    [7m   [0m [96m                   ~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+[31m    An argument for 'eventName' was not provided.[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m6[0m:[93m34[0m - [91merror[0m[90m TS2339: [0mProperty 'get' does not exist on type 'EventEmitter'.[39m
+
+[31m[7m6[0m export default notificationRoute.get("/notification", (req: Request, res: Response) => {[39m
+[31m[7m [0m [91m                                 ~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m14[0m:[93m9[0m - [91merror[0m[90m TS6133: [0m'eventListener' is declared but its value is never read.[39m
+
+[31m[7m14[0m   const eventListener = (message: string) => {[39m
+[31m[7m  [0m [91m        ~~~~~~~~~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m17[0m:[93m21[0m - [91merror[0m[90m TS2554: [0mExpected 2 arguments, but got 0.[39m
+
+[31m[7m17[0m   notificationRoute.on()[39m
+[31m[7m  [0m [91m                    ~~~~[0m[39m
+
+[31m  [96mnode_modules/@types/node/events.d.ts[0m:[93m577[0m:[93m20[0m[39m
+[31m    [7m577[0m                 on(eventName: string | symbol, listener: (...args: any[]) => void): this;[39m
+[31m    [7m   [0m [96m                   ~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+[31m    An argument for 'eventName' was not provided.[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-19 01:49:03.333 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m6[0m:[93m34[0m - [91merror[0m[90m TS2339: [0mProperty 'get' does not exist on type 'EventEmitter'.[39m
+
+[31m[7m6[0m export default notificationRoute.get("/notification", (req: Request, res: Response) => {[39m
+[31m[7m [0m [91m                                 ~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m14[0m:[93m9[0m - [91merror[0m[90m TS6133: [0m'eventListener' is declared but its value is never read.[39m
+
+[31m[7m14[0m   const eventListener = (message: string) => {[39m
+[31m[7m  [0m [91m        ~~~~~~~~~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m17[0m:[93m21[0m - [91merror[0m[90m TS2554: [0mExpected 2 arguments, but got 1.[39m
+
+[31m[7m17[0m   notificationRoute.on('no')[39m
+[31m[7m  [0m [91m                    ~~~~~~~~[0m[39m
+
+[31m  [96mnode_modules/@types/node/events.d.ts[0m:[93m577[0m:[93m48[0m[39m
+[31m    [7m577[0m                 on(eventName: string | symbol, listener: (...args: any[]) => void): this;[39m
+[31m    [7m   [0m [96m                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+[31m    An argument for 'listener' was not provided.[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m6[0m:[93m34[0m - [91merror[0m[90m TS2339: [0mProperty 'get' does not exist on type 'EventEmitter'.[39m
+
+[31m[7m6[0m export default notificationRoute.get("/notification", (req: Request, res: Response) => {[39m
+[31m[7m [0m [91m                                 ~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m14[0m:[93m9[0m - [91merror[0m[90m TS6133: [0m'eventListener' is declared but its value is never read.[39m
+
+[31m[7m14[0m   const eventListener = (message: string) => {[39m
+[31m[7m  [0m [91m        ~~~~~~~~~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m17[0m:[93m21[0m - [91merror[0m[90m TS2554: [0mExpected 2 arguments, but got 1.[39m
+
+[31m[7m17[0m   notificationRoute.on('no')[39m
+[31m[7m  [0m [91m                    ~~~~~~~~[0m[39m
+
+[31m  [96mnode_modules/@types/node/events.d.ts[0m:[93m577[0m:[93m48[0m[39m
+[31m    [7m577[0m                 on(eventName: string | symbol, listener: (...args: any[]) => void): this;[39m
+[31m    [7m   [0m [96m                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+[31m    An argument for 'listener' was not provided.[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-19 01:49:11.179 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m6[0m:[93m34[0m - [91merror[0m[90m TS2339: [0mProperty 'get' does not exist on type 'EventEmitter'.[39m
+
+[31m[7m6[0m export default notificationRoute.get("/notification", (req: Request, res: Response) => {[39m
+[31m[7m [0m [91m                                 ~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m14[0m:[93m9[0m - [91merror[0m[90m TS6133: [0m'eventListener' is declared but its value is never read.[39m
+
+[31m[7m14[0m   const eventListener = (message: string) => {[39m
+[31m[7m  [0m [91m        ~~~~~~~~~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m17[0m:[93m21[0m - [91merror[0m[90m TS2554: [0mExpected 2 arguments, but got 1.[39m
+
+[31m[7m17[0m   notificationRoute.on('notification')[39m
+[31m[7m  [0m [91m                    ~~~~~~~~~~~~~~~~~~[0m[39m
+
+[31m  [96mnode_modules/@types/node/events.d.ts[0m:[93m577[0m:[93m48[0m[39m
+[31m    [7m577[0m                 on(eventName: string | symbol, listener: (...args: any[]) => void): this;[39m
+[31m    [7m   [0m [96m                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+[31m    An argument for 'listener' was not provided.[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m6[0m:[93m34[0m - [91merror[0m[90m TS2339: [0mProperty 'get' does not exist on type 'EventEmitter'.[39m
+
+[31m[7m6[0m export default notificationRoute.get("/notification", (req: Request, res: Response) => {[39m
+[31m[7m [0m [91m                                 ~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m14[0m:[93m9[0m - [91merror[0m[90m TS6133: [0m'eventListener' is declared but its value is never read.[39m
+
+[31m[7m14[0m   const eventListener = (message: string) => {[39m
+[31m[7m  [0m [91m        ~~~~~~~~~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m17[0m:[93m21[0m - [91merror[0m[90m TS2554: [0mExpected 2 arguments, but got 1.[39m
+
+[31m[7m17[0m   notificationRoute.on('notification')[39m
+[31m[7m  [0m [91m                    ~~~~~~~~~~~~~~~~~~[0m[39m
+
+[31m  [96mnode_modules/@types/node/events.d.ts[0m:[93m577[0m:[93m48[0m[39m
+[31m    [7m577[0m                 on(eventName: string | symbol, listener: (...args: any[]) => void): this;[39m
+[31m    [7m   [0m [96m                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+[31m    An argument for 'listener' was not provided.[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-19 01:49:18.361 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m6[0m:[93m34[0m - [91merror[0m[90m TS2339: [0mProperty 'get' does not exist on type 'EventEmitter'.[39m
+
+[31m[7m6[0m export default notificationRoute.get("/notification", (req: Request, res: Response) => {[39m
+[31m[7m [0m [91m                                 ~~~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m6[0m:[93m34[0m - [91merror[0m[90m TS2339: [0mProperty 'get' does not exist on type 'EventEmitter'.[39m
+
+[31m[7m6[0m export default notificationRoute.get("/notification", (req: Request, res: Response) => {[39m
+[31m[7m [0m [91m                                 ~~~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-19 01:49:55.120 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m6[0m:[93m34[0m - [91merror[0m[90m TS2339: [0mProperty 'get' does not exist on type 'EventEmitter'.[39m
+
+[31m[7m6[0m export default notificationRoute.get("/notification", (req: Request, res: Response) => {[39m
+[31m[7m [0m [91m                                 ~~~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m6[0m:[93m34[0m - [91merror[0m[90m TS2339: [0mProperty 'get' does not exist on type 'EventEmitter'.[39m
+
+[31m[7m6[0m export default notificationRoute.get("/notification", (req: Request, res: Response) => {[39m
+[31m[7m [0m [91m                                 ~~~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-19 01:50:05.456 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m6[0m:[93m34[0m - [91merror[0m[90m TS2339: [0mProperty 'get' does not exist on type 'EventEmitter'.[39m
+
+[31m[7m6[0m export default notificationRoute.get("/notification", (req: Request, res: Response) => {[39m
+[31m[7m [0m [91m                                 ~~~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m6[0m:[93m34[0m - [91merror[0m[90m TS2339: [0mProperty 'get' does not exist on type 'EventEmitter'.[39m
+
+[31m[7m6[0m export default notificationRoute.get("/notification", (req: Request, res: Response) => {[39m
+[31m[7m [0m [91m                                 ~~~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-19 01:51:59.531 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m4[0m:[93m7[0m - [91merror[0m[90m TS2451: [0mCannot redeclare block-scoped variable 'notificationRoute'.[39m
+
+[31m[7m4[0m const notificationRoute = Router();[39m
+[31m[7m [0m [91m      ~~~~~~~~~~~~~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m4[0m:[93m27[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Router'.[39m
+
+[31m[7m4[0m const notificationRoute = Router();[39m
+[31m[7m [0m [91m                          ~~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m5[0m:[93m7[0m - [91merror[0m[90m TS2451: [0mCannot redeclare block-scoped variable 'notificationRoute'.[39m
+
+[31m[7m5[0m const notificationRoute = new EventEmitter()[39m
+[31m[7m [0m [91m      ~~~~~~~~~~~~~~~~~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m4[0m:[93m7[0m - [91merror[0m[90m TS2451: [0mCannot redeclare block-scoped variable 'notificationRoute'.[39m
+
+[31m[7m4[0m const notificationRoute = Router();[39m
+[31m[7m [0m [91m      ~~~~~~~~~~~~~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m4[0m:[93m27[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Router'.[39m
+
+[31m[7m4[0m const notificationRoute = Router();[39m
+[31m[7m [0m [91m                          ~~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m5[0m:[93m7[0m - [91merror[0m[90m TS2451: [0mCannot redeclare block-scoped variable 'notificationRoute'.[39m
+
+[31m[7m5[0m const notificationRoute = new EventEmitter()[39m
+[31m[7m [0m [91m      ~~~~~~~~~~~~~~~~~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-19 01:52:05.279 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m4[0m:[93m27[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Router'.[39m
+
+[31m[7m4[0m const notificationRoute = Router();[39m
+[31m[7m [0m [91m                          ~~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m5[0m:[93m7[0m - [91merror[0m[90m TS6133: [0m'event' is declared but its value is never read.[39m
+
+[31m[7m5[0m const event = new EventEmitter()[39m
+[31m[7m [0m [91m      ~~~~~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m4[0m:[93m27[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Router'.[39m
+
+[31m[7m4[0m const notificationRoute = Router();[39m
+[31m[7m [0m [91m                          ~~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m5[0m:[93m7[0m - [91merror[0m[90m TS6133: [0m'event' is declared but its value is never read.[39m
+
+[31m[7m5[0m const event = new EventEmitter()[39m
+[31m[7m [0m [91m      ~~~~~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-19 01:52:23.047 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m2[0m:[93m8[0m - [91merror[0m[90m TS6133: [0m'express' is declared but its value is never read.[39m
+
+[31m[7m2[0m import express, { Request, Response } from "express"[39m
+[31m[7m [0m [91m       ~~~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m4[0m:[93m27[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Router'.[39m
+
+[31m[7m4[0m const notificationRoute = Router()[39m
+[31m[7m [0m [91m                          ~~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m5[0m:[93m7[0m - [91merror[0m[90m TS6133: [0m'event' is declared but its value is never read.[39m
+
+[31m[7m5[0m const event = new EventEmitter()[39m
+[31m[7m [0m [91m      ~~~~~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m2[0m:[93m8[0m - [91merror[0m[90m TS6133: [0m'express' is declared but its value is never read.[39m
+
+[31m[7m2[0m import express, { Request, Response } from "express"[39m
+[31m[7m [0m [91m       ~~~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m4[0m:[93m27[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Router'.[39m
+
+[31m[7m4[0m const notificationRoute = Router()[39m
+[31m[7m [0m [91m                          ~~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m5[0m:[93m7[0m - [91merror[0m[90m TS6133: [0m'event' is declared but its value is never read.[39m
+
+[31m[7m5[0m const event = new EventEmitter()[39m
+[31m[7m [0m [91m      ~~~~~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-19 01:52:29.999 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m2[0m:[93m8[0m - [91merror[0m[90m TS6133: [0m'express' is declared but its value is never read.[39m
+
+[31m[7m2[0m import express, { Request, Response } from "express"[39m
+[31m[7m [0m [91m       ~~~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m4[0m:[93m27[0m - [91merror[0m[90m TS2304: [0mCannot find name 'use'.[39m
+
+[31m[7m4[0m const notificationRoute = use(Router()[39m
+[31m[7m [0m [91m                          ~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m4[0m:[93m31[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Router'.[39m
+
+[31m[7m4[0m const notificationRoute = use(Router()[39m
+[31m[7m [0m [91m                              ~~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m5[0m:[93m7[0m - [91merror[0m[90m TS6133: [0m'event' is declared but its value is never read.[39m
+
+[31m[7m5[0m const event = new EventEmitter()[39m
+[31m[7m [0m [91m      ~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m5[0m:[93m1[0m - [91merror[0m[90m TS1005: [0m',' expected.[39m
+
+[31m[7m5[0m const event = new EventEmitter()[39m
+[31m[7m [0m [91m~~~~~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m2[0m:[93m8[0m - [91merror[0m[90m TS6133: [0m'express' is declared but its value is never read.[39m
+
+[31m[7m2[0m import express, { Request, Response } from "express"[39m
+[31m[7m [0m [91m       ~~~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m4[0m:[93m27[0m - [91merror[0m[90m TS2304: [0mCannot find name 'use'.[39m
+
+[31m[7m4[0m const notificationRoute = use(Router()[39m
+[31m[7m [0m [91m                          ~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m4[0m:[93m31[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Router'.[39m
+
+[31m[7m4[0m const notificationRoute = use(Router()[39m
+[31m[7m [0m [91m                              ~~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m5[0m:[93m7[0m - [91merror[0m[90m TS6133: [0m'event' is declared but its value is never read.[39m
+
+[31m[7m5[0m const event = new EventEmitter()[39m
+[31m[7m [0m [91m      ~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m5[0m:[93m1[0m - [91merror[0m[90m TS1005: [0m',' expected.[39m
+
+[31m[7m5[0m const event = new EventEmitter()[39m
+[31m[7m [0m [91m~~~~~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-19 01:52:42.401 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m5[0m:[93m7[0m - [91merror[0m[90m TS6133: [0m'event' is declared but its value is never read.[39m
+
+[31m[7m5[0m const event = new EventEmitter()[39m
+[31m[7m [0m [91m      ~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m18[0m:[93m21[0m - [91merror[0m[90m TS2339: [0mProperty 'on' does not exist on type 'Router'.[39m
+
+[31m[7m18[0m   notificationRoute.on("notification", eventListener)[39m
+[31m[7m  [0m [91m                    ~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m22[0m:[93m23[0m - [91merror[0m[90m TS2339: [0mProperty 'off' does not exist on type 'Router'.[39m
+
+[31m[7m22[0m     notificationRoute.off("notification", eventListener)[39m
+[31m[7m  [0m [91m                      ~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m27[0m:[93m19[0m - [91merror[0m[90m TS2339: [0mProperty 'emit' does not exist on type 'Router'.[39m
+
+[31m[7m27[0m notificationRoute.emit("notification", "New notification!")[39m
+[31m[7m  [0m [91m                  ~~~~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m5[0m:[93m7[0m - [91merror[0m[90m TS6133: [0m'event' is declared but its value is never read.[39m
+
+[31m[7m5[0m const event = new EventEmitter()[39m
+[31m[7m [0m [91m      ~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m18[0m:[93m21[0m - [91merror[0m[90m TS2339: [0mProperty 'on' does not exist on type 'Router'.[39m
+
+[31m[7m18[0m   notificationRoute.on("notification", eventListener)[39m
+[31m[7m  [0m [91m                    ~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m22[0m:[93m23[0m - [91merror[0m[90m TS2339: [0mProperty 'off' does not exist on type 'Router'.[39m
+
+[31m[7m22[0m     notificationRoute.off("notification", eventListener)[39m
+[31m[7m  [0m [91m                      ~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m27[0m:[93m19[0m - [91merror[0m[90m TS2339: [0mProperty 'emit' does not exist on type 'Router'.[39m
+
+[31m[7m27[0m notificationRoute.emit("notification", "New notification!")[39m
+[31m[7m  [0m [91m                  ~~~~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-19 01:57:40.406 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m9[0m:[93m3[0m - [91merror[0m[90m TS2304: [0mCannot find name 'catchWrapper'.[39m
+
+[31m[7m9[0m   catchWrapper((req: Request, res: Response) => {[39m
+[31m[7m [0m [91m  ~~~~~~~~~~~~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m9[0m:[93m3[0m - [91merror[0m[90m TS2304: [0mCannot find name 'catchWrapper'.[39m
+
+[31m[7m9[0m   catchWrapper((req: Request, res: Response) => {[39m
+[31m[7m [0m [91m  ~~~~~~~~~~~~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-19 01:57:51.110 PM    [] 	unhandledRejection: Cannot set headers after they are sent to the client[39m
+[31mError [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client[39m
+[31m    at new NodeError (node:internal/errors:405:5)[39m
+[31m    at ServerResponse.setHeader (node:_http_outgoing:652:11)[39m
+[31m    at ServerResponse.header (D:\Code\backend\node_modules\express\lib\response.js:794:10)[39m
+[31m    at ServerResponse.send (D:\Code\backend\node_modules\express\lib\response.js:174:12)[39m
+[31m    at ServerResponse.json (D:\Code\backend\node_modules\express\lib\response.js:278:15)[39m
+[31m    at errorHandler (D:\Code\backend\src\utils\errorHandler.ts:23:21)[39m
+[31m    at D:\Code\backend\src\utils\errorHandler.ts:35:5[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\utils\errorHandler.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31mERROR   2024-01-19 02:01:09.785 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m6[0m:[93m7[0m - [91merror[0m[90m TS6133: [0m'event' is declared but its value is never read.[39m
+
+[31m[7m6[0m const event = new EventEmitter()[39m
+[31m[7m [0m [91m      ~~~~~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m6[0m:[93m7[0m - [91merror[0m[90m TS6133: [0m'event' is declared but its value is never read.[39m
+
+[31m[7m6[0m const event = new EventEmitter()[39m
+[31m[7m [0m [91m      ~~~~~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-19 02:08:47.841 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m17[0m:[93m5[0m - [91merror[0m[90m TS2304: [0mCannot find name 'notificationEmitter'.[39m
+
+[31m[7m17[0m     notificationEmitter.on("notification", (message) => {[39m
+[31m[7m  [0m [91m    ~~~~~~~~~~~~~~~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m23[0m:[93m7[0m - [91merror[0m[90m TS2304: [0mCannot find name 'notificationEmitter'.[39m
+
+[31m[7m23[0m       notificationEmitter.off("notification")[39m
+[31m[7m  [0m [91m      ~~~~~~~~~~~~~~~~~~~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m17[0m:[93m5[0m - [91merror[0m[90m TS2304: [0mCannot find name 'notificationEmitter'.[39m
+
+[31m[7m17[0m     notificationEmitter.on("notification", (message) => {[39m
+[31m[7m  [0m [91m    ~~~~~~~~~~~~~~~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m23[0m:[93m7[0m - [91merror[0m[90m TS2304: [0mCannot find name 'notificationEmitter'.[39m
+
+[31m[7m23[0m       notificationEmitter.off("notification")[39m
+[31m[7m  [0m [91m      ~~~~~~~~~~~~~~~~~~~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-19 02:08:56.295 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m23[0m:[93m15[0m - [91merror[0m[90m TS2554: [0mExpected 2 arguments, but got 1.[39m
+
+[31m[7m23[0m         event.off("notification")[39m
+[31m[7m  [0m [91m              ~~~~~~~~~~~~~~~~~~~[0m[39m
+
+[31m  [96mnode_modules/@types/node/events.d.ts[0m:[93m695[0m:[93m49[0m[39m
+[31m    [7m695[0m                 off(eventName: string | symbol, listener: (...args: any[]) => void): this;[39m
+[31m    [7m   [0m [96m                                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+[31m    An argument for 'listener' was not provided.[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m23[0m:[93m15[0m - [91merror[0m[90m TS2554: [0mExpected 2 arguments, but got 1.[39m
+
+[31m[7m23[0m         event.off("notification")[39m
+[31m[7m  [0m [91m              ~~~~~~~~~~~~~~~~~~~[0m[39m
+
+[31m  [96mnode_modules/@types/node/events.d.ts[0m:[93m695[0m:[93m49[0m[39m
+[31m    [7m695[0m                 off(eventName: string | symbol, listener: (...args: any[]) => void): this;[39m
+[31m    [7m   [0m [96m                                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+[31m    An argument for 'listener' was not provided.[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-19 02:09:16.910 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m23[0m:[93m15[0m - [91merror[0m[90m TS2554: [0mExpected 2 arguments, but got 1.[39m
+
+[31m[7m23[0m         event.off("notification",)[39m
+[31m[7m  [0m [91m              ~~~~~~~~~~~~~~~~~~~~[0m[39m
+
+[31m  [96mnode_modules/@types/node/events.d.ts[0m:[93m695[0m:[93m49[0m[39m
+[31m    [7m695[0m                 off(eventName: string | symbol, listener: (...args: any[]) => void): this;[39m
+[31m    [7m   [0m [96m                                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+[31m    An argument for 'listener' was not provided.[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m23[0m:[93m15[0m - [91merror[0m[90m TS2554: [0mExpected 2 arguments, but got 1.[39m
+
+[31m[7m23[0m         event.off("notification",)[39m
+[31m[7m  [0m [91m              ~~~~~~~~~~~~~~~~~~~~[0m[39m
+
+[31m  [96mnode_modules/@types/node/events.d.ts[0m:[93m695[0m:[93m49[0m[39m
+[31m    [7m695[0m                 off(eventName: string | symbol, listener: (...args: any[]) => void): this;[39m
+[31m    [7m   [0m [96m                                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+[31m    An argument for 'listener' was not provided.[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-19 03:21:54.775 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m18[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.[39m
+
+[31m[7m18[0m )[39m
+[31m[7m  [0m [91m~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m20[0m:[93m1[0m - [91merror[0m[90m TS1005: [0m')' expected.[39m
+
+[31m[7m20[0m [39m
+[31m[7m  [0m [91m[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m18[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.[39m
+
+[31m[7m18[0m )[39m
+[31m[7m  [0m [91m~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m20[0m:[93m1[0m - [91merror[0m[90m TS1005: [0m')' expected.[39m
+
+[31m[7m20[0m [39m
+[31m[7m  [0m [91m[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-19 03:22:58.715 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m21[0m:[93m1[0m - [91merror[0m[90m TS2552: [0mCannot find name 'eventsEmitter'. Did you mean 'EventEmitter'?[39m
+
+[31m[7m21[0m eventsEmitter.on("test", () => {[39m
+[31m[7m  [0m [91m~~~~~~~~~~~~~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m21[0m:[93m1[0m - [91merror[0m[90m TS2552: [0mCannot find name 'eventsEmitter'. Did you mean 'EventEmitter'?[39m
+
+[31m[7m21[0m eventsEmitter.on("test", () => {[39m
+[31m[7m  [0m [91m~~~~~~~~~~~~~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-19 03:25:16.408 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m21[0m:[93m7[0m - [91merror[0m[90m TS2554: [0mExpected 2 arguments, but got 0.[39m
+
+[31m[7m21[0m event.on()[39m
+[31m[7m  [0m [91m      ~~~~[0m[39m
+
+[31m  [96mnode_modules/@types/node/events.d.ts[0m:[93m577[0m:[93m20[0m[39m
+[31m    [7m577[0m                 on(eventName: string | symbol, listener: (...args: any[]) => void): this;[39m
+[31m    [7m   [0m [96m                   ~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+[31m    An argument for 'eventName' was not provided.[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m21[0m:[93m7[0m - [91merror[0m[90m TS2554: [0mExpected 2 arguments, but got 0.[39m
+
+[31m[7m21[0m event.on()[39m
+[31m[7m  [0m [91m      ~~~~[0m[39m
+
+[31m  [96mnode_modules/@types/node/events.d.ts[0m:[93m577[0m:[93m20[0m[39m
+[31m    [7m577[0m                 on(eventName: string | symbol, listener: (...args: any[]) => void): this;[39m
+[31m    [7m   [0m [96m                   ~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+[31m    An argument for 'eventName' was not provided.[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-19 03:45:17.446 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m8[0m:[93m5[0m - [91merror[0m[90m TS6133: [0m'socket' is declared but its value is never read.[39m
+
+[31m[7m8[0m let socket[39m
+[31m[7m [0m [91m    ~~~~~~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m8[0m:[93m5[0m - [91merror[0m[90m TS6133: [0m'socket' is declared but its value is never read.[39m
+
+[31m[7m8[0m let socket[39m
+[31m[7m [0m [91m    ~~~~~~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-19 03:45:26.706 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m8[0m:[93m5[0m - [91merror[0m[90m TS6133: [0m'socket' is declared but its value is never read.[39m
+
+[31m[7m8[0m let socket[39m
+[31m[7m [0m [91m    ~~~~~~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m8[0m:[93m5[0m - [91merror[0m[90m TS6133: [0m'socket' is declared but its value is never read.[39m
+
+[31m[7m8[0m let socket[39m
+[31m[7m [0m [91m    ~~~~~~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-19 03:45:43.741 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m8[0m:[93m5[0m - [91merror[0m[90m TS6133: [0m'socket' is declared but its value is never read.[39m
+
+[31m[7m8[0m let socket[39m
+[31m[7m [0m [91m    ~~~~~~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m8[0m:[93m5[0m - [91merror[0m[90m TS6133: [0m'socket' is declared but its value is never read.[39m
+
+[31m[7m8[0m let socket[39m
+[31m[7m [0m [91m    ~~~~~~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-19 03:45:58.432 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m8[0m:[93m5[0m - [91merror[0m[90m TS6133: [0m'socket' is declared but its value is never read.[39m
+
+[31m[7m8[0m let socket[39m
+[31m[7m [0m [91m    ~~~~~~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m8[0m:[93m5[0m - [91merror[0m[90m TS6133: [0m'socket' is declared but its value is never read.[39m
+
+[31m[7m8[0m let socket[39m
+[31m[7m [0m [91m    ~~~~~~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-19 03:46:36.794 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m9[0m:[93m5[0m - [91merror[0m[90m TS6133: [0m'socket' is declared but its value is never read.[39m
+
+[31m[7m9[0m let socket[39m
+[31m[7m [0m [91m    ~~~~~~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m9[0m:[93m5[0m - [91merror[0m[90m TS6133: [0m'socket' is declared but its value is never read.[39m
+
+[31m[7m9[0m let socket[39m
+[31m[7m [0m [91m    ~~~~~~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-19 03:46:50.629 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m9[0m:[93m5[0m - [91merror[0m[90m TS6133: [0m'socket' is declared but its value is never read.[39m
+
+[31m[7m9[0m let socket[39m
+[31m[7m [0m [91m    ~~~~~~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m9[0m:[93m5[0m - [91merror[0m[90m TS6133: [0m'socket' is declared but its value is never read.[39m
+
+[31m[7m9[0m let socket[39m
+[31m[7m [0m [91m    ~~~~~~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-19 03:48:22.633 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m7[0m:[93m7[0m - [91merror[0m[90m TS6133: [0m'event' is declared but its value is never read.[39m
+
+[31m[7m7[0m const event = new EventEmitter()[39m
+[31m[7m [0m [91m      ~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m25[0m:[93m10[0m - [91merror[0m[90m TS6133: [0m'publishMessageToConnectedSockets' is declared but its value is never read.[39m
+
+[31m[7m25[0m function publishMessageToConnectedSockets(data) {[39m
+[31m[7m  [0m [91m         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m7[0m:[93m7[0m - [91merror[0m[90m TS6133: [0m'event' is declared but its value is never read.[39m
+
+[31m[7m7[0m const event = new EventEmitter()[39m
+[31m[7m [0m [91m      ~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m25[0m:[93m10[0m - [91merror[0m[90m TS6133: [0m'publishMessageToConnectedSockets' is declared but its value is never read.[39m
+
+[31m[7m25[0m function publishMessageToConnectedSockets(data) {[39m
+[31m[7m  [0m [91m         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-19 03:48:30.373 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m1[0m:[93m1[0m - [91merror[0m[90m TS6133: [0m'EventEmitter' is declared but its value is never read.[39m
+
+[31m[7m1[0m import EventEmitter from "events"[39m
+[31m[7m [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m24[0m:[93m10[0m - [91merror[0m[90m TS6133: [0m'publishMessageToConnectedSockets' is declared but its value is never read.[39m
+
+[31m[7m24[0m function publishMessageToConnectedSockets(data) {[39m
+[31m[7m  [0m [91m         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m1[0m:[93m1[0m - [91merror[0m[90m TS6133: [0m'EventEmitter' is declared but its value is never read.[39m
+
+[31m[7m1[0m import EventEmitter from "events"[39m
+[31m[7m [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m24[0m:[93m10[0m - [91merror[0m[90m TS6133: [0m'publishMessageToConnectedSockets' is declared but its value is never read.[39m
+
+[31m[7m24[0m function publishMessageToConnectedSockets(data) {[39m
+[31m[7m  [0m [91m         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-19 03:48:57.879 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m1[0m:[93m1[0m - [91merror[0m[90m TS6133: [0m'EventEmitter' is declared but its value is never read.[39m
+
+[31m[7m1[0m import EventEmitter from "events"[39m
+[31m[7m [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m24[0m:[93m10[0m - [91merror[0m[90m TS6133: [0m'Sockets' is declared but its value is never read.[39m
+
+[31m[7m24[0m function Sockets(message:string) {[39m
+[31m[7m  [0m [91m         ~~~~~~~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m1[0m:[93m1[0m - [91merror[0m[90m TS6133: [0m'EventEmitter' is declared but its value is never read.[39m
+
+[31m[7m1[0m import EventEmitter from "events"[39m
+[31m[7m [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m24[0m:[93m10[0m - [91merror[0m[90m TS6133: [0m'Sockets' is declared but its value is never read.[39m
+
+[31m[7m24[0m function Sockets(message:string) {[39m
+[31m[7m  [0m [91m         ~~~~~~~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-19 03:49:10.456 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m1[0m:[93m1[0m - [91merror[0m[90m TS6133: [0m'EventEmitter' is declared but its value is never read.[39m
+
+[31m[7m1[0m import EventEmitter from "events"[39m
+[31m[7m [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m24[0m:[93m10[0m - [91merror[0m[90m TS6133: [0m'socketNotification' is declared but its value is never read.[39m
+
+[31m[7m24[0m function socketNotification(message:string) {[39m
+[31m[7m  [0m [91m         ~~~~~~~~~~~~~~~~~~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m1[0m:[93m1[0m - [91merror[0m[90m TS6133: [0m'EventEmitter' is declared but its value is never read.[39m
+
+[31m[7m1[0m import EventEmitter from "events"[39m
+[31m[7m [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m24[0m:[93m10[0m - [91merror[0m[90m TS6133: [0m'socketNotification' is declared but its value is never read.[39m
+
+[31m[7m24[0m function socketNotification(message:string) {[39m
+[31m[7m  [0m [91m         ~~~~~~~~~~~~~~~~~~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-19 03:49:56.415 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m1[0m:[93m1[0m - [91merror[0m[90m TS6133: [0m'EventEmitter' is declared but its value is never read.[39m
+
+[31m[7m1[0m import EventEmitter from "events"[39m
+[31m[7m [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m1[0m:[93m1[0m - [91merror[0m[90m TS6133: [0m'EventEmitter' is declared but its value is never read.[39m
+
+[31m[7m1[0m import EventEmitter from "events"[39m
+[31m[7m [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-19 03:51:33.197 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m1[0m:[93m1[0m - [91merror[0m[90m TS6133: [0m'EventEmitter' is declared but its value is never read.[39m
+
+[31m[7m1[0m import EventEmitter from "events"[39m
+[31m[7m [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m1[0m:[93m1[0m - [91merror[0m[90m TS6133: [0m'EventEmitter' is declared but its value is never read.[39m
+
+[31m[7m1[0m import EventEmitter from "events"[39m
+[31m[7m [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-19 03:52:47.116 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m1[0m:[93m1[0m - [91merror[0m[90m TS6133: [0m'EventEmitter' is declared but its value is never read.[39m
+
+[31m[7m1[0m import EventEmitter from "events"[39m
+[31m[7m [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m1[0m:[93m1[0m - [91merror[0m[90m TS6133: [0m'EventEmitter' is declared but its value is never read.[39m
+
+[31m[7m1[0m import EventEmitter from "events"[39m
+[31m[7m [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-19 03:53:03.600 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m1[0m:[93m1[0m - [91merror[0m[90m TS6133: [0m'EventEmitter' is declared but its value is never read.[39m
+
+[31m[7m1[0m import EventEmitter from "events"[39m
+[31m[7m [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m9[0m:[93m1[0m - [91merror[0m[90m TS2528: [0mA module cannot have multiple default exports.[39m
+
+[31m[7m  9[0m export default notificationRoute.get([39m
+[31m[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+[31m[7m 10[0m   "/",[39m
+[31m[7m   [0m [91m~~~~~~[0m[39m
+[31m[7m...[0m [39m
+[31m[7m 20[0m   })[39m
+[31m[7m   [0m [91m~~~~[0m[39m
+[31m[7m 21[0m )[39m
+[31m[7m   [0m [91m~[0m[39m
+
+[31m  [96msrc/notification.ts[0m:[93m23[0m:[93m25[0m[39m
+[31m    [7m23[0m export default function socketNotification(message: string) {[39m
+[31m    [7m  [0m [96m                        ~~~~~~~~~~~~~~~~~~[0m[39m
+[31m    The first export default is here.[39m
+[31m[96msrc/notification.ts[0m:[93m23[0m:[93m25[0m - [91merror[0m[90m TS2528: [0mA module cannot have multiple default exports.[39m
+
+[31m[7m23[0m export default function socketNotification(message: string) {[39m
+[31m[7m  [0m [91m                        ~~~~~~~~~~~~~~~~~~[0m[39m
+
+[31m  [96msrc/notification.ts[0m:[93m9[0m:[93m1[0m[39m
+[31m    [7m  9[0m export default notificationRoute.get([39m
+[31m    [7m   [0m [96m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+[31m    [7m 10[0m   "/",[39m
+[31m    [7m   [0m [96m~~~~~~[0m[39m
+[31m    [7m...[0m [39m
+[31m    [7m 20[0m   })[39m
+[31m    [7m   [0m [96m~~~~[0m[39m
+[31m    [7m 21[0m )[39m
+[31m    [7m   [0m [96m~[0m[39m
+[31m    Another export default is here.[39m
+[31m[96msrc/notification.ts[0m:[93m23[0m:[93m25[0m - [91merror[0m[90m TS2528: [0mA module cannot have multiple default exports.[39m
+
+[31m[7m23[0m export default function socketNotification(message: string) {[39m
+[31m[7m  [0m [91m                        ~~~~~~~~~~~~~~~~~~[0m[39m
+
+[31m  [96msrc/notification.ts[0m:[93m27[0m:[93m1[0m[39m
+[31m    [7m27[0m export default notificationRoute.get('/send-message', (req, res, next) => {[39m
+[31m    [7m  [0m [96m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+[31m    [7m28[0m     socketNotification(`This event is triggered at ${new Date()}`)[39m
+[31m    [7m  [0m [96m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+[31m    [7m29[0m     res.sendStatus(200)[39m
+[31m    [7m  [0m [96m~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+[31m    [7m30[0m });[39m
+[31m    [7m  [0m [96m~~~[0m[39m
+[31m    Another export default is here.[39m
+[31m[96msrc/notification.ts[0m:[93m27[0m:[93m1[0m - [91merror[0m[90m TS2528: [0mA module cannot have multiple default exports.[39m
+
+[31m[7m27[0m export default notificationRoute.get('/send-message', (req, res, next) => {[39m
+[31m[7m  [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+[31m[7m28[0m     socketNotification(`This event is triggered at ${new Date()}`)[39m
+[31m[7m  [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+[31m[7m29[0m     res.sendStatus(200)[39m
+[31m[7m  [0m [91m~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+[31m[7m30[0m });[39m
+[31m[7m  [0m [91m~~~[0m[39m
+
+[31m  [96msrc/notification.ts[0m:[93m23[0m:[93m25[0m[39m
+[31m    [7m23[0m export default function socketNotification(message: string) {[39m
+[31m    [7m  [0m [96m                        ~~~~~~~~~~~~~~~~~~[0m[39m
+[31m    The first export default is here.[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m1[0m:[93m1[0m - [91merror[0m[90m TS6133: [0m'EventEmitter' is declared but its value is never read.[39m
+
+[31m[7m1[0m import EventEmitter from "events"[39m
+[31m[7m [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m9[0m:[93m1[0m - [91merror[0m[90m TS2528: [0mA module cannot have multiple default exports.[39m
+
+[31m[7m  9[0m export default notificationRoute.get([39m
+[31m[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+[31m[7m 10[0m   "/",[39m
+[31m[7m   [0m [91m~~~~~~[0m[39m
+[31m[7m...[0m [39m
+[31m[7m 20[0m   })[39m
+[31m[7m   [0m [91m~~~~[0m[39m
+[31m[7m 21[0m )[39m
+[31m[7m   [0m [91m~[0m[39m
+
+[31m  [96msrc/notification.ts[0m:[93m23[0m:[93m25[0m[39m
+[31m    [7m23[0m export default function socketNotification(message: string) {[39m
+[31m    [7m  [0m [96m                        ~~~~~~~~~~~~~~~~~~[0m[39m
+[31m    The first export default is here.[39m
+[31m[96msrc/notification.ts[0m:[93m23[0m:[93m25[0m - [91merror[0m[90m TS2528: [0mA module cannot have multiple default exports.[39m
+
+[31m[7m23[0m export default function socketNotification(message: string) {[39m
+[31m[7m  [0m [91m                        ~~~~~~~~~~~~~~~~~~[0m[39m
+
+[31m  [96msrc/notification.ts[0m:[93m9[0m:[93m1[0m[39m
+[31m    [7m  9[0m export default notificationRoute.get([39m
+[31m    [7m   [0m [96m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+[31m    [7m 10[0m   "/",[39m
+[31m    [7m   [0m [96m~~~~~~[0m[39m
+[31m    [7m...[0m [39m
+[31m    [7m 20[0m   })[39m
+[31m    [7m   [0m [96m~~~~[0m[39m
+[31m    [7m 21[0m )[39m
+[31m    [7m   [0m [96m~[0m[39m
+[31m    Another export default is here.[39m
+[31m[96msrc/notification.ts[0m:[93m23[0m:[93m25[0m - [91merror[0m[90m TS2528: [0mA module cannot have multiple default exports.[39m
+
+[31m[7m23[0m export default function socketNotification(message: string) {[39m
+[31m[7m  [0m [91m                        ~~~~~~~~~~~~~~~~~~[0m[39m
+
+[31m  [96msrc/notification.ts[0m:[93m27[0m:[93m1[0m[39m
+[31m    [7m27[0m export default notificationRoute.get('/send-message', (req, res, next) => {[39m
+[31m    [7m  [0m [96m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+[31m    [7m28[0m     socketNotification(`This event is triggered at ${new Date()}`)[39m
+[31m    [7m  [0m [96m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+[31m    [7m29[0m     res.sendStatus(200)[39m
+[31m    [7m  [0m [96m~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+[31m    [7m30[0m });[39m
+[31m    [7m  [0m [96m~~~[0m[39m
+[31m    Another export default is here.[39m
+[31m[96msrc/notification.ts[0m:[93m27[0m:[93m1[0m - [91merror[0m[90m TS2528: [0mA module cannot have multiple default exports.[39m
+
+[31m[7m27[0m export default notificationRoute.get('/send-message', (req, res, next) => {[39m
+[31m[7m  [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+[31m[7m28[0m     socketNotification(`This event is triggered at ${new Date()}`)[39m
+[31m[7m  [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+[31m[7m29[0m     res.sendStatus(200)[39m
+[31m[7m  [0m [91m~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+[31m[7m30[0m });[39m
+[31m[7m  [0m [91m~~~[0m[39m
+
+[31m  [96msrc/notification.ts[0m:[93m23[0m:[93m25[0m[39m
+[31m    [7m23[0m export default function socketNotification(message: string) {[39m
+[31m    [7m  [0m [96m                        ~~~~~~~~~~~~~~~~~~[0m[39m
+[31m    The first export default is here.[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-19 03:57:25.788 PM    [] 	unhandledRejection: Cannot set headers after they are sent to the client[39m
+[31mError [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client[39m
+[31m    at new NodeError (node:internal/errors:405:5)[39m
+[31m    at ServerResponse.setHeader (node:_http_outgoing:652:11)[39m
+[31m    at ServerResponse.header (D:\Code\backend\node_modules\express\lib\response.js:794:10)[39m
+[31m    at ServerResponse.send (D:\Code\backend\node_modules\express\lib\response.js:174:12)[39m
+[31m    at ServerResponse.json (D:\Code\backend\node_modules\express\lib\response.js:278:15)[39m
+[31m    at errorHandler (D:\Code\backend\src\utils\errorHandler.ts:23:21)[39m
+[31m    at D:\Code\backend\src\utils\errorHandler.ts:35:5[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\utils\errorHandler.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31mERROR   2024-01-19 04:31:46.097 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m23[0m:[93m45[0m - [91merror[0m[90m TS2552: [0mCannot find name 'handleNotification'. Did you mean 'Notification'?[39m
+
+[31m[7m23[0m       notificationEvent.off("notification", handleNotification)[39m
+[31m[7m  [0m [91m                                            ~~~~~~~~~~~~~~~~~~[0m[39m
+
+[31m  [96mnode_modules/typescript/lib/lib.dom.d.ts[0m:[93m16417[0m:[93m13[0m[39m
+[31m    [7m16417[0m declare var Notification: {[39m
+[31m    [7m     [0m [96m            ~~~~~~~~~~~~[0m[39m
+[31m    'Notification' is declared here.[39m
+[31m[96msrc/notification.ts[0m:[93m27[0m:[93m42[0m - [91merror[0m[90m TS2552: [0mCannot find name 'handleNotification'. Did you mean 'Notification'?[39m
+
+[31m[7m27[0m     notificationEvent.on("notification", handleNotification)[39m
+[31m[7m  [0m [91m                                         ~~~~~~~~~~~~~~~~~~[0m[39m
+
+[31m  [96mnode_modules/typescript/lib/lib.dom.d.ts[0m:[93m16417[0m:[93m13[0m[39m
+[31m    [7m16417[0m declare var Notification: {[39m
+[31m    [7m     [0m [96m            ~~~~~~~~~~~~[0m[39m
+[31m    'Notification' is declared here.[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m23[0m:[93m45[0m - [91merror[0m[90m TS2552: [0mCannot find name 'handleNotification'. Did you mean 'Notification'?[39m
+
+[31m[7m23[0m       notificationEvent.off("notification", handleNotification)[39m
+[31m[7m  [0m [91m                                            ~~~~~~~~~~~~~~~~~~[0m[39m
+
+[31m  [96mnode_modules/typescript/lib/lib.dom.d.ts[0m:[93m16417[0m:[93m13[0m[39m
+[31m    [7m16417[0m declare var Notification: {[39m
+[31m    [7m     [0m [96m            ~~~~~~~~~~~~[0m[39m
+[31m    'Notification' is declared here.[39m
+[31m[96msrc/notification.ts[0m:[93m27[0m:[93m42[0m - [91merror[0m[90m TS2552: [0mCannot find name 'handleNotification'. Did you mean 'Notification'?[39m
+
+[31m[7m27[0m     notificationEvent.on("notification", handleNotification)[39m
+[31m[7m  [0m [91m                                         ~~~~~~~~~~~~~~~~~~[0m[39m
+
+[31m  [96mnode_modules/typescript/lib/lib.dom.d.ts[0m:[93m16417[0m:[93m13[0m[39m
+[31m    [7m16417[0m declare var Notification: {[39m
+[31m    [7m     [0m [96m            ~~~~~~~~~~~~[0m[39m
+[31m    'Notification' is declared here.[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-19 04:32:18.661 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m40[0m:[93m19[0m - [91merror[0m[90m TS2552: [0mCannot find name 'socketNotification'. Did you mean 'Notification'?[39m
+
+[31m[7m40[0m   const message = socketNotification(`This event is triggered at ${new Date()}`)[39m
+[31m[7m  [0m [91m                  ~~~~~~~~~~~~~~~~~~[0m[39m
+
+[31m  [96mnode_modules/typescript/lib/lib.dom.d.ts[0m:[93m16417[0m:[93m13[0m[39m
+[31m    [7m16417[0m declare var Notification: {[39m
+[31m    [7m     [0m [96m            ~~~~~~~~~~~~[0m[39m
+[31m    'Notification' is declared here.[39m
+[31m[96msrc/notification.ts[0m:[93m41[0m:[93m3[0m - [91merror[0m[90m TS2552: [0mCannot find name 'socketNotification'. Did you mean 'Notification'?[39m
+
+[31m[7m41[0m   socketNotification(message)[39m
+[31m[7m  [0m [91m  ~~~~~~~~~~~~~~~~~~[0m[39m
+
+[31m  [96mnode_modules/typescript/lib/lib.dom.d.ts[0m:[93m16417[0m:[93m13[0m[39m
+[31m    [7m16417[0m declare var Notification: {[39m
+[31m    [7m     [0m [96m            ~~~~~~~~~~~~[0m[39m
+[31m    'Notification' is declared here.[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m40[0m:[93m19[0m - [91merror[0m[90m TS2552: [0mCannot find name 'socketNotification'. Did you mean 'Notification'?[39m
+
+[31m[7m40[0m   const message = socketNotification(`This event is triggered at ${new Date()}`)[39m
+[31m[7m  [0m [91m                  ~~~~~~~~~~~~~~~~~~[0m[39m
+
+[31m  [96mnode_modules/typescript/lib/lib.dom.d.ts[0m:[93m16417[0m:[93m13[0m[39m
+[31m    [7m16417[0m declare var Notification: {[39m
+[31m    [7m     [0m [96m            ~~~~~~~~~~~~[0m[39m
+[31m    'Notification' is declared here.[39m
+[31m[96msrc/notification.ts[0m:[93m41[0m:[93m3[0m - [91merror[0m[90m TS2552: [0mCannot find name 'socketNotification'. Did you mean 'Notification'?[39m
+
+[31m[7m41[0m   socketNotification(message)[39m
+[31m[7m  [0m [91m  ~~~~~~~~~~~~~~~~~~[0m[39m
+
+[31m  [96mnode_modules/typescript/lib/lib.dom.d.ts[0m:[93m16417[0m:[93m13[0m[39m
+[31m    [7m16417[0m declare var Notification: {[39m
+[31m    [7m     [0m [96m            ~~~~~~~~~~~~[0m[39m
+[31m    'Notification' is declared here.[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-19 04:40:06.817 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m37[0m:[93m22[0m - [91merror[0m[90m TS2345: [0mArgument of type 'void' is not assignable to parameter of type 'string'.[39m
+
+[31m[7m37[0m   handleNotification(message)[39m
+[31m[7m  [0m [91m                     ~~~~~~~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m37[0m:[93m22[0m - [91merror[0m[90m TS2345: [0mArgument of type 'void' is not assignable to parameter of type 'string'.[39m
+
+[31m[7m37[0m   handleNotification(message)[39m
+[31m[7m  [0m [91m                     ~~~~~~~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-19 04:40:28.331 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m9[0m:[93m5[0m - [91merror[0m[90m TS6133: [0m'socket' is declared but its value is never read.[39m
+
+[31m[7m9[0m let socket[39m
+[31m[7m [0m [91m    ~~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m20[0m:[93m42[0m - [91merror[0m[90m TS2552: [0mCannot find name 'handleNotification'. Did you mean 'Notification'?[39m
+
+[31m[7m20[0m     notificationEvent.on("notification", handleNotification)[39m
+[31m[7m  [0m [91m                                         ~~~~~~~~~~~~~~~~~~[0m[39m
+
+[31m  [96mnode_modules/typescript/lib/lib.dom.d.ts[0m:[93m16417[0m:[93m13[0m[39m
+[31m    [7m16417[0m declare var Notification: {[39m
+[31m    [7m     [0m [96m            ~~~~~~~~~~~~[0m[39m
+[31m    'Notification' is declared here.[39m
+[31m[96msrc/notification.ts[0m:[93m23[0m:[93m45[0m - [91merror[0m[90m TS2552: [0mCannot find name 'handleNotification'. Did you mean 'Notification'?[39m
+
+[31m[7m23[0m       notificationEvent.off("notification", handleNotification)[39m
+[31m[7m  [0m [91m                                            ~~~~~~~~~~~~~~~~~~[0m[39m
+
+[31m  [96mnode_modules/typescript/lib/lib.dom.d.ts[0m:[93m16417[0m:[93m13[0m[39m
+[31m    [7m16417[0m declare var Notification: {[39m
+[31m    [7m     [0m [96m            ~~~~~~~~~~~~[0m[39m
+[31m    'Notification' is declared here.[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m9[0m:[93m5[0m - [91merror[0m[90m TS6133: [0m'socket' is declared but its value is never read.[39m
+
+[31m[7m9[0m let socket[39m
+[31m[7m [0m [91m    ~~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m20[0m:[93m42[0m - [91merror[0m[90m TS2552: [0mCannot find name 'handleNotification'. Did you mean 'Notification'?[39m
+
+[31m[7m20[0m     notificationEvent.on("notification", handleNotification)[39m
+[31m[7m  [0m [91m                                         ~~~~~~~~~~~~~~~~~~[0m[39m
+
+[31m  [96mnode_modules/typescript/lib/lib.dom.d.ts[0m:[93m16417[0m:[93m13[0m[39m
+[31m    [7m16417[0m declare var Notification: {[39m
+[31m    [7m     [0m [96m            ~~~~~~~~~~~~[0m[39m
+[31m    'Notification' is declared here.[39m
+[31m[96msrc/notification.ts[0m:[93m23[0m:[93m45[0m - [91merror[0m[90m TS2552: [0mCannot find name 'handleNotification'. Did you mean 'Notification'?[39m
+
+[31m[7m23[0m       notificationEvent.off("notification", handleNotification)[39m
+[31m[7m  [0m [91m                                            ~~~~~~~~~~~~~~~~~~[0m[39m
+
+[31m  [96mnode_modules/typescript/lib/lib.dom.d.ts[0m:[93m16417[0m:[93m13[0m[39m
+[31m    [7m16417[0m declare var Notification: {[39m
+[31m    [7m     [0m [96m            ~~~~~~~~~~~~[0m[39m
+[31m    'Notification' is declared here.[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-19 04:40:48.046 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m9[0m:[93m5[0m - [91merror[0m[90m TS6133: [0m'socket' is declared but its value is never read.[39m
+
+[31m[7m9[0m let socket[39m
+[31m[7m [0m [91m    ~~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m20[0m:[93m42[0m - [91merror[0m[90m TS2552: [0mCannot find name 'handleNotification'. Did you mean 'Notification'?[39m
+
+[31m[7m20[0m     notificationEvent.on("notification", handleNotification)[39m
+[31m[7m  [0m [91m                                         ~~~~~~~~~~~~~~~~~~[0m[39m
+
+[31m  [96mnode_modules/typescript/lib/lib.dom.d.ts[0m:[93m16417[0m:[93m13[0m[39m
+[31m    [7m16417[0m declare var Notification: {[39m
+[31m    [7m     [0m [96m            ~~~~~~~~~~~~[0m[39m
+[31m    'Notification' is declared here.[39m
+[31m[96msrc/notification.ts[0m:[93m23[0m:[93m45[0m - [91merror[0m[90m TS2552: [0mCannot find name 'handleNotification'. Did you mean 'Notification'?[39m
+
+[31m[7m23[0m       notificationEvent.off("notification", handleNotification)[39m
+[31m[7m  [0m [91m                                            ~~~~~~~~~~~~~~~~~~[0m[39m
+
+[31m  [96mnode_modules/typescript/lib/lib.dom.d.ts[0m:[93m16417[0m:[93m13[0m[39m
+[31m    [7m16417[0m declare var Notification: {[39m
+[31m    [7m     [0m [96m            ~~~~~~~~~~~~[0m[39m
+[31m    'Notification' is declared here.[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m9[0m:[93m5[0m - [91merror[0m[90m TS6133: [0m'socket' is declared but its value is never read.[39m
+
+[31m[7m9[0m let socket[39m
+[31m[7m [0m [91m    ~~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m20[0m:[93m42[0m - [91merror[0m[90m TS2552: [0mCannot find name 'handleNotification'. Did you mean 'Notification'?[39m
+
+[31m[7m20[0m     notificationEvent.on("notification", handleNotification)[39m
+[31m[7m  [0m [91m                                         ~~~~~~~~~~~~~~~~~~[0m[39m
+
+[31m  [96mnode_modules/typescript/lib/lib.dom.d.ts[0m:[93m16417[0m:[93m13[0m[39m
+[31m    [7m16417[0m declare var Notification: {[39m
+[31m    [7m     [0m [96m            ~~~~~~~~~~~~[0m[39m
+[31m    'Notification' is declared here.[39m
+[31m[96msrc/notification.ts[0m:[93m23[0m:[93m45[0m - [91merror[0m[90m TS2552: [0mCannot find name 'handleNotification'. Did you mean 'Notification'?[39m
+
+[31m[7m23[0m       notificationEvent.off("notification", handleNotification)[39m
+[31m[7m  [0m [91m                                            ~~~~~~~~~~~~~~~~~~[0m[39m
+
+[31m  [96mnode_modules/typescript/lib/lib.dom.d.ts[0m:[93m16417[0m:[93m13[0m[39m
+[31m    [7m16417[0m declare var Notification: {[39m
+[31m    [7m     [0m [96m            ~~~~~~~~~~~~[0m[39m
+[31m    'Notification' is declared here.[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-19 04:40:55.979 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m9[0m:[93m5[0m - [91merror[0m[90m TS6133: [0m'socket' is declared but its value is never read.[39m
+
+[31m[7m9[0m let socket[39m
+[31m[7m [0m [91m    ~~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m20[0m:[93m42[0m - [91merror[0m[90m TS2552: [0mCannot find name 'handleNotification'. Did you mean 'Notification'?[39m
+
+[31m[7m20[0m     notificationEvent.on("notification", handleNotification)[39m
+[31m[7m  [0m [91m                                         ~~~~~~~~~~~~~~~~~~[0m[39m
+
+[31m  [96mnode_modules/typescript/lib/lib.dom.d.ts[0m:[93m16417[0m:[93m13[0m[39m
+[31m    [7m16417[0m declare var Notification: {[39m
+[31m    [7m     [0m [96m            ~~~~~~~~~~~~[0m[39m
+[31m    'Notification' is declared here.[39m
+[31m[96msrc/notification.ts[0m:[93m23[0m:[93m45[0m - [91merror[0m[90m TS2552: [0mCannot find name 'handleNotification'. Did you mean 'Notification'?[39m
+
+[31m[7m23[0m       notificationEvent.off("notification", handleNotification)[39m
+[31m[7m  [0m [91m                                            ~~~~~~~~~~~~~~~~~~[0m[39m
+
+[31m  [96mnode_modules/typescript/lib/lib.dom.d.ts[0m:[93m16417[0m:[93m13[0m[39m
+[31m    [7m16417[0m declare var Notification: {[39m
+[31m    [7m     [0m [96m            ~~~~~~~~~~~~[0m[39m
+[31m    'Notification' is declared here.[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m9[0m:[93m5[0m - [91merror[0m[90m TS6133: [0m'socket' is declared but its value is never read.[39m
+
+[31m[7m9[0m let socket[39m
+[31m[7m [0m [91m    ~~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m20[0m:[93m42[0m - [91merror[0m[90m TS2552: [0mCannot find name 'handleNotification'. Did you mean 'Notification'?[39m
+
+[31m[7m20[0m     notificationEvent.on("notification", handleNotification)[39m
+[31m[7m  [0m [91m                                         ~~~~~~~~~~~~~~~~~~[0m[39m
+
+[31m  [96mnode_modules/typescript/lib/lib.dom.d.ts[0m:[93m16417[0m:[93m13[0m[39m
+[31m    [7m16417[0m declare var Notification: {[39m
+[31m    [7m     [0m [96m            ~~~~~~~~~~~~[0m[39m
+[31m    'Notification' is declared here.[39m
+[31m[96msrc/notification.ts[0m:[93m23[0m:[93m45[0m - [91merror[0m[90m TS2552: [0mCannot find name 'handleNotification'. Did you mean 'Notification'?[39m
+
+[31m[7m23[0m       notificationEvent.off("notification", handleNotification)[39m
+[31m[7m  [0m [91m                                            ~~~~~~~~~~~~~~~~~~[0m[39m
+
+[31m  [96mnode_modules/typescript/lib/lib.dom.d.ts[0m:[93m16417[0m:[93m13[0m[39m
+[31m    [7m16417[0m declare var Notification: {[39m
+[31m    [7m     [0m [96m            ~~~~~~~~~~~~[0m[39m
+[31m    'Notification' is declared here.[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-19 04:41:32.944 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m9[0m:[93m5[0m - [91merror[0m[90m TS6133: [0m'socket' is declared but its value is never read.[39m
+
+[31m[7m9[0m let socket[39m
+[31m[7m [0m [91m    ~~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m20[0m:[93m42[0m - [91merror[0m[90m TS2345: [0mArgument of type 'Response<any, Record<string, any>>' is not assignable to parameter of type '(...args: any[]) => void'.[39m
+[31m  Type 'Response<any, Record<string, any>>' provides no match for the signature '(...args: any[]): void'.[39m
+
+[31m[7m20[0m     notificationEvent.on("notification", res)[39m
+[31m[7m  [0m [91m                                         ~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m23[0m:[93m45[0m - [91merror[0m[90m TS2345: [0mArgument of type 'Response<any, Record<string, any>>' is not assignable to parameter of type '(...args: any[]) => void'.[39m
+[31m  Type 'Response<any, Record<string, any>>' provides no match for the signature '(...args: any[]): void'.[39m
+
+[31m[7m23[0m       notificationEvent.off("notification", res)[39m
+[31m[7m  [0m [91m                                            ~~~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m9[0m:[93m5[0m - [91merror[0m[90m TS6133: [0m'socket' is declared but its value is never read.[39m
+
+[31m[7m9[0m let socket[39m
+[31m[7m [0m [91m    ~~~~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m20[0m:[93m42[0m - [91merror[0m[90m TS2345: [0mArgument of type 'Response<any, Record<string, any>>' is not assignable to parameter of type '(...args: any[]) => void'.[39m
+[31m  Type 'Response<any, Record<string, any>>' provides no match for the signature '(...args: any[]): void'.[39m
+
+[31m[7m20[0m     notificationEvent.on("notification", res)[39m
+[31m[7m  [0m [91m                                         ~~~[0m[39m
+[31m[96msrc/notification.ts[0m:[93m23[0m:[93m45[0m - [91merror[0m[90m TS2345: [0mArgument of type 'Response<any, Record<string, any>>' is not assignable to parameter of type '(...args: any[]) => void'.[39m
+[31m  Type 'Response<any, Record<string, any>>' provides no match for the signature '(...args: any[]): void'.[39m
+
+[31m[7m23[0m       notificationEvent.off("notification", res)[39m
+[31m[7m  [0m [91m                                            ~~~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-19 04:46:00.072 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m9[0m:[93m5[0m - [91merror[0m[90m TS6133: [0m'socket' is declared but its value is never read.[39m
+
+[31m[7m9[0m let socket[39m
+[31m[7m [0m [91m    ~~~~~~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m9[0m:[93m5[0m - [91merror[0m[90m TS6133: [0m'socket' is declared but its value is never read.[39m
+
+[31m[7m9[0m let socket[39m
+[31m[7m [0m [91m    ~~~~~~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-19 05:12:04.180 PM    [] 	unhandledRejection: Cannot set headers after they are sent to the client[39m
+[31mError [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client[39m
+[31m    at new NodeError (node:internal/errors:405:5)[39m
+[31m    at ServerResponse.setHeader (node:_http_outgoing:652:11)[39m
+[31m    at ServerResponse.header (D:\Code\backend\node_modules\express\lib\response.js:794:10)[39m
+[31m    at ServerResponse.send (D:\Code\backend\node_modules\express\lib\response.js:174:12)[39m
+[31m    at ServerResponse.json (D:\Code\backend\node_modules\express\lib\response.js:278:15)[39m
+[31m    at errorHandler (D:\Code\backend\src\utils\errorHandler.ts:23:21)[39m
+[31m    at D:\Code\backend\src\utils\errorHandler.ts:35:5[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\utils\errorHandler.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31mERROR   2024-01-19 05:13:17.792 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m31[0m:[93m9[0m - [91merror[0m[90m TS2554: [0mExpected 1-3 arguments, but got 0.[39m
+
+[31m[7m31[0m     res.write()[39m
+[31m[7m  [0m [91m        ~~~~~~~[0m[39m
+
+[31m  [96mnode_modules/@types/node/stream.d.ts[0m:[93m783[0m:[93m15[0m[39m
+[31m    [7m783[0m         write(chunk: any, callback?: (error: Error | null | undefined) => void): boolean;[39m
+[31m    [7m   [0m [96m              ~~~~~~~~~~[0m[39m
+[31m    An argument for 'chunk' was not provided.[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m31[0m:[93m9[0m - [91merror[0m[90m TS2554: [0mExpected 1-3 arguments, but got 0.[39m
+
+[31m[7m31[0m     res.write()[39m
+[31m[7m  [0m [91m        ~~~~~~~[0m[39m
+
+[31m  [96mnode_modules/@types/node/stream.d.ts[0m:[93m783[0m:[93m15[0m[39m
+[31m    [7m783[0m         write(chunk: any, callback?: (error: Error | null | undefined) => void): boolean;[39m
+[31m    [7m   [0m [96m              ~~~~~~~~~~[0m[39m
+[31m    An argument for 'chunk' was not provided.[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-19 06:05:47.012 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m30[0m:[93m47[0m - [91merror[0m[90m TS1109: [0mExpression expected.[39m
+
+[31m[7m30[0m     notificationEvent.on(`notification-user-${}`, handleNotification)[39m
+[31m[7m  [0m [91m                                              ~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/notification.ts[0m:[93m30[0m:[93m47[0m - [91merror[0m[90m TS1109: [0mExpression expected.[39m
+
+[31m[7m30[0m     notificationEvent.on(`notification-user-${}`, handleNotification)[39m
+[31m[7m  [0m [91m                                              ~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m

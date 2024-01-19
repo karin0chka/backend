@@ -6,6 +6,7 @@ import { myDataSource } from "./.database/pg/db"
 import user_router from "./user/user.controller"
 import cookieParser from "cookie-parser"
 import authRoute from "./auth/auth.controller"
+import notificationRoute from "./notification"
 import testingRoute from "./testing/testing.controller"
 import todoRoute from "./todo/todo.controllers"
 import helmet from "helmet"
@@ -49,6 +50,7 @@ app.use("/auth", authRoute)
 app.use("/testing", testingRoute)
 app.use("/todo", todoRoute)
 app.use("/report", reportRoute)
+app.use("/notification", notificationRoute)
 
 app.use(errorHandler)
 

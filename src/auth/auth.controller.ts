@@ -50,10 +50,10 @@ authRoute.post(
   "/log-out",
   jwtAuth,
   catchWrapper(async (req: Request, res: Response) => {
-    logger.info(`User is loged-out: ${JSON.stringify(req.body)}`, "log-out router")
     //@ts-ignore
     const user = req.user
-    AuthService.deleteUserRefreshToken(user.id)
+    logger.info(`User is loged-out: ${JSON.stringify(user.id)}`, "log-out router")
+    await AuthService.deleteUserRefreshToken(user.id)
     res.setHeader("Set-Cookie", "").send()
   })
 )

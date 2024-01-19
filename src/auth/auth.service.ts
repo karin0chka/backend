@@ -100,8 +100,7 @@ namespace AuthService {
 
   export async function deleteUserRefreshToken(userID: number) {
     const userDB = myDataSource.getRepository(User)
-    const user = await userDB.findOne({ where: { id: userID } })
-    await userDB.update(user!.refresh_token, { refresh_token: "" })
+    await userDB.update(userID, { refresh_token: null })
   }
   export async function validateRefreshAndGenerateCookies(req: Request, user: IUser) {
     const token = req.cookies["Refresh"]

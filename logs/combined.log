@@ -4151,3 +4151,975 @@ Server is up 🚀
 [31m    at Generator.next (<anonymous>)[39m
 [31m    at D:\Code\backend\src\utils\errorHandler.ts:8:71[39m
 [31m    at new Promise (<anonymous>)[39m
+[32mINFO   2024-01-19 11:38:13.359 AM    [] 	Info message[39m
+[31mERROR   2024-01-19 11:38:13.362 AM    [] 	Error message[39m
+[33mWARN   2024-01-19 11:38:13.362 AM    [] 	Warning message[39m
+[32mINFO   2024-01-19 11:38:14.421 AM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 11:38:14.542 AM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 11:38:39.423 AM    [log-out router] 	User is loged-out: {}[39m
+[32mINFO   2024-01-19 11:40:28.022 AM    [] 	Info message[39m
+[31mERROR   2024-01-19 11:40:28.024 AM    [] 	Error message[39m
+[33mWARN   2024-01-19 11:40:28.025 AM    [] 	Warning message[39m
+[32mINFO   2024-01-19 11:40:28.928 AM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 11:40:29.016 AM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 11:40:32.500 AM    [log-out router] 	User is loged-out: {}[39m
+[32mINFO   2024-01-19 11:41:04.289 AM    [] 	Info message[39m
+[31mERROR   2024-01-19 11:41:04.293 AM    [] 	Error message[39m
+[33mWARN   2024-01-19 11:41:04.293 AM    [] 	Warning message[39m
+[32mINFO   2024-01-19 11:41:05.521 AM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 11:41:05.740 AM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 11:41:29.821 AM    [log-out router] 	User is loged-out: {}[39m
+[31mERROR   2024-01-19 11:41:29.835 AM    [] 	TypeError: Cannot read properties of undefined (reading 'id')[39m
+[31m    at D:\Code\backend\src\auth\auth.controller.ts:56:45[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\auth\auth.controller.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\auth\auth.controller.ts:4:12)[39m
+[31m    at D:\Code\backend\src\auth\auth.controller.ts:52:54[39m
+[31m    at D:\Code\backend\src\utils\errorHandler.ts:33:11[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\utils\errorHandler.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[32mINFO   2024-01-19 11:42:00.572 AM    [login router] 	User is loged in with data: {"email":"ella2@com","password":"qwert12345"}[39m
+[32mINFO   2024-01-19 11:42:31.900 AM    [log-out router] 	User is loged-out: {}[39m
+[31mERROR   2024-01-19 11:42:31.905 AM    [] 	TypeError: Cannot read properties of undefined (reading 'id')[39m
+[31m    at D:\Code\backend\src\auth\auth.controller.ts:56:45[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\auth\auth.controller.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\auth\auth.controller.ts:4:12)[39m
+[31m    at D:\Code\backend\src\auth\auth.controller.ts:52:54[39m
+[31m    at D:\Code\backend\src\utils\errorHandler.ts:33:11[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\utils\errorHandler.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[32mINFO   2024-01-19 11:43:30.856 AM    [] 	Info message[39m
+[31mERROR   2024-01-19 11:43:30.858 AM    [] 	Error message[39m
+[33mWARN   2024-01-19 11:43:30.859 AM    [] 	Warning message[39m
+[32mINFO   2024-01-19 11:43:31.696 AM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 11:43:31.769 AM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 11:43:36.857 AM    [] 	Info message[39m
+[31mERROR   2024-01-19 11:43:36.859 AM    [] 	Error message[39m
+[33mWARN   2024-01-19 11:43:36.859 AM    [] 	Warning message[39m
+[32mINFO   2024-01-19 11:43:37.666 AM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 11:43:37.728 AM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 11:43:47.373 AM    [] 	Info message[39m
+[31mERROR   2024-01-19 11:43:47.375 AM    [] 	Error message[39m
+[33mWARN   2024-01-19 11:43:47.376 AM    [] 	Warning message[39m
+[32mINFO   2024-01-19 11:43:48.190 AM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 11:43:48.254 AM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 11:43:52.045 AM    [log-out router] 	User is loged-out: undefined[39m
+[31mERROR   2024-01-19 11:43:52.055 AM    [] 	TypeError: Cannot read properties of undefined (reading 'id')[39m
+[31m    at D:\Code\backend\src\auth\auth.controller.ts:56:45[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\auth\auth.controller.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\auth\auth.controller.ts:4:12)[39m
+[31m    at D:\Code\backend\src\auth\auth.controller.ts:52:54[39m
+[31m    at D:\Code\backend\src\utils\errorHandler.ts:33:11[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\utils\errorHandler.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[32mINFO   2024-01-19 11:45:14.968 AM    [log-out router] 	User is loged-out: undefined[39m
+[31mERROR   2024-01-19 11:45:14.972 AM    [] 	TypeError: Cannot read properties of undefined (reading 'id')[39m
+[31m    at D:\Code\backend\src\auth\auth.controller.ts:56:45[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\auth\auth.controller.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\auth\auth.controller.ts:4:12)[39m
+[31m    at D:\Code\backend\src\auth\auth.controller.ts:52:54[39m
+[31m    at D:\Code\backend\src\utils\errorHandler.ts:33:11[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\utils\errorHandler.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[32mINFO   2024-01-19 11:46:19.367 AM    [login router] 	User is loged in with data: {"email":"ella1@com","password":"qwert12345"}[39m
+[32mINFO   2024-01-19 11:46:27.573 AM    [login router] 	User is loged in with data: {"email":"ella1@com","password":"qwert12345"}[39m
+[32mINFO   2024-01-19 11:46:45.925 AM    [login router] 	User is loged in with data: {"email":"ella1@com","password":"qwert12345"}[39m
+[32mINFO   2024-01-19 11:47:23.948 AM    [log-out router] 	User is loged-out: undefined[39m
+[31mERROR   2024-01-19 11:47:23.951 AM    [] 	TypeError: Cannot read properties of undefined (reading 'id')[39m
+[31m    at D:\Code\backend\src\auth\auth.controller.ts:56:45[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\auth\auth.controller.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\auth\auth.controller.ts:4:12)[39m
+[31m    at D:\Code\backend\src\auth\auth.controller.ts:52:54[39m
+[31m    at D:\Code\backend\src\utils\errorHandler.ts:33:11[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\utils\errorHandler.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[32mINFO   2024-01-19 11:47:57.303 AM    [log-out router] 	User is loged-out: undefined[39m
+[31mERROR   2024-01-19 11:47:57.307 AM    [] 	TypeError: Cannot read properties of undefined (reading 'id')[39m
+[31m    at D:\Code\backend\src\auth\auth.controller.ts:56:45[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\auth\auth.controller.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\auth\auth.controller.ts:4:12)[39m
+[31m    at D:\Code\backend\src\auth\auth.controller.ts:52:54[39m
+[31m    at D:\Code\backend\src\utils\errorHandler.ts:33:11[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\utils\errorHandler.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[32mINFO   2024-01-19 11:48:30.630 AM    [] 	Info message[39m
+[31mERROR   2024-01-19 11:48:30.632 AM    [] 	Error message[39m
+[33mWARN   2024-01-19 11:48:30.633 AM    [] 	Warning message[39m
+[32mINFO   2024-01-19 11:48:31.675 AM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 11:48:31.759 AM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 11:49:56.779 AM    [] 	Info message[39m
+[31mERROR   2024-01-19 11:49:56.783 AM    [] 	Error message[39m
+[33mWARN   2024-01-19 11:49:56.784 AM    [] 	Warning message[39m
+[32mINFO   2024-01-19 11:49:57.783 AM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 11:49:57.843 AM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 11:52:53.587 AM    [login router] 	User is loged in with data: {"email":"ella1@com","password":"qwert12345"}[39m
+[32mINFO   2024-01-19 12:00:20.617 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 12:00:20.619 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 12:00:20.620 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 12:00:21.616 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 12:00:21.742 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 12:00:21.951 PM    [log-out router] 	User is loged-out: {"id":30,"created_at":"2024-01-17T16:23:30.759Z","updated_at":"2024-01-19T11:52:53.906Z","deleted_at":null,"first_name":"Ella","last_name":"Zoo","email":"ella1@com","password":"$2b$10$oB07ywM.MgqDOIvEGcLFxuGvENF0aG9xVSmkrMJtIZQ1WOhuZetUu","refresh_token":"$2b$10$dGEnqDf.Japdp76BBRR4p.f1A4Qj9kgT3yaoC4UC30fwdwu5wgy0C","user_type":"admin"}[39m
+[32mINFO   2024-01-19 12:00:49.090 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 12:00:49.096 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 12:00:49.096 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 12:00:49.823 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 12:00:49.902 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 12:01:15.337 PM    [login router] 	User is loged in with data: {"email":"ella2@com","password":"qwert12345"}[39m
+[32mINFO   2024-01-19 12:01:56.013 PM    [log-out router] 	User is loged-out: 31[39m
+[32mINFO   2024-01-19 12:02:30.266 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 12:02:30.268 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 12:02:30.268 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 12:02:31.019 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 12:02:31.101 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 12:03:41.193 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 12:03:41.195 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 12:03:41.195 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 12:03:41.931 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 12:03:41.999 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 12:03:49.847 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 12:03:49.849 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 12:03:49.849 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 12:03:50.782 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 12:03:50.858 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 12:03:56.893 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 12:03:56.895 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 12:03:56.896 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 12:03:57.684 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 12:03:57.746 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 12:04:03.721 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 12:04:03.723 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 12:04:03.724 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 12:04:04.434 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 12:04:04.495 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 12:04:28.266 PM    [log-out router] 	User is loged-out: 31[39m
+[32mINFO   2024-01-19 12:05:29.248 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 12:05:29.250 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 12:05:29.251 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 12:05:29.958 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 12:05:30.021 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 12:05:34.138 PM    [login router] 	User is loged in with data: {"email":"ella2@com","password":"qwert12345"}[39m
+[32mINFO   2024-01-19 12:06:57.305 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 12:06:57.307 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 12:06:57.307 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 12:06:58.038 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 12:06:58.097 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 12:07:45.045 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 12:07:45.047 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 12:07:45.048 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 12:07:45.800 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 12:07:45.973 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 12:08:06.662 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 12:08:06.664 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 12:08:06.664 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 12:08:07.408 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 12:08:07.474 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 12:08:22.507 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 12:08:22.509 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 12:08:22.509 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 12:08:23.251 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 12:08:23.314 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 12:08:31.878 PM    [log-out router] 	User is loged-out: 31[39m
+[32mINFO   2024-01-19 12:09:12.163 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 12:09:12.165 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 12:09:12.165 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 12:09:12.969 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 12:09:13.146 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 12:10:05.470 PM    [log-out router] 	User is loged-out: 31[39m
+[32mINFO   2024-01-19 12:11:47.474 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 12:11:47.476 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 12:11:47.476 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 12:11:48.323 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 12:11:48.388 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 12:11:50.966 PM    [login router] 	User is loged in with data: {"email":"ella2@com","password":"qwert1234"}[39m
+[31mERROR   2024-01-19 12:11:51.049 PM    [] 	AppError: Authentication failed[39m
+[31m    at Object.<anonymous> (D:\Code\backend\src\auth\auth.service.ts:89:31)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (D:\Code\backend\src\auth\auth.service.ts:5:58) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[31mERROR   2024-01-19 12:12:06.118 PM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:11:10[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:8:75)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[31mERROR   2024-01-19 12:16:31.719 PM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:11:10[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:8:75)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[31mERROR   2024-01-19 12:16:40.077 PM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:28:10[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtRefresh (D:\Code\backend\src\.middleware\auth.middleware.ts:25:78)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[32mINFO   2024-01-19 01:21:39.239 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 01:21:39.241 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 01:21:39.242 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 01:21:39.994 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 01:21:40.106 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 01:36:44.573 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 01:36:44.575 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 01:36:44.576 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 01:36:45.344 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 01:36:45.552 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 01:37:02.034 PM    [] 	Info message[39m
+[32mINFO   2024-01-19 01:38:14.143 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 01:38:14.145 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 01:38:14.145 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 01:38:15.068 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 01:38:15.175 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 01:39:29.133 PM    [] 	Info message[39m
+[32mINFO   2024-01-19 01:39:37.634 PM    [] 	Info message[39m
+[32mINFO   2024-01-19 01:39:44.578 PM    [] 	Info message[39m
+[32mINFO   2024-01-19 01:42:27.681 PM    [] 	Info message[39m
+[32mINFO   2024-01-19 01:42:35.126 PM    [] 	Info message[39m
+[32mINFO   2024-01-19 01:43:04.041 PM    [] 	Info message[39m
+[32mINFO   2024-01-19 01:43:11.332 PM    [] 	Info message[39m
+[32mINFO   2024-01-19 01:43:29.847 PM    [] 	Info message[39m
+[32mINFO   2024-01-19 01:43:51.593 PM    [] 	Info message[39m
+[32mINFO   2024-01-19 01:43:56.237 PM    [] 	Info message[39m
+[32mINFO   2024-01-19 01:44:01.602 PM    [] 	Info message[39m
+[32mINFO   2024-01-19 01:44:31.515 PM    [] 	Info message[39m
+[32mINFO   2024-01-19 01:44:37.370 PM    [] 	Info message[39m
+[32mINFO   2024-01-19 01:44:41.173 PM    [] 	Info message[39m
+[32mINFO   2024-01-19 01:44:46.322 PM    [] 	Info message[39m
+[32mINFO   2024-01-19 01:44:52.483 PM    [] 	Info message[39m
+[32mINFO   2024-01-19 01:45:49.360 PM    [] 	Info message[39m
+[32mINFO   2024-01-19 01:46:02.442 PM    [] 	Info message[39m
+[32mINFO   2024-01-19 01:46:07.107 PM    [] 	Info message[39m
+[32mINFO   2024-01-19 01:46:15.638 PM    [] 	Info message[39m
+[32mINFO   2024-01-19 01:46:23.260 PM    [] 	Info message[39m
+[32mINFO   2024-01-19 01:46:34.142 PM    [] 	Info message[39m
+[32mINFO   2024-01-19 01:47:04.631 PM    [] 	Info message[39m
+[32mINFO   2024-01-19 01:47:19.565 PM    [] 	Info message[39m
+[32mINFO   2024-01-19 01:48:04.144 PM    [] 	Info message[39m
+[32mINFO   2024-01-19 01:48:19.792 PM    [] 	Info message[39m
+[32mINFO   2024-01-19 01:48:27.750 PM    [] 	Info message[39m
+[32mINFO   2024-01-19 01:48:45.071 PM    [] 	Info message[39m
+[32mINFO   2024-01-19 01:48:49.255 PM    [] 	Info message[39m
+[32mINFO   2024-01-19 01:49:03.278 PM    [] 	Info message[39m
+[32mINFO   2024-01-19 01:49:11.123 PM    [] 	Info message[39m
+[32mINFO   2024-01-19 01:49:18.308 PM    [] 	Info message[39m
+[32mINFO   2024-01-19 01:49:55.053 PM    [] 	Info message[39m
+[32mINFO   2024-01-19 01:50:05.398 PM    [] 	Info message[39m
+[32mINFO   2024-01-19 01:51:59.457 PM    [] 	Info message[39m
+[32mINFO   2024-01-19 01:52:05.222 PM    [] 	Info message[39m
+[32mINFO   2024-01-19 01:52:22.982 PM    [] 	Info message[39m
+[32mINFO   2024-01-19 01:52:29.928 PM    [] 	Info message[39m
+[32mINFO   2024-01-19 01:52:42.343 PM    [] 	Info message[39m
+[32mINFO   2024-01-19 01:53:04.470 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 01:53:04.472 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 01:53:04.473 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 01:53:05.244 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 01:53:05.345 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 01:57:04.759 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 01:57:04.762 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 01:57:04.762 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 01:57:05.937 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 01:57:06.082 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 01:57:27.132 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 01:57:27.134 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 01:57:27.135 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 01:57:27.927 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 01:57:27.994 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 01:57:40.300 PM    [] 	Info message[39m
+[32mINFO   2024-01-19 01:57:47.514 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 01:57:47.517 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 01:57:47.517 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 01:57:48.328 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 01:57:48.403 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 01:58:47.232 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 01:58:47.235 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 01:58:47.236 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 01:58:48.092 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 01:58:48.165 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 01:58:53.031 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 01:58:53.033 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 01:58:53.033 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 01:58:53.854 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 01:58:53.927 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 02:01:09.726 PM    [] 	Info message[39m
+[32mINFO   2024-01-19 02:02:45.464 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 02:02:45.466 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 02:02:45.467 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 02:02:46.360 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 02:02:46.435 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 02:07:42.402 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 02:07:42.404 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 02:07:42.404 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 02:07:43.184 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 02:07:43.254 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 02:08:23.776 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 02:08:23.778 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 02:08:23.778 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 02:08:24.618 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 02:08:24.788 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 02:08:47.772 PM    [] 	Info message[39m
+[32mINFO   2024-01-19 02:08:56.182 PM    [] 	Info message[39m
+[32mINFO   2024-01-19 02:09:16.845 PM    [] 	Info message[39m
+[32mINFO   2024-01-19 02:10:31.184 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 02:10:31.186 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 02:10:31.186 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 02:10:31.969 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 02:10:32.047 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 03:21:54.646 PM    [] 	Info message[39m
+[32mINFO   2024-01-19 03:22:21.718 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 03:22:21.722 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 03:22:21.723 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 03:22:23.313 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 03:22:23.488 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 03:22:58.579 PM    [] 	Info message[39m
+[32mINFO   2024-01-19 03:23:23.880 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 03:23:23.884 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 03:23:23.885 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 03:23:25.511 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 03:23:25.624 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 03:25:16.290 PM    [] 	Info message[39m
+[32mINFO   2024-01-19 03:26:13.761 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 03:26:13.767 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 03:26:13.768 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 03:26:15.574 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 03:26:15.704 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 03:32:46.677 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 03:32:46.681 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 03:32:46.682 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 03:32:48.517 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 03:32:48.702 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 03:39:36.227 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 03:39:36.231 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 03:39:36.231 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 03:39:38.479 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 03:39:38.659 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 03:44:12.542 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 03:44:12.546 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 03:44:12.547 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 03:44:14.176 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 03:44:14.292 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 03:44:51.906 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 03:44:51.909 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 03:44:51.910 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 03:44:53.830 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 03:44:53.953 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 03:45:17.330 PM    [] 	Info message[39m
+[32mINFO   2024-01-19 03:45:26.568 PM    [] 	Info message[39m
+[32mINFO   2024-01-19 03:45:43.606 PM    [] 	Info message[39m
+[32mINFO   2024-01-19 03:45:58.278 PM    [] 	Info message[39m
+[32mINFO   2024-01-19 03:46:36.692 PM    [] 	Info message[39m
+[32mINFO   2024-01-19 03:46:50.514 PM    [] 	Info message[39m
+[32mINFO   2024-01-19 03:48:22.494 PM    [] 	Info message[39m
+[32mINFO   2024-01-19 03:48:30.269 PM    [] 	Info message[39m
+[32mINFO   2024-01-19 03:48:57.758 PM    [] 	Info message[39m
+[32mINFO   2024-01-19 03:49:10.354 PM    [] 	Info message[39m
+[32mINFO   2024-01-19 03:49:56.251 PM    [] 	Info message[39m
+[32mINFO   2024-01-19 03:51:33.090 PM    [] 	Info message[39m
+[32mINFO   2024-01-19 03:52:46.986 PM    [] 	Info message[39m
+[32mINFO   2024-01-19 03:53:03.493 PM    [] 	Info message[39m
+[32mINFO   2024-01-19 03:54:15.336 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 03:54:15.340 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 03:54:15.341 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 03:54:17.198 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 03:54:17.353 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 03:55:47.942 PM    [notification router] 	User is registering with data: {}[39m
+[32mINFO   2024-01-19 03:56:53.723 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 03:56:53.727 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 03:56:53.728 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 03:56:55.753 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 03:56:55.884 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 03:57:07.512 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 03:57:07.516 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 03:57:07.517 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 03:57:09.284 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 03:57:09.484 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 03:57:20.683 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 03:57:20.690 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 03:57:20.691 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 03:57:22.404 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 03:57:22.609 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 03:57:50.228 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 03:57:50.232 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 03:57:50.233 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 03:57:51.825 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 03:57:51.982 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 03:58:08.806 PM    [notification router] 	Connection is established: [object Object][39m
+[32mINFO   2024-01-19 03:58:31.649 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 03:58:31.652 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 03:58:31.653 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 03:58:33.799 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 03:58:33.956 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 03:58:36.843 PM    [notification router] 	Connection is established[39m
+[32mINFO   2024-01-19 03:59:57.052 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 03:59:57.056 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 03:59:57.057 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 03:59:58.867 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 03:59:59.093 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 04:18:59.140 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 04:18:59.144 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 04:18:59.145 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 04:19:00.759 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 04:19:00.923 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 04:20:32.887 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 04:20:32.890 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 04:20:32.891 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 04:20:34.809 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 04:20:34.933 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 04:21:01.353 PM    [notification-messages router] 	Connection is established[39m
+[32mINFO   2024-01-19 04:23:38.214 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 04:23:38.218 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 04:23:38.219 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 04:23:39.809 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 04:23:39.930 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 04:23:47.901 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 04:23:47.907 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 04:23:47.909 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 04:23:49.784 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 04:23:49.971 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 04:23:58.287 PM    [notification router] 	Connection is established[39m
+[32mINFO   2024-01-19 04:24:05.063 PM    [notification-messages router] 	Connection is established[39m
+[32mINFO   2024-01-19 04:24:14.706 PM    [send-message router] 	Connection is established[39m
+[32mINFO   2024-01-19 04:25:15.051 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 04:25:15.055 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 04:25:15.056 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 04:25:16.721 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 04:25:16.858 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 04:25:37.288 PM    [notification-messages router] 	Connection is established[39m
+[32mINFO   2024-01-19 04:25:40.912 PM    [notification router] 	Connection is established[39m
+[32mINFO   2024-01-19 04:25:52.139 PM    [send-message router] 	Connection is established[39m
+[32mINFO   2024-01-19 04:26:30.209 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 04:26:30.212 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 04:26:30.213 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 04:26:31.755 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 04:26:31.877 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 04:31:45.805 PM    [] 	Info message[39m
+[32mINFO   2024-01-19 04:32:18.462 PM    [] 	Info message[39m
+[32mINFO   2024-01-19 04:32:40.522 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 04:32:40.526 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 04:32:40.527 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 04:32:42.209 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 04:32:42.432 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 04:33:10.579 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 04:33:10.583 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 04:33:10.584 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 04:33:12.175 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 04:33:12.292 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 04:33:32.422 PM    [notification router] 	Connection is established[39m
+[32mINFO   2024-01-19 04:33:39.157 PM    [send-message router] 	Connection is established[39m
+[32mINFO   2024-01-19 04:34:45.814 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 04:34:45.818 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 04:34:45.819 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 04:34:47.526 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 04:34:47.691 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 04:34:51.151 PM    [send-message router] 	Connection is established[39m
+[32mINFO   2024-01-19 04:34:55.007 PM    [notification router] 	Connection is established[39m
+[32mINFO   2024-01-19 04:37:42.546 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 04:37:42.550 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 04:37:42.551 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 04:37:44.690 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 04:37:44.888 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 04:38:35.204 PM    [notification router] 	Connection is established[39m
+[32mINFO   2024-01-19 04:38:39.813 PM    [send-message router] 	Message sent: undefined[39m
+[32mINFO   2024-01-19 04:39:15.744 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 04:39:15.748 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 04:39:15.749 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 04:39:17.797 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 04:39:17.984 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 04:39:38.870 PM    [send-message router] 	Message sent: undefined[39m
+[32mINFO   2024-01-19 04:40:06.642 PM    [] 	Info message[39m
+[32mINFO   2024-01-19 04:40:28.120 PM    [] 	Info message[39m
+[32mINFO   2024-01-19 04:40:47.813 PM    [] 	Info message[39m
+[32mINFO   2024-01-19 04:40:55.775 PM    [] 	Info message[39m
+[32mINFO   2024-01-19 04:41:32.792 PM    [] 	Info message[39m
+[32mINFO   2024-01-19 04:41:59.350 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 04:41:59.354 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 04:41:59.354 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 04:42:00.945 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 04:42:01.057 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 04:42:16.512 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 04:42:16.516 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 04:42:16.517 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 04:42:18.132 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 04:42:18.293 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 04:42:29.803 PM    [notification router] 	Connection is established[39m
+[32mINFO   2024-01-19 04:42:33.686 PM    [send-message router] 	Message sent: undefined[39m
+[32mINFO   2024-01-19 04:42:56.720 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 04:42:56.726 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 04:42:56.727 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 04:42:58.289 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 04:42:58.446 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 04:45:59.950 PM    [] 	Info message[39m
+[32mINFO   2024-01-19 04:46:16.438 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 04:46:16.443 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 04:46:16.444 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 04:46:18.074 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 04:46:18.262 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 04:46:38.745 PM    [notification router] 	Connection is established[39m
+[32mINFO   2024-01-19 04:46:42.672 PM    [send-message router] 	Message sent: This event is triggered at Fri Jan 19 2024 16:46:42 GMT+0000 (Greenwich Mean Time)[39m
+[32mINFO   2024-01-19 04:47:29.749 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 04:47:29.753 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 04:47:29.753 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 04:47:31.558 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 04:47:31.658 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 04:50:07.996 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 04:50:08.000 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 04:50:08.001 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 04:50:09.957 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 04:50:10.232 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 04:50:28.981 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 04:50:28.986 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 04:50:28.988 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 04:50:30.679 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 04:50:30.873 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 04:50:56.086 PM    [notification router] 	Connection is established[39m
+[32mINFO   2024-01-19 04:50:59.494 PM    [send-message router] 	Message sent: This event is triggered at Fri Jan 19 2024 16:50:59 GMT+0000 (Greenwich Mean Time)[39m
+[32mINFO   2024-01-19 04:54:16.665 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 04:54:16.670 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 04:54:16.672 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 04:54:18.935 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 04:54:19.194 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 04:54:33.827 PM    [notification router] 	Connection is established[39m
+[32mINFO   2024-01-19 04:54:37.746 PM    [send-message router] 	Message sent: This event is triggered at Fri Jan 19 2024 16:54:37 GMT+0000 (Greenwich Mean Time)[39m
+[32mINFO   2024-01-19 04:55:09.393 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 04:55:09.398 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 04:55:09.400 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 04:55:10.934 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 04:55:11.046 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 04:55:27.890 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 04:55:27.893 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 04:55:27.894 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 04:55:29.667 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 04:55:29.787 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 04:57:04.269 PM    [notification router] 	Connection is established[39m
+[32mINFO   2024-01-19 04:57:29.039 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 04:57:29.043 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 04:57:29.044 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 04:57:30.774 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 04:57:30.937 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 04:59:08.564 PM    [notification router] 	Connection is established[39m
+[32mINFO   2024-01-19 04:59:26.393 PM    [send-message router] 	Message sent: This event is triggered at Fri Jan 19 2024 16:59:26 GMT+0000 (Greenwich Mean Time)[39m
+[32mINFO   2024-01-19 05:00:43.664 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 05:00:43.668 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 05:00:43.669 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 05:00:45.258 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 05:00:45.367 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 05:00:54.262 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 05:00:54.267 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 05:00:54.268 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 05:00:55.944 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 05:00:56.101 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 05:01:51.880 PM    [notification router] 	Connection is established[39m
+[32mINFO   2024-01-19 05:01:55.958 PM    [send-message router] 	Message sent: This event is triggered at Fri Jan 19 2024 17:01:55 GMT+0000 (Greenwich Mean Time)[39m
+[32mINFO   2024-01-19 05:02:50.820 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 05:02:50.825 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 05:02:50.826 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 05:02:52.790 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 05:02:52.910 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 05:03:16.385 PM    [notification router] 	Connection is established[39m
+[32mINFO   2024-01-19 05:03:24.024 PM    [send-message router] 	Message sent: This event is triggered at Fri Jan 19 2024 17:03:24 GMT+0000 (Greenwich Mean Time)[39m
+[32mINFO   2024-01-19 05:05:18.267 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 05:05:18.271 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 05:05:18.272 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 05:05:19.879 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 05:05:20.001 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 05:05:28.356 PM    [notification router] 	Connection is established[39m
+[31mERROR   2024-01-19 05:05:32.394 PM    [] 	TypeError: Cannot read properties of undefined (reading 'write')[39m
+[31m    at EventEmitter.handleNotification (D:\Code\backend\src\notification.ts:10:7)[39m
+[31m    at EventEmitter.emit (node:events:514:28)[39m
+[31m    at EventEmitter.emit (node:domain:489:12)[39m
+[31m    at D:\Code\backend\src\notification.ts:32:21[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at D:\Code\backend\node_modules\express\lib\router\index.js:284:15[39m
+[31m    at Function.process_params (D:\Code\backend\node_modules\express\lib\router\index.js:346:12)[39m
+[32mINFO   2024-01-19 05:05:58.120 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 05:05:58.124 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 05:05:58.125 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 05:05:59.770 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 05:05:59.891 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 05:06:03.379 PM    [notification router] 	Connection is established[39m
+[31mERROR   2024-01-19 05:06:07.230 PM    [] 	TypeError: Cannot read properties of undefined (reading 'write')[39m
+[31m    at EventEmitter.handleNotification (D:\Code\backend\src\notification.ts:19:11)[39m
+[31m    at EventEmitter.emit (node:events:514:28)[39m
+[31m    at EventEmitter.emit (node:domain:489:12)[39m
+[31m    at D:\Code\backend\src\notification.ts:32:21[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at D:\Code\backend\node_modules\express\lib\router\index.js:284:15[39m
+[31m    at Function.process_params (D:\Code\backend\node_modules\express\lib\router\index.js:346:12)[39m
+[32mINFO   2024-01-19 05:06:22.652 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 05:06:22.656 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 05:06:22.657 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 05:06:24.259 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 05:06:24.419 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 05:06:29.998 PM    [notification router] 	Connection is established[39m
+[32mINFO   2024-01-19 05:06:34.007 PM    [send-message router] 	Message sent: This event is triggered at Fri Jan 19 2024 17:06:34 GMT+0000 (Greenwich Mean Time)[39m
+[32mINFO   2024-01-19 05:08:12.670 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 05:08:12.674 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 05:08:12.675 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 05:08:14.424 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 05:08:14.629 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 05:08:46.211 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 05:08:46.215 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 05:08:46.216 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 05:08:48.105 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 05:08:48.354 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 05:09:22.853 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 05:09:22.857 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 05:09:22.858 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 05:09:24.421 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 05:09:24.559 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 05:09:27.287 PM    [notification router] 	Connection is established[39m
+[32mINFO   2024-01-19 05:10:00.003 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 05:10:00.009 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 05:10:00.010 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 05:10:01.548 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 05:10:01.658 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 05:10:04.381 PM    [notification router] 	Connection is established[39m
+[32mINFO   2024-01-19 05:10:13.039 PM    [send-message router] 	Message sent: This event is triggered[39m
+[32mINFO   2024-01-19 05:10:51.976 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 05:10:51.980 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 05:10:51.980 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 05:10:53.533 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 05:10:53.657 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 05:10:58.359 PM    [notification router] 	Connection is established[39m
+[32mINFO   2024-01-19 05:11:02.486 PM    [send-message router] 	Message sent: This event is triggered[39m
+[32mINFO   2024-01-19 05:11:58.671 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 05:11:58.678 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 05:11:58.679 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 05:12:00.283 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 05:12:00.401 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 05:12:04.159 PM    [notification router] 	Connection is established[39m
+[32mINFO   2024-01-19 05:12:33.040 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 05:12:33.044 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 05:12:33.045 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 05:12:34.767 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 05:12:34.909 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 05:12:37.309 PM    [notification router] 	Connection is established[39m
+[32mINFO   2024-01-19 05:13:17.613 PM    [] 	Info message[39m
+[32mINFO   2024-01-19 05:13:29.652 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 05:13:29.656 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 05:13:29.657 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 05:13:31.189 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 05:13:31.313 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 05:14:17.300 PM    [notification router] 	Connection is established[39m
+[32mINFO   2024-01-19 05:14:21.303 PM    [send-message router] 	Message sent: This event is triggered[39m
+[32mINFO   2024-01-19 05:14:47.875 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 05:14:47.882 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 05:14:47.884 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 05:14:50.037 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 05:14:50.172 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 05:16:58.963 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 05:16:58.967 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 05:16:58.968 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 05:17:00.503 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 05:17:00.619 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 05:17:18.217 PM    [notification router] 	Connection is established[39m
+[32mINFO   2024-01-19 05:17:23.426 PM    [notification router] 	Connection closed[39m
+[32mINFO   2024-01-19 05:27:03.183 PM    [notification router] 	Connection is established[39m
+[32mINFO   2024-01-19 05:29:22.103 PM    [notification router] 	Connection closed[39m
+[32mINFO   2024-01-19 06:05:19.916 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 06:05:19.920 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 06:05:19.921 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 06:05:21.639 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 06:05:21.842 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 06:05:46.806 PM    [] 	Info message[39m
+[32mINFO   2024-01-19 06:05:55.542 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 06:05:55.546 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 06:05:55.547 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 06:05:57.185 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 06:05:57.344 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 06:06:19.986 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 06:06:19.990 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 06:06:19.992 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 06:06:21.822 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 06:06:21.967 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 06:06:44.440 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 06:06:44.444 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 06:06:44.445 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 06:06:46.149 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 06:06:46.275 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 06:07:14.555 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 06:07:14.559 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 06:07:14.560 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 06:07:16.470 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 06:07:16.642 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[31mERROR   2024-01-19 06:07:20.414 PM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:11:10[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:8:75)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[32mINFO   2024-01-19 06:07:28.753 PM    [login router] 	User is loged in with data: {"email":"ella2@com","password":"qwert1234"}[39m
+[31mERROR   2024-01-19 06:07:29.063 PM    [] 	AppError: Authentication failed[39m
+[31m    at Object.<anonymous> (D:\Code\backend\src\auth\auth.service.ts:89:31)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (D:\Code\backend\src\auth\auth.service.ts:5:58) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[32mINFO   2024-01-19 06:07:37.602 PM    [login router] 	User is loged in with data: {"email":"ella2@com","password":"qwert12345"}[39m
+[32mINFO   2024-01-19 06:07:41.921 PM    [notification router] 	Connection is established[39m
+[32mINFO   2024-01-19 06:08:16.410 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 06:08:16.415 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 06:08:16.416 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 06:08:18.369 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 06:08:18.536 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 06:08:21.445 PM    [notification router] 	Connection is established[39m
+[31mERROR   2024-01-19 06:08:28.262 PM    [] 	TypeError: Cannot read properties of undefined (reading 'id')[39m
+[31m    at D:\Code\backend\src\notification.ts:46:52[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at D:\Code\backend\node_modules\express\lib\router\index.js:284:15[39m
+[31m    at Function.process_params (D:\Code\backend\node_modules\express\lib\router\index.js:346:12)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\index.js:280:10)[39m
+[31m    at Function.handle (D:\Code\backend\node_modules\express\lib\router\index.js:175:3)[39m
+[31m    at router (D:\Code\backend\node_modules\express\lib\router\index.js:47:12)[39m
+[32mINFO   2024-01-19 06:08:49.716 PM    [] 	Info message[39m
+[31mERROR   2024-01-19 06:08:49.726 PM    [] 	Error message[39m
+[33mWARN   2024-01-19 06:08:49.727 PM    [] 	Warning message[39m
+[32mINFO   2024-01-19 06:08:51.400 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-19 06:08:51.570 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-19 06:08:55.590 PM    [notification router] 	Connection is established[39m
+[32mINFO   2024-01-19 06:09:05.472 PM    [send-message router] 	Message sent: This event is triggered[39m
+[32mINFO   2024-01-19 06:09:12.708 PM    [send-message router] 	Message sent: This event is triggered[39m
+[32mINFO   2024-01-19 06:09:13.920 PM    [send-message router] 	Message sent: This event is triggered[39m
+[32mINFO   2024-01-19 06:09:15.060 PM    [send-message router] 	Message sent: This event is triggered[39m

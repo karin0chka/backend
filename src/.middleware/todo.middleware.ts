@@ -10,11 +10,10 @@ const isTodoEligible = catchWrapper(async (error: Error, req: Request, res: Resp
   const todo = await myDataSource.getRepository(Todo).findOne({ where: { id, user: { id: user.id } }, relations: { user: true } })
   try {
     if (todo) {
-      console.log("I am here todo exist")
       next()
     }
   } catch (error) {
-    throw new AppError("Sorry, you are not eligible", 401)
+    next(new AppError("Sorry, you are not eligible", 401))
   }
 })
 
