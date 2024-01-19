@@ -1,6 +1,7 @@
 import mongoose from 'mongoose';
+import { IReport } from '../../../../interfaces/entities.interface';
 
-const reportSchema = new mongoose.Schema({
+const reportSchema = new mongoose.Schema<IReport>({
   user_id: {
     type: Number,
     required: true,

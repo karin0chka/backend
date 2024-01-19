@@ -4,11 +4,11 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "@types/co": "^4.6.6",
     "bcrypt": "^5.1.1",
     "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
     "express": "^4.18.2",
-    "express-async-handler": "^1.2.0",
     "express-list-endpoints": "^6.0.0",
     "express-rate-limit": "^7.1.5",
     "helmet": "^7.1.0",
@@ -21,7 +21,6 @@
     "sqlite3": "^5.1.7",
     "tsconfig-paths": "^4.2.0",
     "typeorm": "^0.3.19",
-    "typescript": "^5.3.3",
     "winston": "^3.11.0"
   },
   "devDependencies": {
@@ -34,13 +33,17 @@
     "@types/jest": "^29.5.11",
     "@types/jsonwebtoken": "^9.0.5",
     "@types/migrate-mongo": "^10.0.4",
-    "@types/node": "^20.10.6",
+    "@types/node": "^20.11.5",
     "dotenv": "^16.3.1",
+    "express-promise-router": "^4.1.1",
+    "express-yields": "github:kaievns/express-yields",
     "jest": "^29.7.0",
     "nodemon": "^3.0.2",
+    "prettier": "^3.2.4",
     "supertest": "^6.3.3",
     "ts-jest": "^29.1.1",
-    "ts-node": "^10.9.2"
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -56,6 +59,17 @@
     "mongo-migration:status": "npx migrate-mongo status --file ./migrate-mongo-config.js",
     "test_jest": "jest",
     "test:watch": "npm test -- --watch"
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "tabWidth": 2,
+    "printWidth": 150,
+    "semi": false,
+    "singleQuote": false,
+    "bracketSpacing": true,
+    "bracketSameLine": true,
+    "arrowParens": "always",
+    "singleAttributePerLine": true
   },
   "keywords": [],
   "author": "",

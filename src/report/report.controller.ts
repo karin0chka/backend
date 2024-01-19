@@ -1,45 +1,51 @@
-import cookieParser from 'cookie-parser';
-import express, { Request, Response } from 'express';
-import asyncHandler from 'express-async-handler';
-import Report from '../.database/mongo/schemas/report.schema';
-import { isUserAnAdmin, jwtAuth } from '../.middleware/auth.middleware';
-import ReportService from './report.service';
+import cookieParser from "cookie-parser"
+import express, { Request, Response } from "express"
+import Report from "../.database/mongo/schemas/report.schema"
+import { isUserAnAdmin, jwtAuth } from "../.middleware/auth.middleware"
+import ReportService from "./report.service"
+import { IReport } from "../../interfaces/entities.interface"
+import { logger } from "../utils/winston.createLogger"
+import { catchWrapper } from "../utils/errorHandler"
 
-const reportRoute = express.Router();
-reportRoute.use(express.json());
-reportRoute.use(cookieParser());
+const reportRoute = express.Router()
+reportRoute.use(express.json())
+reportRoute.use(cookieParser())
 
 reportRoute.post(
-  '/create',
+  "/create",
   jwtAuth,
-  asyncHandler(async (req: Request, res: Response) => {
+  catchWrapper(async (req: Request, res: Response) => {
     //@ts-ignore
-    const user = req.user;
-    const report = await ReportService.createReport(req.body, user.id);
-    res.status(200).json({ report });
-  }),
-);
+    const user = req.user
+    const report = await ReportService.createReport(req.body, user.id)
+    res.status(200).json({ report })
+  })
+)
 
 reportRoute.get(
-  '/read/:id',
+  "/read/:id",
   jwtAuth,
   isUserAnAdmin,
-  asyncHandler(async (req: Request, res: Response) => {
-    const userId = +req.params.id;
-
-    const report = await Report.updateMany({ id: userId, is_reviewed: false }, { $set: { is_reviewed: true } });
-    res.json({ report });
-  }),
-);
+  catchWrapper(async (req: Request, res: Response) => {
+    const reportId = req.params.id
+    const report = await Report.findOne({ _id: reportId })
+    res.json(report)
+  })
+)
 
 reportRoute.put(
-  '/update/:id',
-  jwtAuth,
-  asyncHandler(async (req: Request, res: Response) => {
-    const userId = +req.params.id;
-    const report = await Report.updateMany({ user_id: userId, is_completed: false }, { $set: { is_completed: true } });
-    res.json({ report });
-  }),
-);
+  "/update/:id",
+  catchWrapper(async (req: Request, res: Response) => {
+    const reportId = req.params.id
+    logger.info(`Updating report:${reportId}`)
+    const dto: Partial<IReport> = {
+      is_reviewed: req.body.is_reviewed || false,
+      is_completed: req.body.is_completed || false,
+    }
 
-export default reportRoute;
+    const report = await Report.updateOne({ _id: reportId }, { $set: dto })
+    res.json(report)
+  })
+)
+
+export default reportRoute

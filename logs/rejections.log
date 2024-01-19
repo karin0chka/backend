@@ -889,3 +889,596 @@
 [31m    at step (D:\Code\backend\src\auth\auth.service.ts:33:23)[39m
 [31m    at Object.next (D:\Code\backend\src\auth\auth.service.ts:14:53)[39m
 [31m    at fulfilled (D:\Code\backend\src\auth\auth.service.ts:5:58)[39m
+[31mERROR   2024-01-17 05:12:46.376 PM    [] 	unhandledRejection: data and hash arguments required[39m
+[31mError: data and hash arguments required[39m
+[31m    at Object.compare (D:\Code\backend\node_modules\bcrypt\bcrypt.js:208:17)[39m
+[31m    at D:\Code\backend\node_modules\bcrypt\promises.js:29:12[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at Object.module.exports.promise (D:\Code\backend\node_modules\bcrypt\promises.js:20:12)[39m
+[31m    at Object.compare (D:\Code\backend\node_modules\bcrypt\bcrypt.js:204:25)[39m
+[31m    at Object.<anonymous> (D:\Code\backend\src\auth\auth.service.ts:90:42)[39m
+[31m    at step (D:\Code\backend\src\auth\auth.service.ts:33:23)[39m
+[31m    at Object.next (D:\Code\backend\src\auth\auth.service.ts:14:53)[39m
+[31m    at fulfilled (D:\Code\backend\src\auth\auth.service.ts:5:58)[39m
+[31mERROR   2024-01-17 05:14:16.346 PM    [] 	unhandledRejection: data and hash arguments required[39m
+[31mError: data and hash arguments required[39m
+[31m    at Object.compare (D:\Code\backend\node_modules\bcrypt\bcrypt.js:208:17)[39m
+[31m    at D:\Code\backend\node_modules\bcrypt\promises.js:29:12[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at Object.module.exports.promise (D:\Code\backend\node_modules\bcrypt\promises.js:20:12)[39m
+[31m    at Object.compare (D:\Code\backend\node_modules\bcrypt\bcrypt.js:204:25)[39m
+[31m    at Object.<anonymous> (D:\Code\backend\src\auth\auth.service.ts:90:42)[39m
+[31m    at step (D:\Code\backend\src\auth\auth.service.ts:33:23)[39m
+[31m    at Object.next (D:\Code\backend\src\auth\auth.service.ts:14:53)[39m
+[31m    at fulfilled (D:\Code\backend\src\auth\auth.service.ts:5:58)[39m
+[31mERROR   2024-01-17 05:38:02.304 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/auth/auth.controller.ts[0m:[93m45[0m:[93m3[0m - [91merror[0m[90m TS1109: [0mExpression expected.[39m
+
+[31m[7m45[0m   );[39m
+[31m[7m  [0m [91m  ~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/auth/auth.controller.ts[0m:[93m45[0m:[93m3[0m - [91merror[0m[90m TS1109: [0mExpression expected.[39m
+
+[31m[7m45[0m   );[39m
+[31m[7m  [0m [91m  ~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-17 05:38:12.448 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/auth/auth.controller.ts[0m:[93m5[0m:[93m1[0m - [91merror[0m[90m TS6133: [0m'asyncHandler' is declared but its value is never read.[39m
+
+[31m[7m5[0m import asyncHandler from 'express-async-handler';[39m
+[31m[7m [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+[31m[96msrc/auth/auth.controller.ts[0m:[93m52[0m:[93m1[0m - [91merror[0m[90m TS1109: [0mExpression expected.[39m
+
+[31m[7m52[0m );[39m
+[31m[7m  [0m [91m~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/auth/auth.controller.ts[0m:[93m5[0m:[93m1[0m - [91merror[0m[90m TS6133: [0m'asyncHandler' is declared but its value is never read.[39m
+
+[31m[7m5[0m import asyncHandler from 'express-async-handler';[39m
+[31m[7m [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+[31m[96msrc/auth/auth.controller.ts[0m:[93m52[0m:[93m1[0m - [91merror[0m[90m TS1109: [0mExpression expected.[39m
+
+[31m[7m52[0m );[39m
+[31m[7m  [0m [91m~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-17 05:38:22.279 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/auth/auth.controller.ts[0m:[93m5[0m:[93m1[0m - [91merror[0m[90m TS6133: [0m'asyncHandler' is declared but its value is never read.[39m
+
+[31m[7m5[0m import asyncHandler from 'express-async-handler';[39m
+[31m[7m [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/auth/auth.controller.ts[0m:[93m5[0m:[93m1[0m - [91merror[0m[90m TS6133: [0m'asyncHandler' is declared but its value is never read.[39m
+
+[31m[7m5[0m import asyncHandler from 'express-async-handler';[39m
+[31m[7m [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-17 06:10:50.239 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m26[0m:[93m8[0m - [91merror[0m[90m TS1123: [0mVariable declaration list cannot be empty.[39m
+
+[31m[7m26[0m   const[39m
+[31m[7m  [0m [91m       [0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m26[0m:[93m8[0m - [91merror[0m[90m TS1123: [0mVariable declaration list cannot be empty.[39m
+
+[31m[7m26[0m   const[39m
+[31m[7m  [0m [91m       [0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-17 06:10:56.097 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m27[0m:[93m3[0m - [91merror[0m[90m TS1109: [0mExpression expected.[39m
+
+[31m[7m27[0m   const report = await Report.updateOne({ _id: reportId}, { $set: { is_completed: true } });[39m
+[31m[7m  [0m [91m  ~~~~~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m27[0m:[93m3[0m - [91merror[0m[90m TS1109: [0mExpression expected.[39m
+
+[31m[7m27[0m   const report = await Report.updateOne({ _id: reportId}, { $set: { is_completed: true } });[39m
+[31m[7m  [0m [91m  ~~~~~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-17 06:11:12.236 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m26[0m:[93m9[0m - [91merror[0m[90m TS6133: [0m'dto' is declared but its value is never read.[39m
+
+[31m[7m26[0m   const dto = {[39m
+[31m[7m  [0m [91m        ~~~[0m[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m27[0m:[93m5[0m - [91merror[0m[90m TS18004: [0mNo value exists in scope for the shorthand property 'is_'. Either declare one or provide an initializer.[39m
+
+[31m[7m27[0m     is_[39m
+[31m[7m  [0m [91m    ~~~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m26[0m:[93m9[0m - [91merror[0m[90m TS6133: [0m'dto' is declared but its value is never read.[39m
+
+[31m[7m26[0m   const dto = {[39m
+[31m[7m  [0m [91m        ~~~[0m[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m27[0m:[93m5[0m - [91merror[0m[90m TS18004: [0mNo value exists in scope for the shorthand property 'is_'. Either declare one or provide an initializer.[39m
+
+[31m[7m27[0m     is_[39m
+[31m[7m  [0m [91m    ~~~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-17 06:11:22.930 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m26[0m:[93m9[0m - [91merror[0m[90m TS6133: [0m'dto' is declared but its value is never read.[39m
+
+[31m[7m26[0m   const dto = {[39m
+[31m[7m  [0m [91m        ~~~[0m[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m27[0m:[93m5[0m - [91merror[0m[90m TS18004: [0mNo value exists in scope for the shorthand property 'is_completed'. Either declare one or provide an initializer.[39m
+
+[31m[7m27[0m     is_completed[39m
+[31m[7m  [0m [91m    ~~~~~~~~~~~~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m26[0m:[93m9[0m - [91merror[0m[90m TS6133: [0m'dto' is declared but its value is never read.[39m
+
+[31m[7m26[0m   const dto = {[39m
+[31m[7m  [0m [91m        ~~~[0m[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m27[0m:[93m5[0m - [91merror[0m[90m TS18004: [0mNo value exists in scope for the shorthand property 'is_completed'. Either declare one or provide an initializer.[39m
+
+[31m[7m27[0m     is_completed[39m
+[31m[7m  [0m [91m    ~~~~~~~~~~~~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-17 06:11:52.152 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m26[0m:[93m9[0m - [91merror[0m[90m TS6133: [0m'dto' is declared but its value is never read.[39m
+
+[31m[7m26[0m   const dto = {[39m
+[31m[7m  [0m [91m        ~~~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m26[0m:[93m9[0m - [91merror[0m[90m TS6133: [0m'dto' is declared but its value is never read.[39m
+
+[31m[7m26[0m   const dto = {[39m
+[31m[7m  [0m [91m        ~~~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-17 06:12:08.390 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m27[0m:[93m5[0m - [91merror[0m[90m TS18004: [0mNo value exists in scope for the shorthand property 'is_re'. Either declare one or provide an initializer.[39m
+
+[31m[7m27[0m     is_re[39m
+[31m[7m  [0m [91m    ~~~~~[0m[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m28[0m:[93m5[0m - [91merror[0m[90m TS1005: [0m',' expected.[39m
+
+[31m[7m28[0m     is_completed:req.body.is_completed || false,[39m
+[31m[7m  [0m [91m    ~~~~~~~~~~~~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m27[0m:[93m5[0m - [91merror[0m[90m TS18004: [0mNo value exists in scope for the shorthand property 'is_re'. Either declare one or provide an initializer.[39m
+
+[31m[7m27[0m     is_re[39m
+[31m[7m  [0m [91m    ~~~~~[0m[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m28[0m:[93m5[0m - [91merror[0m[90m TS1005: [0m',' expected.[39m
+
+[31m[7m28[0m     is_completed:req.body.is_completed || false,[39m
+[31m[7m  [0m [91m    ~~~~~~~~~~~~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-17 06:12:40.809 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m27[0m:[93m9[0m - [91merror[0m[90m TS6133: [0m'dto' is declared but its value is never read.[39m
+
+[31m[7m27[0m   const dto:Partial<IReport> = {[39m
+[31m[7m  [0m [91m        ~~~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m27[0m:[93m9[0m - [91merror[0m[90m TS6133: [0m'dto' is declared but its value is never read.[39m
+
+[31m[7m27[0m   const dto:Partial<IReport> = {[39m
+[31m[7m  [0m [91m        ~~~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-17 06:12:52.813 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m29[0m:[93m5[0m - [91merror[0m[90m TS1005: [0m',' expected.[39m
+
+[31m[7m29[0m     is_completed:req.body.is_completed || false,[39m
+[31m[7m  [0m [91m    ~~~~~~~~~~~~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m29[0m:[93m5[0m - [91merror[0m[90m TS1005: [0m',' expected.[39m
+
+[31m[7m29[0m     is_completed:req.body.is_completed || false,[39m
+[31m[7m  [0m [91m    ~~~~~~~~~~~~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-17 06:13:03.963 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m27[0m:[93m9[0m - [91merror[0m[90m TS6133: [0m'dto' is declared but its value is never read.[39m
+
+[31m[7m27[0m   const dto: Partial<IReport> = {[39m
+[31m[7m  [0m [91m        ~~~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m27[0m:[93m9[0m - [91merror[0m[90m TS6133: [0m'dto' is declared but its value is never read.[39m
+
+[31m[7m27[0m   const dto: Partial<IReport> = {[39m
+[31m[7m  [0m [91m        ~~~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-17 06:15:29.029 PM    [] 	unhandledRejection: Cast to ObjectId failed for value "65a804362de06a4b3618ebe9p" (type string) at path "_id" for model "Report"[39m
+[31mCastError: Cast to ObjectId failed for value "65a804362de06a4b3618ebe9p" (type string) at path "_id" for model "Report"[39m
+[31m    at SchemaObjectId.cast (D:\Code\backend\node_modules\mongoose\lib\schema\objectId.js:250:11)[39m
+[31m    at SchemaObjectId.SchemaType.applySetters (D:\Code\backend\node_modules\mongoose\lib\schemaType.js:1219:12)[39m
+[31m    at SchemaObjectId.SchemaType.castForQuery (D:\Code\backend\node_modules\mongoose\lib\schemaType.js:1633:15)[39m
+[31m    at cast (D:\Code\backend\node_modules\mongoose\lib\cast.js:375:32)[39m
+[31m    at model.Query.Query.cast (D:\Code\backend\node_modules\mongoose\lib\query.js:4768:12)[39m
+[31m    at model.Query.Query._castConditions (D:\Code\backend\node_modules\mongoose\lib\query.js:2200:10)[39m
+[31m    at model.Query._updateThunk (D:\Code\backend\node_modules\mongoose\lib\query.js:3714:8)[39m
+[31m    at model.Query._updateOne (D:\Code\backend\node_modules\mongoose\lib\query.js:3819:23)[39m
+[31m    at model.Query.exec (D:\Code\backend\node_modules\mongoose\lib\query.js:4290:80)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+[31mERROR   2024-01-17 06:15:57.791 PM    [] 	unhandledRejection: Cast to ObjectId failed for value "65a804362de06a4b3618ebe9p" (type string) at path "_id" for model "Report"[39m
+[31mCastError: Cast to ObjectId failed for value "65a804362de06a4b3618ebe9p" (type string) at path "_id" for model "Report"[39m
+[31m    at SchemaObjectId.cast (D:\Code\backend\node_modules\mongoose\lib\schema\objectId.js:250:11)[39m
+[31m    at SchemaObjectId.SchemaType.applySetters (D:\Code\backend\node_modules\mongoose\lib\schemaType.js:1219:12)[39m
+[31m    at SchemaObjectId.SchemaType.castForQuery (D:\Code\backend\node_modules\mongoose\lib\schemaType.js:1633:15)[39m
+[31m    at cast (D:\Code\backend\node_modules\mongoose\lib\cast.js:375:32)[39m
+[31m    at model.Query.Query.cast (D:\Code\backend\node_modules\mongoose\lib\query.js:4768:12)[39m
+[31m    at model.Query.Query._castConditions (D:\Code\backend\node_modules\mongoose\lib\query.js:2200:10)[39m
+[31m    at model.Query._updateThunk (D:\Code\backend\node_modules\mongoose\lib\query.js:3714:8)[39m
+[31m    at model.Query._updateOne (D:\Code\backend\node_modules\mongoose\lib\query.js:3819:23)[39m
+[31m    at model.Query.exec (D:\Code\backend\node_modules\mongoose\lib\query.js:4290:80)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+[31mERROR   2024-01-17 06:16:17.819 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m26[0m:[93m5[0m - [91merror[0m[90m TS2304: [0mCannot find name 'lo'.[39m
+
+[31m[7m26[0m     lo[39m
+[31m[7m  [0m [91m    ~~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m26[0m:[93m5[0m - [91merror[0m[90m TS2304: [0mCannot find name 'lo'.[39m
+
+[31m[7m26[0m     lo[39m
+[31m[7m  [0m [91m    ~~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-17 06:16:40.641 PM    [] 	unhandledRejection: Cast to ObjectId failed for value "65a804362de06a4b3618ebe9p" (type string) at path "_id" for model "Report"[39m
+[31mCastError: Cast to ObjectId failed for value "65a804362de06a4b3618ebe9p" (type string) at path "_id" for model "Report"[39m
+[31m    at SchemaObjectId.cast (D:\Code\backend\node_modules\mongoose\lib\schema\objectId.js:250:11)[39m
+[31m    at SchemaObjectId.SchemaType.applySetters (D:\Code\backend\node_modules\mongoose\lib\schemaType.js:1219:12)[39m
+[31m    at SchemaObjectId.SchemaType.castForQuery (D:\Code\backend\node_modules\mongoose\lib\schemaType.js:1633:15)[39m
+[31m    at cast (D:\Code\backend\node_modules\mongoose\lib\cast.js:375:32)[39m
+[31m    at model.Query.Query.cast (D:\Code\backend\node_modules\mongoose\lib\query.js:4768:12)[39m
+[31m    at model.Query.Query._castConditions (D:\Code\backend\node_modules\mongoose\lib\query.js:2200:10)[39m
+[31m    at model.Query._updateThunk (D:\Code\backend\node_modules\mongoose\lib\query.js:3714:8)[39m
+[31m    at model.Query._updateOne (D:\Code\backend\node_modules\mongoose\lib\query.js:3819:23)[39m
+[31m    at model.Query.exec (D:\Code\backend\node_modules\mongoose\lib\query.js:4290:80)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+[31mERROR   2024-01-17 06:20:07.587 PM    [] 	unhandledRejection: Cast to ObjectId failed for value "65a804362de06a4b3618ebe9p" (type string) at path "_id" for model "Report"[39m
+[31mCastError: Cast to ObjectId failed for value "65a804362de06a4b3618ebe9p" (type string) at path "_id" for model "Report"[39m
+[31m    at SchemaObjectId.cast (D:\Code\backend\node_modules\mongoose\lib\schema\objectId.js:250:11)[39m
+[31m    at SchemaObjectId.SchemaType.applySetters (D:\Code\backend\node_modules\mongoose\lib\schemaType.js:1219:12)[39m
+[31m    at SchemaObjectId.SchemaType.castForQuery (D:\Code\backend\node_modules\mongoose\lib\schemaType.js:1633:15)[39m
+[31m    at cast (D:\Code\backend\node_modules\mongoose\lib\cast.js:375:32)[39m
+[31m    at model.Query.Query.cast (D:\Code\backend\node_modules\mongoose\lib\query.js:4768:12)[39m
+[31m    at model.Query.Query._castConditions (D:\Code\backend\node_modules\mongoose\lib\query.js:2200:10)[39m
+[31m    at model.Query._updateThunk (D:\Code\backend\node_modules\mongoose\lib\query.js:3714:8)[39m
+[31m    at model.Query._updateOne (D:\Code\backend\node_modules\mongoose\lib\query.js:3819:23)[39m
+[31m    at model.Query.exec (D:\Code\backend\node_modules\mongoose\lib\query.js:4290:80)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+[31mERROR   2024-01-17 06:27:23.090 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m29[0m:[93m3[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.[39m
+[31m  The last overload gave the following error.[39m
+[31m    Argument of type 'void' is not assignable to parameter of type 'Application<Record<string, any>>'.[39m
+
+[31m[7m 29[0m   catchWrapper(async (req: Request, res: Response) => {[39m
+[31m[7m   [0m [91m  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+[31m[7m 30[0m     const reportId = req.params.id;[39m
+[31m[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+[31m[7m...[0m [39m
+[31m[7m 38[0m     res.json(report);[39m
+[31m[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~[0m[39m
+[31m[7m 39[0m   }),[39m
+[31m[7m   [0m [91m~~~~[0m[39m
+
+[31m  [96mnode_modules/@types/express-serve-static-core/index.d.ts[0m:[93m164[0m:[93m5[0m[39m
+[31m    [7m164[0m     (path: PathParams, subApplication: Application): T;[39m
+[31m    [7m   [0m [96m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+[31m    The last overload is declared here.[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/report/report.controller.ts[0m:[93m29[0m:[93m3[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.[39m
+[31m  The last overload gave the following error.[39m
+[31m    Argument of type 'void' is not assignable to parameter of type 'Application<Record<string, any>>'.[39m
+
+[31m[7m 29[0m   catchWrapper(async (req: Request, res: Response) => {[39m
+[31m[7m   [0m [91m  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+[31m[7m 30[0m     const reportId = req.params.id;[39m
+[31m[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+[31m[7m...[0m [39m
+[31m[7m 38[0m     res.json(report);[39m
+[31m[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~[0m[39m
+[31m[7m 39[0m   }),[39m
+[31m[7m   [0m [91m~~~~[0m[39m
+
+[31m  [96mnode_modules/@types/express-serve-static-core/index.d.ts[0m:[93m164[0m:[93m5[0m[39m
+[31m    [7m164[0m     (path: PathParams, subApplication: Application): T;[39m
+[31m    [7m   [0m [96m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+[31m    The last overload is declared here.[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-17 06:29:45.718 PM    [] 	unhandledRejection: Cannot read properties of undefined (reading 'params')[39m
+[31mTypeError: Cannot read properties of undefined (reading 'params')[39m
+[31m    at D:\Code\backend\src\report\report.controller.ts:30:26[39m
+[31m    at step (D:\Code\backend\src\report\report.controller.ts:33:23)[39m
+[31m    at Object.next (D:\Code\backend\src\report\report.controller.ts:14:53)[39m
+[31m    at D:\Code\backend\src\report\report.controller.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\report\report.controller.ts:4:12)[39m
+[31m    at D:\Code\backend\src\report\report.controller.ts:29:50[39m
+[31m    at D:\Code\backend\src\errorHandler.ts:33:5[39m
+[31m    at step (D:\Code\backend\src\errorHandler.ts:48:23)[39m
+[31m    at Object.next (D:\Code\backend\src\errorHandler.ts:29:53)[39m
+[31mERROR   2024-01-18 03:27:41.067 PM    [] 	unhandledRejection: Authentication failed[39m
+[31mAppError: Authentication failed[39m
+[31m    at new AppError (D:\Code\backend\src\errorHandler.ts:9:10)[39m
+[31m    at Object.<anonymous> (D:\Code\backend\src\auth\auth.service.ts:89:31)[39m
+[31m    at step (D:\Code\backend\src\auth\auth.service.ts:33:23)[39m
+[31m    at Object.next (D:\Code\backend\src\auth\auth.service.ts:14:53)[39m
+[31m    at fulfilled (D:\Code\backend\src\auth\auth.service.ts:5:58)[39m
+[31mERROR   2024-01-18 03:53:59.959 PM    [] 	uncaughtException: (0 , express_yields_1.isGenerator) is not a function[39m
+[31mTypeError: (0 , express_yields_1.isGenerator) is not a function[39m
+[31m    at Object.<anonymous> (D:\Code\backend\src\app.ts:27:20)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1233:14)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1618:23)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)[39m
+[31m    at phase4 (D:\Code\backend\node_modules\ts-node\src\bin.ts:649:14)[39m
+[31m    at bootstrap (D:\Code\backend\node_modules\ts-node\src\bin.ts:95:10)[39m
+[31mERROR   2024-01-18 03:54:48.382 PM    [] 	unhandledRejection: Authentication failed[39m
+[31mAppError: Authentication failed[39m
+[31m    at new AppError (D:\Code\backend\src\errorHandler.ts:9:10)[39m
+[31m    at Object.<anonymous> (D:\Code\backend\src\auth\auth.service.ts:89:31)[39m
+[31m    at step (D:\Code\backend\src\auth\auth.service.ts:33:23)[39m
+[31m    at Object.next (D:\Code\backend\src\auth\auth.service.ts:14:53)[39m
+[31m    at fulfilled (D:\Code\backend\src\auth\auth.service.ts:5:58)[39m
+[31mERROR   2024-01-18 03:56:23.220 PM    [] 	unhandledRejection: Cannot set headers after they are sent to the client[39m
+[31mError [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client[39m
+[31m    at new NodeError (node:internal/errors:405:5)[39m
+[31m    at ServerResponse.setHeader (node:_http_outgoing:652:11)[39m
+[31m    at D:\Code\backend\src\auth\auth.controller.ts:23:7[39m
+[31m    at step (D:\Code\backend\src\auth\auth.controller.ts:33:23)[39m
+[31m    at Object.next (D:\Code\backend\src\auth\auth.controller.ts:14:53)[39m
+[31m    at fulfilled (D:\Code\backend\src\auth\auth.controller.ts:5:58)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+[31mERROR   2024-01-18 03:57:52.384 PM    [] 	unhandledRejection: Cannot set headers after they are sent to the client[39m
+[31mError [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client[39m
+[31m    at new NodeError (node:internal/errors:405:5)[39m
+[31m    at ServerResponse.setHeader (node:_http_outgoing:652:11)[39m
+[31m    at D:\Code\backend\src\auth\auth.controller.ts:23:7[39m
+[31m    at step (D:\Code\backend\src\auth\auth.controller.ts:33:23)[39m
+[31m    at Object.next (D:\Code\backend\src\auth\auth.controller.ts:14:53)[39m
+[31m    at fulfilled (D:\Code\backend\src\auth\auth.controller.ts:5:58)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+[31mERROR   2024-01-18 04:00:14.244 PM    [] 	unhandledRejection: Cannot set headers after they are sent to the client[39m
+[31mError [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client[39m
+[31m    at new NodeError (node:internal/errors:405:5)[39m
+[31m    at ServerResponse.setHeader (node:_http_outgoing:652:11)[39m
+[31m    at D:\Code\backend\src\auth\auth.controller.ts:23:7[39m
+[31m    at step (D:\Code\backend\src\auth\auth.controller.ts:33:23)[39m
+[31m    at Object.next (D:\Code\backend\src\auth\auth.controller.ts:14:53)[39m
+[31m    at fulfilled (D:\Code\backend\src\auth\auth.controller.ts:5:58)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+[31mERROR   2024-01-18 04:12:07.713 PM    [] 	unhandledRejection: Authentication failed[39m
+[31mAppError: Authentication failed[39m
+[31m    at new AppError (D:\Code\backend\src\errorHandler.ts:9:10)[39m
+[31m    at Object.<anonymous> (D:\Code\backend\src\auth\auth.service.ts:89:31)[39m
+[31m    at step (D:\Code\backend\src\auth\auth.service.ts:33:23)[39m
+[31m    at Object.next (D:\Code\backend\src\auth\auth.service.ts:14:53)[39m
+[31m    at fulfilled (D:\Code\backend\src\auth\auth.service.ts:5:58)[39m
+[31mERROR   2024-01-18 04:12:32.892 PM    [] 	unhandledRejection: Authentication failed[39m
+[31mAppError: Authentication failed[39m
+[31m    at new AppError (D:\Code\backend\src\errorHandler.ts:9:10)[39m
+[31m    at Object.<anonymous> (D:\Code\backend\src\auth\auth.service.ts:89:31)[39m
+[31m    at step (D:\Code\backend\src\auth\auth.service.ts:33:23)[39m
+[31m    at Object.next (D:\Code\backend\src\auth\auth.service.ts:14:53)[39m
+[31m    at fulfilled (D:\Code\backend\src\auth\auth.service.ts:5:58)[39m
+[31mERROR   2024-01-18 04:16:00.692 PM    [] 	unhandledRejection: Authentication failed[39m
+[31mAppError: Authentication failed[39m
+[31m    at new AppError (D:\Code\backend\src\errorHandler.ts:9:10)[39m
+[31m    at Object.<anonymous> (D:\Code\backend\src\auth\auth.service.ts:89:31)[39m
+[31m    at step (D:\Code\backend\src\auth\auth.service.ts:33:23)[39m
+[31m    at Object.next (D:\Code\backend\src\auth\auth.service.ts:14:53)[39m
+[31m    at fulfilled (D:\Code\backend\src\auth\auth.service.ts:5:58)[39m
+[31mERROR   2024-01-18 04:17:42.267 PM    [] 	unhandledRejection: Authentication failed[39m
+[31mAppError: Authentication failed[39m
+[31m    at Object.<anonymous> (D:\Code\backend\src\auth\auth.service.ts:89:31)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (D:\Code\backend\src\auth\auth.service.ts:5:58)[39m
+[31mERROR   2024-01-18 04:25:04.679 PM    [] 	unhandledRejection: Authentication failed[39m
+[31mAppError: Authentication failed[39m
+[31m    at Object.<anonymous> (D:\Code\backend\src\auth\auth.service.ts:89:31)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (D:\Code\backend\src\auth\auth.service.ts:5:58)[39m
+[31mERROR   2024-01-18 04:27:47.545 PM    [] 	unhandledRejection: Authentication failed[39m
+[31mAppError: Authentication failed[39m
+[31m    at Object.<anonymous> (D:\Code\backend\src\auth\auth.service.ts:89:31)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (D:\Code\backend\src\auth\auth.service.ts:5:58)[39m
+[31mERROR   2024-01-18 04:29:19.299 PM    [] 	unhandledRejection: Authentication failed[39m
+[31mAppError: Authentication failed[39m
+[31m    at Object.<anonymous> (D:\Code\backend\src\auth\auth.service.ts:89:31)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (D:\Code\backend\src\auth\auth.service.ts:5:58)[39m
+[31mERROR   2024-01-18 04:29:56.529 PM    [] 	unhandledRejection: Authentication failed[39m
+[31mAppError: Authentication failed[39m
+[31m    at Object.<anonymous> (D:\Code\backend\src\auth\auth.service.ts:89:31)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (D:\Code\backend\src\auth\auth.service.ts:5:58)[39m
+[31mERROR   2024-01-18 04:30:24.907 PM    [] 	unhandledRejection: Authentication failed[39m
+[31mAppError: Authentication failed[39m
+[31m    at Object.<anonymous> (D:\Code\backend\src\auth\auth.service.ts:89:31)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (D:\Code\backend\src\auth\auth.service.ts:5:58)[39m
+[31mERROR   2024-01-19 10:08:57.770 AM    [] 	unhandledRejection: invalid input syntax for type integer: "$2b$10$TbTvuyeU5nqP8nCRInlqbuOrDk2S/M.CwKK3z.bd.Ajyvg.1LE3ny"[39m
+[31mQueryFailedError: invalid input syntax for type integer: "$2b$10$TbTvuyeU5nqP8nCRInlqbuOrDk2S/M.CwKK3z.bd.Ajyvg.1LE3ny"[39m
+[31m    at PostgresQueryRunner.query (D:\Code\backend\node_modules\typeorm\src\driver\postgres\PostgresQueryRunner.ts:331:19)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+[31m    at async UpdateQueryBuilder.execute (D:\Code\backend\node_modules\src\query-builder\UpdateQueryBuilder.ts:145:33)[39m
+[31mERROR   2024-01-19 11:26:17.364 AM    [] 	unhandledRejection: Cannot set headers after they are sent to the client[39m
+[31mError [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client[39m
+[31m    at new NodeError (node:internal/errors:405:5)[39m
+[31m    at ServerResponse.setHeader (node:_http_outgoing:652:11)[39m
+[31m    at ServerResponse.header (D:\Code\backend\node_modules\express\lib\response.js:794:10)[39m
+[31m    at ServerResponse.send (D:\Code\backend\node_modules\express\lib\response.js:174:12)[39m
+[31m    at ServerResponse.json (D:\Code\backend\node_modules\express\lib\response.js:278:15)[39m
+[31m    at errorHandler (D:\Code\backend\src\utils\errorHandler.ts:24:21)[39m
+[31m    at D:\Code\backend\src\utils\errorHandler.ts:37:5[39m
+[31m    at Generator.throw (<anonymous>)[39m
+[31m    at rejected (D:\Code\backend\src\utils\errorHandler.ts:6:65)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+[31mERROR   2024-01-19 11:34:31.305 AM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/auth/auth.controller.ts[0m:[93m55[0m:[93m22[0m - [91merror[0m[90m TS2339: [0mProperty 'user' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.[39m
+
+[31m[7m55[0m     const user = req.user[39m
+[31m[7m  [0m [91m                     ~~~~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/auth/auth.controller.ts[0m:[93m55[0m:[93m22[0m - [91merror[0m[90m TS2339: [0mProperty 'user' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.[39m
+
+[31m[7m55[0m     const user = req.user[39m
+[31m[7m  [0m [91m                     ~~~~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m

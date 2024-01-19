@@ -1,47 +1,48 @@
 {
-    "git.ignoreLimitWarning": true,
-    "files.exclude": {
-      "**/.classpath": true,
-      "**/.project": true,
-      "**/.settings": true,
-      "**/.factorypath": true
+  "git.ignoreLimitWarning": true,
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "explorer.autoReveal": false,
+  "editor.wordWrapColumn": 140,
+  "prettier.printWidth": 140,
+  "prettier.singleQuote": true,
+  "prettier.useTabs": false,
+  "prettier.tabWidth": 2,
+  "prettier.semi": true,
+  "prettier.trailingComma": "all",
+  "prettier.bracketSpacing": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.detectIndentation": false,
+  "todo-tree.general.tags": ["FIXME", "TODO", "IMPORTANT"],
+  "todo-tree.highlights.customHighlight": {
+    "IMPORTANT": {
+      "foreground": "white",
+      "background": "SlateBlue",
+      "iconColour": "SlateBlue",
+      "icon": "star",
+      "gutterIcon": true,
+      "type": "line"
     },
-    "explorer.autoReveal": false,
-    "editor.wordWrapColumn": 140,
-    "prettier.printWidth": 140,
-    "prettier.singleQuote": true,
-    "prettier.useTabs": false,
-    "prettier.tabWidth": 2,
-    "prettier.semi": true,
-    "prettier.trailingComma": "all",
-    "prettier.bracketSpacing": true,
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.detectIndentation": false,
-    "todo-tree.general.tags": ["FIXME", "TODO", "IMPORTANT"],
-    "todo-tree.highlights.customHighlight": {
-      "IMPORTANT": {
-        "foreground": "white",
-        "background": "SlateBlue",
-        "iconColour": "SlateBlue",
-        "icon": "star",
-        "gutterIcon": true,
-        "type": "line"
-      },
-      "TODO": {
-        "background": "MediumSeaGreen",
-        "foreground": "white",
-        "iconColour": "MediumSeaGreen",
-        "icon": "check",
-        "type": "line",
-        "gutterIcon": true
-      },
-      "FIXME": {
-        "foreground": "black",
-        "background": "orange",
-        "iconColour": "yellow",
-        "gutterIcon": true,
-        "type": "line"
-      }
+    "TODO": {
+      "background": "MediumSeaGreen",
+      "foreground": "white",
+      "iconColour": "MediumSeaGreen",
+      "icon": "check",
+      "type": "line",
+      "gutterIcon": true
     },
-  }
+    "FIXME": {
+      "foreground": "black",
+      "background": "orange",
+      "iconColour": "yellow",
+      "gutterIcon": true,
+      "type": "line"
+    }
+  },
+  "typescript.tsdk": "node_modules\\typescript\\lib"
+}

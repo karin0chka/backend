@@ -25,7 +25,7 @@ interface IConfig {
 }
 
 const config: IConfig = {
-  SERVER: { PORT: Number(process.env.PORT) || 3000, NODE_TYPE: process.env.NODE_TYPE },
+  SERVER: { PORT: Number(process.env.PORT) || 3000, NODE_TYPE: process.env.NODE_TYPE! },
   DB: {
     POSTGRES: {
       HOST: process.env.PG_HOST!,
@@ -45,7 +45,5 @@ const config: IConfig = {
     JWT_REFRESH_EXPIRE_TIME: Number(process.env.JWT_REFRESH_EXPIRE_TIME),
   },
 };
-
-
 
 export default config;
