@@ -4146,3 +4146,43 @@
 [31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
 [31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
 [31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-22 01:42:57.146 PM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/auth/auth.controller.ts[0m:[93m7[0m:[93m1[0m - [91merror[0m[90m TS6133: [0m'User' is declared but its value is never read.[39m
+
+[31m[7m7[0m import User from "../.database/pg/.entities/user.entity"[39m
+[31m[7m [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+[31m[96msrc/auth/auth.controller.ts[0m:[93m21[0m:[93m16[0m - [91merror[0m[90m TS2554: [0mExpected 2-3 arguments, but got 1.[39m
+
+[31m[7m21[0m     let user = plainToClass(userInfo.user)[39m
+[31m[7m  [0m [91m               ~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+
+[31m  [96mnode_modules/class-transformer/types/index.d.ts[0m:[93m33[0m:[93m70[0m[39m
+[31m    [7m33[0m export declare function plainToClass<T, V>(cls: ClassConstructor<T>, plain: V[], options?: ClassTransformOptions): T[];[39m
+[31m    [7m  [0m [96m                                                                     ~~~~~~~~~~[0m[39m
+[31m    An argument for 'plain' was not provided.[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/auth/auth.controller.ts[0m:[93m7[0m:[93m1[0m - [91merror[0m[90m TS6133: [0m'User' is declared but its value is never read.[39m
+
+[31m[7m7[0m import User from "../.database/pg/.entities/user.entity"[39m
+[31m[7m [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+[31m[96msrc/auth/auth.controller.ts[0m:[93m21[0m:[93m16[0m - [91merror[0m[90m TS2554: [0mExpected 2-3 arguments, but got 1.[39m
+
+[31m[7m21[0m     let user = plainToClass(userInfo.user)[39m
+[31m[7m  [0m [91m               ~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+
+[31m  [96mnode_modules/class-transformer/types/index.d.ts[0m:[93m33[0m:[93m70[0m[39m
+[31m    [7m33[0m export declare function plainToClass<T, V>(cls: ClassConstructor<T>, plain: V[], options?: ClassTransformOptions): T[];[39m
+[31m    [7m  [0m [96m                                                                     ~~~~~~~~~~[0m[39m
+[31m    An argument for 'plain' was not provided.[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m

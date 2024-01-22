@@ -4,6 +4,8 @@ import { jwtAuth, jwtRefresh } from "../.middleware/auth.middleware"
 import AuthService from "./auth.service"
 import { logger } from "../utils/winston.createLogger"
 import { catchWrapper } from "../utils/errorHandler"
+import User from "../.database/pg/.entities/user.entity"
+import { plainToClass } from "class-transformer"
 
 // import { jwtRefresh } from '../.middleware/auth.middleware';
 
@@ -16,8 +18,9 @@ authRoute.post(
   catchWrapper(async (req: Request, res: Response) => {
     logger.info(`User is registering with data: ${JSON.stringify(req.body)}`, "register router")
     const userInfo = await AuthService.register(req.body, res)
+    let user = plainToClass(User, userInfo.user)
     res.setHeader("Set-Cookie", userInfo.cookies)
-    res.json(userInfo.user)
+    res.json(user)
   })
 )
 

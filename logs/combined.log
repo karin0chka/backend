@@ -5132,3 +5132,19 @@ Server is up 🚀
 [32m💫 DB Connected 💫[39m
 [32m[39m
 [32mINFO   2024-01-22 12:52:46.260 PM    [register router] 	User is registering with data: {"first_name":"John","last_name":"Json","email":"johnmail@com","password":"qwert12345"}[39m
+[32mINFO   2024-01-22 01:42:40.159 PM    [] 	Info message[39m
+[31mERROR   2024-01-22 01:42:40.161 PM    [] 	Error message[39m
+[33mWARN   2024-01-22 01:42:40.162 PM    [] 	Warning message[39m
+[32mINFO   2024-01-22 01:42:40.918 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-22 01:42:41.025 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-22 01:42:43.298 PM    [register router] 	User is registering with data: {"first_name":"Adam","last_name":"Json","email":"adammail@com","password":"qwert12345"}[39m
+[32mINFO   2024-01-22 01:42:57.086 PM    [] 	Info message[39m
+[32mINFO   2024-01-22 01:43:01.624 PM    [] 	Info message[39m
+[31mERROR   2024-01-22 01:43:01.626 PM    [] 	Error message[39m
+[33mWARN   2024-01-22 01:43:01.627 PM    [] 	Warning message[39m
+[32mINFO   2024-01-22 01:43:02.400 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-22 01:43:02.466 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m

@@ -3,6 +3,7 @@ import Default from "./default.entity"
 import Todo from "./todo.entity"
 import { IUser } from "../../../../interfaces/entities.interface"
 import { UserType } from "../../../../interfaces/enums"
+import { Exclude } from "class-transformer"
 
 @Entity()
 class User extends Default implements IUser {
@@ -16,9 +17,11 @@ class User extends Default implements IUser {
   @Column()
   email: string
 
+  @Exclude()
   @Column()
   password: string
 
+  @Exclude()
   @Column({ nullable: true })
   refresh_token: string
 
