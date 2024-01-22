@@ -8,6 +8,7 @@ import UserService from "../user/user.service"
 import config from "../utils/config"
 import { AppError } from "../utils/errorHandler"
 import { UserType } from "../../interfaces/enums"
+import Todo from "../.database/pg/.entities/todo.entity"
 
 const jwtSecret = config.JWT.JWT_SECRET
 const jwtRefreshSecret = config.JWT.JWT_REFRESH_SECRET
@@ -55,26 +56,39 @@ namespace AuthService {
       throw new AppError("User alredy exist", 400)
     } else {
       const hashedPassword = await bcrypt.hash(userDto.password, 10)
-      const userRepository = myDataSource.getRepository(User)
-      const newUser = userRepository.create({
-        first_name: userDto.first_name,
-        last_name: userDto.last_name,
-        email: userDto.email.toLowerCase(),
-        password: hashedPassword,
-        refresh_token: "",
-        user_type: UserType.CLIENT,
+      //   const userRepository = myDataSource.getRepository(User)
+      return await myDataSource.transaction(async (entityManager) => {
+        const user = await entityManager.save(
+          User,
+          entityManager.create(User, {
+            first_name: userDto.first_name,
+            last_name: userDto.last_name,
+            email: userDto.email.toLowerCase(),
+            password: hashedPassword,
+            refresh_token: "",
+            user_type: UserType.CLIENT,
+          })
+        )
+        await entityManager.save(
+          Todo,
+          entityManager.create(Todo, {
+            user,
+            title: "Your first todo",
+            description: "Just click done",
+          })
+        )
+
+        const authToken = generateJwtToken(user.id)
+        const refreshToken = generateRefreshToken(user.id)
+
+        user.refresh_token = await bcrypt.hash(refreshToken, 10)
+
+        await entityManager.save(User, user)
+
+        const authCookies = generateAuthCookie(authToken)
+        const refreshCookie = generateRefreshCookie(refreshToken)
+        return { user, cookies: [authCookies, refreshCookie] }
       })
-      const user = await userRepository.save(newUser)
-      const authToken = generateJwtToken(user.id)
-      const refreshToken = generateRefreshToken(user.id)
-
-      user.refresh_token = await bcrypt.hash(refreshToken, 10)
-
-      await userRepository.save(user)
-
-      const authCookies = generateAuthCookie(authToken)
-      const refreshCookie = generateRefreshCookie(refreshToken)
-      return { user, cookies: [authCookies, refreshCookie] }
     }
   }
 

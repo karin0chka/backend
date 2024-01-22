@@ -5123,3 +5123,12 @@ Server is up 🚀
 [32mINFO   2024-01-19 06:09:12.708 PM    [send-message router] 	Message sent: This event is triggered[39m
 [32mINFO   2024-01-19 06:09:13.920 PM    [send-message router] 	Message sent: This event is triggered[39m
 [32mINFO   2024-01-19 06:09:15.060 PM    [send-message router] 	Message sent: This event is triggered[39m
+[32mINFO   2024-01-19 06:11:42.481 PM    [notification router] 	Connection closed[39m
+[32mINFO   2024-01-22 12:52:22.361 PM    [] 	Info message[39m
+[31mERROR   2024-01-22 12:52:22.365 PM    [] 	Error message[39m
+[33mWARN   2024-01-22 12:52:22.366 PM    [] 	Warning message[39m
+[32mINFO   2024-01-22 12:52:23.987 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-22 12:52:24.202 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-22 12:52:46.260 PM    [register router] 	User is registering with data: {"first_name":"John","last_name":"Json","email":"johnmail@com","password":"qwert12345"}[39m

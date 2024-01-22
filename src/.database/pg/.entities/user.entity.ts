@@ -1,31 +1,32 @@
-import { Column, Entity, OneToMany } from 'typeorm';
-import Default from './default.entity';
-import Todo from './todo.entity';
-import { IUser } from '../../../../interfaces/entities.interface';
-import { UserType } from '../../../../interfaces/enums';
+import { Column, Entity, Index, OneToMany } from "typeorm"
+import Default from "./default.entity"
+import Todo from "./todo.entity"
+import { IUser } from "../../../../interfaces/entities.interface"
+import { UserType } from "../../../../interfaces/enums"
 
 @Entity()
 class User extends Default implements IUser {
   @Column()
-  first_name: string;
+  first_name: string
 
   @Column()
-  last_name: string;
+  last_name: string
+
+  @Index()
+  @Column()
+  email: string
 
   @Column()
-  email: string;
-
-  @Column()
-  password: string;
+  password: string
 
   @Column({ nullable: true })
-  refresh_token: string;
+  refresh_token: string
 
-  @Column({ type: 'enum', enum: UserType, default: UserType.CLIENT })
-  user_type: UserType;
+  @Column({ type: "enum", enum: UserType, default: UserType.CLIENT })
+  user_type: UserType
 
   @OneToMany(() => Todo, (todo) => todo.user)
-  todos: Todo[];
+  todos: Todo[]
 }
 
-export default User;
+export default User
