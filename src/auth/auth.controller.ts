@@ -13,6 +13,8 @@ const authRoute = express.Router()
 authRoute.use(express.json())
 authRoute.use(cookieParser())
 
+
+
 authRoute.post(
   "/register",
   catchWrapper(async (req: Request, res: Response) => {
@@ -60,7 +62,7 @@ authRoute.post(
     res.setHeader("Set-Cookie", "").send()
   })
 )
-authRoute.get(
+authRoute.put(
   "/change-password",
   jwtAuth,
   catchWrapper(async (req: Request, res: Response) => {

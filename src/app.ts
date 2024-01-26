@@ -24,7 +24,12 @@ app.use(express.json())
 app.use(cookieParser())
 app.use(helmet())
 //TODO spesify origin
-app.use(cors())
+const corsOptions = {
+  origin: "http://localhost:5173",
+  credentials: true,
+  optionSuccessStatus: 200,
+}
+app.use(cors(corsOptions))
 
 const limiter = rateLimit({
   windowMs: 2 * 60 * 1000,
@@ -44,6 +49,9 @@ myDataSource
 
 app.get("/", (_: Request, res: Response) => {
   res.send("Hello from server!")
+})
+app.get("/health", (_: Request, res: Response) => {
+  res.status(200).send("Connected")
 })
 app.use("/user", user_router)
 app.use("/auth", authRoute)

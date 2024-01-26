@@ -35,6 +35,8 @@ reportRoute.get(
 
 reportRoute.put(
   "/update/:id",
+  jwtAuth,
+  isUserAnAdmin,
   catchWrapper(async (req: Request, res: Response) => {
     const reportId = req.params.id
     logger.info(`Updating report:${reportId}`)
