@@ -7337,3 +7337,138 @@ Server is up 🚀
 [32mINFO   2024-02-02 11:04:49.205 AM    [user todos router] 	Get User39 todos: {}[39m
 [32mINFO   2024-02-02 11:19:35.478 AM    [user todos router] 	Get User39 todos: {}[39m
 [32mINFO   2024-02-02 11:19:38.573 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 11:22:36.762 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 11:22:57.816 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 11:24:10.130 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 11:25:54.821 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 11:25:57.093 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 11:26:02.728 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 11:26:32.288 AM    [create todo router] 	Todo is created with: {"title":"Test 02/02/24","description":"test three"}[39m
+[32mINFO   2024-02-02 11:26:38.072 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 11:26:40.080 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 11:26:41.797 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 11:26:56.508 AM    [create todo router] 	Todo is created with: {"title":"Test fout","description":"test four"}[39m
+[32mINFO   2024-02-02 11:27:08.258 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 11:30:01.498 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 11:30:51.720 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 11:31:14.172 AM    [create todo router] 	Todo is created with: {"title":"Test 5 ","description":"test five"}[39m
+[32mINFO   2024-02-02 11:31:21.356 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 11:31:28.265 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 11:31:33.997 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 11:31:39.605 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 11:34:33.611 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 11:37:53.750 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 11:38:12.833 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 11:39:44.104 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 11:39:49.889 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 11:39:50.156 AM    [create todo router] 	Todo is created with: {"title":"Test 5 ","description":"test five"}[39m
+[32mINFO   2024-02-02 11:40:01.982 AM    [create todo router] 	Todo is created with: {"title":"Test 6","description":"test six"}[39m
+[32mINFO   2024-02-02 11:40:06.373 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 11:40:10.143 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 11:40:25.535 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 11:40:27.874 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 11:40:47.973 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 11:40:52.629 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 11:40:52.884 AM    [create todo router] 	Todo is created with: {"title":"Test 6","description":"test six"}[39m
+[32mINFO   2024-02-02 11:40:59.886 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 11:41:03.199 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 11:41:09.940 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 11:43:04.501 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 11:43:33.898 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 11:43:36.862 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 11:43:50.261 AM    [create todo router] 	Todo is created with: {"title":"Test 7","description":"test seven"}[39m
+[32mINFO   2024-02-02 11:43:59.170 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 11:44:06.782 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 11:44:36.285 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 11:44:43.286 AM    [create todo router] 	Todo is created with: {"title":"Test 8 ","description":"test eight"}[39m
+[32mINFO   2024-02-02 11:44:45.814 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 11:44:48.491 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 11:45:09.045 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 11:50:12.561 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 11:51:08.364 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 11:51:11.920 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 11:53:41.510 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 11:53:54.458 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 11:55:20.631 AM    [] 	Info message[39m
+[31mERROR   2024-02-02 11:55:20.637 AM    [] 	Error message[39m
+[33mWARN   2024-02-02 11:55:20.638 AM    [] 	Warning message[39m
+[32mINFO   2024-02-02 11:55:22.279 AM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-02-02 11:55:22.465 AM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-02-02 11:56:07.542 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 11:56:13.338 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 11:56:31.854 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 11:56:34.372 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 11:57:23.516 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 11:57:24.534 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 11:57:27.432 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 11:57:28.831 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 11:57:29.875 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 11:57:31.943 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 11:57:35.986 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 11:57:46.473 AM    [user todos router] 	Get User39 todos: {}[39m
+[31mERROR   2024-02-02 12:14:26.447 PM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:21:12[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:9:75)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[32mINFO   2024-02-02 12:14:26.900 PM    [refreshed router] 	User token is refreshed with data: {}[39m
+[32mINFO   2024-02-02 12:14:26.938 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 12:14:28.972 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 12:14:31.985 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 12:15:06.413 PM    [] 	Info message[39m
+[31mERROR   2024-02-02 12:15:06.417 PM    [] 	Error message[39m
+[33mWARN   2024-02-02 12:15:06.418 PM    [] 	Warning message[39m
+[32mINFO   2024-02-02 12:15:08.248 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-02-02 12:15:08.493 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-02-02 12:15:47.068 PM    [] 	Info message[39m
+[31mERROR   2024-02-02 12:15:47.072 PM    [] 	Error message[39m
+[33mWARN   2024-02-02 12:15:47.073 PM    [] 	Warning message[39m
+[32mINFO   2024-02-02 12:15:48.985 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-02-02 12:15:49.131 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-02-02 12:15:53.476 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 12:16:31.762 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 12:16:53.832 PM    [] 	Info message[39m
+[31mERROR   2024-02-02 12:16:53.838 PM    [] 	Error message[39m
+[33mWARN   2024-02-02 12:16:53.840 PM    [] 	Warning message[39m
+[32mINFO   2024-02-02 12:16:55.795 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-02-02 12:16:55.968 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-02-02 12:17:01.669 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 12:17:11.395 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 12:17:13.892 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 12:17:34.817 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 12:17:40.445 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 12:17:53.303 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 12:18:03.226 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 12:18:08.463 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 12:18:10.762 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 12:18:26.782 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 12:18:33.687 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 12:21:27.549 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 12:21:32.433 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 12:21:46.630 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 12:21:53.420 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 12:21:57.418 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 12:21:59.416 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 12:22:32.499 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 12:22:38.437 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 12:28:11.197 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 12:28:15.144 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 12:29:36.413 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 12:29:38.149 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 12:30:01.894 PM    [create todo router] 	Todo is created with: {"title":"test 9","description":"test nine"}[39m

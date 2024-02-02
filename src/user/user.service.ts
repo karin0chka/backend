@@ -19,7 +19,8 @@ namespace UserService {
   }
   export async function getUserTodos(userID: number) {
     //@ts-ignore
-    return await myDataSource.getRepository(Todo).find({ where: { user: { id: userID } } })
+    const todos = await myDataSource.getRepository(Todo).find({ where: { user: { id: userID } } })
+    return todos
   }
 }
 
