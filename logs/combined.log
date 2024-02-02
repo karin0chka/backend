@@ -5327,3 +5327,2013 @@ Server is up 🚀
 [31m  routine: 'ExecConstraints'[39m
 [31m}[39m
 [32mINFO   2024-01-26 04:26:35.619 PM    [register router] 	User is registering with data: {"first_name":"ssd","last_name":"sdc","email":"wd@gmail.com","password":"qwert12345"}[39m
+[32mINFO   2024-01-29 01:47:23.970 PM    [] 	Info message[39m
+[31mERROR   2024-01-29 01:47:23.974 PM    [] 	Error message[39m
+[33mWARN   2024-01-29 01:47:23.974 PM    [] 	Warning message[39m
+[32mINFO   2024-01-29 01:47:25.665 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-29 01:47:25.876 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-29 01:47:30.244 PM    [register router] 	User is registering with data: {"first_name":"test","last_name":"test","email":"testone@gmail.com","password":"myPassword123!"}[39m
+[32mINFO   2024-01-29 02:07:59.079 PM    [] 	Info message[39m
+[31mERROR   2024-01-29 02:07:59.086 PM    [] 	Error message[39m
+[33mWARN   2024-01-29 02:07:59.088 PM    [] 	Warning message[39m
+[32mINFO   2024-01-29 02:08:01.292 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-29 02:08:01.515 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-29 02:08:14.741 PM    [login router] 	User is loged in with data: {"email":"kemd@dkmwd","password":"123456"}[39m
+[31mERROR   2024-01-29 02:08:14.882 PM    [] 	EntityNotFoundError: Could not find any entity of type "User" matching: {[39m
+[31m    "where": {[39m
+[31m        "email": "kemd@dkmwd"[39m
+[31m    }[39m
+[31m}[39m
+[31m    at D:\Code\backend\node_modules\src\entity-manager\EntityManager.ts:1274:25[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5) {[39m
+[31m  entityClass: [class User extends Default],[39m
+[31m  criteria: { where: { email: 'kemd@dkmwd' } }[39m
+[31m}[39m
+[32mINFO   2024-01-29 03:20:01.991 PM    [] 	Info message[39m
+[31mERROR   2024-01-29 03:20:01.995 PM    [] 	Error message[39m
+[33mWARN   2024-01-29 03:20:01.996 PM    [] 	Warning message[39m
+[32mINFO   2024-01-29 03:20:03.526 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-29 03:20:03.708 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-29 03:20:24.653 PM    [login router] 	User is loged in with data: {"email":"rgaeq3@kmefr","password":"12345uyghbj"}[39m
+[31mERROR   2024-01-29 03:20:24.794 PM    [] 	EntityNotFoundError: Could not find any entity of type "User" matching: {[39m
+[31m    "where": {[39m
+[31m        "email": "rgaeq3@kmefr"[39m
+[31m    }[39m
+[31m}[39m
+[31m    at D:\Code\backend\node_modules\src\entity-manager\EntityManager.ts:1274:25[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5) {[39m
+[31m  entityClass: [class User extends Default],[39m
+[31m  criteria: { where: { email: 'rgaeq3@kmefr' } }[39m
+[31m}[39m
+[32mINFO   2024-01-29 03:21:12.537 PM    [login router] 	User is loged in with data: {"email":"rtfaq3@gmail.con","password":"2jn3rk43ef"}[39m
+[31mERROR   2024-01-29 03:21:12.636 PM    [] 	EntityNotFoundError: Could not find any entity of type "User" matching: {[39m
+[31m    "where": {[39m
+[31m        "email": "rtfaq3@gmail.con"[39m
+[31m    }[39m
+[31m}[39m
+[31m    at D:\Code\backend\node_modules\src\entity-manager\EntityManager.ts:1274:25[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5) {[39m
+[31m  entityClass: [class User extends Default],[39m
+[31m  criteria: { where: { email: 'rtfaq3@gmail.con' } }[39m
+[31m}[39m
+[32mINFO   2024-01-29 03:22:37.280 PM    [login router] 	User is loged in with data: {"email":"johnmail@com","password":"12345qwert"}[39m
+[31mERROR   2024-01-29 03:22:37.560 PM    [] 	AppError: Authentication failed[39m
+[31m    at Object.<anonymous> (D:\Code\backend\src\auth\auth.service.ts:103:31)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (D:\Code\backend\src\auth\auth.service.ts:5:58) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[32mINFO   2024-01-29 03:55:45.023 PM    [] 	Info message[39m
+[31mERROR   2024-01-29 03:55:45.025 PM    [] 	Error message[39m
+[33mWARN   2024-01-29 03:55:45.025 PM    [] 	Warning message[39m
+[32mINFO   2024-01-29 03:55:45.816 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-29 03:55:45.921 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-29 03:56:11.544 PM    [login router] 	User is loged in with data: {"email":"johnmail@com","password":"12345qwert"}[39m
+[31mERROR   2024-01-29 03:56:11.713 PM    [] 	AppError: Authentication failed[39m
+[31m    at Object.<anonymous> (D:\Code\backend\src\auth\auth.service.ts:103:31)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (D:\Code\backend\src\auth\auth.service.ts:5:58) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[32mINFO   2024-01-29 03:57:18.505 PM    [login router] 	User is loged in with data: {"email":"johnmail@com","password":"qwert12345"}[39m
+[32mINFO   2024-01-29 04:12:27.436 PM    [] 	Info message[39m
+[31mERROR   2024-01-29 04:12:27.438 PM    [] 	Error message[39m
+[33mWARN   2024-01-29 04:12:27.438 PM    [] 	Warning message[39m
+[32mINFO   2024-01-29 04:12:28.308 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-29 04:12:28.450 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-29 04:12:39.571 PM    [login router] 	User is loged in with data: {"email":"jekqlidnxj@gmail.com","password":"qwdwkjefnwghnq"}[39m
+[31mERROR   2024-01-29 04:12:39.718 PM    [] 	EntityNotFoundError: Could not find any entity of type "User" matching: {[39m
+[31m    "where": {[39m
+[31m        "email": "jekqlidnxj@gmail.com"[39m
+[31m    }[39m
+[31m}[39m
+[31m    at D:\Code\backend\node_modules\src\entity-manager\EntityManager.ts:1274:25[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5) {[39m
+[31m  entityClass: [class User extends Default],[39m
+[31m  criteria: { where: { email: 'jekqlidnxj@gmail.com' } }[39m
+[31m}[39m
+[32mINFO   2024-01-29 04:13:26.281 PM    [login router] 	User is loged in with data: {"email":"johnmail@com","password":"qwert12345"}[39m
+[32mINFO   2024-01-29 04:23:07.837 PM    [] 	Info message[39m
+[31mERROR   2024-01-29 04:23:07.841 PM    [] 	Error message[39m
+[33mWARN   2024-01-29 04:23:07.842 PM    [] 	Warning message[39m
+[32mINFO   2024-01-29 04:23:09.449 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-29 04:23:09.727 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-29 04:32:01.256 PM    [register router] 	User is registering with data: {"first_name":"test","last_name":"two","email":"johnmail@com","password":"1Qa!!!"}[39m
+[31mERROR   2024-01-29 04:32:01.375 PM    [] 	AppError: User alredy exist[39m
+[31m    at Object.<anonymous> (D:\Code\backend\src\auth\auth.service.ts:56:13)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (D:\Code\backend\src\auth\auth.service.ts:5:58)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5) {[39m
+[31m  statusCode: 400[39m
+[31m}[39m
+[32mINFO   2024-01-29 04:32:34.314 PM    [register router] 	User is registering with data: {"first_name":"test","last_name":"two","email":"johnmail@gmail.com","password":"1Qa!!!"}[39m
+[32mINFO   2024-01-29 04:33:10.145 PM    [login router] 	User is loged in with data: {"email":"qwer@gmail.com","password":"kdmclerjnfg"}[39m
+[31mERROR   2024-01-29 04:33:10.410 PM    [] 	EntityNotFoundError: Could not find any entity of type "User" matching: {[39m
+[31m    "where": {[39m
+[31m        "email": "qwer@gmail.com"[39m
+[31m    }[39m
+[31m}[39m
+[31m    at D:\Code\backend\node_modules\src\entity-manager\EntityManager.ts:1274:25[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5) {[39m
+[31m  entityClass: [class User extends Default],[39m
+[31m  criteria: { where: { email: 'qwer@gmail.com' } }[39m
+[31m}[39m
+[32mINFO   2024-01-29 04:33:44.867 PM    [login router] 	User is loged in with data: {"email":"johnmail@gmail.com","password":"1Qa!!!"}[39m
+[32mINFO   2024-01-29 04:44:37.266 PM    [] 	Info message[39m
+[31mERROR   2024-01-29 04:44:37.270 PM    [] 	Error message[39m
+[33mWARN   2024-01-29 04:44:37.271 PM    [] 	Warning message[39m
+[32mINFO   2024-01-29 04:44:38.911 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-29 04:44:39.050 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-29 04:45:16.125 PM    [login router] 	User is loged in with data: {"email":"johnmail@gmail.com","password":"1Qa!!!"}[39m
+[32mINFO   2024-01-29 05:08:07.538 PM    [login router] 	User is loged in with data: {"email":"gmailqwijdmk@kam","password":"wqjfmwoief"}[39m
+[31mERROR   2024-01-29 05:08:07.659 PM    [] 	EntityNotFoundError: Could not find any entity of type "User" matching: {[39m
+[31m    "where": {[39m
+[31m        "email": "gmailqwijdmk@kam"[39m
+[31m    }[39m
+[31m}[39m
+[31m    at D:\Code\backend\node_modules\src\entity-manager\EntityManager.ts:1274:25[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5) {[39m
+[31m  entityClass: [class User extends Default],[39m
+[31m  criteria: { where: { email: 'gmailqwijdmk@kam' } }[39m
+[31m}[39m
+[32mINFO   2024-01-30 03:30:47.217 PM    [login router] 	User is loged in with data: {"email":"tfgdhed@gmail.com","password":"weaf4rwes4w"}[39m
+[31mERROR   2024-01-30 03:30:47.504 PM    [] 	EntityNotFoundError: Could not find any entity of type "User" matching: {[39m
+[31m    "where": {[39m
+[31m        "email": "tfgdhed@gmail.com"[39m
+[31m    }[39m
+[31m}[39m
+[31m    at D:\Code\backend\node_modules\src\entity-manager\EntityManager.ts:1274:25[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5) {[39m
+[31m  entityClass: [class User extends Default],[39m
+[31m  criteria: { where: { email: 'tfgdhed@gmail.com' } }[39m
+[31m}[39m
+[32mINFO   2024-01-30 04:29:26.262 PM    [] 	Info message[39m
+[31mERROR   2024-01-30 04:29:26.266 PM    [] 	Error message[39m
+[33mWARN   2024-01-30 04:29:26.267 PM    [] 	Warning message[39m
+[32mINFO   2024-01-30 04:29:28.083 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-30 04:29:28.283 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-30 04:29:49.184 PM    [login router] 	User is loged in with data: {"email":"johnmail@gmail.com","password":"qwert12345"}[39m
+[31mERROR   2024-01-30 04:29:49.511 PM    [] 	AppError: Authentication failed[39m
+[31m    at Object.<anonymous> (D:\Code\backend\src\auth\auth.service.ts:103:31)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (D:\Code\backend\src\auth\auth.service.ts:5:58) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[32mINFO   2024-01-30 04:30:40.915 PM    [login router] 	User is loged in with data: {"email":"johnmail@gmail.com","password":"qwert12345"}[39m
+[31mERROR   2024-01-30 04:30:41.152 PM    [] 	AppError: Authentication failed[39m
+[31m    at Object.<anonymous> (D:\Code\backend\src\auth\auth.service.ts:103:31)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (D:\Code\backend\src\auth\auth.service.ts:5:58) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[32mINFO   2024-01-30 04:31:25.933 PM    [login router] 	User is loged in with data: {"email":"johnmail@gmail.com","password":"1Qa123"}[39m
+[31mERROR   2024-01-30 04:31:26.135 PM    [] 	AppError: Authentication failed[39m
+[31m    at Object.<anonymous> (D:\Code\backend\src\auth\auth.service.ts:103:31)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (D:\Code\backend\src\auth\auth.service.ts:5:58) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[32mINFO   2024-01-30 04:32:40.175 PM    [login router] 	User is loged in with data: {"email":"johnmail@gmail.com","password":"1Qa!!!"}[39m
+[32mINFO   2024-01-30 09:55:31.284 PM    [] 	Info message[39m
+[31mERROR   2024-01-30 09:55:31.286 PM    [] 	Error message[39m
+[33mWARN   2024-01-30 09:55:31.286 PM    [] 	Warning message[39m
+[32mINFO   2024-01-30 09:55:32.070 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-30 09:55:32.181 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[31mERROR   2024-01-30 10:50:55.895 PM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:20:12[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:8:75)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[31mERROR   2024-01-30 10:51:54.056 PM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:20:12[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:8:75)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[31mERROR   2024-01-30 10:52:36.695 PM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:20:12[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:8:75)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[31mERROR   2024-01-30 10:52:58.628 PM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:20:12[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:8:75)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[31mERROR   2024-01-30 10:53:04.406 PM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:20:12[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:8:75)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[31mERROR   2024-01-30 10:53:10.114 PM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:20:12[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:8:75)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[31mERROR   2024-01-30 10:55:11.130 PM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:20:12[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:8:75)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[31mERROR   2024-01-30 10:55:53.705 PM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:20:12[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:8:75)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[31mERROR   2024-01-30 10:55:55.537 PM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:20:12[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:8:75)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[31mERROR   2024-01-30 10:55:55.892 PM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:20:12[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:8:75)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[31mERROR   2024-01-30 10:55:56.051 PM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:20:12[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:8:75)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[31mERROR   2024-01-30 10:55:56.477 PM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:20:12[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:8:75)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[32mINFO   2024-01-31 09:40:36.105 AM    [] 	Info message[39m
+[31mERROR   2024-01-31 09:40:36.109 AM    [] 	Error message[39m
+[33mWARN   2024-01-31 09:40:36.110 AM    [] 	Warning message[39m
+[32mINFO   2024-01-31 09:40:37.714 AM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-31 09:40:37.954 AM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-31 09:41:12.376 AM    [login router] 	User is loged in with data: {"email":"johnmail@gmail.com","password":"qwert12345"}[39m
+[31mERROR   2024-01-31 09:41:12.728 AM    [] 	AppError: Authentication failed[39m
+[31m    at Object.<anonymous> (D:\Code\backend\src\auth\auth.service.ts:103:31)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (D:\Code\backend\src\auth\auth.service.ts:5:58) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[32mINFO   2024-01-31 09:42:31.547 AM    [login router] 	User is loged in with data: {"email":"johnmail@gmail.com","password":"qwert12345"}[39m
+[31mERROR   2024-01-31 09:42:31.850 AM    [] 	AppError: Authentication failed[39m
+[31m    at Object.<anonymous> (D:\Code\backend\src\auth\auth.service.ts:103:31)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (D:\Code\backend\src\auth\auth.service.ts:5:58) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[32mINFO   2024-01-31 09:55:53.518 AM    [login router] 	User is loged in with data: {"email":"johnmail@gmail.com","password":"qwert12345"}[39m
+[31mERROR   2024-01-31 09:55:53.762 AM    [] 	AppError: Authentication failed[39m
+[31m    at Object.<anonymous> (D:\Code\backend\src\auth\auth.service.ts:103:31)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (D:\Code\backend\src\auth\auth.service.ts:5:58) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[32mINFO   2024-01-31 09:58:15.274 AM    [login router] 	User is loged in with data: {"email":"johnmail@gmail.com","password":"qwert12345"}[39m
+[31mERROR   2024-01-31 09:58:15.541 AM    [] 	AppError: Authentication failed[39m
+[31m    at Object.<anonymous> (D:\Code\backend\src\auth\auth.service.ts:103:31)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (D:\Code\backend\src\auth\auth.service.ts:5:58) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[32mINFO   2024-01-31 09:58:49.795 AM    [login router] 	User is loged in with data: {"email":"johnmail@gmail.com","password":"1Qa!!!"}[39m
+[32mINFO   2024-01-31 09:59:17.797 AM    [create todo router] 	Todo is created with: {"title":"qwert","description":"qwert"}[39m
+[31mERROR   2024-01-31 10:05:05.310 AM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:11:10[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:8:75)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[31mERROR   2024-01-31 10:33:44.827 AM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:11:10[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:8:75)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[31mERROR   2024-01-31 10:34:04.747 AM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:11:10[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:8:75)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[31mERROR   2024-01-31 10:34:04.802 AM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:28:10[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtRefresh (D:\Code\backend\src\.middleware\auth.middleware.ts:25:78)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[32mINFO   2024-01-31 10:37:01.322 AM    [login router] 	User is loged in with data: {"email":"johnmail@gmail.com","password":"1Qa!!!"}[39m
+[31mERROR   2024-01-31 10:37:33.385 AM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:11:10[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:8:75)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[32mINFO   2024-01-31 10:37:33.501 AM    [refreshed router] 	User token is refreshed with data: {}[39m
+[32mINFO   2024-01-31 10:38:35.633 AM    [] 	Info message[39m
+[31mERROR   2024-01-31 10:38:35.637 AM    [] 	Error message[39m
+[33mWARN   2024-01-31 10:38:35.638 AM    [] 	Warning message[39m
+[32mINFO   2024-01-31 10:38:37.248 AM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-31 10:38:37.410 AM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-31 10:40:04.563 AM    [login router] 	User is loged in with data: {"email":"johnmail@gmail.com","password":"1Qa!!!"}[39m
+[31mERROR   2024-01-31 10:40:23.924 AM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:11:10[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:8:75)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[32mINFO   2024-01-31 10:40:23.977 AM    [refreshed router] 	User token is refreshed with data: {}[39m
+[32mINFO   2024-01-31 10:41:34.609 AM    [login router] 	User is loged in with data: {"email":"johnmail@gmail.com","password":"1Qa!!!"}[39m
+[31mERROR   2024-01-31 10:42:10.652 AM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:11:10[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:8:75)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[32mINFO   2024-01-31 10:42:10.723 AM    [refreshed router] 	User token is refreshed with data: {}[39m
+[31mERROR   2024-01-31 10:44:41.944 AM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:11:10[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:8:75)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[32mINFO   2024-01-31 10:44:42.003 AM    [refreshed router] 	User token is refreshed with data: {}[39m
+[31mERROR   2024-01-31 10:44:42.069 AM    [] 	AppError: Token refresh failed[39m
+[31m    at Object.<anonymous> (D:\Code\backend\src\auth\auth.service.ts:130:13)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (D:\Code\backend\src\auth\auth.service.ts:5:58) {[39m
+[31m  statusCode: 400[39m
+[31m}[39m
+[31mERROR   2024-01-31 10:45:30.375 AM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:11:10[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:8:75)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[32mINFO   2024-01-31 10:45:30.440 AM    [refreshed router] 	User token is refreshed with data: {}[39m
+[31mERROR   2024-01-31 10:45:30.506 AM    [] 	AppError: Token refresh failed[39m
+[31m    at Object.<anonymous> (D:\Code\backend\src\auth\auth.service.ts:130:13)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (D:\Code\backend\src\auth\auth.service.ts:5:58) {[39m
+[31m  statusCode: 400[39m
+[31m}[39m
+[31mERROR   2024-01-31 10:45:53.075 AM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:11:10[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:8:75)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[32mINFO   2024-01-31 10:45:53.132 AM    [refreshed router] 	User token is refreshed with data: {}[39m
+[31mERROR   2024-01-31 10:45:53.193 AM    [] 	AppError: Token refresh failed[39m
+[31m    at Object.<anonymous> (D:\Code\backend\src\auth\auth.service.ts:130:13)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (D:\Code\backend\src\auth\auth.service.ts:5:58) {[39m
+[31m  statusCode: 400[39m
+[31m}[39m
+[31mERROR   2024-01-31 10:46:44.367 AM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:11:10[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:8:75)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[32mINFO   2024-01-31 10:46:44.424 AM    [refreshed router] 	User token is refreshed with data: {}[39m
+[31mERROR   2024-01-31 10:46:44.491 AM    [] 	AppError: Token refresh failed[39m
+[31m    at Object.<anonymous> (D:\Code\backend\src\auth\auth.service.ts:130:13)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (D:\Code\backend\src\auth\auth.service.ts:5:58) {[39m
+[31m  statusCode: 400[39m
+[31m}[39m
+[31mERROR   2024-01-31 10:48:37.856 AM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:11:10[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:8:75)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[32mINFO   2024-01-31 10:48:37.906 AM    [refreshed router] 	User token is refreshed with data: {}[39m
+[31mERROR   2024-01-31 10:48:37.968 AM    [] 	AppError: Token refresh failed[39m
+[31m    at Object.<anonymous> (D:\Code\backend\src\auth\auth.service.ts:130:13)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (D:\Code\backend\src\auth\auth.service.ts:5:58) {[39m
+[31m  statusCode: 400[39m
+[31m}[39m
+[32mINFO   2024-01-31 10:49:52.198 AM    [login router] 	User is loged in with data: {"email":"johnmail@gmail.com","password":"1Qa!!!"}[39m
+[31mERROR   2024-01-31 10:50:24.585 AM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:11:10[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:8:75)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[32mINFO   2024-01-31 10:50:24.635 AM    [refreshed router] 	User token is refreshed with data: {}[39m
+[32mINFO   2024-01-31 10:51:56.057 AM    [create todo router] 	Todo is created with: {"title":"qwe","description":"qwe"}[39m
+[31mERROR   2024-01-31 10:52:12.724 AM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:11:10[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:8:75)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[32mINFO   2024-01-31 10:52:12.781 AM    [refreshed router] 	User token is refreshed with data: {}[39m
+[31mERROR   2024-01-31 10:52:12.841 AM    [] 	AppError: Token refresh failed[39m
+[31m    at Object.<anonymous> (D:\Code\backend\src\auth\auth.service.ts:130:13)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (D:\Code\backend\src\auth\auth.service.ts:5:58) {[39m
+[31m  statusCode: 400[39m
+[31m}[39m
+[32mINFO   2024-01-31 10:54:08.429 AM    [] 	Info message[39m
+[31mERROR   2024-01-31 10:54:08.431 AM    [] 	Error message[39m
+[33mWARN   2024-01-31 10:54:08.432 AM    [] 	Warning message[39m
+[32mINFO   2024-01-31 10:54:09.225 AM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-31 10:54:09.294 AM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-31 10:54:33.506 AM    [] 	Info message[39m
+[31mERROR   2024-01-31 10:54:33.508 AM    [] 	Error message[39m
+[33mWARN   2024-01-31 10:54:33.508 AM    [] 	Warning message[39m
+[32mINFO   2024-01-31 10:54:34.389 AM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-31 10:54:34.463 AM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-31 10:54:39.922 AM    [] 	Info message[39m
+[31mERROR   2024-01-31 10:54:39.925 AM    [] 	Error message[39m
+[33mWARN   2024-01-31 10:54:39.925 AM    [] 	Warning message[39m
+[32mINFO   2024-01-31 10:54:40.874 AM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-31 10:54:40.949 AM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-31 10:54:45.089 AM    [] 	Info message[39m
+[32mINFO   2024-01-31 10:54:49.039 AM    [] 	Info message[39m
+[32mINFO   2024-01-31 10:54:55.668 AM    [] 	Info message[39m
+[31mERROR   2024-01-31 10:54:55.670 AM    [] 	Error message[39m
+[33mWARN   2024-01-31 10:54:55.671 AM    [] 	Warning message[39m
+[32mINFO   2024-01-31 10:54:56.463 AM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-31 10:54:56.530 AM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-31 10:55:27.939 AM    [login router] 	User is loged in with data: {"email":"johnmail@gmail.com","password":"1Qa!!!"}[39m
+[31mERROR   2024-01-31 10:56:05.209 AM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:11:10[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:8:75)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[32mINFO   2024-01-31 10:56:05.366 AM    [refreshed router] 	User token is refreshed with data: {}[39m
+[32mINFO   2024-01-31 10:56:41.276 AM    [] 	Info message[39m
+[31mERROR   2024-01-31 10:56:41.278 AM    [] 	Error message[39m
+[33mWARN   2024-01-31 10:56:41.279 AM    [] 	Warning message[39m
+[32mINFO   2024-01-31 10:56:42.009 AM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-31 10:56:42.077 AM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-31 10:56:48.455 AM    [create todo router] 	Todo is created with: {"title":"qwe","description":"qwe"}[39m
+[31mERROR   2024-01-31 10:57:08.410 AM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:11:10[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:8:75)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[32mINFO   2024-01-31 10:57:08.465 AM    [refreshed router] 	User token is refreshed with data: {}[39m
+[31mERROR   2024-01-31 10:57:08.538 AM    [] 	AppError: Token refresh failed[39m
+[31m    at Object.<anonymous> (D:\Code\backend\src\auth\auth.service.ts:130:13)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (D:\Code\backend\src\auth\auth.service.ts:5:58) {[39m
+[31m  statusCode: 400[39m
+[31m}[39m
+[32mINFO   2024-01-31 10:57:31.340 AM    [] 	Info message[39m
+[31mERROR   2024-01-31 10:57:31.342 AM    [] 	Error message[39m
+[33mWARN   2024-01-31 10:57:31.342 AM    [] 	Warning message[39m
+[32mINFO   2024-01-31 10:57:32.164 AM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-31 10:57:32.240 AM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-31 10:58:03.337 AM    [login router] 	User is loged in with data: {"email":"johnmail@gmail.com","password":"1Qa!!!"}[39m
+[31mERROR   2024-01-31 10:58:22.546 AM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:11:10[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:8:75)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[32mINFO   2024-01-31 10:58:22.602 AM    [refreshed router] 	User token is refreshed with data: {}[39m
+[32mINFO   2024-01-31 11:00:32.235 AM    [] 	Info message[39m
+[31mERROR   2024-01-31 11:00:32.237 AM    [] 	Error message[39m
+[33mWARN   2024-01-31 11:00:32.238 AM    [] 	Warning message[39m
+[32mINFO   2024-01-31 11:00:32.993 AM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-31 11:00:33.182 AM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-31 11:01:18.864 AM    [login router] 	User is loged in with data: {"email":"johnmail@gmail.com","password":"1Qa!!!"}[39m
+[31mERROR   2024-01-31 11:01:50.520 AM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:11:10[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:8:75)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[32mINFO   2024-01-31 11:01:50.594 AM    [refreshed router] 	User token is refreshed with data: {}[39m
+[32mINFO   2024-01-31 11:02:16.347 AM    [] 	Info message[39m
+[31mERROR   2024-01-31 11:02:16.349 AM    [] 	Error message[39m
+[33mWARN   2024-01-31 11:02:16.350 AM    [] 	Warning message[39m
+[32mINFO   2024-01-31 11:02:17.221 AM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-31 11:02:17.284 AM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[31mERROR   2024-01-31 11:03:38.684 AM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:11:10[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:8:75)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[32mINFO   2024-01-31 11:03:38.739 AM    [refreshed router] 	User token is refreshed with data: {}[39m
+[31mERROR   2024-01-31 11:03:38.803 AM    [] 	AppError: Token refresh failed[39m
+[31m    at Object.<anonymous> (D:\Code\backend\src\auth\auth.service.ts:130:13)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (D:\Code\backend\src\auth\auth.service.ts:5:58) {[39m
+[31m  statusCode: 400[39m
+[31m}[39m
+[32mINFO   2024-01-31 11:04:21.840 AM    [login router] 	User is loged in with data: {"email":"johnmail@gmail.com","password":"1Qa123"}[39m
+[31mERROR   2024-01-31 11:04:21.938 AM    [] 	AppError: Authentication failed[39m
+[31m    at Object.<anonymous> (D:\Code\backend\src\auth\auth.service.ts:103:31)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (D:\Code\backend\src\auth\auth.service.ts:5:58) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[31mERROR   2024-01-31 11:04:21.948 AM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:28:10[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtRefresh (D:\Code\backend\src\.middleware\auth.middleware.ts:25:78)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[32mINFO   2024-01-31 11:17:47.219 AM    [] 	Info message[39m
+[31mERROR   2024-01-31 11:17:47.221 AM    [] 	Error message[39m
+[33mWARN   2024-01-31 11:17:47.222 AM    [] 	Warning message[39m
+[32mINFO   2024-01-31 11:17:47.991 AM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-31 11:17:48.077 AM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-01-31 11:18:51.162 AM    [login router] 	User is loged in with data: {"email":"johnmail@gmail.com","password":"1Qa!!!"}[39m
+[31mERROR   2024-01-31 11:20:22.399 AM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:11:10[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:8:75)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[32mINFO   2024-01-31 11:20:22.555 AM    [refreshed router] 	User token is refreshed with data: {}[39m
+[32mINFO   2024-01-31 11:21:31.873 AM    [create todo router] 	Todo is created with: {"title":"qweqwe","description":"1122e"}[39m
+[31mERROR   2024-01-31 11:21:44.144 AM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:11:10[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:8:75)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[32mINFO   2024-01-31 11:21:44.315 AM    [refreshed router] 	User token is refreshed with data: {}[39m
+[31mERROR   2024-01-31 11:21:44.379 AM    [] 	AppError: Token refresh failed[39m
+[31m    at Object.<anonymous> (D:\Code\backend\src\auth\auth.service.ts:130:13)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (D:\Code\backend\src\auth\auth.service.ts:5:58) {[39m
+[31m  statusCode: 400[39m
+[31m}[39m
+[32mINFO   2024-01-31 11:22:24.978 AM    [login router] 	User is loged in with data: {"email":"johnmail@gmail.com","password":"1Qa!!!"}[39m
+[31mERROR   2024-01-31 11:22:41.772 AM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:11:10[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:8:75)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[32mINFO   2024-01-31 11:22:41.816 AM    [refreshed router] 	User token is refreshed with data: {}[39m
+[32mINFO   2024-01-31 11:23:38.862 AM    [] 	Info message[39m
+[31mERROR   2024-01-31 11:23:38.864 AM    [] 	Error message[39m
+[33mWARN   2024-01-31 11:23:38.864 AM    [] 	Warning message[39m
+[32mINFO   2024-01-31 11:23:39.607 AM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-31 11:23:39.698 AM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[31mERROR   2024-01-31 11:23:45.064 AM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:11:10[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:8:75)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[32mINFO   2024-01-31 11:23:45.089 AM    [refreshed router] 	User token is refreshed with data: {}[39m
+[31mERROR   2024-01-31 11:23:45.154 AM    [] 	AppError: Token refresh failed[39m
+[31m    at Object.<anonymous> (D:\Code\backend\src\auth\auth.service.ts:130:13)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (D:\Code\backend\src\auth\auth.service.ts:5:58) {[39m
+[31m  statusCode: 400[39m
+[31m}[39m
+[32mINFO   2024-01-31 11:24:21.648 AM    [login router] 	User is loged in with data: {"email":"johnmail@gmail.com","password":"1Qa!!!"}[39m
+[31mERROR   2024-01-31 11:24:39.275 AM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:11:10[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:8:75)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[32mINFO   2024-01-31 11:24:39.336 AM    [refreshed router] 	User token is refreshed with data: {}[39m
+[32mINFO   2024-01-31 11:25:42.109 AM    [] 	Info message[39m
+[31mERROR   2024-01-31 11:25:42.111 AM    [] 	Error message[39m
+[33mWARN   2024-01-31 11:25:42.111 AM    [] 	Warning message[39m
+[32mINFO   2024-01-31 11:25:42.900 AM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-01-31 11:25:42.975 AM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[31mERROR   2024-01-31 11:26:28.162 AM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:11:10[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:8:75)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[32mINFO   2024-01-31 11:26:28.242 AM    [refreshed router] 	User token is refreshed with data: {}[39m
+[32mINFO   2024-01-31 11:28:03.963 AM    [create todo router] 	Todo is created with: {"title":"qwe","description":"qwe"}[39m
+[31mERROR   2024-01-31 11:28:20.292 AM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:11:10[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:8:75)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[32mINFO   2024-01-31 11:28:20.351 AM    [refreshed router] 	User token is refreshed with data: {}[39m
+[31mERROR   2024-01-31 11:28:20.416 AM    [] 	AppError: Token refresh failed[39m
+[31m    at Object.<anonymous> (D:\Code\backend\src\auth\auth.service.ts:130:13)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (D:\Code\backend\src\auth\auth.service.ts:5:58) {[39m
+[31m  statusCode: 400[39m
+[31m}[39m
+[32mINFO   2024-01-31 11:33:16.566 AM    [login router] 	User is loged in with data: {"email":"johnmail@gmail.com","password":"1Qa!!!"}[39m
+[31mERROR   2024-01-31 11:34:04.244 AM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:11:10[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:8:75)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[32mINFO   2024-01-31 11:34:04.301 AM    [refreshed router] 	User token is refreshed with data: {}[39m
+[32mINFO   2024-01-31 11:35:01.959 AM    [create todo router] 	Todo is created with: {"title":"klgmr","description":"lkfbsmr"}[39m
+[31mERROR   2024-01-31 11:38:57.728 AM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:11:10[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:8:75)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[32mINFO   2024-01-31 11:38:57.777 AM    [refreshed router] 	User token is refreshed with data: {}[39m
+[31mERROR   2024-01-31 11:38:57.838 AM    [] 	AppError: Token refresh failed[39m
+[31m    at Object.<anonymous> (D:\Code\backend\src\auth\auth.service.ts:130:13)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (D:\Code\backend\src\auth\auth.service.ts:5:58) {[39m
+[31m  statusCode: 400[39m
+[31m}[39m
+[32mINFO   2024-01-31 11:39:28.655 AM    [login router] 	User is loged in with data: {"email":"johnmail@gmail.com","password":"1Qa!!!"}[39m
+[31mERROR   2024-01-31 11:39:50.095 AM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:11:10[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:8:75)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[32mINFO   2024-01-31 11:39:50.153 AM    [refreshed router] 	User token is refreshed with data: {}[39m
+[32mINFO   2024-01-31 11:44:09.814 AM    [login router] 	User is loged in with data: {"email":"johnmail@gmail.com","password":"1Qa!!!"}[39m
+[31mERROR   2024-01-31 11:45:15.652 AM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:11:10[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:8:75)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[32mINFO   2024-01-31 11:45:15.767 AM    [refreshed router] 	User token is refreshed with data: {}[39m
+[32mINFO   2024-01-31 11:45:15.954 AM    [create todo router] 	Todo is created with: {"title":"12345","description":"zxcvb"}[39m
+[32mINFO   2024-02-01 09:54:20.697 AM    [] 	Info message[39m
+[31mERROR   2024-02-01 09:54:20.700 AM    [] 	Error message[39m
+[33mWARN   2024-02-01 09:54:20.701 AM    [] 	Warning message[39m
+[32mINFO   2024-02-01 09:54:21.494 AM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-02-01 09:54:21.600 AM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-02-01 09:55:01.210 AM    [login router] 	User is loged in with data: {"email":"johnmail@gmail.com","password":"1Qa!!!"}[39m
+[32mINFO   2024-02-01 09:55:44.352 AM    [create todo router] 	Todo is created with: {"title":"Learn Python","description":"to learn python programing language "}[39m
+[31mERROR   2024-02-01 12:24:45.036 PM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:20:12[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:8:75)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[32mINFO   2024-02-01 12:24:45.245 PM    [refreshed router] 	User token is refreshed with data: {}[39m
+[32mINFO   2024-02-01 12:24:45.472 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 12:25:27.792 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 12:25:39.109 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 12:25:48.077 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 12:26:52.621 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 12:32:59.089 PM    [login router] 	User is loged in with data: {"email":"johnmail@gmail.com","password":"1Qa!!!"}[39m
+[32mINFO   2024-02-01 12:33:34.792 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 12:34:42.076 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 12:34:58.225 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 12:35:31.390 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 12:35:37.324 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 12:35:42.672 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 12:35:57.650 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 12:35:58.525 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 12:36:01.625 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 12:36:32.731 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 12:36:46.385 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 12:36:56.332 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 12:37:01.324 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 12:37:03.321 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 12:37:08.330 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 12:37:15.331 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 12:37:31.410 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 12:37:32.903 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 12:37:33.645 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 12:37:40.326 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 12:37:47.232 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 12:37:47.516 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 12:38:38.152 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 12:56:50.965 PM    [] 	Info message[39m
+[31mERROR   2024-02-01 12:56:50.981 PM    [] 	Error message[39m
+[33mWARN   2024-02-01 12:56:50.982 PM    [] 	Warning message[39m
+[32mINFO   2024-02-01 12:56:54.171 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-02-01 12:56:54.482 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-02-01 12:57:48.055 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 12:58:08.870 PM    [] 	Info message[39m
+[31mERROR   2024-02-01 12:58:08.873 PM    [] 	Error message[39m
+[33mWARN   2024-02-01 12:58:08.874 PM    [] 	Warning message[39m
+[32mINFO   2024-02-01 12:58:10.675 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-02-01 12:58:10.804 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-02-01 12:58:16.362 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 12:58:38.547 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 12:58:38.825 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:00:44.452 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:00:51.597 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:02:01.998 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:02:02.225 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:02:17.611 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:02:17.926 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:09:03.202 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:09:03.478 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:10:05.436 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:10:13.323 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:10:19.312 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:10:26.786 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:10:30.829 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:13:32.872 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:13:43.079 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:13:58.417 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:13:59.370 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:13:59.560 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:14:11.254 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:14:20.320 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:14:46.524 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:14:47.316 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:14:52.330 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:14:53.466 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:15:14.477 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:15:16.186 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:15:25.377 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:15:33.289 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:15:33.728 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:16:43.389 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:16:45.309 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:16:49.316 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:16:50.648 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:17:40.548 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:17:48.327 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:18:03.382 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:18:05.322 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:18:08.322 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:18:59.475 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:19:08.368 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:19:25.387 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:19:31.362 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:19:43.371 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:19:48.334 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:19:54.324 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:19:57.316 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:20:00.588 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:20:00.791 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:20:01.016 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:20:05.330 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:20:05.443 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:20:05.745 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:20:06.061 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:20:09.328 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:20:09.716 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:20:12.249 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:20:19.974 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:20:20.296 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:20:27.825 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:20:28.225 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:20:28.325 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:20:31.377 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:23:27.006 PM    [] 	Info message[39m
+[31mERROR   2024-02-01 01:23:27.008 PM    [] 	Error message[39m
+[33mWARN   2024-02-01 01:23:27.009 PM    [] 	Warning message[39m
+[32mINFO   2024-02-01 01:23:27.904 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-02-01 01:23:28.087 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-02-01 01:24:24.175 PM    [login router] 	User is loged in with data: {"email":"johnmail@gmail.com","password":"1Qa!!!"}[39m
+[32mINFO   2024-02-01 01:24:24.439 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:24:37.440 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:24:37.508 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:24:41.940 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:24:49.325 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:24:53.313 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:24:58.367 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:24:58.523 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:25:02.870 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:25:02.985 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:25:16.391 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:25:25.340 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:25:26.798 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:25:28.525 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:25:31.222 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:25:52.362 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:25:52.461 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:25:52.735 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:26:15.352 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:27:02.863 PM    [login router] 	User is loged in with data: {"email":"johnmail@gmail.com","password":"1Qa!!!"}[39m
+[32mINFO   2024-02-01 01:27:03.104 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:27:21.838 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:27:21.930 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:27:33.527 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:27:33.623 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:27:33.965 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:27:38.571 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:27:38.696 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:27:40.344 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:27:50.915 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:27:52.532 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:28:27.035 PM    [create todo router] 	Todo is created with: {"title":"Cook diner ","description":"Make pizza with ham"}[39m
+[32mINFO   2024-02-01 01:28:36.089 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:28:36.338 PM    [create todo router] 	Todo is created with: {"title":"Cook diner ","description":"Make pizza with ham"}[39m
+[32mINFO   2024-02-01 01:28:59.452 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:29:12.369 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:29:15.923 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:29:16.830 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:29:35.984 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:30:10.959 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:30:11.083 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:30:25.092 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:30:25.188 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:30:31.614 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:30:31.776 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:30:39.510 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:30:39.626 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:30:44.967 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:32:49.467 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:32:49.935 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:32:50.312 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:33:01.526 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:33:32.354 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:33:32.902 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:33:33.810 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:33:41.402 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:33:41.521 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:35:13.383 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:35:17.310 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:35:18.158 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:35:30.665 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:35:30.807 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:35:40.193 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:35:40.326 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:35:42.470 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:35:52.913 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:36:12.479 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:36:13.211 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:36:13.375 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:36:13.729 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:36:19.323 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:36:21.329 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:36:26.319 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:36:29.700 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:36:29.879 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:36:30.250 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:36:38.323 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:45:10.305 PM    [] 	Info message[39m
+[31mERROR   2024-02-01 01:45:10.307 PM    [] 	Error message[39m
+[33mWARN   2024-02-01 01:45:10.308 PM    [] 	Warning message[39m
+[32mINFO   2024-02-01 01:45:11.019 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-02-01 01:45:11.111 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-02-01 01:45:32.277 PM    [login router] 	User is loged in with data: {"email":"johnmail@gmail.com","password":"1Qa!!!"}[39m
+[32mINFO   2024-02-01 01:45:32.545 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:45:43.855 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:45:43.962 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:45:44.399 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:46:05.635 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:46:05.773 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:46:12.226 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:46:12.342 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:46:12.693 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:46:14.271 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:46:16.850 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:46:16.998 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:47:14.348 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:47:18.935 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:47:35.367 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:47:38.317 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:47:46.316 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:47:48.871 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:47:49.041 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:47:49.449 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:47:56.708 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:47:56.842 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:48:46.364 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:48:47.323 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:48:48.022 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:49:01.358 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:49:01.895 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:49:07.315 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:49:08.081 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:49:08.215 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:49:34.617 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:49:34.726 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:50:11.460 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:51:35.343 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:51:40.309 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:51:40.751 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:51:43.324 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:51:49.322 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:51:56.867 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:52:36.611 PM    [create todo router] 	Todo is created with: {"title":"Make bed","description":"make bad after waking up"}[39m
+[32mINFO   2024-02-01 01:52:46.515 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:53:05.347 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:53:05.439 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:55:48.606 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:55:48.738 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:56:35.368 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:56:41.319 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:56:43.323 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:56:51.314 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:57:01.312 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:57:04.316 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:57:07.309 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 01:58:05.395 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 02:40:27.574 PM    [user todos router] 	User todos: {}[39m
+[31mERROR   2024-02-01 02:53:12.312 PM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:20:12[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:8:75)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[32mINFO   2024-02-01 02:53:12.460 PM    [refreshed router] 	User token is refreshed with data: {}[39m
+[32mINFO   2024-02-01 02:53:12.649 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 02:53:17.952 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 02:53:35.162 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 02:54:27.175 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 02:54:32.697 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 02:56:28.245 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 02:56:37.529 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 02:56:37.834 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 03:13:06.931 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 03:13:57.365 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 03:13:58.459 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 03:13:59.986 PM    [log-out router] 	User is loged-out: 37[39m
+[32mINFO   2024-02-01 03:22:41.136 PM    [log-out router] 	User is loged-out: 24[39m
+[32mINFO   2024-02-01 03:22:49.948 PM    [log-out router] 	User is loged-out: 24[39m
+[32mINFO   2024-02-01 03:23:07.631 PM    [log-out router] 	User is loged-out: 25[39m
+[32mINFO   2024-02-01 03:23:37.089 PM    [log-out router] 	User is loged-out: 26[39m
+[32mINFO   2024-02-01 03:29:50.553 PM    [log-out router] 	User is loged-out: 27[39m
+[32mINFO   2024-02-01 03:31:29.113 PM    [log-out router] 	User is loged-out: 27[39m
+[32mINFO   2024-02-01 03:31:45.522 PM    [login router] 	User is loged in with data: {"email":"johnmail@gmail.com","password":"1Qa!!!"}[39m
+[32mINFO   2024-02-01 03:31:45.656 PM    [login router] 	User is loged in with data: {"email":"johnmail@gmail.com","password":"1Qa!!!"}[39m
+[32mINFO   2024-02-01 03:31:46.161 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 03:31:56.866 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 03:31:57.099 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 03:32:30.869 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 03:32:31.213 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 03:32:32.508 PM    [log-out router] 	User is loged-out: 39[39m
+[32mINFO   2024-02-01 03:32:50.009 PM    [login router] 	User is loged in with data: {"email":"johnmail@gmail.com","password":"1Qa!!!"}[39m
+[32mINFO   2024-02-01 03:32:50.625 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 03:33:02.401 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 03:33:13.387 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 03:41:14.703 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 03:41:15.233 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 03:41:16.750 PM    [log-out router] 	User is loged-out: 39[39m
+[32mINFO   2024-02-01 03:41:47.968 PM    [login router] 	User is loged in with data: {"email":"johnmail@gmail.com","password":"1Qa!!!"}[39m
+[32mINFO   2024-02-01 03:41:48.483 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 03:42:01.219 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 03:42:46.591 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 03:42:48.757 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 03:42:48.976 PM    [log-out router] 	User is loged-out: 39[39m
+[32mINFO   2024-02-01 03:43:50.585 PM    [login router] 	User is loged in with data: {"email":"johnmail@gmail.com","password":"1Qa!!!"}[39m
+[32mINFO   2024-02-01 03:43:51.130 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 03:44:07.069 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 03:44:07.197 PM    [log-out router] 	User is loged-out: 39[39m
+[32mINFO   2024-02-01 03:46:52.170 PM    [log-out router] 	User is loged-out: 39[39m
+[32mINFO   2024-02-01 03:47:07.225 PM    [login router] 	User is loged in with data: {"email":"johnmail@gmail.com","password":"1Qa!!!"}[39m
+[32mINFO   2024-02-01 03:47:07.715 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 03:47:18.046 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 03:47:43.379 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 03:50:07.434 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 03:50:16.722 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 03:51:27.423 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 03:51:28.356 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 03:51:32.374 PM    [log-out router] 	User is loged-out: 39[39m
+[32mINFO   2024-02-01 03:54:24.980 PM    [login router] 	User is loged in with data: {"email":"johnmail@gmail.com","password":"1Qa!!!"}[39m
+[32mINFO   2024-02-01 03:54:25.703 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 03:55:52.668 PM    [] 	Info message[39m
+[31mERROR   2024-02-01 03:55:52.672 PM    [] 	Error message[39m
+[33mWARN   2024-02-01 03:55:52.673 PM    [] 	Warning message[39m
+[32mINFO   2024-02-01 03:55:54.354 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-02-01 03:55:54.575 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-02-01 03:56:26.276 PM    [] 	Info message[39m
+[31mERROR   2024-02-01 03:56:26.282 PM    [] 	Error message[39m
+[33mWARN   2024-02-01 03:56:26.283 PM    [] 	Warning message[39m
+[32mINFO   2024-02-01 03:56:27.945 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-02-01 03:56:28.085 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-02-01 03:57:17.794 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 03:57:19.071 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 03:57:21.433 PM    [log-out router] 	User is loged-out: 39[39m
+[32mINFO   2024-02-01 03:57:33.823 PM    [login router] 	User is loged in with data: {"email":"johnmail@gmail.com","password":"1Qa!!!"}[39m
+[32mINFO   2024-02-01 03:57:34.443 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 03:57:59.074 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 03:58:18.583 PM    [] 	Info message[39m
+[31mERROR   2024-02-01 03:58:18.587 PM    [] 	Error message[39m
+[33mWARN   2024-02-01 03:58:18.588 PM    [] 	Warning message[39m
+[32mINFO   2024-02-01 03:58:20.211 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-02-01 03:58:20.391 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-02-01 03:58:33.963 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 03:58:34.202 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 03:58:36.857 PM    [log-out router] 	User is loged-out: 39[39m
+[32mINFO   2024-02-01 04:06:40.689 PM    [login router] 	User is loged in with data: {"email":"johnmail@gmail.com","password":"1Qa!!!"}[39m
+[32mINFO   2024-02-01 04:06:41.268 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 04:07:25.002 PM    [create todo router] 	Todo is created with: {"title":"Make coffee","description":"make coffee for myself"}[39m
+[32mINFO   2024-02-01 04:07:33.451 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 04:07:33.784 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 04:10:15.163 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 04:10:52.960 PM    [create todo router] 	Todo is created with: {"title":"Do shopping","description":"bye a new jeans "}[39m
+[32mINFO   2024-02-01 04:11:07.972 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 04:11:08.221 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 04:11:38.924 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 04:11:41.201 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 04:11:46.705 PM    [create todo router] 	Todo is created with: {"title":"Do shopping","description":"bye a new jeans "}[39m
+[32mINFO   2024-02-01 04:13:59.874 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 04:16:37.106 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 04:26:07.098 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 04:35:07.446 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 04:35:13.895 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 04:35:14.191 PM    [create todo router] 	Todo is created with: {"title":"Do shopping","description":"bye a new jeans "}[39m
+[32mINFO   2024-02-01 04:35:19.180 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 04:35:22.291 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 04:35:22.629 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 04:35:50.852 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 04:35:51.177 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 04:37:17.415 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 04:37:59.883 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 04:39:38.714 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 04:41:00.272 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 04:41:17.609 PM    [create todo router] 	Todo is created with: {"title":"Say Hello","description":"to Anna"}[39m
+[32mINFO   2024-02-01 04:41:28.968 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 04:41:35.624 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 04:41:37.615 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 04:42:10.227 PM    [create todo router] 	Todo is created with: {"title":"ksdmoc","description":"dkvnmsd"}[39m
+[32mINFO   2024-02-01 04:42:42.700 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 04:42:42.930 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 04:43:29.345 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 04:43:29.503 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 04:46:09.784 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 04:46:10.113 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 04:46:18.234 PM    [create todo router] 	Todo is created with: {"title":"qwkeop","description":"owkdoe"}[39m
+[32mINFO   2024-02-01 04:47:31.198 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 04:47:31.429 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 04:47:37.351 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 04:47:37.716 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 04:47:49.245 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 04:47:49.572 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 04:50:12.305 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 04:50:22.430 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 04:50:24.867 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 04:50:25.773 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 04:50:32.559 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 04:50:38.441 PM    [create todo router] 	Todo is created with: {"title":"jkdwe","description":"qwjdbn q"}[39m
+[32mINFO   2024-02-01 04:50:43.834 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 04:50:44.249 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 04:50:57.803 PM    [create todo router] 	Todo is created with: {"title":"owkldm","description":"ldmkw"}[39m
+[32mINFO   2024-02-01 04:51:33.156 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 04:51:41.353 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 04:51:43.941 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 04:51:44.130 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 05:05:00.151 PM    [] 	Info message[39m
+[31mERROR   2024-02-01 05:05:00.155 PM    [] 	Error message[39m
+[33mWARN   2024-02-01 05:05:00.156 PM    [] 	Warning message[39m
+[32mINFO   2024-02-01 05:05:01.670 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-02-01 05:05:01.838 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[31mERROR   2024-02-01 05:06:56.515 PM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:20:12[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:8:75)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[32mINFO   2024-02-01 05:06:56.627 PM    [refreshed router] 	User token is refreshed with data: {}[39m
+[32mINFO   2024-02-01 05:06:56.791 PM    [log-out router] 	User is loged-out: 27[39m
+[32mINFO   2024-02-01 05:07:07.806 PM    [login router] 	User is loged in with data: {"email":"johnmail@gmail.com","password":"1Qa!!!"}[39m
+[32mINFO   2024-02-01 05:07:08.244 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 05:07:28.396 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 05:07:30.155 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 05:07:38.968 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 05:07:47.132 PM    [create todo router] 	Todo is created with: {"title":"bhuyg","description":"hujbi h\n\n\n"}[39m
+[32mINFO   2024-02-01 05:19:37.181 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 05:19:42.126 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 05:19:55.210 PM    [create todo router] 	Todo is created with: {"title":"Test One ","description":"test one"}[39m
+[32mINFO   2024-02-01 05:20:02.375 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 05:20:02.729 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 05:20:10.215 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 05:20:10.628 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 05:20:36.602 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 05:20:38.574 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 05:20:38.851 PM    [create todo router] 	Todo is created with: {"title":"Test One ","description":"test one"}[39m
+[32mINFO   2024-02-01 05:24:56.271 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 05:24:57.244 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 05:24:58.657 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 05:25:14.452 PM    [create todo router] 	Todo is created with: {"title":"Test Two","description":"test two"}[39m
+[32mINFO   2024-02-01 05:56:33.289 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 05:56:33.479 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 05:56:43.891 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 05:56:43.966 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 05:57:19.005 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 05:57:19.141 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 05:57:27.970 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 05:57:28.132 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 05:57:35.701 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 05:57:35.880 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 05:57:39.013 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 05:57:39.159 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 05:57:42.699 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 05:57:42.841 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 06:02:07.627 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 06:02:07.731 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 06:04:05.761 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 06:04:07.902 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 06:04:18.360 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 06:04:18.464 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 06:04:33.863 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 06:04:33.954 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 06:05:00.174 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 06:05:05.065 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 06:05:06.078 PM    [user todos router] 	User todos: {}[39m
+[31mERROR   2024-02-01 06:05:26.669 PM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:11:10[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:8:75)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[32mINFO   2024-02-01 06:05:26.725 PM    [refreshed router] 	User token is refreshed with data: {}[39m
+[32mINFO   2024-02-01 06:05:26.818 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 06:05:53.260 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 06:06:11.821 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 06:06:14.303 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 06:06:16.711 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 06:06:18.544 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 06:06:20.107 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 06:06:21.660 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 06:06:30.343 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 06:06:30.505 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 06:06:33.977 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 06:06:34.105 PM    [user todos router] 	User todos: {}[39m
+[32mINFO   2024-02-01 06:07:11.095 PM    [] 	Info message[39m
+[31mERROR   2024-02-01 06:07:11.099 PM    [] 	Error message[39m
+[33mWARN   2024-02-01 06:07:11.100 PM    [] 	Warning message[39m
+[32mINFO   2024-02-01 06:07:11.973 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[31mERROR   2024-02-01 06:07:12.023 PM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:20:12[39m
+[31m    at Generator.throw (<anonymous>)[39m
+[31m    at rejected (D:\Code\backend\src\.middleware\auth.middleware.ts:6:65)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[31mERROR   2024-02-01 06:07:12.050 PM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:37:12[39m
+[31m    at Generator.throw (<anonymous>)[39m
+[31m    at rejected (D:\Code\backend\src\.middleware\auth.middleware.ts:6:65)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[32mINFO   2024-02-01 06:07:12.095 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-02-01 06:07:23.749 PM    [log-out router] 	User is loged-out: 27[39m
+[32mINFO   2024-02-01 06:09:06.185 PM    [login router] 	User is loged in with data: {"email":"johnmail@gmail.com","password":"1Qa!!!"}[39m
+[32mINFO   2024-02-01 06:09:06.434 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-01 06:09:12.004 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-01 06:09:20.898 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-01 06:09:21.485 PM    [user todos router] 	Get User39 todos: {}[39m
+[31mERROR   2024-02-01 06:09:59.030 PM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:11:10[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:8:75)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[32mINFO   2024-02-01 06:09:59.088 PM    [refreshed router] 	User token is refreshed with data: {}[39m
+[32mINFO   2024-02-01 06:09:59.166 PM    [user todos router] 	Get User27 todos: {}[39m
+[32mINFO   2024-02-01 06:10:12.168 PM    [user todos router] 	Get User27 todos: {}[39m
+[32mINFO   2024-02-01 06:10:14.930 PM    [user todos router] 	Get User27 todos: {}[39m
+[32mINFO   2024-02-01 06:10:16.053 PM    [user todos router] 	Get User27 todos: {}[39m
+[32mINFO   2024-02-01 06:10:24.369 PM    [user todos router] 	Get User27 todos: {}[39m
+[32mINFO   2024-02-01 06:10:43.948 PM    [user todos router] 	Get User27 todos: {}[39m
+[32mINFO   2024-02-01 06:10:44.071 PM    [user todos router] 	Get User27 todos: {}[39m
+[32mINFO   2024-02-01 06:11:50.516 PM    [user todos router] 	Get User27 todos: {}[39m
+[32mINFO   2024-02-01 06:11:50.614 PM    [user todos router] 	Get User27 todos: {}[39m
+[32mINFO   2024-02-01 06:13:27.215 PM    [] 	Info message[39m
+[31mERROR   2024-02-01 06:13:27.217 PM    [] 	Error message[39m
+[33mWARN   2024-02-01 06:13:27.218 PM    [] 	Warning message[39m
+[32mINFO   2024-02-01 06:13:27.970 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-02-01 06:13:28.050 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-02-01 06:13:58.725 PM    [] 	Info message[39m
+[31mERROR   2024-02-01 06:13:58.727 PM    [] 	Error message[39m
+[33mWARN   2024-02-01 06:13:58.728 PM    [] 	Warning message[39m
+[32mINFO   2024-02-01 06:13:59.527 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-02-01 06:13:59.597 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-02-01 06:14:05.355 PM    [] 	Info message[39m
+[31mERROR   2024-02-01 06:14:05.357 PM    [] 	Error message[39m
+[33mWARN   2024-02-01 06:14:05.358 PM    [] 	Warning message[39m
+[32mINFO   2024-02-01 06:14:06.130 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-02-01 06:14:06.201 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-02-01 06:14:38.620 PM    [] 	Info message[39m
+[31mERROR   2024-02-01 06:14:38.622 PM    [] 	Error message[39m
+[33mWARN   2024-02-01 06:14:38.622 PM    [] 	Warning message[39m
+[32mINFO   2024-02-01 06:14:39.372 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-02-01 06:14:39.441 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-02-01 06:14:58.368 PM    [] 	Info message[39m
+[31mERROR   2024-02-01 06:14:58.370 PM    [] 	Error message[39m
+[33mWARN   2024-02-01 06:14:58.371 PM    [] 	Warning message[39m
+[32mINFO   2024-02-01 06:14:59.158 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-02-01 06:14:59.232 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-02-01 06:15:57.176 PM    [] 	Info message[39m
+[31mERROR   2024-02-01 06:15:57.178 PM    [] 	Error message[39m
+[33mWARN   2024-02-01 06:15:57.179 PM    [] 	Warning message[39m
+[32mINFO   2024-02-01 06:15:58.047 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-02-01 06:15:58.122 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-02-01 06:16:03.627 PM    [] 	Info message[39m
+[31mERROR   2024-02-01 06:16:03.629 PM    [] 	Error message[39m
+[33mWARN   2024-02-01 06:16:03.630 PM    [] 	Warning message[39m
+[32mINFO   2024-02-01 06:16:04.360 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-02-01 06:16:04.451 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-02-01 06:16:15.725 PM    [] 	Info message[39m
+[31mERROR   2024-02-01 06:16:15.727 PM    [] 	Error message[39m
+[33mWARN   2024-02-01 06:16:15.727 PM    [] 	Warning message[39m
+[32mINFO   2024-02-01 06:16:16.525 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-02-01 06:16:16.597 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-02-01 06:16:42.038 PM    [] 	Info message[39m
+[31mERROR   2024-02-01 06:16:42.040 PM    [] 	Error message[39m
+[33mWARN   2024-02-01 06:16:42.041 PM    [] 	Warning message[39m
+[32mINFO   2024-02-01 06:16:42.822 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-02-01 06:16:42.890 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-02-01 06:16:57.702 PM    [] 	Info message[39m
+[31mERROR   2024-02-01 06:16:57.704 PM    [] 	Error message[39m
+[33mWARN   2024-02-01 06:16:57.705 PM    [] 	Warning message[39m
+[32mINFO   2024-02-01 06:16:58.576 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-02-01 06:16:58.640 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-02-01 06:17:05.880 PM    [] 	Info message[39m
+[31mERROR   2024-02-01 06:17:05.882 PM    [] 	Error message[39m
+[33mWARN   2024-02-01 06:17:05.883 PM    [] 	Warning message[39m
+[32mINFO   2024-02-01 06:17:06.720 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-02-01 06:17:06.792 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-02-01 06:17:22.967 PM    [] 	Info message[39m
+[31mERROR   2024-02-01 06:17:22.969 PM    [] 	Error message[39m
+[33mWARN   2024-02-01 06:17:22.969 PM    [] 	Warning message[39m
+[32mINFO   2024-02-01 06:17:23.864 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-02-01 06:17:24.038 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-02-01 06:17:33.048 PM    [] 	Info message[39m
+[31mERROR   2024-02-01 06:17:33.050 PM    [] 	Error message[39m
+[33mWARN   2024-02-01 06:17:33.051 PM    [] 	Warning message[39m
+[32mINFO   2024-02-01 06:17:33.829 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-02-01 06:17:33.899 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-02-01 06:17:38.443 PM    [] 	Info message[39m
+[31mERROR   2024-02-01 06:17:38.445 PM    [] 	Error message[39m
+[33mWARN   2024-02-01 06:17:38.446 PM    [] 	Warning message[39m
+[32mINFO   2024-02-01 06:17:39.236 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-02-01 06:17:39.309 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-02-01 06:17:43.239 PM    [] 	Info message[39m
+[31mERROR   2024-02-01 06:17:43.241 PM    [] 	Error message[39m
+[33mWARN   2024-02-01 06:17:43.241 PM    [] 	Warning message[39m
+[32mINFO   2024-02-01 06:17:43.956 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-02-01 06:17:44.025 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-02-01 06:18:14.039 PM    [] 	Info message[39m
+[31mERROR   2024-02-01 06:18:14.040 PM    [] 	Error message[39m
+[33mWARN   2024-02-01 06:18:14.041 PM    [] 	Warning message[39m
+[32mINFO   2024-02-01 06:18:14.770 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-02-01 06:18:14.840 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-02-01 06:18:31.523 PM    [] 	Info message[39m
+[31mERROR   2024-02-01 06:18:31.525 PM    [] 	Error message[39m
+[33mWARN   2024-02-01 06:18:31.526 PM    [] 	Warning message[39m
+[32mINFO   2024-02-01 06:18:32.259 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-02-01 06:18:32.329 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-02-01 06:19:00.451 PM    [] 	Info message[39m
+[31mERROR   2024-02-01 06:19:00.453 PM    [] 	Error message[39m
+[33mWARN   2024-02-01 06:19:00.454 PM    [] 	Warning message[39m
+[32mINFO   2024-02-01 06:19:01.268 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-02-01 06:19:01.346 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-02-01 06:19:04.757 PM    [] 	Info message[39m
+[31mERROR   2024-02-01 06:19:04.759 PM    [] 	Error message[39m
+[33mWARN   2024-02-01 06:19:04.759 PM    [] 	Warning message[39m
+[32mINFO   2024-02-01 06:19:05.547 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-02-01 06:19:05.619 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-02-01 06:19:38.481 PM    [] 	Info message[39m
+[31mERROR   2024-02-01 06:19:38.483 PM    [] 	Error message[39m
+[33mWARN   2024-02-01 06:19:38.483 PM    [] 	Warning message[39m
+[32mINFO   2024-02-01 06:19:39.241 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-02-01 06:19:39.316 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-02-01 06:19:54.688 PM    [] 	Info message[39m
+[31mERROR   2024-02-01 06:19:54.690 PM    [] 	Error message[39m
+[33mWARN   2024-02-01 06:19:54.690 PM    [] 	Warning message[39m
+[32mINFO   2024-02-01 06:19:55.491 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-02-01 06:19:55.569 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-02-01 06:20:05.142 PM    [] 	Info message[39m
+[31mERROR   2024-02-01 06:20:05.145 PM    [] 	Error message[39m
+[33mWARN   2024-02-01 06:20:05.145 PM    [] 	Warning message[39m
+[32mINFO   2024-02-01 06:20:05.975 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-02-01 06:20:06.043 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-02-02 09:57:59.686 AM    [] 	Info message[39m
+[31mERROR   2024-02-02 09:57:59.690 AM    [] 	Error message[39m
+[33mWARN   2024-02-02 09:57:59.691 AM    [] 	Warning message[39m
+[32mINFO   2024-02-02 09:58:01.315 AM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-02-02 09:58:01.670 AM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[31mERROR   2024-02-02 09:59:53.372 AM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:20:12[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:8:75)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[31mERROR   2024-02-02 09:59:53.406 AM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:28:10[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtRefresh (D:\Code\backend\src\.middleware\auth.middleware.ts:25:78)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[32mINFO   2024-02-02 10:00:05.891 AM    [login router] 	User is loged in with data: {"email":"johnmail@gmail.com","password":"1Qa!!!"}[39m
+[32mINFO   2024-02-02 10:00:06.623 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 10:00:30.391 AM    [user todos router] 	Get User39 todos: {}[39m
+[31mERROR   2024-02-02 10:03:55.393 AM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:11:10[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:8:75)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[32mINFO   2024-02-02 10:03:55.598 AM    [refreshed router] 	User token is refreshed with data: {}[39m
+[32mINFO   2024-02-02 10:03:55.757 AM    [user todos router] 	Get User27 todos: {}[39m
+[32mINFO   2024-02-02 10:06:13.953 AM    [] 	Info message[39m
+[31mERROR   2024-02-02 10:06:13.957 AM    [] 	Error message[39m
+[33mWARN   2024-02-02 10:06:13.957 AM    [] 	Warning message[39m
+[32mINFO   2024-02-02 10:06:15.797 AM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-02-02 10:06:15.939 AM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-02-02 10:06:16.829 AM    [user todos router] 	Get User27 todos: {}[39m
+[32mINFO   2024-02-02 10:08:08.974 AM    [] 	Info message[39m
+[32mINFO   2024-02-02 10:09:58.084 AM    [] 	Info message[39m
+[32mINFO   2024-02-02 10:10:19.244 AM    [] 	Info message[39m
+[31mERROR   2024-02-02 10:10:19.248 AM    [] 	Error message[39m
+[33mWARN   2024-02-02 10:10:19.249 AM    [] 	Warning message[39m
+[32mINFO   2024-02-02 10:10:21.060 AM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-02-02 10:10:21.225 AM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-02-02 10:10:21.375 AM    [user todos router] 	Get User27 todos: {}[39m
+[32mINFO   2024-02-02 10:10:21.646 AM    [user todos router] 	Get User27 todos: {}[39m
+[32mINFO   2024-02-02 10:10:21.882 AM    [log-out router] 	User is loged-out: 27[39m
+[32mINFO   2024-02-02 10:10:25.281 AM    [login router] 	User is loged in with data: {"email":"johnmail@gmail.com","password":"1Qa!!!"}[39m
+[32mINFO   2024-02-02 10:10:25.663 AM    [user todos router] 	Get User39 todos: {}[39m
+[31mERROR   2024-02-02 10:10:36.912 AM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:11:10[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:8:75)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[32mINFO   2024-02-02 10:10:37.042 AM    [refreshed router] 	User token is refreshed with data: {}[39m
+[32mINFO   2024-02-02 10:10:37.077 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 10:10:46.039 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 10:12:06.801 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 10:12:20.340 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 10:12:22.762 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 10:12:34.971 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 10:14:03.081 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 10:16:09.880 AM    [] 	Info message[39m
+[31mERROR   2024-02-02 10:16:09.883 AM    [] 	Error message[39m
+[33mWARN   2024-02-02 10:16:09.885 AM    [] 	Warning message[39m
+[32mINFO   2024-02-02 10:16:11.496 AM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-02-02 10:16:11.671 AM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-02-02 10:19:36.815 AM    [] 	Info message[39m
+[31mERROR   2024-02-02 10:19:36.819 AM    [] 	Error message[39m
+[33mWARN   2024-02-02 10:19:36.820 AM    [] 	Warning message[39m
+[32mINFO   2024-02-02 10:19:38.931 AM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-02-02 10:19:39.129 AM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-02-02 10:24:18.376 AM    [] 	Info message[39m
+[31mERROR   2024-02-02 10:24:18.380 AM    [] 	Error message[39m
+[33mWARN   2024-02-02 10:24:18.381 AM    [] 	Warning message[39m
+[32mINFO   2024-02-02 10:24:20.590 AM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-02-02 10:24:20.741 AM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-02-02 10:24:20.817 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 10:24:28.490 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 10:24:31.809 AM    [log-out router] 	User is loged-out: 39[39m
+[32mINFO   2024-02-02 10:26:04.309 AM    [] 	Info message[39m
+[31mERROR   2024-02-02 10:26:04.313 AM    [] 	Error message[39m
+[33mWARN   2024-02-02 10:26:04.314 AM    [] 	Warning message[39m
+[32mINFO   2024-02-02 10:26:05.867 AM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-02-02 10:26:05.984 AM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-02-02 10:39:24.917 AM    [] 	Info message[39m
+[31mERROR   2024-02-02 10:39:24.921 AM    [] 	Error message[39m
+[33mWARN   2024-02-02 10:39:24.923 AM    [] 	Warning message[39m
+[32mINFO   2024-02-02 10:39:26.468 AM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-02-02 10:39:26.674 AM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-02-02 10:41:00.546 AM    [] 	Info message[39m
+[31mERROR   2024-02-02 10:41:00.550 AM    [] 	Error message[39m
+[33mWARN   2024-02-02 10:41:00.550 AM    [] 	Warning message[39m
+[32mINFO   2024-02-02 10:41:02.307 AM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-02-02 10:41:02.438 AM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-02-02 10:41:13.075 AM    [] 	Info message[39m
+[31mERROR   2024-02-02 10:41:13.079 AM    [] 	Error message[39m
+[33mWARN   2024-02-02 10:41:13.080 AM    [] 	Warning message[39m
+[32mINFO   2024-02-02 10:41:14.871 AM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-02-02 10:41:15.032 AM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-02-02 10:41:19.207 AM    [login router] 	User is loged in with data: {"email":"johnmail@gmail.com","password":"1Qa!!!"}[39m
+[32mINFO   2024-02-02 10:41:19.777 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 10:41:35.716 AM    [user todos router] 	Get User39 todos: {}[39m
+[31mERROR   2024-02-02 10:41:41.932 AM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:12:10[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:9:75)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[32mINFO   2024-02-02 10:45:17.065 AM    [] 	Info message[39m
+[31mERROR   2024-02-02 10:45:17.069 AM    [] 	Error message[39m
+[33mWARN   2024-02-02 10:45:17.069 AM    [] 	Warning message[39m
+[32mINFO   2024-02-02 10:45:19.001 AM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-02-02 10:45:19.176 AM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-02-02 10:55:13.637 AM    [login router] 	User is loged in with data: {"email":"johnmail@gmail.com","password":"1Qa!!!"}[39m
+[32mINFO   2024-02-02 10:55:14.216 AM    [user todos router] 	Get User39 todos: {}[39m
+[31mERROR   2024-02-02 10:55:30.379 AM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:12:10[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:9:75)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[32mINFO   2024-02-02 10:59:23.878 AM    [] 	Info message[39m
+[31mERROR   2024-02-02 10:59:23.882 AM    [] 	Error message[39m
+[33mWARN   2024-02-02 10:59:23.883 AM    [] 	Warning message[39m
+[32mINFO   2024-02-02 10:59:25.438 AM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-02-02 10:59:25.583 AM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[31mERROR   2024-02-02 10:59:27.322 AM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:12:10[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:9:75)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[31mERROR   2024-02-02 10:59:27.536 AM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:39:12[39m
+[31m    at Generator.throw (<anonymous>)[39m
+[31m    at rejected (D:\Code\backend\src\.middleware\auth.middleware.ts:6:65)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[31mERROR   2024-02-02 10:59:29.574 AM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:12:10[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:9:75)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[31mERROR   2024-02-02 10:59:30.016 AM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:39:12[39m
+[31m    at Generator.throw (<anonymous>)[39m
+[31m    at rejected (D:\Code\backend\src\.middleware\auth.middleware.ts:6:65)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[32mINFO   2024-02-02 10:59:37.121 AM    [login router] 	User is loged in with data: {"email":"johnmail@gmail.com","password":"1Qa!!!"}[39m
+[32mINFO   2024-02-02 10:59:37.569 AM    [user todos router] 	Get User39 todos: {}[39m
+[31mERROR   2024-02-02 10:59:50.185 AM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:12:10[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:9:75)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[31mERROR   2024-02-02 10:59:50.464 AM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:39:12[39m
+[31m    at Generator.throw (<anonymous>)[39m
+[31m    at rejected (D:\Code\backend\src\.middleware\auth.middleware.ts:6:65)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[32mINFO   2024-02-02 11:03:44.198 AM    [] 	Info message[39m
+[31mERROR   2024-02-02 11:03:44.202 AM    [] 	Error message[39m
+[33mWARN   2024-02-02 11:03:44.203 AM    [] 	Warning message[39m
+[32mINFO   2024-02-02 11:03:45.679 AM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-02-02 11:03:45.830 AM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-02-02 11:03:51.562 AM    [login router] 	User is loged in with data: {"email":"johnmail@gmail.com","password":"1Qa!!!"}[39m
+[32mINFO   2024-02-02 11:03:52.070 AM    [user todos router] 	Get User39 todos: {}[39m
+[31mERROR   2024-02-02 11:03:58.605 AM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:12:10[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:9:75)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[32mINFO   2024-02-02 11:03:58.818 AM    [refreshed router] 	User token is refreshed with data: {}[39m
+[32mINFO   2024-02-02 11:03:58.848 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 11:04:36.684 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 11:04:49.205 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 11:19:35.478 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 11:19:38.573 AM    [user todos router] 	Get User39 todos: {}[39m

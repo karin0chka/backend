@@ -1,3 +1,4 @@
+import bcrypt from "bcrypt"
 import { NextFunction, Request, Response } from "express"
 import { IUser } from "../../interfaces/entities.interface"
 import { UserType } from "../../interfaces/enums"
@@ -26,16 +27,19 @@ const jwtRefresh = async (req: Request, res: Response, next: NextFunction) => {
   const token = req.cookies["Refresh"]
   if (!token) {
     next(new AppError("Access denied", 401))
-  } else {
-    try {
-      const payload = AuthService.verifyRefreshToken(token)
-      const user = await UserService.findOneOrFail({ where: { id: payload.userID } })
-      // @ts-ignore
-      req.user = user
-      next()
-    } catch {
+  }
+  try {
+    const payload = AuthService.verifyRefreshToken(token)
+    const user = await UserService.findOneOrFail({ where: { id: payload.userID } })
+    const compareToken = await bcrypt.compare(token, user.refresh_token)
+    if (!compareToken) {
       next(new AppError("Access denied", 401))
     }
+    // @ts-ignore
+    req.user = user
+    next()
+  } catch {
+    next(new AppError("Access denied", 401))
   }
 }
 

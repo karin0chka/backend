@@ -44,11 +44,11 @@ user_router.get(
   "/todos",
   jwtAuth,
   catchWrapper(async (req: Request, res: Response) => {
-    logger.info(`User todos: ${JSON.stringify(req.body)}`, "user todos router")
-    //@ts-ignore
-    const user = req.user
+      //@ts-ignore
+      const user = req.user
+      logger.info(`Get User${user.id} todos: ${JSON.stringify(req.body)}`, "user todos router")
     const todos = await UserService.getUserTodos(user.id)
-    res.status(200).json({ todos })
+    res.status(200).send(todos)
   })
 )
 

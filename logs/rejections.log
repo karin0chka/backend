@@ -3980,3 +3980,115 @@
 [31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
 [31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
 [31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-31 10:54:45.147 AM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/auth/auth.controller.ts[0m:[93m48[0m:[93m21[0m - [91merror[0m[90m TS2339: [0mProperty 'data' does not exist on type 'Response<any, Record<string, any>>'.[39m
+
+[31m[7m48[0m     console.log(res.data)[39m
+[31m[7m  [0m [91m                    ~~~~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/auth/auth.controller.ts[0m:[93m48[0m:[93m21[0m - [91merror[0m[90m TS2339: [0mProperty 'data' does not exist on type 'Response<any, Record<string, any>>'.[39m
+
+[31m[7m48[0m     console.log(res.data)[39m
+[31m[7m  [0m [91m                    ~~~~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-01-31 10:54:49.107 AM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/auth/auth.controller.ts[0m:[93m49[0m:[93m21[0m - [91merror[0m[90m TS2339: [0mProperty 'data' does not exist on type 'Response<any, Record<string, any>>'.[39m
+
+[31m[7m49[0m     console.log(res.data)[39m
+[31m[7m  [0m [91m                    ~~~~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/auth/auth.controller.ts[0m:[93m49[0m:[93m21[0m - [91merror[0m[90m TS2339: [0mProperty 'data' does not exist on type 'Response<any, Record<string, any>>'.[39m
+
+[31m[7m49[0m     console.log(res.data)[39m
+[31m[7m  [0m [91m                    ~~~~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-02-02 10:08:09.140 AM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/auth/auth.controller.ts[0m:[93m46[0m:[93m33[0m - [91merror[0m[90m TS2339: [0mProperty 'validateRefreshAndGenerateCookies' does not exist on type 'typeof AuthService'.[39m
+
+[31m[7m46[0m     const cookies = AuthService.validateRefreshAndGenerateCookies(req, user)[39m
+[31m[7m  [0m [91m                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/auth/auth.controller.ts[0m:[93m46[0m:[93m33[0m - [91merror[0m[90m TS2339: [0mProperty 'validateRefreshAndGenerateCookies' does not exist on type 'typeof AuthService'.[39m
+
+[31m[7m46[0m     const cookies = AuthService.validateRefreshAndGenerateCookies(req, user)[39m
+[31m[7m  [0m [91m                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-02-02 10:09:58.194 AM    [] 	uncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/auth/auth.controller.ts[0m:[93m46[0m:[93m33[0m - [91merror[0m[90m TS2339: [0mProperty 'validateRefreshAndGenerateCookies' does not exist on type 'typeof AuthService'.[39m
+
+[31m[7m46[0m     const cookies = AuthService.validateRefreshAndGenerateCookies(req, user)[39m
+[31m[7m  [0m [91m                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/auth/auth.controller.ts[0m:[93m46[0m:[93m33[0m - [91merror[0m[90m TS2339: [0mProperty 'validateRefreshAndGenerateCookies' does not exist on type 'typeof AuthService'.[39m
+
+[31m[7m46[0m     const cookies = AuthService.validateRefreshAndGenerateCookies(req, user)[39m
+[31m[7m  [0m [91m                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m
+
+[31m    at createTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (D:\Code\backend\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (D:\Code\backend\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (D:\Code\backend\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (D:\Code\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1091:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:938:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1115:19)[39m
+[31mERROR   2024-02-02 10:41:41.962 AM    [] 	unhandledRejection: Cannot read properties of undefined (reading 'refresh_token')[39m
+[31mTypeError: Cannot read properties of undefined (reading 'refresh_token')[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:30:60[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtRefresh (D:\Code\backend\src\.middleware\auth.middleware.ts:26:78)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31mERROR   2024-02-02 10:55:30.406 AM    [] 	unhandledRejection: Cannot read properties of undefined (reading 'refresh_token')[39m
+[31mTypeError: Cannot read properties of undefined (reading 'refresh_token')[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:31:60[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtRefresh (D:\Code\backend\src\.middleware\auth.middleware.ts:26:78)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m

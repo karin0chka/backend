@@ -1,14 +1,13 @@
 import bcrypt from "bcrypt"
-import { Request, Response } from "express"
 import jwt from "jsonwebtoken"
 import { IUser } from "../../interfaces/entities.interface"
+import { UserType } from "../../interfaces/enums"
+import Todo from "../.database/pg/.entities/todo.entity"
 import User from "../.database/pg/.entities/user.entity"
 import { myDataSource } from "../.database/pg/db"
 import UserService from "../user/user.service"
 import config from "../utils/config"
 import { AppError } from "../utils/errorHandler"
-import { UserType } from "../../interfaces/enums"
-import Todo from "../.database/pg/.entities/todo.entity"
 
 const jwtSecret = config.JWT.JWT_SECRET
 const jwtRefreshSecret = config.JWT.JWT_REFRESH_SECRET
@@ -50,7 +49,7 @@ namespace AuthService {
     return jwt.verify(token, jwtRefreshSecret) as { userID: number }
   }
 
-  export async function register(userDto: Omit<IUser, "id" | "created_at" | "updated_at" | "deleted_at">, res: Response) {
+  export async function register(userDto: Omit<IUser, "id" | "created_at" | "updated_at" | "deleted_at">) {
     const existingUser = await UserService.findOne({ where: { email: userDto.email.toLowerCase() } })
     if (existingUser) {
       throw new AppError("User alredy exist", 400)
@@ -92,12 +91,12 @@ namespace AuthService {
     }
   }
 
-  export async function login(req: Request) {
+  export async function login(email: string, password: string) {
     type loginData = {
       email: string
       password: string
     }
-    const loginData: loginData = { email: req.body.email, password: req.body.password }
+    const loginData: loginData = { email: email, password: password }
     const user = await UserService.findOneOrFail({ where: { email: loginData.email } })
     const passwordMatch = await bcrypt.compare(loginData.password, user.password)
     if (!passwordMatch) throw new AppError("Authentication failed", 401)
@@ -116,26 +115,19 @@ namespace AuthService {
     const userDB = myDataSource.getRepository(User)
     await userDB.update(userID, { refresh_token: null })
   }
-  export async function validateRefreshAndGenerateCookies(req: Request, user: IUser) {
-    const token = req.cookies["Refresh"]
-    const jwtRefreshMatch = await bcrypt.compare(token, user.refresh_token)
-    if (jwtRefreshMatch) {
-      const newAccessToken = AuthService.generateJwtToken(req.body.userID)
-      const newRefreshToken = AuthService.generateRefreshToken(req.body.userID)
-
-      const authCookie = AuthService.generateAuthCookie(newAccessToken)
-      const refreshCookie = AuthService.generateRefreshCookie(newRefreshToken)
-      return [authCookie, refreshCookie]
-    } else {
-      throw new AppError("Token refresh failed", 400)
-    }
+  export async function generateAuthAndRefreshCookie(user: IUser) {
+    const newAccessToken = AuthService.generateJwtToken(user.id)
+    const newRefreshToken = AuthService.generateRefreshToken(user.id)
+    const authCookie = AuthService.generateAuthCookie(newAccessToken)
+    const refreshCookie = AuthService.generateRefreshCookie(newRefreshToken)
+    return [authCookie, refreshCookie]
   }
-  export async function changePassword(req: Request, user: IUser) {
-    const isPasswordMatch = await bcrypt.compare(req.body.oldPassword, user.password)
+  export async function changePassword(oldPassword: string, newPassword: string, user: IUser) {
+    const isPasswordMatch = await bcrypt.compare(oldPassword, user.password)
     if (isPasswordMatch) {
       const userRepository = myDataSource.getRepository(User)
-      const newPassword = await bcrypt.hash(req.body.newPassword, 10)
-      await userRepository.update(user.id, { password: newPassword })
+      const updatePassword = await bcrypt.hash(newPassword, 10)
+      await userRepository.update(user.id, { password: updatePassword })
     } else {
       throw new AppError("Password do not match", 401)
     }

@@ -13,16 +13,14 @@ const authRoute = express.Router()
 authRoute.use(express.json())
 authRoute.use(cookieParser())
 
-
-
 authRoute.post(
   "/register",
   catchWrapper(async (req: Request, res: Response) => {
     logger.info(`User is registering with data: ${JSON.stringify(req.body)}`, "register router")
-    const userInfo = await AuthService.register(req.body, res)
+    const userInfo = await AuthService.register(req.body)
     let user = plainToClass(User, userInfo.user)
     res.setHeader("Set-Cookie", userInfo.cookies)
-    res.json(user)
+    res.status(200).json(user)
   })
 )
 
@@ -30,7 +28,7 @@ authRoute.post(
   "/login",
   catchWrapper(async (req: Request, res: Response) => {
     logger.info(`User is loged in with data: ${JSON.stringify(req.body)}`, "login router")
-    const loginUser = await AuthService.login(req)
+    const loginUser = await AuthService.login(req.body.email, req.body.password)
     res.setHeader("Set-Cookie", loginUser.cookies)
     res.json(loginUser.user)
   })
@@ -45,9 +43,8 @@ authRoute.post(
     logger.info(`User token is refreshed with data: ${JSON.stringify(req.body)}`, "refreshed router")
     //@ts-ignore
     const user = req.user
-    const cookies = AuthService.validateRefreshAndGenerateCookies(req, user)
+    const cookies = AuthService.generateAuthAndRefreshCookie(user)
     res.setHeader("Set-Cookie", await cookies)
-
     res.status(200).send("Refresh successful")
   })
 )
@@ -59,6 +56,7 @@ authRoute.post(
     const user = req.user
     logger.info(`User is loged-out: ${JSON.stringify(user.id)}`, "log-out router")
     await AuthService.deleteUserRefreshToken(user.id)
+
     res.setHeader("Set-Cookie", "").send()
   })
 )
@@ -69,7 +67,7 @@ authRoute.put(
     logger.info(`User has change his password: ${JSON.stringify(req.body)}`, "change-password router")
     //@ts-ignore
     const user = req.user
-    await AuthService.changePassword(req, user)
+    await AuthService.changePassword(req.body.oldPassword, req.body.newPassword, user)
     res.status(200).send("Your password is successfully changed")
   })
 )
