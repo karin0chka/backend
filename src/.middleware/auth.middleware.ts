@@ -6,7 +6,7 @@ import AuthService from "../auth/auth.service"
 import UserService from "../user/user.service"
 import { AppError } from "../utils/errorHandler"
 
-const jwtAuth = async (req: Request, res: Response, next: NextFunction) => {
+async function jwtAuth(req: Request, res: Response, next: NextFunction) {
   const token = req.cookies["Authentication"]
   if (!token) {
     next(new AppError("Access denied", 401))
@@ -23,7 +23,7 @@ const jwtAuth = async (req: Request, res: Response, next: NextFunction) => {
   }
 }
 
-const jwtRefresh = async (req: Request, res: Response, next: NextFunction) => {
+async function jwtRefresh(req: Request, res: Response, next: NextFunction) {
   const token = req.cookies["Refresh"]
   if (!token) {
     next(new AppError("Access denied", 401))
@@ -43,7 +43,7 @@ const jwtRefresh = async (req: Request, res: Response, next: NextFunction) => {
   }
 }
 
-const isUserAnAdmin = async (req: Request, res: Response, next: NextFunction) => {
+async function isUserAnAdmin(req: Request, res: Response, next: NextFunction) {
   //@ts-ignore
   const user = req.user as IUser
   if (user && user.user_type === UserType.ADMIN) {

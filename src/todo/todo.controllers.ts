@@ -15,7 +15,8 @@ todoRoute.post(
     logger.info(`Todo is created with: ${JSON.stringify(req.body)}`, "create todo router")
     //@ts-ignore
     const user = req.user
-    res.json(await TodoService.createTodo(req.body, user))
+    const { title, description } = req.body
+    res.json(await TodoService.createTodo({ title, description }, user))
   })
 )
 
@@ -25,7 +26,10 @@ todoRoute.put(
   isTodoEligible,
   catchWrapper(async (req: Request, res: Response) => {
     logger.info(`Todo was updated with: ${JSON.stringify(req.body)}`, "update todo router")
-    await TodoService.updateTodo(req.body, +req.params.id)
+    const { title, description } = req.body
+    console.log(+req.params.id)
+    console.log("🚀 ~ catchWrapper ~ ", title, description)
+    await TodoService.updateTodo({ title, description }, +req.params.id)
     res.send("OK")
   })
 )

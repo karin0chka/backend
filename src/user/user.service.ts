@@ -17,9 +17,11 @@ namespace UserService {
   export async function deleteUser(id: number) {
     return myDataSource.getRepository(User).softDelete(id)
   }
+  //TODO move it to todo
+  
   export async function getUserTodos(userID: number) {
     //@ts-ignore
-    const todos = await myDataSource.getRepository(Todo).find({ where: { user: { id: userID } } })
+    const todos = await myDataSource.getRepository(Todo).find({ where: { user: { id: userID } }, order: { created_at: "DESC" } })
     return todos
   }
 }

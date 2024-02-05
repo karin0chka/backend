@@ -16,7 +16,7 @@ export const myDataSource = new DataSource({
 
 export const testDataSource = new DataSource({
   type: 'sqlite',
-  database: ':memory:', // or specify a file path like "./test-db.sqlite"
+  database: ':memory:',
   entities: OrmEntities,
   logging: false,
   synchronize: true, // Set to true for testing to automatically create and drop the schema

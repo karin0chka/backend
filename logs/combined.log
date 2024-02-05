@@ -7472,3 +7472,952 @@ Server is up 🚀
 [32mINFO   2024-02-02 12:29:36.413 PM    [user todos router] 	Get User39 todos: {}[39m
 [32mINFO   2024-02-02 12:29:38.149 PM    [user todos router] 	Get User39 todos: {}[39m
 [32mINFO   2024-02-02 12:30:01.894 PM    [create todo router] 	Todo is created with: {"title":"test 9","description":"test nine"}[39m
+[31mERROR   2024-02-02 01:38:44.975 PM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:21:12[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:9:75)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[31mERROR   2024-02-02 01:38:45.171 PM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:36:12[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (D:\Code\backend\src\.middleware\auth.middleware.ts:5:58) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[32mINFO   2024-02-02 01:38:51.815 PM    [login router] 	User is loged in with data: {"email":"johnmail@gmail.com","password":"1Qa!!!"}[39m
+[32mINFO   2024-02-02 01:38:52.143 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 01:39:06.129 PM    [create todo router] 	Todo is created with: {"title":"test 10","description":"test ten"}[39m
+[32mINFO   2024-02-02 01:45:11.697 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 01:45:26.477 PM    [create todo router] 	Todo is created with: {"title":"Test 11","description":"test eleven"}[39m
+[32mINFO   2024-02-02 01:45:26.498 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 02:11:11.672 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 02:11:22.380 PM    [create todo router] 	Todo is created with: {"title":"Test 12","description":"test 12"}[39m
+[32mINFO   2024-02-02 02:11:49.570 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 02:30:33.874 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 02:30:42.731 PM    [create todo router] 	Todo is created with: {"title":"Test 13","description":"lkmd"}[39m
+[31mERROR   2024-02-02 03:55:08.832 PM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:21:12[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:9:75)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[32mINFO   2024-02-02 03:55:09.393 PM    [refreshed router] 	User token is refreshed with data: {}[39m
+[32mINFO   2024-02-02 03:55:09.436 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 03:58:07.231 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 04:02:13.224 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 04:08:53.401 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 04:11:08.154 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 04:11:56.853 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 04:15:21.649 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 04:17:59.752 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 04:22:45.301 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 04:33:02.336 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 04:37:08.841 PM    [create todo router] 	Todo is created with: {"title":"Test 14","description":"test 14"}[39m
+[31mERROR   2024-02-02 04:56:41.887 PM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:21:12[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:9:75)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[31mERROR   2024-02-02 04:56:42.508 PM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:36:12[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (D:\Code\backend\src\.middleware\auth.middleware.ts:5:58) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[32mINFO   2024-02-02 04:57:06.272 PM    [login router] 	User is loged in with data: {"email":"johnmail@gmail.com","password":"1Qa!!!"}[39m
+[32mINFO   2024-02-02 04:57:06.950 PM    [user todos router] 	Get User39 todos: {}[39m
+[31mERROR   2024-02-02 05:16:56.316 PM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:12:10[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:9:75)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[32mINFO   2024-02-02 05:16:56.895 PM    [refreshed router] 	User token is refreshed with data: {}[39m
+[32mINFO   2024-02-02 05:16:56.922 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 05:29:50.554 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 05:36:10.528 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 05:37:06.413 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 05:40:15.530 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 05:46:02.197 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 05:48:38.078 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 05:55:39.423 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-02 05:59:41.645 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-04 06:52:35.500 PM    [] 	Info message[39m
+[31mERROR   2024-02-04 06:52:35.502 PM    [] 	Error message[39m
+[33mWARN   2024-02-04 06:52:35.503 PM    [] 	Warning message[39m
+[32mINFO   2024-02-04 06:52:36.288 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-02-04 06:52:36.525 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[31mERROR   2024-02-04 06:52:45.855 PM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:21:12[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:9:75)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[31mERROR   2024-02-04 06:52:45.865 PM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:29:10[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtRefresh (D:\Code\backend\src\.middleware\auth.middleware.ts:26:78)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[32mINFO   2024-02-04 06:52:53.179 PM    [login router] 	User is loged in with data: {"email":"johnmail@gmail.com","password":"1Qa!!!"}[39m
+[32mINFO   2024-02-04 06:52:53.490 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-04 06:57:06.865 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-04 06:58:37.894 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-04 07:00:40.185 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-04 07:01:21.990 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-04 07:35:09.451 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-04 07:35:15.415 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-04 07:36:21.492 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-04 07:39:35.442 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-04 07:41:37.631 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-04 07:42:14.458 PM    [user todos router] 	Get User39 todos: {}[39m
+[31mERROR   2024-02-04 08:24:43.071 PM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:21:12[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:9:75)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[32mINFO   2024-02-04 08:24:43.570 PM    [refreshed router] 	User token is refreshed with data: {}[39m
+[32mINFO   2024-02-04 08:24:43.685 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-04 08:28:06.409 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-04 08:28:39.046 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-04 08:34:36.363 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-04 08:43:46.962 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-04 08:44:48.717 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-04 09:09:03.293 PM    [user todos router] 	Get User39 todos: {}[39m
+[31mERROR   2024-02-04 09:31:08.073 PM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:21:12[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:9:75)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[31mERROR   2024-02-04 09:31:08.509 PM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:36:12[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (D:\Code\backend\src\.middleware\auth.middleware.ts:5:58) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[32mINFO   2024-02-04 09:31:14.740 PM    [login router] 	User is loged in with data: {"email":"johnmail@gmail.com","password":"1Qa!!!"}[39m
+[32mINFO   2024-02-04 09:31:15.400 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-04 09:32:22.099 PM    [] 	Info message[39m
+[31mERROR   2024-02-04 09:32:22.103 PM    [] 	Error message[39m
+[33mWARN   2024-02-04 09:32:22.104 PM    [] 	Warning message[39m
+[32mINFO   2024-02-04 09:32:23.973 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-02-04 09:32:24.156 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-02-04 09:32:31.362 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-04 09:32:51.313 PM    [] 	Info message[39m
+[31mERROR   2024-02-04 09:32:51.316 PM    [] 	Error message[39m
+[33mWARN   2024-02-04 09:32:51.317 PM    [] 	Warning message[39m
+[32mINFO   2024-02-04 09:32:52.897 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-02-04 09:32:53.126 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-02-04 09:37:30.525 PM    [] 	Info message[39m
+[31mERROR   2024-02-04 09:37:30.529 PM    [] 	Error message[39m
+[33mWARN   2024-02-04 09:37:30.530 PM    [] 	Warning message[39m
+[32mINFO   2024-02-04 09:37:32.093 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-02-04 09:37:32.260 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-02-05 09:50:56.541 AM    [] 	Info message[39m
+[31mERROR   2024-02-05 09:50:56.547 AM    [] 	Error message[39m
+[33mWARN   2024-02-05 09:50:56.548 AM    [] 	Warning message[39m
+[32mINFO   2024-02-05 09:50:58.738 AM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-02-05 09:50:58.946 AM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[31mERROR   2024-02-05 09:53:18.528 AM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:21:12[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:9:75)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[31mERROR   2024-02-05 09:53:18.551 AM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:29:10[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtRefresh (D:\Code\backend\src\.middleware\auth.middleware.ts:26:78)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[32mINFO   2024-02-05 09:53:24.208 AM    [login router] 	User is loged in with data: {"email":"johnmail@gmail.com","password":"1Qa!!!"}[39m
+[32mINFO   2024-02-05 09:53:24.803 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-05 10:06:10.609 AM    [create todo router] 	Todo is created with: {"title":"Test 15 ","description":"testing form refresh"}[39m
+[32mINFO   2024-02-05 10:07:10.283 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-05 10:07:44.213 AM    [create todo router] 	Todo is created with: {"title":"Test 16","description":"Tsting again"}[39m
+[32mINFO   2024-02-05 10:07:48.744 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-05 10:08:00.334 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-05 10:21:20.639 AM    [create todo router] 	Todo is created with: {"title":"Test 17","description":"test 17"}[39m
+[32mINFO   2024-02-05 10:21:25.991 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-05 10:21:51.213 AM    [create todo router] 	Todo is created with: {"title":"Test 18","description":"kjdncvf"}[39m
+[32mINFO   2024-02-05 10:21:51.245 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-05 10:22:07.170 AM    [create todo router] 	Todo is created with: {"title":"test 19","description":"ijkdfnesr"}[39m
+[32mINFO   2024-02-05 10:22:07.193 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-05 10:22:56.763 AM    [create todo router] 	Todo is created with: {"title":"Test 20","description":"dkjnv\n"}[39m
+[32mINFO   2024-02-05 10:22:56.804 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-05 10:24:24.013 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-05 10:25:59.309 AM    [create todo router] 	Todo is created with: {"title":"Test 21","description":"jknfdg"}[39m
+[32mINFO   2024-02-05 10:25:59.361 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-05 10:28:39.060 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-05 10:32:35.652 AM    [create todo router] 	Todo is created with: {"title":"Test 22","description":"kjsdnf"}[39m
+[32mINFO   2024-02-05 10:32:35.691 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-05 10:43:07.782 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-05 10:55:20.870 AM    [login router] 	User is loged in with data: {"email":"johnmail@gmail.com","password":"1Qa!!!"}[39m
+[32mINFO   2024-02-05 10:55:21.203 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-05 10:59:07.982 AM    [login router] 	User is loged in with data: {"email":"johnmail@gmail.com","password":"1Qa!!!"}[39m
+[32mINFO   2024-02-05 10:59:08.297 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-05 10:59:28.095 AM    [login router] 	User is loged in with data: {"email":"johnmail@gmail.com","password":"1Qa!!!"}[39m
+[32mINFO   2024-02-05 10:59:28.335 AM    [user todos router] 	Get User39 todos: {}[39m
+[31mERROR   2024-02-05 11:01:21.878 AM    [] 	TypeError: Cannot read properties of undefined (reading 'id')[39m
+[31m    at D:\Code\backend\src\.middleware\todo.middleware.ts:7:26[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\todo.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\todo.middleware.ts:4:12)[39m
+[31m    at D:\Code\backend\src\.middleware\todo.middleware.ts:6:109[39m
+[31m    at D:\Code\backend\src\utils\errorHandler.ts:33:11[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\utils\errorHandler.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[32mINFO   2024-02-05 11:01:29.524 AM    [login router] 	User is loged in with data: {"email":"johnmail@gmail.com","password":"1Qa!!!"}[39m
+[32mINFO   2024-02-05 11:01:29.753 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-05 11:06:54.195 AM    [login router] 	User is loged in with data: {"email":"johnmail@gmail.com","password":"1Qa!!!"}[39m
+[32mINFO   2024-02-05 11:06:54.509 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-05 11:08:04.066 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-05 11:09:10.293 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-05 11:09:27.333 AM    [user todos router] 	Get User39 todos: {}[39m
+[31mERROR   2024-02-05 11:29:36.805 AM    [] 	TypeError: Cannot read properties of undefined (reading 'id')[39m
+[31m    at D:\Code\backend\src\.middleware\todo.middleware.ts:7:26[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\todo.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\todo.middleware.ts:4:12)[39m
+[31m    at D:\Code\backend\src\.middleware\todo.middleware.ts:6:109[39m
+[31m    at D:\Code\backend\src\utils\errorHandler.ts:33:11[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\utils\errorHandler.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[32mINFO   2024-02-05 11:29:38.152 AM    [user todos router] 	Get User39 todos: {}[39m
+[31mERROR   2024-02-05 11:33:56.030 AM    [] 	TypeError: Cannot read properties of undefined (reading 'id')[39m
+[31m    at D:\Code\backend\src\.middleware\todo.middleware.ts:7:26[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\todo.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\todo.middleware.ts:4:12)[39m
+[31m    at D:\Code\backend\src\.middleware\todo.middleware.ts:6:109[39m
+[31m    at D:\Code\backend\src\utils\errorHandler.ts:33:11[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\utils\errorHandler.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[32mINFO   2024-02-05 11:33:57.360 AM    [user todos router] 	Get User39 todos: {}[39m
+[31mERROR   2024-02-05 11:37:50.259 AM    [] 	TypeError: Cannot read properties of undefined (reading 'id')[39m
+[31m    at D:\Code\backend\src\.middleware\todo.middleware.ts:7:26[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\todo.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\todo.middleware.ts:4:12)[39m
+[31m    at D:\Code\backend\src\.middleware\todo.middleware.ts:6:109[39m
+[31m    at D:\Code\backend\src\utils\errorHandler.ts:33:11[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\utils\errorHandler.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[32mINFO   2024-02-05 11:37:52.729 AM    [user todos router] 	Get User39 todos: {}[39m
+[31mERROR   2024-02-05 11:38:50.908 AM    [] 	TypeError: Cannot read properties of undefined (reading 'id')[39m
+[31m    at D:\Code\backend\src\.middleware\todo.middleware.ts:7:26[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\todo.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\todo.middleware.ts:4:12)[39m
+[31m    at D:\Code\backend\src\.middleware\todo.middleware.ts:6:109[39m
+[31m    at D:\Code\backend\src\utils\errorHandler.ts:33:11[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\utils\errorHandler.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[32mINFO   2024-02-05 11:38:52.028 AM    [user todos router] 	Get User39 todos: {}[39m
+[31mERROR   2024-02-05 11:45:02.457 AM    [] 	TypeError: Cannot read properties of undefined (reading 'id')[39m
+[31m    at D:\Code\backend\src\.middleware\todo.middleware.ts:7:26[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\todo.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\todo.middleware.ts:4:12)[39m
+[31m    at D:\Code\backend\src\.middleware\todo.middleware.ts:6:109[39m
+[31m    at D:\Code\backend\src\utils\errorHandler.ts:33:11[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\utils\errorHandler.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[32mINFO   2024-02-05 11:45:08.270 AM    [user todos router] 	Get User39 todos: {}[39m
+[31mERROR   2024-02-05 11:46:25.114 AM    [] 	TypeError: Cannot read properties of undefined (reading 'id')[39m
+[31m    at D:\Code\backend\src\.middleware\todo.middleware.ts:7:26[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\todo.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\todo.middleware.ts:4:12)[39m
+[31m    at D:\Code\backend\src\.middleware\todo.middleware.ts:6:109[39m
+[31m    at D:\Code\backend\src\utils\errorHandler.ts:33:11[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\utils\errorHandler.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[32mINFO   2024-02-05 11:46:26.400 AM    [user todos router] 	Get User39 todos: {}[39m
+[31mERROR   2024-02-05 11:49:17.476 AM    [] 	TypeError: Cannot read properties of undefined (reading 'id')[39m
+[31m    at D:\Code\backend\src\.middleware\todo.middleware.ts:7:26[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\todo.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\todo.middleware.ts:4:12)[39m
+[31m    at D:\Code\backend\src\.middleware\todo.middleware.ts:6:109[39m
+[31m    at D:\Code\backend\src\utils\errorHandler.ts:33:11[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\utils\errorHandler.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[32mINFO   2024-02-05 11:49:24.300 AM    [user todos router] 	Get User39 todos: {}[39m
+[31mERROR   2024-02-05 11:50:32.372 AM    [] 	TypeError: Cannot read properties of undefined (reading 'id')[39m
+[31m    at D:\Code\backend\src\.middleware\todo.middleware.ts:7:26[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\todo.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\todo.middleware.ts:4:12)[39m
+[31m    at D:\Code\backend\src\.middleware\todo.middleware.ts:6:109[39m
+[31m    at D:\Code\backend\src\utils\errorHandler.ts:33:11[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\utils\errorHandler.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[32mINFO   2024-02-05 11:50:34.800 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-05 11:52:00.754 AM    [user todos router] 	Get User39 todos: {}[39m
+[31mERROR   2024-02-05 11:52:07.504 AM    [] 	TypeError: Cannot read properties of undefined (reading 'id')[39m
+[31m    at D:\Code\backend\src\.middleware\todo.middleware.ts:7:26[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\todo.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\todo.middleware.ts:4:12)[39m
+[31m    at D:\Code\backend\src\.middleware\todo.middleware.ts:6:109[39m
+[31m    at D:\Code\backend\src\utils\errorHandler.ts:33:11[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\utils\errorHandler.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[32mINFO   2024-02-05 11:52:09.984 AM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-05 11:53:53.495 AM    [] 	Info message[39m
+[32mINFO   2024-02-05 12:37:54.874 PM    [] 	Info message[39m
+[32mINFO   2024-02-05 12:38:17.895 PM    [] 	Info message[39m
+[32mINFO   2024-02-05 12:39:21.798 PM    [] 	Info message[39m
+[32mINFO   2024-02-05 12:39:58.108 PM    [] 	Info message[39m
+[32mINFO   2024-02-05 12:40:40.533 PM    [] 	Info message[39m
+[32mINFO   2024-02-05 12:41:01.860 PM    [] 	Info message[39m
+[32mINFO   2024-02-05 12:42:08.008 PM    [] 	Info message[39m
+[32mINFO   2024-02-05 12:42:20.078 PM    [] 	Info message[39m
+[32mINFO   2024-02-05 12:42:39.279 PM    [] 	Info message[39m
+[32mINFO   2024-02-05 12:42:53.939 PM    [] 	Info message[39m
+[32mINFO   2024-02-05 12:43:10.227 PM    [] 	Info message[39m
+[32mINFO   2024-02-05 12:44:13.708 PM    [] 	Info message[39m
+[32mINFO   2024-02-05 12:46:49.221 PM    [] 	Info message[39m
+[32mINFO   2024-02-05 12:47:05.626 PM    [] 	Info message[39m
+[32mINFO   2024-02-05 12:47:19.072 PM    [] 	Info message[39m
+[32mINFO   2024-02-05 12:47:32.267 PM    [] 	Info message[39m
+[32mINFO   2024-02-05 12:47:46.439 PM    [] 	Info message[39m
+[32mINFO   2024-02-05 12:51:55.607 PM    [] 	Info message[39m
+[32mINFO   2024-02-05 12:53:15.094 PM    [] 	Info message[39m
+[32mINFO   2024-02-05 12:53:35.813 PM    [] 	Info message[39m
+[32mINFO   2024-02-05 12:53:44.745 PM    [] 	Info message[39m
+[32mINFO   2024-02-05 12:59:40.213 PM    [] 	Info message[39m
+[32mINFO   2024-02-05 12:59:51.936 PM    [] 	Info message[39m
+[31mERROR   2024-02-05 12:59:51.942 PM    [] 	Error message[39m
+[33mWARN   2024-02-05 12:59:51.945 PM    [] 	Warning message[39m
+[32mINFO   2024-02-05 12:59:53.829 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-02-05 12:59:54.019 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-02-05 01:00:52.729 PM    [] 	Info message[39m
+[32mINFO   2024-02-05 01:01:07.857 PM    [] 	Info message[39m
+[31mERROR   2024-02-05 01:01:07.861 PM    [] 	Error message[39m
+[33mWARN   2024-02-05 01:01:07.862 PM    [] 	Warning message[39m
+[32mINFO   2024-02-05 01:01:09.461 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-02-05 01:01:09.613 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-02-05 01:02:03.164 PM    [] 	Info message[39m
+[31mERROR   2024-02-05 01:02:03.168 PM    [] 	Error message[39m
+[33mWARN   2024-02-05 01:02:03.169 PM    [] 	Warning message[39m
+[32mINFO   2024-02-05 01:02:04.700 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-02-05 01:02:04.865 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-02-05 01:08:57.608 PM    [login router] 	User is loged in with data: {"email":"johnmail@gmail.com","password":"1Qa!!!"}[39m
+[32mINFO   2024-02-05 01:08:58.356 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-05 01:09:09.957 PM    [create todo router] 	Todo is created with: {"title":"Hello","description":"It is me "}[39m
+[32mINFO   2024-02-05 01:09:10.018 PM    [user todos router] 	Get User39 todos: {}[39m
+[31mERROR   2024-02-05 01:09:22.944 PM    [] 	TypeError: Cannot read properties of undefined (reading 'id')[39m
+[31m    at D:\Code\backend\src\.middleware\todo.middleware.ts:7:26[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\todo.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\todo.middleware.ts:4:12)[39m
+[31m    at D:\Code\backend\src\.middleware\todo.middleware.ts:6:109[39m
+[31m    at D:\Code\backend\src\utils\errorHandler.ts:33:11[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\utils\errorHandler.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[32mINFO   2024-02-05 01:09:25.007 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-05 01:09:54.842 PM    [] 	Info message[39m
+[31mERROR   2024-02-05 01:09:54.847 PM    [] 	Error message[39m
+[33mWARN   2024-02-05 01:09:54.848 PM    [] 	Warning message[39m
+[32mINFO   2024-02-05 01:09:56.551 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-02-05 01:09:56.686 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-02-05 01:16:36.149 PM    [create todo router] 	Todo is created with: {"title":"Test Changes","description":"Testing"}[39m
+[32mINFO   2024-02-05 01:16:36.238 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-05 01:19:17.655 PM    [create todo router] 	Todo is created with: {"title":"Test Changes 2","description":"Testing"}[39m
+[32mINFO   2024-02-05 01:19:32.422 PM    [create todo router] 	Todo is created with: {"title":"Test Changes 2","description":"Testing"}[39m
+[32mINFO   2024-02-05 01:19:32.455 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-05 01:20:01.784 PM    [create todo router] 	Todo is created with: {"title":"Test Changes 3","description":"Testing"}[39m
+[32mINFO   2024-02-05 01:20:15.997 PM    [create todo router] 	Todo is created with: {"title":"Test Changes 4","description":"Testing"}[39m
+[32mINFO   2024-02-05 01:20:16.082 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-05 01:25:10.616 PM    [create todo router] 	Todo is created with: {"title":"Test Changes 5","description":"kfejkmfri"}[39m
+[32mINFO   2024-02-05 01:25:10.655 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-05 01:25:26.861 PM    [create todo router] 	Todo is created with: {"title":"Test Changes 5","description":"kfejkmfriepwld"}[39m
+[32mINFO   2024-02-05 01:25:26.910 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-05 01:25:52.566 PM    [create todo router] 	Todo is created with: {"title":"Test Changes 5","description":"kfejkmfriepwldedfc"}[39m
+[32mINFO   2024-02-05 01:25:52.654 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-05 01:31:23.738 PM    [create todo router] 	Todo is created with: {"title":"Test Changes 6","description":"kdjfn s"}[39m
+[32mINFO   2024-02-05 01:31:23.791 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-05 01:35:11.512 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-05 01:35:24.262 PM    [create todo router] 	Todo is created with: {"title":"Test Changes 7","description":"koejmflewjjiq3r"}[39m
+[32mINFO   2024-02-05 01:35:24.312 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-05 01:35:48.037 PM    [create todo router] 	Todo is created with: {"title":"Test Changes 8","description":"koejmflewjjiq3r"}[39m
+[32mINFO   2024-02-05 01:35:48.075 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-05 01:38:10.118 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-05 01:38:22.978 PM    [create todo router] 	Todo is created with: {"title":"Test Changes 9","description":"ehjdfwlnkf ewdoq"}[39m
+[32mINFO   2024-02-05 01:38:23.019 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-05 01:38:23.351 PM    [create todo router] 	Todo is created with: {"title":"Test Changes 9","description":"ehjdfwlnkf ewdoq"}[39m
+[32mINFO   2024-02-05 01:38:23.641 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-05 01:51:25.774 PM    [create todo router] 	Todo is created with: {"title":"Test ch 7eifk","description":"ermf "}[39m
+[32mINFO   2024-02-05 01:51:25.849 PM    [user todos router] 	Get User39 todos: {}[39m
+[31mERROR   2024-02-05 01:52:14.870 PM    [] 	TypeError: Cannot read properties of undefined (reading 'id')[39m
+[31m    at D:\Code\backend\src\.middleware\todo.middleware.ts:7:26[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\todo.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\todo.middleware.ts:4:12)[39m
+[31m    at D:\Code\backend\src\.middleware\todo.middleware.ts:6:109[39m
+[31m    at D:\Code\backend\src\utils\errorHandler.ts:33:11[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\utils\errorHandler.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[32mINFO   2024-02-05 01:52:16.187 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-05 01:55:51.240 PM    [] 	Info message[39m
+[31mERROR   2024-02-05 01:55:51.244 PM    [] 	Error message[39m
+[33mWARN   2024-02-05 01:55:51.245 PM    [] 	Warning message[39m
+[32mINFO   2024-02-05 01:55:53.111 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-02-05 01:55:53.264 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-02-05 01:56:05.821 PM    [] 	Info message[39m
+[32mINFO   2024-02-05 01:56:31.261 PM    [] 	Info message[39m
+[31mERROR   2024-02-05 01:56:31.265 PM    [] 	Error message[39m
+[33mWARN   2024-02-05 01:56:31.265 PM    [] 	Warning message[39m
+[32mINFO   2024-02-05 01:56:32.996 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[31mERROR   2024-02-05 01:56:33.174 PM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:21:12[39m
+[31m    at Generator.throw (<anonymous>)[39m
+[31m    at rejected (D:\Code\backend\src\.middleware\auth.middleware.ts:6:65)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[31mERROR   2024-02-05 01:56:33.209 PM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:42:10[39m
+[31m    at Generator.throw (<anonymous>)[39m
+[31m    at rejected (D:\Code\backend\src\.middleware\auth.middleware.ts:6:65)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[32mINFO   2024-02-05 01:56:33.255 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-02-05 01:56:34.433 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-05 01:57:43.306 PM    [] 	Info message[39m
+[31mERROR   2024-02-05 01:57:43.309 PM    [] 	Error message[39m
+[33mWARN   2024-02-05 01:57:43.310 PM    [] 	Warning message[39m
+[32mINFO   2024-02-05 01:57:44.855 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-02-05 01:57:45.007 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[31mERROR   2024-02-05 01:57:56.617 PM    [] 	TypeError: Cannot read properties of undefined (reading 'id')[39m
+[31m    at D:\Code\backend\src\.middleware\todo.middleware.ts:7:26[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\todo.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\todo.middleware.ts:4:12)[39m
+[31m    at D:\Code\backend\src\.middleware\todo.middleware.ts:6:109[39m
+[31m    at D:\Code\backend\src\utils\errorHandler.ts:33:11[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\utils\errorHandler.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[32mINFO   2024-02-05 01:57:58.331 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-05 02:06:19.177 PM    [user todos router] 	Get User39 todos: {}[39m
+[31mERROR   2024-02-05 02:06:29.996 PM    [] 	TypeError: Cannot read properties of undefined (reading 'id')[39m
+[31m    at D:\Code\backend\src\.middleware\todo.middleware.ts:7:26[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\todo.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\todo.middleware.ts:4:12)[39m
+[31m    at D:\Code\backend\src\.middleware\todo.middleware.ts:6:109[39m
+[31m    at D:\Code\backend\src\utils\errorHandler.ts:33:11[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\utils\errorHandler.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[32mINFO   2024-02-05 02:06:31.053 PM    [user todos router] 	Get User39 todos: {}[39m
+[31mERROR   2024-02-05 02:54:05.495 PM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:21:12[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:9:75)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[32mINFO   2024-02-05 02:54:05.700 PM    [refreshed router] 	User token is refreshed with data: {}[39m
+[31mERROR   2024-02-05 02:54:05.775 PM    [] 	TypeError: Cannot read properties of undefined (reading 'id')[39m
+[31m    at D:\Code\backend\src\.middleware\todo.middleware.ts:7:26[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\todo.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\todo.middleware.ts:4:12)[39m
+[31m    at D:\Code\backend\src\.middleware\todo.middleware.ts:6:109[39m
+[31m    at D:\Code\backend\src\utils\errorHandler.ts:33:11[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\utils\errorHandler.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[32mINFO   2024-02-05 02:54:06.771 PM    [user todos router] 	Get User39 todos: {}[39m
+[31mERROR   2024-02-05 02:57:28.291 PM    [] 	TypeError: Cannot read properties of undefined (reading 'id')[39m
+[31m    at D:\Code\backend\src\.middleware\todo.middleware.ts:7:26[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\todo.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\todo.middleware.ts:4:12)[39m
+[31m    at D:\Code\backend\src\.middleware\todo.middleware.ts:6:109[39m
+[31m    at D:\Code\backend\src\utils\errorHandler.ts:33:11[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\utils\errorHandler.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[32mINFO   2024-02-05 02:57:29.065 PM    [user todos router] 	Get User39 todos: {}[39m
+[31mERROR   2024-02-05 03:01:10.010 PM    [] 	TypeError: Cannot read properties of undefined (reading 'id')[39m
+[31m    at D:\Code\backend\src\.middleware\todo.middleware.ts:7:26[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\todo.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\todo.middleware.ts:4:12)[39m
+[31m    at D:\Code\backend\src\.middleware\todo.middleware.ts:6:109[39m
+[31m    at D:\Code\backend\src\utils\errorHandler.ts:33:11[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\utils\errorHandler.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[32mINFO   2024-02-05 03:01:10.708 PM    [user todos router] 	Get User39 todos: {}[39m
+[31mERROR   2024-02-05 03:03:13.808 PM    [] 	TypeError: Cannot read properties of undefined (reading 'id')[39m
+[31m    at D:\Code\backend\src\.middleware\todo.middleware.ts:7:26[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\todo.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\todo.middleware.ts:4:12)[39m
+[31m    at D:\Code\backend\src\.middleware\todo.middleware.ts:6:109[39m
+[31m    at D:\Code\backend\src\utils\errorHandler.ts:33:11[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\utils\errorHandler.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[32mINFO   2024-02-05 03:03:14.463 PM    [user todos router] 	Get User39 todos: {}[39m
+[31mERROR   2024-02-05 03:04:56.058 PM    [] 	TypeError: Cannot read properties of undefined (reading 'id')[39m
+[31m    at D:\Code\backend\src\.middleware\todo.middleware.ts:7:26[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\todo.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\todo.middleware.ts:4:12)[39m
+[31m    at D:\Code\backend\src\.middleware\todo.middleware.ts:6:109[39m
+[31m    at D:\Code\backend\src\utils\errorHandler.ts:33:11[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\utils\errorHandler.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[32mINFO   2024-02-05 03:04:57.381 PM    [user todos router] 	Get User39 todos: {}[39m
+[31mERROR   2024-02-05 03:05:29.001 PM    [] 	TypeError: Cannot read properties of undefined (reading 'id')[39m
+[31m    at D:\Code\backend\src\.middleware\todo.middleware.ts:7:26[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\todo.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\todo.middleware.ts:4:12)[39m
+[31m    at D:\Code\backend\src\.middleware\todo.middleware.ts:6:109[39m
+[31m    at D:\Code\backend\src\utils\errorHandler.ts:33:11[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\utils\errorHandler.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[32mINFO   2024-02-05 03:05:29.643 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-05 03:06:24.306 PM    [user todos router] 	Get User39 todos: {}[39m
+[31mERROR   2024-02-05 03:06:28.929 PM    [] 	TypeError: Cannot read properties of undefined (reading 'id')[39m
+[31m    at D:\Code\backend\src\.middleware\todo.middleware.ts:7:26[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\todo.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\todo.middleware.ts:4:12)[39m
+[31m    at D:\Code\backend\src\.middleware\todo.middleware.ts:6:109[39m
+[31m    at D:\Code\backend\src\utils\errorHandler.ts:33:11[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\utils\errorHandler.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[32mINFO   2024-02-05 03:06:29.479 PM    [user todos router] 	Get User39 todos: {}[39m
+[31mERROR   2024-02-05 03:06:34.750 PM    [] 	TypeError: Cannot read properties of undefined (reading 'id')[39m
+[31m    at D:\Code\backend\src\.middleware\todo.middleware.ts:7:26[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\todo.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\todo.middleware.ts:4:12)[39m
+[31m    at D:\Code\backend\src\.middleware\todo.middleware.ts:6:109[39m
+[31m    at D:\Code\backend\src\utils\errorHandler.ts:33:11[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\utils\errorHandler.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[32mINFO   2024-02-05 03:06:35.330 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-05 03:06:48.829 PM    [] 	Info message[39m
+[31mERROR   2024-02-05 03:06:48.832 PM    [] 	Error message[39m
+[33mWARN   2024-02-05 03:06:48.832 PM    [] 	Warning message[39m
+[32mINFO   2024-02-05 03:06:49.778 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-02-05 03:06:49.872 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-02-05 03:06:50.088 PM    [update todo router] 	Todo was updated with: {"id":84,"created_at":"2024-02-05T13:51:25.785Z","updated_at":"2024-02-05T13:51:25.785Z","deleted_at":null,"title":"Test ch 7eifk","description":"ermf ksdm","is_done":false}[39m
+[32mINFO   2024-02-05 03:12:44.381 PM    [update todo router] 	Todo was updated with: {"id":84,"created_at":"2024-02-05T13:51:25.785Z","updated_at":"2024-02-05T13:51:25.785Z","deleted_at":null,"title":"Test ch 7eifk","description":"ermf ioqwd","is_done":false}[39m
+[32mINFO   2024-02-05 03:13:56.875 PM    [update todo router] 	Todo was updated with: {"id":84,"created_at":"2024-02-05T13:51:25.785Z","updated_at":"2024-02-05T13:51:25.785Z","deleted_at":null,"title":"Test ch 7eifk","description":"ermf ","is_done":false}[39m
+[32mINFO   2024-02-05 03:14:02.729 PM    [update todo router] 	Todo was updated with: {"id":84,"created_at":"2024-02-05T13:51:25.785Z","updated_at":"2024-02-05T13:51:25.785Z","deleted_at":null,"title":"Test ch 7eifk","description":"ermf ","is_done":false}[39m
+[32mINFO   2024-02-05 03:47:45.473 PM    [update todo router] 	Todo was updated with: {"id":84,"created_at":"2024-02-05T13:51:25.785Z","updated_at":"2024-02-05T13:51:25.785Z","deleted_at":null,"title":"Test ch 7eifk","description":"ermf rfte4","is_done":false}[39m
+[31mERROR   2024-02-05 03:57:37.229 PM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:21:12[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:9:75)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[31mERROR   2024-02-05 03:57:37.494 PM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:36:12[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (D:\Code\backend\src\.middleware\auth.middleware.ts:5:58) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[31mERROR   2024-02-05 03:57:39.240 PM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:21:12[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:9:75)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[31mERROR   2024-02-05 03:57:39.522 PM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:36:12[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (D:\Code\backend\src\.middleware\auth.middleware.ts:5:58) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[31mERROR   2024-02-05 03:57:41.407 PM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:21:12[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:9:75)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[31mERROR   2024-02-05 03:57:41.651 PM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:36:12[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (D:\Code\backend\src\.middleware\auth.middleware.ts:5:58) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[31mERROR   2024-02-05 03:57:43.296 PM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:21:12[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:9:75)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[31mERROR   2024-02-05 03:57:43.510 PM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:36:12[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (D:\Code\backend\src\.middleware\auth.middleware.ts:5:58) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[31mERROR   2024-02-05 03:57:44.589 PM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:21:12[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:9:75)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[31mERROR   2024-02-05 03:57:44.805 PM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:36:12[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (D:\Code\backend\src\.middleware\auth.middleware.ts:5:58) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[31mERROR   2024-02-05 03:57:45.933 PM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:21:12[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:9:75)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[31mERROR   2024-02-05 03:57:46.168 PM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:36:12[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (D:\Code\backend\src\.middleware\auth.middleware.ts:5:58) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[31mERROR   2024-02-05 03:57:47.816 PM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:21:12[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:9:75)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[31mERROR   2024-02-05 03:57:48.098 PM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:36:12[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (D:\Code\backend\src\.middleware\auth.middleware.ts:5:58) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[31mERROR   2024-02-05 03:57:50.487 PM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:21:12[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:9:75)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[31mERROR   2024-02-05 03:57:50.756 PM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:36:12[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (D:\Code\backend\src\.middleware\auth.middleware.ts:5:58) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[31mERROR   2024-02-05 03:57:52.618 PM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:21:12[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:9:75)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[31mERROR   2024-02-05 03:57:52.904 PM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:36:12[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (D:\Code\backend\src\.middleware\auth.middleware.ts:5:58) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[31mERROR   2024-02-05 03:57:54.700 PM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:21:12[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:9:75)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[31mERROR   2024-02-05 03:57:54.995 PM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:36:12[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (D:\Code\backend\src\.middleware\auth.middleware.ts:5:58) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[32mINFO   2024-02-05 04:01:54.109 PM    [] 	Info message[39m
+[31mERROR   2024-02-05 04:01:54.111 PM    [] 	Error message[39m
+[33mWARN   2024-02-05 04:01:54.112 PM    [] 	Warning message[39m
+[32mINFO   2024-02-05 04:01:55.240 PM    [CoreApp] 	Server is up 🚀 3000[39m
+[32mINFO   2024-02-05 04:01:55.377 PM    [] 	[39m
+[32m💫 DB Connected 💫[39m
+[32m[39m
+[32mINFO   2024-02-05 04:02:41.490 PM    [login router] 	User is loged in with data: {"email":"johnmail@gmail.com","password":"1Qa!!!"}[39m
+[32mINFO   2024-02-05 04:02:41.790 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-05 04:03:41.408 PM    [update todo router] 	Todo was updated with: {"id":84,"created_at":"2024-02-05T13:51:25.785Z","updated_at":"2024-02-05T15:47:45.485Z","deleted_at":null,"title":"Test ch 7eifk","description":"ermf rfte4ewokdm","is_done":false}[39m
+[32mINFO   2024-02-05 04:04:07.078 PM    [update todo router] 	Todo was updated with: {"id":84,"created_at":"2024-02-05T13:51:25.785Z","updated_at":"2024-02-05T15:47:45.485Z","deleted_at":null,"title":"Updated Todo","description":"ermf rfte4edkfdkmeri","is_done":false}[39m
+[32mINFO   2024-02-05 04:04:49.728 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-05 04:04:57.206 PM    [update todo router] 	Todo was updated with: {"id":84,"created_at":"2024-02-05T13:51:25.785Z","updated_at":"2024-02-05T16:04:07.081Z","deleted_at":null,"title":"Updated Todo 1","description":"ermf rfte4edkfdkmeri","is_done":false}[39m
+[32mINFO   2024-02-05 04:05:00.286 PM    [user todos router] 	Get User39 todos: {}[39m
+[31mERROR   2024-02-05 04:05:55.493 PM    [] 	AppError: Access denied[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:12:10[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at D:\Code\backend\src\.middleware\auth.middleware.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (D:\Code\backend\src\.middleware\auth.middleware.ts:4:12)[39m
+[31m    at jwtAuth (D:\Code\backend\src\.middleware\auth.middleware.ts:22:12)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (D:\Code\backend\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (D:\Code\backend\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (D:\Code\backend\node_modules\express\lib\router\layer.js:95:5) {[39m
+[31m  statusCode: 401[39m
+[31m}[39m
+[32mINFO   2024-02-05 04:05:55.600 PM    [refreshed router] 	User token is refreshed with data: {}[39m
+[32mINFO   2024-02-05 04:05:55.694 PM    [update todo router] 	Todo was updated with: {"id":84,"created_at":"2024-02-05T13:51:25.785Z","updated_at":"2024-02-05T16:04:57.209Z","deleted_at":null,"title":"wed","description":"dcfe","is_done":false}[39m
+[32mINFO   2024-02-05 04:06:11.400 PM    [update todo router] 	Todo was updated with: {"id":84,"created_at":"2024-02-05T13:51:25.785Z","updated_at":"2024-02-05T16:04:57.209Z","deleted_at":null,"title":"Updated Todo 1","description":"ermf rfte4edkfdkmeri","is_done":false}[39m
+[32mINFO   2024-02-05 04:06:23.446 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-05 04:06:27.204 PM    [update todo router] 	Todo was updated with: {"id":84,"created_at":"2024-02-05T13:51:25.785Z","updated_at":"2024-02-05T16:06:11.403Z","deleted_at":null,"title":"Updated Todo 1","description":"ermf rfte4edkfdkmeri","is_done":false}[39m
+[32mINFO   2024-02-05 04:06:33.109 PM    [log-out router] 	User is loged-out: 39[39m
+[32mINFO   2024-02-05 04:06:41.387 PM    [login router] 	User is loged in with data: {"email":"johnmail@gmail.com","password":"1Qa!!!"}[39m
+[32mINFO   2024-02-05 04:10:29.523 PM    [update todo router] 	Todo was updated with: {"id":84,"created_at":"2024-02-05T13:51:25.785Z","updated_at":"2024-02-05T16:06:11.403Z","deleted_at":null,"title":"Updated Todo 1","description":"ermf rfte4edkfdkmeri","is_done":false}[39m
+[32mINFO   2024-02-05 04:13:55.406 PM    [update todo router] 	Todo was updated with: {"id":84,"created_at":"2024-02-05T13:51:25.785Z","updated_at":"2024-02-05T16:06:11.403Z","deleted_at":null,"title":"Updated Todo 2","description":"ermf rfte4edkfdkmeri","is_done":false}[39m
+[32mINFO   2024-02-05 04:14:05.560 PM    [update todo router] 	Todo was updated with: {"id":84,"created_at":"2024-02-05T13:51:25.785Z","updated_at":"2024-02-05T16:06:11.403Z","deleted_at":null,"title":"Updated Todo 2","description":"ermf rfte4edkfdkmeri","is_done":false}[39m
+[32mINFO   2024-02-05 04:14:15.999 PM    [update todo router] 	Todo was updated with: {"id":84,"created_at":"2024-02-05T13:51:25.785Z","updated_at":"2024-02-05T16:06:11.403Z","deleted_at":null,"title":"Updated Todo 2","description":"ermf rfte4edkfdkmeri","is_done":false}[39m
+[32mINFO   2024-02-05 04:14:35.974 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-05 04:15:14.200 PM    [update todo router] 	Todo was updated with: {"id":84,"created_at":"2024-02-05T13:51:25.785Z","updated_at":"2024-02-05T16:14:16.004Z","deleted_at":null,"title":"Updated Todo 3","description":"ermf rfte4edkfdkmeri","is_done":false}[39m
+[32mINFO   2024-02-05 04:15:21.100 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-05 04:18:23.320 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-05 04:18:28.761 PM    [update todo router] 	Todo was updated with: {"id":84,"created_at":"2024-02-05T13:51:25.785Z","updated_at":"2024-02-05T16:15:14.206Z","deleted_at":null,"title":"Updated Todo 4","description":"ermf rfte4edkfdkmeri","is_done":false}[39m
+[32mINFO   2024-02-05 04:18:28.797 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-05 04:20:26.202 PM    [update todo router] 	Todo was updated with: {"id":83,"created_at":"2024-02-05T13:38:23.355Z","updated_at":"2024-02-05T13:38:23.355Z","deleted_at":null,"title":"Test Changes 10","description":"ehjdfwlnkf ewdoq","is_done":false}[39m
+[32mINFO   2024-02-05 04:20:26.237 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-05 04:21:34.700 PM    [update todo router] 	Todo was updated with: {"id":84,"created_at":"2024-02-05T13:51:25.785Z","updated_at":"2024-02-05T16:18:28.766Z","deleted_at":null,"title":"Updated Todo 5","description":"ermf rfte4edkfdkmeri","is_done":false}[39m
+[32mINFO   2024-02-05 04:21:34.722 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-05 04:21:38.530 PM    [update todo router] 	Todo was updated with: {"id":84,"created_at":"2024-02-05T13:51:25.785Z","updated_at":"2024-02-05T16:21:34.704Z","deleted_at":null,"title":"Updated Todo 5","description":"ermf rfte4edkfdkmeri","is_done":false}[39m
+[32mINFO   2024-02-05 04:21:38.558 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-05 04:26:43.972 PM    [update todo router] 	Todo was updated with: {"id":84,"created_at":"2024-02-05T13:51:25.785Z","updated_at":"2024-02-05T16:21:38.537Z","deleted_at":null,"title":"Updated Todo 6","description":"ermf rfte4edkfdkmeri","is_done":false}[39m
+[32mINFO   2024-02-05 04:26:44.008 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-05 04:34:56.337 PM    [update todo router] 	Todo was updated with: {"id":84,"created_at":"2024-02-05T13:51:25.785Z","updated_at":"2024-02-05T16:26:43.977Z","deleted_at":null,"title":"Updated Todo 7","description":"ermf rfte4edkfdkmeri","is_done":false}[39m
+[32mINFO   2024-02-05 04:34:56.381 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-05 04:38:32.192 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-05 04:38:47.185 PM    [update todo router] 	Todo was updated with: {"id":83,"created_at":"2024-02-05T13:38:23.355Z","updated_at":"2024-02-05T16:20:26.207Z","deleted_at":null,"title":"Test Changes 11","description":"ehjdfwlnkf ewdoq","is_done":false}[39m
+[32mINFO   2024-02-05 04:38:47.217 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-05 04:41:02.838 PM    [update todo router] 	Todo was updated with: {"id":84,"created_at":"2024-02-05T13:51:25.785Z","updated_at":"2024-02-05T16:34:56.342Z","deleted_at":null,"title":"Updated Todo 8","description":"ermf rfte4edkfdkmeri","is_done":false}[39m
+[32mINFO   2024-02-05 04:41:02.866 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-05 04:41:22.091 PM    [update todo router] 	Todo was updated with: {"id":83,"created_at":"2024-02-05T13:38:23.355Z","updated_at":"2024-02-05T16:38:47.189Z","deleted_at":null,"title":"Test Changes 12","description":"ehjdfwlnkf ewdoq","is_done":false}[39m
+[32mINFO   2024-02-05 04:41:22.116 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-05 04:41:32.119 PM    [update todo router] 	Todo was updated with: {"id":82,"created_at":"2024-02-05T13:38:22.982Z","updated_at":"2024-02-05T13:38:22.982Z","deleted_at":null,"title":"Test Changes 10","description":"ehjdfwlnkf ewdoq","is_done":false}[39m
+[32mINFO   2024-02-05 04:41:32.182 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-05 04:42:53.261 PM    [update todo router] 	Todo was updated with: {"id":83,"created_at":"2024-02-05T13:38:23.355Z","updated_at":"2024-02-05T16:41:22.095Z","deleted_at":null,"title":"Test Changes 12","description":"ehjdfwlnkf ewdoq","is_done":false}[39m
+[32mINFO   2024-02-05 04:42:53.287 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-05 04:49:39.828 PM    [update todo router] 	Todo was updated with: {"id":84,"created_at":"2024-02-05T13:51:25.785Z","updated_at":"2024-02-05T16:41:02.842Z","deleted_at":null,"title":"Updated Todo 9","description":"ermf rfte4edkfdkmeri","is_done":false}[39m
+[32mINFO   2024-02-05 04:49:39.876 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-05 04:54:51.873 PM    [user todos router] 	Get User39 todos: {}[39m
+[32mINFO   2024-02-05 04:55:08.805 PM    [update todo router] 	Todo was updated with: {"id":84,"created_at":"2024-02-05T13:51:25.785Z","updated_at":"2024-02-05T16:49:39.838Z","deleted_at":null,"title":"Updated Todo 9=10","description":"ermf rfte4edkfdkmeri","is_done":false}[39m
+[32mINFO   2024-02-05 04:55:08.858 PM    [user todos router] 	Get User39 todos: {}[39m
