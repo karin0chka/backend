@@ -34,12 +34,26 @@ todoRoute.put(
   })
 )
 
+todoRoute.put(
+  "/:id",
+  jwtAuth,
+  isTodoEligible,
+  catchWrapper(async (req: Request, res: Response) => {
+    logger.info(`Todo is done: ${JSON.stringify(req.body)}`, "is_done todo router")
+    console.log(+req.params.id)
+    const { is_done } = req.body
+    await TodoService.isDoneTodo({ is_done }, +req.params.id)
+    res.send("Todo is done")
+  })
+)
+
 todoRoute.delete(
   "/:id",
   jwtAuth,
   isTodoEligible,
   catchWrapper(async (req: Request, res: Response) => {
     logger.info(`Todo was deleted: ${JSON.stringify(req.body)}`, "delete todo router")
+    console.log(+req.params.id)
     await TodoService.softDelete(+req.params.id)
     res.send("OK")
   })

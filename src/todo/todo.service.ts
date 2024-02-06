@@ -17,6 +17,10 @@ namespace TodoService {
     return myDataSource.getRepository(Todo).update(id, todo)
   }
 
+  export async function isDoneTodo(todo: Pick<ITodo, "is_done">, id: number) {
+    return myDataSource.getRepository(Todo).update({ id }, { is_done: true })
+  }
+
   export async function softDelete(id: number) {
     return myDataSource.getRepository(Todo).softDelete(id)
   }
