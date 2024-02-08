@@ -13,15 +13,11 @@ namespace TodoService {
     return await todoRepository.save(newTodo)
   }
 
-  export async function updateTodo(todo: Pick<ITodo, "title" | "description">, id: number) {
+  export function updateTodo(todo: Pick<ITodo, "title" | "description" | "is_done">, id: number) {
     return myDataSource.getRepository(Todo).update(id, todo)
   }
 
-  export async function isDoneTodo(todo: Pick<ITodo, "is_done">, id: number) {
-    return myDataSource.getRepository(Todo).update({ id }, { is_done: true })
-  }
-
-  export async function softDelete(id: number) {
+  export function softDelete(id: number) {
     return myDataSource.getRepository(Todo).softDelete(id)
   }
 }
