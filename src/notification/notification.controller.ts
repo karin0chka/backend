@@ -38,6 +38,7 @@ notificationRoute.get(
     logger.info(`Connection is established`, "notification router")
   })
 )
+
 notificationRoute.post(
   "/create",
   jwtAuth,
@@ -68,3 +69,16 @@ notificationRoute.delete(
     res.status(200)
   })
 )
+
+notificationRoute.get(
+  "/user-related",
+  jwtAuth,
+  catchWrapper((req: Request, res: Response) => {
+    //@ts-ignore
+    const user = req.user
+    NotificationService.findMany({ where: { user: { id: user.id } }, order: { created_at: "DESC" } })
+    res.status(200)
+  })
+)
+
+export default notificationRoute

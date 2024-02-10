@@ -1,3 +1,4 @@
+import { FindManyOptions } from "typeorm"
 import { INotification, IUser } from "../../interfaces/entities.interface"
 import Notification from "../.database/pg/.entities/notification.entity"
 import { myDataSource } from "../.database/pg/db"
@@ -11,7 +12,6 @@ class NotificationService {
         title: notificationDto.title,
         message: notificationDto.message,
         user: user,
-        is_read: false,
       })
     )
   }
@@ -26,6 +26,10 @@ class NotificationService {
 
   async softDelete(id: number) {
     return await this.notificationRepository.softDelete(id)
+  }
+
+  async findMany(criteria: FindManyOptions<INotification>) {
+    return await this.notificationRepository.find(criteria)
   }
 }
 
