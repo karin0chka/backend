@@ -39,24 +39,12 @@ notificationRoute.get(
   })
 )
 
-notificationRoute.post(
-  "/create",
-  jwtAuth,
-  catchWrapper((req: Request, res: Response) => {
-    //@ts-ignore
-    const user = req.user
-    const { title, message, is_read } = req.body
-    NotificationService.create({ title, message, is_read }, user)
-    res.status(200)
-  })
-)
-
 notificationRoute.put(
   "/update/:id",
   jwtAuth,
-  catchWrapper((req: Request, res: Response) => {
+  catchWrapper(async (req: Request, res: Response) => {
     const { title, message, is_read } = req.body
-    NotificationService.update({ title, message, is_read }, +req.params.id)
+    await NotificationService.update({ title, message, is_read }, +req.params.id)
     res.status(200)
   })
 )
@@ -64,8 +52,8 @@ notificationRoute.put(
 notificationRoute.delete(
   "/delete/:id",
   jwtAuth,
-  catchWrapper((req: Request, res: Response) => {
-    NotificationService.softDelete(+req.params.id)
+  catchWrapper(async (req: Request, res: Response) => {
+    await NotificationService.softDelete(+req.params.id)
     res.status(200)
   })
 )
@@ -73,11 +61,11 @@ notificationRoute.delete(
 notificationRoute.get(
   "/user-related",
   jwtAuth,
-  catchWrapper((req: Request, res: Response) => {
+  catchWrapper(async (req: Request, res: Response) => {
     //@ts-ignore
     const user = req.user
-    NotificationService.findMany({ where: { user: { id: user.id } }, order: { created_at: "DESC" } })
-    res.status(200)
+    const notification = await NotificationService.findMany({ where: { user: { id: user.id } }, order: { created_at: "DESC" } })
+    res.status(200).send(notification)
   })
 )
 
