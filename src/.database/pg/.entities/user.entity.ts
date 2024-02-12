@@ -1,9 +1,10 @@
 import { Column, Entity, Index, OneToMany } from "typeorm"
 import Default from "./default.entity"
 import Todo from "./todo.entity"
-import { IUser } from "../../../../interfaces/entities.interface"
+import { INotification, ITodo, IUser } from "../../../../interfaces/entities.interface"
 import { UserType } from "../../../../interfaces/enums"
 import { Exclude } from "class-transformer"
+import Notification from "./notification.entity"
 
 @Entity()
 class User extends Default implements IUser {
@@ -29,7 +30,11 @@ class User extends Default implements IUser {
   user_type: UserType
 
   @OneToMany(() => Todo, (todo) => todo.user)
-  todos: Todo[]
+  todos: ITodo[]
+
+  @OneToMany(() => Notification, (notification) => notification.user)
+  notifications: INotification[]
+
 }
 
 export default User

@@ -18,9 +18,9 @@ authRoute.post(
   catchWrapper(async (req: Request, res: Response) => {
     logger.info(`User is registering with data: ${JSON.stringify(req.body)}`, "register router")
     const userInfo = await AuthService.register(req.body)
-    let user = plainToClass(User, userInfo.user)
+    const user = plainToClass(User, userInfo.user)
     res.setHeader("Set-Cookie", userInfo.cookies)
-    res.status(200).json(user)
+    res.status(200).send(user)
   })
 )
 
@@ -29,8 +29,9 @@ authRoute.post(
   catchWrapper(async (req: Request, res: Response) => {
     logger.info(`User is loged in with data: ${JSON.stringify(req.body)}`, "login router")
     const loginUser = await AuthService.login(req.body.email, req.body.password)
+    const user = plainToClass(User, loginUser.user)
     res.setHeader("Set-Cookie", loginUser.cookies)
-    res.json(loginUser.user)
+    res.send(user)
   })
 )
 // Create refresh middleware and put it bellow
